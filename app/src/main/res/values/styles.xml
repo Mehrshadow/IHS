@@ -1,0 +1,184 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <style name="AppBaseTheme" parent="android:Theme.DeviceDefault.Light.NoActionBar">
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:divider">@color/transparent</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:windowActionBar">false</item> 
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme" />
+
+	<!-- ************************************* Mobarraei ****************************** -->
+	
+ <!-- فونت تیترها -->
+ <style name="txt_title" parent="@android:style/TextAppearance">
+     <item name="android:typeface">monospace</item>
+     <item name="android:textSize">30sp</item>
+     <item name="android:textColor">@color/txt_title_color</item>
+ </style>
+ 
+ <!-- فونت متن ها -->
+ <style name="txt_matn" parent="@android:style/TextAppearance">
+     <item name="android:typeface">normal</item>
+     <item name="android:textSize">15sp</item>
+     <item name="android:textStyle">bold</item>
+     <item name="android:textColor">@color/txt_matn_color</item>
+ </style>
+ 
+ <!-- فونت درون آیتم های لیست ویو -->
+ <style name="txt_list" parent="@android:style/TextAppearance">
+     <item name="android:typeface">serif</item>
+     <item name="android:textSize">20sp</item>
+     <item name="android:textColor">@color/txt_list_color</item>
+ </style>
+ 
+  <!-- فونت درون دکمه ها -->
+ <style name="txt_button" parent="@android:style/TextAppearance">
+     <item name="android:typeface">normal</item>
+     <item name="android:textSize">20sp</item>
+     <item name="android:textColor">@color/txt_button_color</item>
+ </style>
+ 
+ 
+ 
+ 
+ <style name="Scroller">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/slider_back</item>
+        <item name="android:layout_margin">3dp</item>
+    </style>
+ 
+ 
+ 
+ 
+   <!-- لیست ها -->
+ <style name="list_theme"> 
+      <item name="android:layout_width">match_parent</item>
+      <item name="android:layout_height">0dp</item>
+      <item name="android:listSelector">@android:color/transparent</item>
+ </style>
+ 
+ <!-- بکگراند پشت صفحه ها -->
+ <style name="layout_theme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+    
+  <!-- سویچ ها -->
+  <style name="switch_theme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/lay_other_button_normal</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">10dp</item>
+    </style>
+ 
+ <!-- دکمه های نویگیشن -->
+ <style name="button_navigation_theme" parent="@android:style/Widget.Button">
+        <item name="android:layout_marginRight">32dp</item>
+        <item name="android:layout_marginLeft">32dp</item>
+        <item name="android:background">@drawable/button_other_selector</item>
+        <item name="android:layout_width">150dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColor">@color/txt_button_color</item>
+    </style>
+    
+ <!-- دکمه های دیگر -->
+ <style name="button_other_theme" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/button_add_selector</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:textSize">15dip</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColor">@color/txt_button_color</item>
+    </style>
+    
+ <!-- ادیت باکس ها -->
+ <style name="edittext_theme" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/lay_edittext_bg</item>
+        <item name="android:textSize">20dip</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:longClickable">false</item>
+        <item name="android:textIsSelectable">false</item>
+        <item name="android:textColor">@color/txt_edttext_color</item>
+    </style>
+    
+   <!-- تکست ویوهای قبل از ادیت تکس ها -->  
+ <style name="textview_before_editbox_theme" parent="@android:style/Widget.TextView">
+     <item name="android:layout_width">wrap_content</item>
+   	 <item name="android:layout_height">wrap_content</item>
+   	 <item name="android:textColor">@color/txt_before_editext_color</item>
+   	 <item name="android:textSize">20sp</item>
+   	  <item name="android:typeface">monospace</item>
+   	  <item name="android:textStyle">bold</item>
+ </style>
+ 
+   <!-- اسپینرها -->  
+ <style name="spinner_theme" parent="@android:style/Widget.Holo.Light.Spinner">
+    <item name="android:background">@drawable/spinner_selector</item>    
+    <item name ="android:spinnerStyle">@android:style/Widget.Spinner.DropDown</item>     
+    <item name="android:textSize">20sp</item>
+    <item name="android:typeface">monospace</item>
+    <item name="android:paddingLeft">5dp</item>
+    <item name="android:gravity">left|center_vertical</item>
+    <item name="android:paddingRight">5dp</item>
+    <item name="android:textColor">@color/txt_spinner_color</item>
+ </style>
+ 
+ <style name="spinner_theme_rtl" parent="@android:style/Widget.Holo.Light.Spinner">
+    <item name="android:background">@drawable/spinner_selector_rtl</item>
+    <item name ="android:spinnerMode">dropdown</item> 
+    <item name="android:textSize">20sp</item>
+    <item name="android:typeface">monospace</item>
+    <item name="android:gravity">right|center_vertical</item>
+    <item name="android:paddingLeft">5dp</item>
+    <item name="android:paddingRight">5dp</item>
+    <item name="android:textColor">@color/txt_spinner_color</item>
+ </style>
+ 
+ <style name="checkbox_theme"  parent="@android:style/Widget.CompoundButton.CheckBox">
+    <item name="android:background">@drawable/lay_checkbox_back</item>
+    <item name="android:button">@null</item>
+    <item name="android:gravity">left|center_vertical</item>
+    <item name="android:drawableLeft">@drawable/checkbox_selector</item>
+ </style>
+ 
+ <style name="checkbox_theme_rtl"  parent="@android:style/Widget.CompoundButton.CheckBox">
+    <item name="android:background">@drawable/lay_checkbox_back_rtl</item>
+    <item name="android:button">@null</item>
+    <item name="android:rotationY">180</item>
+    <item name="android:gravity">center</item>
+    <item name="android:drawableRight">@drawable/checkbox_selector_rtl</item>
+ </style>
+ 
+ 
+ <style name="Theme_Dialog" parent="android:Theme.Light">
+     <item name="android:windowNoTitle">true</item>
+     <item name="android:windowBackground">@color/dialog_back</item>
+     <item name="android:layout_gravity">center</item>
+</style>
+
+ 
+ </resources>
+ 
+
+    <!-- ************************************* Mobarraei ****************************** 
+   <item name="android:layout_gravity">center_horizontal</item>
+   <item name="android:inputType">textMultiLine</item>
+   <item name="android:layout_width">fill_parent</item>
+   <item name="android:layout_height">wrap_content</item>     
+   <item name="android:textSize">14sp</item>
+   <item name="android:textColor">@color/Black</item>
+   <item name="android:layout_marginRight">8dp</item>
+   <item name="android:layout_marginLeft">8dp</item>
+	-->
+

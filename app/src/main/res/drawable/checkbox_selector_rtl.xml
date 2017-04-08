@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item  android:state_checked="true" android:state_pressed="true" android:drawable="@drawable/lay_checkbox_check_press_rtl"></item>
+    <item  android:state_checked="true" android:state_hovered="true" android:drawable="@drawable/lay_checkbox_check_hover_rtl"></item>
+    <item  android:state_checked="true" android:drawable="@drawable/lay_checkbox_check_normal_rtl"></item>
+    <item  android:state_checked="false" android:state_pressed="true" android:drawable="@drawable/lay_checkbox_uncheck_press_rtl"></item>
+    <item  android:state_checked="false" android:state_hovered="true" android:drawable="@drawable/lay_checkbox_uncheck_hover_rtl"></item>
+    <item  android:state_checked="false"  android:drawable="@drawable/lay_checkbox_uncheck_normal_rtl"></item>
+</selector>

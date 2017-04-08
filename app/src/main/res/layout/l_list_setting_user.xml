@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ActivityMain" >
+
+    <LinearLayout
+        android:id="@+id/layBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/listview_selector"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/txtUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="TextView"
+            android:textColor="@color/white"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/txtFill"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <ImageView
+            android:id="@+id/imgEdit"
+            android:layout_width="25dp"
+            android:layout_height="30dp"
+            android:background="@drawable/lay_list_password_selector"
+            android:clickable="true" />
+
+        <ImageView
+            android:id="@+id/imgDelete"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/lay_list_delete_selector" />
+
+    </LinearLayout>
+
+</LinearLayout>

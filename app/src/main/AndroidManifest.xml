@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ir.parsansoft.app.ihs.center"
+    android:versionCode="5"
+    android:versionName="1.31">
+
+    <permission
+        android:name="ir.parsansoft.app.ihs.center.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+    <uses-permission android:name="ir.parsansoft.app.ihs.center.permission.C2D_MESSAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".G"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        <activity
+            android:name=".ActivityStarter"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ActivityMain"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivitySections"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivityHelp"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivityScenario"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivityFavorites"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivityScenarioW1Name"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivityScenarioW2Date"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivityScenarioW3Event"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivityScenarioW4GPS"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivityScenarioW5Weather"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivityScenarioW6Temperature"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivityScenarioW7Op"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivityScenarioW8Keyword"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivityScenarioW9Switch"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivityScenarioW10Notify"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivityScenarioW11SMS"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivityAddNode_w1"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivityAddNode_w2"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivityAddNode_w3"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivityAddNode_w4"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivitySettingNetwork"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivitySettingMobile"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivitySettingSMS"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivitySettingLocation"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivitySettingLOG"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivitySettingLanguage"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivitySettingUser"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivitySettingDateTime"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivitySettingScreen"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivitySettingReset"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivityWelcome1Language"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivityWelcome2Screen"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivityWelcome3Network"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivityWelcome4Location"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivityWelcome5DateandTime"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivityWelcome6Weather"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivityWelcome8FloorandRoom"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivityWelcome9Equipment"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivityWelcome10Mobile"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivityWelcome11Scenario"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivityWelcome7Specifications"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivityWelcome12User"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivityWelcome13ChargeSMS"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivityBrowser"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivitySettingUpdate"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivitySettingWeather"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivityAddNode_IoMadule_SelectPlace"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivityAddNode_IoMadule_Input_Output"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivityAddNode_IoMadule_NodeType"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivityAddNode_IOModule_SensorType"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+
+        <service
+            android:name=".ServiceServerCommunication"
+            android:exported="false" />
+        <!-- Broadcast receiver -->
+        <receiver android:name=".BootReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".BroadcastReciverAlarmManager" />
+        <receiver android:name=".BroadcastReceiverWeather" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="c0fa959b956eff57d903c0bec031fc881cfcbd0d" />
+
+        <activity android:name=".ActivityMyHouse" />
+        <activity android:name=".ActivityAddNode_IoModule_SelectIo"></activity>
+    </application>
+
+</manifest>

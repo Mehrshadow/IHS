@@ -1,0 +1,821 @@
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    style="@style/layout_theme"
+    android:gravity="bottom|right|center_vertical"
+    tools:context=".ActivityMain" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="115dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:background="@drawable/lay_back_wizard"
+        android:orientation="vertical"
+        android:padding="25dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/laySwitcher"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <Switch
+                    android:id="@+id/swhActive"
+                    style="@style/switch_theme"
+                    android:background="@drawable/lay_other_button_normal"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Do you want to Activate this scenario at specific times ?"
+                    android:textColor="@color/white"
+                    android:thumb="@drawable/thumb_switch_selector"
+                    android:track="@drawable/lay_on_off_back"
+                    android:typeface="monospace" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layOptions"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="vertical" >
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="30dp"
+                                android:gravity="center"
+                                android:orientation="vertical" >
+
+                                <TextView
+                                    android:id="@+id/txtMonthes"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:text="Month of Year"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold"
+                                    android:typeface="monospace"
+                                    android:visibility="visible" />
+
+                            </LinearLayout>
+
+                            <GridLayout
+                                android:id="@+id/GridLayout1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/lay_groupbox"
+                                android:columnCount="3"
+                                android:orientation="horizontal"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="10dp"
+                                android:paddingTop="5dp" >
+
+                                <CheckBox
+                                    android:id="@+id/chkMonth1"
+                                    style="@style/checkbox_theme"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_marginRight="2dp"
+                                    android:layout_marginTop="8dp"
+                                    android:checked="true"
+                                    android:text="1"
+                                    android:textColor="#ffffff"
+                                    android:typeface="monospace" />
+
+                                <CheckBox
+                                    android:id="@+id/chkMonth2"
+                                    style="@style/checkbox_theme"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_marginRight="2dp"
+                                    android:layout_marginTop="8dp"
+                                    android:checked="true"
+                                    android:text="2"
+                                    android:textColor="#ffffff"
+                                    android:typeface="monospace" />
+
+                                <CheckBox
+                                    android:id="@+id/chkMonth3"
+                                    style="@style/checkbox_theme"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_marginRight="8dp"
+                                    android:layout_marginTop="8dp"
+                                    android:checked="true"
+                                    android:text="3"
+                                    android:textColor="#ffffff"
+                                    android:typeface="monospace" />
+
+                                <CheckBox
+                                    android:id="@+id/chkMonth4"
+                                    style="@style/checkbox_theme"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_marginRight="2dp"
+                                    android:checked="true"
+                                    android:text="4"
+                                    android:textColor="#ffffff"
+                                    android:typeface="monospace" />
+
+                                <CheckBox
+                                    android:id="@+id/chkMonth5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:checked="true"
+                                    android:text="5"
+                                    android:textColor="#ffffff"
+                                    style="@style/checkbox_theme"
+                                    android:typeface="monospace" />
+
+                                <CheckBox
+                                    android:id="@+id/chkMonth6"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:checked="true"
+                                    android:paddingRight="10dp"
+                                    android:text="6"
+                                    android:textColor="#ffffff"
+                                    style="@style/checkbox_theme"
+                                    android:typeface="monospace" />
+
+                                <CheckBox
+                                    android:id="@+id/chkMonth7"
+                                    style="@style/checkbox_theme"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_marginRight="2dp"
+                                    android:checked="true"
+                                    android:text="7"
+                                    android:textColor="#ffffff"
+                                    android:typeface="monospace" />
+
+                                <CheckBox
+                                    android:id="@+id/chkMonth8"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:checked="true"
+                                    android:text="8"
+                                    android:textColor="#ffffff"
+                                    style="@style/checkbox_theme"
+                                    android:typeface="monospace" />
+
+                                <CheckBox
+                                    android:id="@+id/chkMonth9"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:checked="true"
+                                    android:text="9"
+                                    android:textColor="#ffffff"
+                                    style="@style/checkbox_theme"
+                                    android:typeface="monospace" />
+
+                                <CheckBox
+                                    android:id="@+id/chkMonth10"
+                                    style="@style/checkbox_theme"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="12dp"
+                                    android:layout_marginRight="2dp"
+                                    android:checked="true"
+                                    android:text="10"
+                                    android:textColor="#ffffff"
+                                    android:typeface="monospace" />
+
+                                <CheckBox
+                                    android:id="@+id/chkMonth11"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:checked="true"
+                                    android:text="11"
+                                    android:textColor="#ffffff"
+                                    style="@style/checkbox_theme"
+                                    android:typeface="monospace" />
+
+                                <CheckBox
+                                    android:id="@+id/chkMonth12"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:checked="true"
+                                    android:text="12"
+                                    style="@style/checkbox_theme"
+                                    android:textColor="#ffffff"
+                                    android:typeface="monospace" />
+                            </GridLayout>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="vertical" >
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="30dp"
+                                android:layout_marginLeft="5dp"
+                                android:gravity="center"
+                                android:orientation="vertical" >
+
+                                <TextView
+                                    android:id="@+id/txtDaysOfMonth"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:gravity="center"
+                                    android:text="Days of Month"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold"
+                                    android:typeface="monospace" />
+
+                            </LinearLayout>
+
+                            <GridLayout
+                                android:id="@+id/GridLayout2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:background="@drawable/lay_groupbox"
+                                android:columnCount="7"
+                                android:orientation="horizontal"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="5dp"
+                                android:paddingRight="5dp"
+                                android:paddingTop="5dp" >
+
+                                <CheckBox
+                                    android:id="@+id/chkMonthDay1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="left"
+                                    android:layout_marginBottom="2dp"
+                                    android:layout_marginRight="2dp"
+                                    android:checked="true"
+                                    android:text="1"
+                                    style="@style/checkbox_theme"
+                                    android:textColor="#ffffff"
+                                    android:typeface="monospace" />
+
+                                <CheckBox
+                                    android:id="@+id/chkMonthDay2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="left"
+                                    android:layout_marginBottom="2dp"
+                                    android:layout_marginRight="2dp"
+                                    android:checked="true"
+                                    android:text="2"
+                                    android:textColor="#ffffff"
+                                    android:typeface="monospace"
+                                    style="@style/checkbox_theme" />
+
+                                <CheckBox
+                                    android:id="@+id/chkMonthDay3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="2dp"
+                                    android:checked="true"
+                                    android:text="3"
+                                    android:textColor="#ffffff"
+                                    android:typeface="monospace"
+                                    style="@style/checkbox_theme" />
+                                
+                                <CheckBox
+                                    android:id="@+id/chkMonthDay4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="2dp"
+                                    android:checked="true"
+                                    android:text="4"
+                                    android:textColor="#ffffff"
+                                    android:typeface="monospace"
+									style="@style/checkbox_theme" />
+                                
+                                <CheckBox
+                                    android:id="@+id/chkMonthDay5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="2dp"
+                                    android:checked="true"
+                                    android:text="5"
+                                    android:textColor="#ffffff"
+                                    android:typeface="monospace"
+                                    style="@style/checkbox_theme" />
+
+                                <CheckBox
+                                    android:id="@+id/chkMonthDay6"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginRight="2dp"
+                                    android:checked="true"
+                                    android:text="6"
+                                    android:textColor="#ffffff"
+                                    android:typeface="monospace"
+                                    style="@style/checkbox_theme" />
+
+                                <CheckBox
+                                    android:id="@+id/chkMonthDay7"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:checked="true"
+                                    android:text="7"
+                                    android:textColor="#ffffff"
+                                    android:typeface="monospace"
+                                    style="@style/checkbox_theme" />
+
+                                <CheckBox
+                                    android:id="@+id/chkMonthDay8"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="2dp"
+                                    android:layout_marginRight="2dp"
+                                    android:checked="true"
+                                    android:text="8"
+                                    android:textColor="#ffffff"
+                                    android:typeface="monospace"
+                                    style="@style/checkbox_theme" />
+
+                                <CheckBox
+                                    android:id="@+id/chkMonthDay9"
+                                    style="@style/checkbox_theme"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:checked="true"
+                                    android:text="9"
+                                    android:textColor="#ffffff"
+                                    android:typeface="monospace" 
+                                    />
+
+                                <CheckBox
+                                    android:id="@+id/chkMonthDay10"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:checked="true"
+                                    android:text="10"
+                                    style="@style/checkbox_theme"
+                                    android:textColor="#ffffff"
+                                    android:typeface="monospace" />
+
+                                <CheckBox
+                                    android:id="@+id/chkMonthDay11"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:checked="true"
+                                    android:text="11"
+                                    style="@style/checkbox_theme"
+                                    android:textColor="#ffffff"
+                                    android:typeface="monospace" />
+
+                                <CheckBox
+                                    android:id="@+id/chkMonthDay12"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:checked="true"
+                                    android:text="12"
+                                    style="@style/checkbox_theme"
+                                    android:textColor="#ffffff"
+                                    android:typeface="monospace" />
+
+                                <CheckBox
+                                    android:id="@+id/chkMonthDay13"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:checked="true"
+                                    android:text="13"
+                                    style="@style/checkbox_theme"
+                                    android:textColor="#ffffff"
+                                    android:typeface="monospace" />
+
+                                <CheckBox
+                                    android:id="@+id/chkMonthDay14"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:checked="true"
+                                    android:text="14"
+                                    style="@style/checkbox_theme"
+                                    android:textColor="#ffffff"
+                                    android:typeface="monospace" />
+
+                                <CheckBox
+                                    android:id="@+id/chkMonthDay15"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="2dp"
+                                    android:layout_marginRight="2dp"
+                                    android:checked="true"
+                                    android:text="15"
+                                    android:textColor="#ffffff"
+                                    style="@style/checkbox_theme"
+                                    android:typeface="monospace" />
+
+                                <CheckBox
+                                    android:id="@+id/chkMonthDay16"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:checked="true"
+                                    android:text="16"
+                                    android:textColor="#ffffff"
+                                    android:typeface="monospace"
+                                    style="@style/checkbox_theme" />
+
+                                <CheckBox
+                                    android:id="@+id/chkMonthDay17"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:checked="true"
+                                    android:text="17"
+                                    android:textColor="#ffffff"
+                                    style="@style/checkbox_theme"
+                                    android:typeface="monospace" />
+
+                                <CheckBox
+                                    android:id="@+id/chkMonthDay18"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:checked="true"
+                                    android:text="18"
+                                    android:textColor="#ffffff"
+                                    style="@style/checkbox_theme"
+                                    android:typeface="monospace" />
+
+                                <CheckBox
+                                    android:id="@+id/chkMonthDay19"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:checked="true"
+                                    android:text="19"
+                                    android:textColor="#ffffff"
+                                    style="@style/checkbox_theme"
+                                    android:typeface="monospace" />
+
+                                <CheckBox
+                                    android:id="@+id/chkMonthDay20"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:checked="true"
+                                    android:text="20"
+                                    android:textColor="#ffffff"
+                                    style="@style/checkbox_theme"
+                                    android:typeface="monospace" />
+
+                                <CheckBox
+                                    android:id="@+id/chkMonthDay21"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:checked="true"
+                                    android:text="21"
+                                    android:textColor="#ffffff"
+                                    style="@style/checkbox_theme"
+                                    android:typeface="monospace" />
+
+                                <CheckBox
+                                    android:id="@+id/chkMonthDay22"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="2dp"
+                                    android:checked="true"
+                                    style="@style/checkbox_theme"
+                                    android:text="22"
+                                    android:textColor="#ffffff"
+                                    android:typeface="monospace" />
+
+                                <CheckBox
+                                    android:id="@+id/chkMonthDay23"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:checked="true"
+                                    android:text="23"
+                                    android:textColor="#ffffff"
+                                    style="@style/checkbox_theme"
+                                    android:typeface="monospace" />
+
+                                <CheckBox
+                                    android:id="@+id/chkMonthDay24"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:checked="true"
+                                    android:text="24"
+                                    style="@style/checkbox_theme"
+                                    android:textColor="#ffffff"
+                                    android:typeface="monospace" />
+
+                                <CheckBox
+                                    android:id="@+id/chkMonthDay25"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:checked="true"
+                                    android:text="25"
+                                    android:textColor="#ffffff"
+                                    style="@style/checkbox_theme"
+                                    android:typeface="monospace" />
+
+                                <CheckBox
+                                    android:id="@+id/chkMonthDay26"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:checked="true"
+                                    android:text="26"
+                                    style="@style/checkbox_theme"
+                                    android:textColor="#ffffff"
+                                    android:typeface="monospace" />
+
+                                <CheckBox
+                                    android:id="@+id/chkMonthDay27"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:checked="true"
+                                    android:text="27"
+                                    style="@style/checkbox_theme"
+                                    android:textColor="#ffffff"
+                                    android:typeface="monospace" />
+
+                                <CheckBox
+                                    android:id="@+id/chkMonthDay28"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:checked="true"
+                                    android:text="28"
+                                    style="@style/checkbox_theme"
+                                    android:textColor="#ffffff"
+                                    android:typeface="monospace" />
+
+                                <CheckBox
+                                    android:id="@+id/chkMonthDay29"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:checked="true"
+                                    android:text="29"
+                                    android:textColor="#ffffff"
+                                    style="@style/checkbox_theme"
+                                    android:typeface="monospace" />
+
+                                <CheckBox
+                                    android:id="@+id/chkMonthDay30"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:checked="true"
+                                    android:text="30"
+                                    android:textColor="#ffffff"
+                                    style="@style/checkbox_theme"
+                                    android:typeface="monospace" />
+
+                                <CheckBox
+                                    android:id="@+id/chkMonthDay31"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:checked="true"
+                                    android:text="31"
+                                    style="@style/checkbox_theme"
+                                    android:textColor="#ffffff"
+                                    android:typeface="monospace" />
+                            </GridLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="5dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
+                            android:orientation="vertical" >
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="30dp"
+                                android:gravity="center"
+                                android:orientation="vertical" >
+
+                                <TextView
+                                    android:id="@+id/txtDaysOfWeek"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:text="Days of Week :"
+                                    android:textColor="#ffffff"
+                                    android:textStyle="bold"
+                                    android:typeface="monospace" />
+
+                            </LinearLayout>
+
+                            <GridLayout
+                                android:id="@+id/GridLayout3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="5dp"
+                                android:background="@drawable/lay_groupbox"
+                                android:columnCount="2"
+                                android:orientation="horizontal"
+                                android:paddingBottom="5dp"
+                                android:paddingLeft="10dp"
+                                android:paddingTop="10dp" >
+
+                                <CheckBox
+                                    android:id="@+id/chkWeekDay1"
+                                    style="@style/checkbox_theme"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_marginRight="2dp"
+                                    android:layout_marginTop="8dp"
+                                    android:checked="true"
+                                    android:tag="7"
+                                    android:text="Saturday"
+                                    android:textColor="#ffffff"
+                                    android:typeface="monospace" />
+
+                                <CheckBox
+                                    android:id="@+id/chkWeekDay2"
+                                    style="@style/checkbox_theme"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="2dp"
+                                    android:layout_marginRight="2dp"
+                                    android:layout_marginTop="8dp"
+                                    android:checked="true"
+                                    android:tag="1"
+                                    android:text="Sunday"
+                                    android:textColor="#ffffff"
+                                    android:typeface="monospace" />
+
+                                <CheckBox
+                                    android:id="@+id/chkWeekDay3"
+                                    style="@style/checkbox_theme"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_marginRight="2dp"
+                                    android:checked="true"
+                                    android:tag="2"
+                                    android:text="Monday"
+                                    android:textColor="#ffffff"
+                                    android:typeface="monospace" />
+
+                                <CheckBox
+                                    android:id="@+id/chkWeekDay4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:checked="true"
+                                    android:text="Tuesday"
+                                    android:tag="3"
+                                     style="@style/checkbox_theme"
+                                    android:layout_marginBottom="2dp"
+                                    android:layout_marginRight="2dp"
+                                    android:textColor="#ffffff"
+                                    android:typeface="monospace" />
+
+                                <CheckBox
+                                    android:id="@+id/chkWeekDay5"
+                                    style="@style/checkbox_theme"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="5dp"
+                                    android:layout_marginRight="5dp"
+                                    android:tag="4"
+                                    android:checked="true"
+                                    android:text="Wednesday"
+                                    android:textColor="#ffffff"
+                                    android:typeface="monospace" />
+
+                                <CheckBox
+                                    android:id="@+id/chkWeekDay6"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:checked="true"
+                                    android:tag="5"
+                                     style="@style/checkbox_theme"
+                                    android:layout_marginBottom="2dp"
+                                    android:layout_marginRight="2dp"
+                                    android:text="Thuresday"
+                                    android:textColor="#ffffff"
+                                    android:typeface="monospace" />
+
+                                <CheckBox
+                                    android:id="@+id/chkWeekDay7"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="left"
+                                    android:layout_marginBottom="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:tag="6"
+                                    android:background="@drawable/lay_checkbox_back"
+                                    android:button="@drawable/checkbox_selector"
+                                    android:checked="true"
+                                    android:text="Friday"
+                                    android:textColor="#ffffff"
+                                    android:typeface="monospace" />
+
+                            </GridLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center|center_vertical"
+                        android:orientation="horizontal" >
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="30dp"
+                            android:gravity="center_vertical"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:id="@+id/txtStartHour"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:layout_marginRight="5dp"
+                                android:text="Start Hour"
+                                android:textColor="#ffffff"
+                                android:textStyle="bold"
+                                android:typeface="monospace" />
+                        </LinearLayout>
+
+                        <ir.parsansoft.app.ihs.center.components.TimePickerComponent
+                            android:id="@+id/tpStartHore"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" >
+                        </ir.parsansoft.app.ihs.center.components.TimePickerComponent>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginRight="115dp" >
+
+        <Button
+            android:id="@+id/btnCancel"
+            style="@style/button_navigation_theme"
+            android:layout_gravity="left"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:text="Cancel" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnBack"
+            style="@style/button_navigation_theme"
+            android:layout_gravity="right"
+            android:text="Back" />
+
+        <Button
+            android:id="@+id/btnNext"
+            style="@style/button_navigation_theme"
+            android:layout_gravity="right"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="0dp"
+            android:text="Next" />
+
+    </LinearLayout>
+
+</LinearLayout>

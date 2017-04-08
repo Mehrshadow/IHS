@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/lay_combobox_back_press_rtl" android:state_pressed="true"></item>
+    <item android:drawable="@drawable/lay_combobox_back_hover_rtl" android:state_focused="true"></item>
+    <item android:drawable="@drawable/lay_combobox_back_hover_rtl" android:state_hovered="true"></item>
+    <item android:drawable="@drawable/lay_combobox_back_normal_rtl"></item>
+
+</selector>

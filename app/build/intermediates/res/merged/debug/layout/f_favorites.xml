@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ActivityMain" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <LinearLayout
+                android:layout_width="160dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical" android:layout_marginLeft="10dp">
+
+              <Button
+                  android:id="@+id/btnFavorites"
+                  style="@style/button_other_theme"
+                  android:layout_marginBottom="5dp"
+                  android:layout_marginLeft="5dp"
+                  android:layout_marginRight="8dp"
+                  android:layout_marginTop="10dp"
+                  android:text="Favorite" />
+
+              <Button
+                  android:id="@+id/btnAll"
+                  android:layout_marginBottom="16dp"
+                  android:layout_marginLeft="5dp"
+                  android:layout_marginRight="8dp"
+                  style="@style/button_other_theme"
+                  android:text="All" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <GridView
+                    android:id="@+id/grdNodes"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+					android:listSelector="@color/transparent"
+                    android:numColumns="4"
+                    android:verticalSpacing="10dp"
+                    tools:listitem="@layout/l_node_simple_key" >
+
+                </GridView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gray">#bdbdbd</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="orange">#ff7f00</color>
+    <color name="txt_title_color">#000000</color>
+    <color name="txt_matn_color">#ffffff</color>
+    <color name="txt_list_color">#000000</color>
+    <color name="txt_button_color">#ffffff</color>
+    <color name="txt_edttext_color">#000000</color>
+    <color name="txt_spinner_color">#ffffff</color>
+    <color name="txt_before_editext_color">#ffffff</color>
+    <color name="dialog_back">#99000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="green_timepicker">#8DC642</color>
+    <color name="gray_timepicker">#ffffff</color>
+    <color name="status_color">#1E1E1E</color>
+    <color name="gridview_odd">#10FFFFFF</color>
+    <color name="gridview_even">#15FFFFFF</color>
+</resources>

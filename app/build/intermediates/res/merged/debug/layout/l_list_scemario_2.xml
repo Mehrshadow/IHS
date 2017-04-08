@@ -1,0 +1,86 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center"
+              android:orientation="vertical"
+              tools:context=".ActivityMain">
+
+    <LinearLayout
+            android:id="@+id/layBack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/lay_scenario_list_row_normal"
+            android:orientation="vertical">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                <Switch
+                        android:id="@+id/swhEnabled"
+                        android:layout_width="100dp"
+                        android:layout_height="40dp"
+                        android:checked="true"
+                        android:clickable="true"
+                        android:thumb="@drawable/thumb_switch_selector"
+                        android:track="@drawable/lay_on_off_back"/>
+
+                <TextView
+                        android:id="@+id/txtName"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="Medium Text"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/white"
+                        android:textSize="10sp"
+                        android:typeface="monospace"/>
+
+
+                <LinearLayout android:layout_width="48dp"
+                              android:gravity="center"
+                              android:layout_height="48dp">
+                    <ImageView
+                            android:id="@+id/imgBtnEdit"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/lay_list_edit_selector"/>
+                </LinearLayout>
+
+
+                <LinearLayout android:layout_width="48dp"
+                              android:gravity="center"
+                              android:layout_height="48dp">
+                    <ImageView
+                            android:id="@+id/imgRun"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:clickable="true"
+                            android:src="@drawable/lay_back_run_button"/>
+                </LinearLayout>
+                <LinearLayout android:layout_width="48dp"
+                              android:gravity="center"
+                              android:layout_height="48dp">
+                    <ImageView
+                            android:id="@+id/imgBtnDelete"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:clickable="true"
+                            android:src="@drawable/lay_list_delete_selector"/>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
