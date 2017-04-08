@@ -112,8 +112,8 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
 
     private List<String> getAvailablePorts() {
         try {
-            List<String> availablePorts;
-            availablePorts = new ArrayList<>();
+            List<String> spinnerPorts = new ArrayList<>();
+            List<String> availablePorts = new ArrayList<>();
             availablePorts.add("3");
             availablePorts.add("4");
             availablePorts.add("5");
@@ -135,6 +135,10 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
                 }
             }
 
+            for (int i = 0; i < availablePorts.size(); i++) {
+                spinnerPorts.add(String.valueOf(Integer.parseInt(availablePorts.get(i)) - 2));
+            }
+
             //Check Enough Port
             Database.Switch.Struct[] s = Database.Switch.select("NodeID=" + id);
             if (s.length > availablePorts.size()) {
@@ -152,7 +156,7 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
 
                 return null;
             }
-            return availablePorts;
+            return spinnerPorts;
         } catch (Exception e) {
             e.printStackTrace();
             return null;

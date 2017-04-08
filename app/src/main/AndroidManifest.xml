@@ -257,6 +257,10 @@
             android:name=".ActivityAddNode_IOModule_SensorType"
             android:label="@string/app_name"
             android:screenOrientation="landscape" />
+        <activity
+            android:name=".ActivityAddNode_IoModule_Device_Select"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
 
         <service
             android:name=".ServiceServerCommunication"

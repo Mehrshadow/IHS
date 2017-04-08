@@ -126,8 +126,8 @@ public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implem
     }
 
     private List<String> getAvailablePorts() {
-        List<String> availablePorts;
-        availablePorts = new ArrayList<>();
+        List<String> spinnerPorts = new ArrayList<>();
+        List<String> availablePorts = new ArrayList<>();
         availablePorts.add("13");
         availablePorts.add("14");
         availablePorts.add("15");
@@ -141,6 +141,10 @@ public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implem
                 if (checkPorts(fakeswitches[i])) {
                     availablePorts.remove(String.valueOf(fakeswitches[i].IOModulePort));
                 }
+            }
+
+            for (int i = 0; i < availablePorts.size(); i++) {
+                spinnerPorts.add(String.valueOf(Integer.parseInt(availablePorts.get(i)) - 12));
             }
         }
         if (availablePorts.size() == 0) {

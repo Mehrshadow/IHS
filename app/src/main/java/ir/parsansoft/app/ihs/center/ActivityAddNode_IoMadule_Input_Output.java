@@ -53,7 +53,7 @@ public class ActivityAddNode_IoMadule_Input_Output extends ActivityEnhanced {
         mAdd_node_input_output.btnOutput.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent mAdd_node_input_output = new Intent(G.currentActivity, ActivityAddNode_IoMadule_Device_Select.class);
+                Intent mAdd_node_input_output = new Intent(G.currentActivity, ActivityAddNode_IoModule_Device_Select.class);
 //                mAdd_node_input_output.putExtra("NODE_Type", node_type);
 //                mAdd_node_input_output.putExtra("NODE_ID", id);
                 G.currentActivity.startActivity(mAdd_node_input_output);
