@@ -15,7 +15,6 @@ import android.media.SoundPool;
 import android.os.Environment;
 import android.os.Handler;
 import android.preference.PreferenceManager;
-import android.support.annotation.NonNull;
 import android.support.v4.app.FragmentManager;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -38,11 +37,7 @@ import java.net.UnknownHostException;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Iterator;
 import java.util.List;
-import java.util.ListIterator;
-import java.util.concurrent.ExecutionException;
 
 import io.fabric.sdk.android.Fabric;
 import ir.parsansoft.app.ihs.center.SysLog.LogOperator;
@@ -154,6 +149,7 @@ public class G extends Application {
         //        context.startService(serviceServerConnection);
         //---------------------------------------------
         configureURLs();
+        IOModuleSocket = new ArrayList<>();
         nodeCommunication = new ServiceNodeCommunication();
         mobileCommunication = new ServiceMobilesCommunication();
         firebaseNotifier = new Firebase();
@@ -161,7 +157,6 @@ public class G extends Application {
         scenarioBP = new ScenarioBP();
         G.bp = new BP();
         new BroadcastReceiverWeather().setRepeatAlarm(WEATHERARARMCODE, System.currentTimeMillis(), AlarmManager.INTERVAL_HALF_HOUR);
-        IOModuleSocket = new ArrayList<>();
     }
 
     private void initializeVariables() {

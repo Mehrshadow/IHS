@@ -143,11 +143,11 @@ public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implem
                     availablePorts.remove(String.valueOf(fakeswitches[i].IOModulePort + 12));
                 }
             }
-
-            for (int i = 0; i < availablePorts.size(); i++) {
-                spinnerPorts.add(String.valueOf(Integer.parseInt(availablePorts.get(i)) - 12));
-            }
         }
+        for (int i = 0; i < availablePorts.size(); i++) {
+            spinnerPorts.add(String.valueOf(Integer.parseInt(availablePorts.get(i)) - 12));
+        }
+
         if (availablePorts.size() == 0) {
             Intent in_out = new Intent(G.currentActivity, ActivityAddNode_IoMadule_Input_Output.class);// now go to add module wizard...
             in_out.putExtra("NODE_ID", nodeId);

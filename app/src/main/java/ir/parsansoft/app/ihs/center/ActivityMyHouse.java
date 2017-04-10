@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
+
 import ir.parsansoft.app.ihs.center.adapters.AdapterListViewNode;
 
 
@@ -139,24 +140,24 @@ public class ActivityMyHouse extends ActivityEnhanced implements View.OnClickLis
                     }
                 });
             }
-    });
+        });
 
 
-    changeMenuIconBySelect(2);
+        changeMenuIconBySelect(2);
 
-        if(G.currentUser !=null&&G.currentUser.rol ==1)
+        if (G.currentUser != null && G.currentUser.rol == 1)
 
-    {
-        fo.btnAddNode.setVisibility(View.VISIBLE);
-        fo.btnAddNode.setOnClickListener(this);
-        fo.btnBack.setOnClickListener(this);
-    } else
+        {
+            fo.btnAddNode.setVisibility(View.VISIBLE);
+            fo.btnAddNode.setOnClickListener(this);
+            fo.btnBack.setOnClickListener(this);
+        } else
 
-    {
-        fo.btnAddNode.setVisibility(View.GONE);
+        {
+            fo.btnAddNode.setVisibility(View.GONE);
+        }
+
     }
-
-}
 
 
     @Override
@@ -175,7 +176,7 @@ public class ActivityMyHouse extends ActivityEnhanced implements View.OnClickLis
 
     private void refreshNodeList() {
         try {
-            nodes = Database.Node.select("iP=" + ioNode[0].iP);
+            nodes = Database.Node.select("iP='" + ioNode[0].iP + "' EXCEPT SELECT * from T_Node WHERE NodeTypeID == " + AllNodes.Node_Type.IOModule);
         } catch (Exception e) {
             G.printStackTrace(e);
         }

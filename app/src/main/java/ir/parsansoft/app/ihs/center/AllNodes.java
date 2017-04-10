@@ -1957,7 +1957,9 @@ public class AllNodes {
 
         @Override
         public void resetUis() {
-            UI = null;
+            for (int i = 0; i < UI.size(); i++) {
+                UI.removeAt(i);
+            }
         }
 
 
