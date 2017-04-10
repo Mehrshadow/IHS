@@ -21,7 +21,6 @@
         android:orientation="vertical">
 
         <TextView
-            android:layout_gravity="center"
             android:id="@+id/txtTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -45,97 +44,13 @@
             android:layout_marginTop="8dp"
             android:layout_weight="1"
             android:gravity="center_vertical"
-            android:orientation="horizontal">
+            android:orientation="vertical">
+
 
             <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
                 android:layout_weight="1"
-                android:gravity="center"
-                android:orientation="vertical">
-
-
-                <TextView
-                    android:id="@+id/lblSensorPort"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginLeft="30dip"
-                    android:layout_marginRight="30dp"
-                    android:gravity="center"
-                    android:text="Enter Sensor Port"
-                    android:textColor="#ffffff"
-                    android:textSize="14sp"
-                    android:typeface="monospace" />
-
-                <Spinner
-                    android:id="@+id/spnPorts"
-                    style="@style/spinner_theme"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginLeft="32dp"
-                    android:layout_marginRight="32dp"
-                    android:background="@drawable/spinner_selector"
-                    android:gravity="center"
-                    android:paddingRight="32dp"
-                    tools:listitem="@android:layout/simple_spinner_item" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:layout_weight="1"
-                android:gravity="center"
-                android:orientation="horizontal">
-
-                <LinearLayout
-                    android:layout_width="0dp"
-                    android:layout_height="match_parent"
-                    android:layout_gravity="center"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:orientation="vertical">
-
-                    <TextView
-                        android:id="@+id/lblSenorModel"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginBottom="8dp"
-                        android:layout_marginLeft="30dip"
-                        android:layout_marginRight="30dp"
-                        android:gravity="center"
-                        android:text="Enter Sensor Model"
-                        android:textColor="#ffffff"
-                        android:textSize="14sp"
-                        android:typeface="monospace" />
-
-                    <Spinner
-                        android:id="@+id/spnSensorModel"
-                        style="@style/spinner_theme"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="32dp"
-                        android:layout_marginRight="32dp"
-                        android:background="@drawable/spinner_selector"
-                        android:gravity="center"
-                        android:paddingRight="32dp"
-                        tools:listitem="@android:layout/simple_spinner_item" />
-                </LinearLayout>
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_gravity="center"
-                android:layout_weight="1"
-                android:gravity="center"
                 android:orientation="horizontal">
 
                 <LinearLayout
@@ -154,7 +69,7 @@
                         android:layout_marginLeft="30dip"
                         android:layout_marginRight="30dp"
                         android:gravity="center"
-                        android:text="Enter Sensor Type"
+                        android:text="Enter Sensor Port"
                         android:textColor="#ffffff"
                         android:textSize="14sp"
                         android:typeface="monospace" />
@@ -173,40 +88,328 @@
                         tools:listitem="@android:layout/simple_spinner_item" />
                 </LinearLayout>
 
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/lblSensorName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="8dp"
+                        android:layout_marginLeft="30dip"
+                        android:layout_marginRight="30dp"
+                        android:gravity="center"
+                        android:text="Enter Sensor Name"
+                        android:textColor="#ffffff"
+                        android:textSize="14sp"
+                        android:typeface="monospace" />
+
+                    <EditText
+                        android:id="@+id/edtSensorName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="32dp"
+                        android:layout_marginRight="32dp"
+                        android:background="@drawable/lay_edittext_bg"
+                        android:ems="10"
+                        android:padding="5dp"
+                        android:typeface="monospace" />
+                </LinearLayout>
+
 
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
                 android:layout_gravity="center"
                 android:layout_weight="1"
                 android:gravity="center"
-                android:orientation="vertical">
+                android:orientation="horizontal">
 
-                <TextView
-                    android:id="@+id/lblSensorName"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="8dp"
-                    android:layout_marginLeft="30dip"
-                    android:layout_marginRight="30dp"
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
                     android:gravity="center"
-                    android:text="Enter Sensor Name"
-                    android:textColor="#ffffff"
-                    android:textSize="14sp"
-                    android:typeface="monospace" />
+                    android:orientation="vertical">
 
-                <EditText
-                    android:id="@+id/edtSensorName"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="32dp"
-                    android:layout_marginRight="32dp"
-                    android:background="@drawable/lay_edittext_bg"
-                    android:ems="10"
-                    android:padding="5dp"
-                    android:typeface="monospace" />
+                    <TextView
+                        android:id="@+id/lblSensorConrtol"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="0dp"
+                        android:layout_marginTop="16dp"
+                        android:gravity="center"
+                        android:text="Select Ports that control with this sensor"
+                        android:textColor="#ffffff"
+                        android:textSize="14sp"
+                        android:typeface="monospace" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <TextView
+                                    android:id="@+id/txtPort1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="1" />
+
+                                <CheckBox
+                                    android:id="@+id/chkBoxPort1"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:visibility="invisible" />
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <TextView
+                                    android:id="@+id/txtPort2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="2" />
+
+                                <CheckBox
+                                    android:id="@+id/chkBoxPort2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:visibility="invisible" />
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <TextView
+                                    android:id="@+id/txtPort3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="3" />
+
+                                <CheckBox
+                                    android:id="@+id/chkBoxPort3"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:visibility="invisible" />
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <TextView
+                                    android:id="@+id/txtPort4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="4" />
+
+                                <CheckBox
+                                    android:id="@+id/chkBoxPort4"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:visibility="invisible" />
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <TextView
+                                    android:id="@+id/txtPort5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="5" />
+
+                                <CheckBox
+                                    android:id="@+id/chkBoxPort5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:visibility="invisible" />
+                            </FrameLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <TextView
+                                    android:id="@+id/txtPort6"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="6" />
+
+                                <CheckBox
+                                    android:id="@+id/chkBoxPort6"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:visibility="invisible" />
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <TextView
+                                    android:id="@+id/txtPort7"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="7" />
+
+                                <CheckBox
+                                    android:id="@+id/chkBoxPort7"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:visibility="invisible" />
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <TextView
+                                    android:id="@+id/txtPort8"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="8" />
+
+                                <CheckBox
+                                    android:id="@+id/chkBoxPort8"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:visibility="invisible" />
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <TextView
+                                    android:id="@+id/txtPort9"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="9" />
+
+                                <CheckBox
+                                    android:id="@+id/chkBoxPort9"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:visibility="invisible" />
+                            </FrameLayout>
+
+                            <FrameLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center">
+
+                                <TextView
+                                    android:id="@+id/txtPort10"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="10" />
+
+                                <CheckBox
+                                    android:id="@+id/chkBoxPort10"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:visibility="invisible" />
+                            </FrameLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/lblSensorPort"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="0dp"
+                        android:layout_marginLeft="30dip"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginTop="16dp"
+                        android:gravity="center"
+                        android:text="Enter Sensor Kind"
+                        android:textColor="#ffffff"
+                        android:textSize="14sp"
+                        android:typeface="monospace" />
+
+                    <Spinner
+                        android:id="@+id/spnPorts"
+                        style="@style/spinner_theme"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="32dp"
+                        android:layout_marginRight="32dp"
+                        android:background="@drawable/spinner_selector"
+                        android:gravity="center"
+                        android:paddingRight="32dp"
+                        tools:listitem="@android:layout/simple_spinner_item" />
+
+                </LinearLayout>
+
             </LinearLayout>
 
 
@@ -236,28 +439,15 @@
             android:layout_height="wrap_content"
             android:layout_weight="1" />
 
-
-        <Button
-            android:id="@+id/btnBack"
-            style="@style/button_navigation_theme"
-            android:layout_width="150dp"
-            android:layout_height="48dp"
-            android:layout_marginLeft="32dp"
-            android:layout_marginRight="32dp"
-            android:background="@drawable/button_add_selector"
-            android:text="Back" />
-
         <Button
             android:id="@+id/btnNext"
             style="@style/button_navigation_theme"
             android:layout_width="150dp"
             android:layout_height="48dp"
             android:layout_marginLeft="32dp"
-            android:layout_marginRight="32dp"
+            android:layout_marginRight="0dp"
             android:background="@drawable/button_add_selector"
             android:text="Next" />
-
-
 
     </LinearLayout>
 </LinearLayout>

@@ -268,10 +268,6 @@
             android:name="ir.parsansoft.app.ihs.center.ActivityAddNode_IOModule_SensorType"
             android:label="@string/app_name"
             android:screenOrientation="landscape" />
-        <activity
-            android:name="ir.parsansoft.app.ihs.center.ActivityAddNode_IoModule_Device_Select"
-            android:label="@string/app_name"
-            android:screenOrientation="landscape" />
 
         <service
             android:name="ir.parsansoft.app.ihs.center.ServiceServerCommunication"

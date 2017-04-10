@@ -17,12 +17,11 @@ import ir.parsansoft.app.ihs.center.adapters.AdapterSectionSpinner;
 public class ActivityAddNode_IoMadule_SelectPlace extends ActivityEnhanced implements CompoundButton.OnCheckedChangeListener {
     private AdapterListViewNode grdListAdapter;
     private Database.Node.Struct[] nodes;
-    AllViews.CO_d_section_add_IOModuleNode_Select_Place fw2;
+    AllViews.CO_d_section_add_node_w2 fw2;
 
     AdapterSectionSpinner adapterSectionSpinner;
     AdapterRoomSpinner adapterRoomSpinner;
     int nodeId;
-    int node_type;
 
     private boolean isMyHouseCheckBoxChecked = false;
 
@@ -38,14 +37,13 @@ public class ActivityAddNode_IoMadule_SelectPlace extends ActivityEnhanced imple
 
         setSideBarVisiblity(false);
         G.log("hide Sidebar");
-        fw2 = new AllViews.CO_d_section_add_IOModuleNode_Select_Place(this);
+        fw2 = new AllViews.CO_d_section_add_node_w2(this);
         Bundle extras = getIntent().getExtras();
 
         if (extras != null) {
             if (extras.containsKey("NODE_ID")) {
                 nodeId = extras.getInt("NODE_ID");
                 nodes = Database.Node.select("ID=" + nodeId + " LIMIT 1");
-                node_type = extras.getInt("NODE_Type");
             }
         }
 
@@ -134,28 +132,6 @@ public class ActivityAddNode_IoMadule_SelectPlace extends ActivityEnhanced imple
                 finish();
             }
         });
-
-        fw2.btnBack.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (node_type == AllNodes.Node_Type.Sensor_Magnetic | node_type == AllNodes.Node_Type.Sensor_SMOKE)
-                {
-                    Intent mAdd_node_input_output = new Intent(G.currentActivity, ActivityAddNode_IOModule_SensorType.class);
-                    mAdd_node_input_output.putExtra("NODE_ID", nodeId);
-                    G.currentActivity.startActivity(mAdd_node_input_output);
-                }
-                else {
-                    Intent mAdd_node_input_output = new Intent(G.currentActivity, ActivityAddNode_IoMadule_NodeType.class);
-                    mAdd_node_input_output.putExtra("NODE_Type", node_type);
-                    mAdd_node_input_output.putExtra("NODE_ID", nodeId);
-                    G.currentActivity.startActivity(mAdd_node_input_output);
-                }
-
-                Animation.doAnimation(Animation.Animation_Types.FADE_SLIDE_LEFTRIGHT_RIGHT);
-                finish();
-            }
-        });
-
         fw2.btnCancel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0) {
@@ -316,7 +292,6 @@ public class ActivityAddNode_IoMadule_SelectPlace extends ActivityEnhanced imple
         fw2.lblName.setText(G.T.getSentence(230));
         fw2.btnCancel.setText(G.T.getSentence(102));
         fw2.btnNext.setText(G.T.getSentence(103));
-        fw2.btnBack.setText(G.T.getSentence(104));
         fw2.txtTitle.setText(G.T.getSentence(227));
         fw2.btnDelete.setText(G.T.getSentence(106));
 //        fw2.checkBoxMyHouse.setText(G.T.getSentence(849));

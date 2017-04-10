@@ -55,7 +55,7 @@ public class AdapterListViewNode extends BaseAdapter {
                     row = inflater.inflate(R.layout.l_node_simple_dimmer, null);
                     break;
                 case AllNodes.Node_Type.IOModule:
-                    row = inflater.inflate(R.layout.l_node_simple_dimmer, null);
+                    row = inflater.inflate(R.layout.l_node_io_module, null);
                     break;
                 default:
                     break;

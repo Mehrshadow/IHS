@@ -12,7 +12,7 @@ import ir.parsansoft.app.ihs.center.adapters.AdapterIoTypesSpinner;
 
 public class ActivityAddNode_IoModule_Device_Select extends ActivityEnhanced {
 
-    AllViews.CO_d_section_add_node_Device_Select mAdd_node_device_select;
+    AllViews.CO_d_section_add_node_input_output mAdd_node_input_output;
     AdapterIoTypesSpinner mAdapterIoTypesSpinner;
     private boolean isInput = true;
     List<String> types;
@@ -51,7 +51,7 @@ public class ActivityAddNode_IoModule_Device_Select extends ActivityEnhanced {
 
         setSideBarVisiblity(false);
         G.log("hide Sidebar");
-        mAdd_node_device_select = new AllViews.CO_d_section_add_node_Device_Select(this);
+        mAdd_node_input_output = new AllViews.CO_d_section_add_node_input_output(this);
 
         translateForm();
         initializeForm();
@@ -66,7 +66,7 @@ public class ActivityAddNode_IoModule_Device_Select extends ActivityEnhanced {
     private void initializeForm() {
         loadSpinner();
 
-        mAdd_node_device_select.btnNext.setOnClickListener(new View.OnClickListener() {
+        mAdd_node_input_output.btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 if (saveForm()) {
@@ -80,17 +80,7 @@ public class ActivityAddNode_IoModule_Device_Select extends ActivityEnhanced {
             }
         });
 
-        mAdd_node_device_select.btnBack.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View arg0) {
-                Intent fw3 = new Intent(G.currentActivity, ActivityAddNode_IoMadule_Input_Output.class);
-                G.currentActivity.startActivity(fw3);
-                Animation.doAnimation(Animation.Animation_Types.FADE_SLIDE_LEFTRIGHT_LEFT);
-                finish();
-            }
-        });
-
-        mAdd_node_device_select.btnCancel.setOnClickListener(new View.OnClickListener() {
+        mAdd_node_input_output.btnCancel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 finish();
@@ -106,33 +96,35 @@ public class ActivityAddNode_IoModule_Device_Select extends ActivityEnhanced {
         }
 
         mAdapterIoTypesSpinner = new AdapterIoTypesSpinner(types);
-        mAdd_node_device_select.spnTypes.setAdapter(mAdapterIoTypesSpinner);
-        mAdd_node_device_select.spnTypes.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+        mAdd_node_input_output.spnTypes.setAdapter(mAdapterIoTypesSpinner);
+        mAdd_node_input_output.spnTypes.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                switch (position) {
-                    case 0:
-                        node_type = AllNodes.Node_Type.AIR_CONDITION;
-                        break;
+                if (!isInput) {
+                    switch (position) {
+                        case 0:
+                            node_type = AllNodes.Node_Type.AIR_CONDITION;
+                            break;
 
-                    case 1:
-                        node_type = AllNodes.Node_Type.CURTAIN_SWITCH;
-                        break;
+                        case 1:
+                            node_type = AllNodes.Node_Type.CURTAIN_SWITCH;
+                            break;
 
-                    case 2:
-                        node_type = AllNodes.Node_Type.SIMPLE_SWITCH_1;
-                        break;
+                        case 2:
+                            node_type = AllNodes.Node_Type.SIMPLE_SWITCH_1;
+                            break;
 
-                    case 3:
-                        node_type = AllNodes.Node_Type.SIMPLE_SWITCH_2;
-                        break;
+                        case 3:
+                            node_type = AllNodes.Node_Type.SIMPLE_SWITCH_2;
+                            break;
 
-                    case 4:
-                        node_type = AllNodes.Node_Type.SIMPLE_SWITCH_3;
-                        break;
-                    case 5:
-                        node_type = AllNodes.Node_Type.WC_SWITCH;
-                        break;
+                        case 4:
+                            node_type = AllNodes.Node_Type.SIMPLE_SWITCH_3;
+                            break;
+                        case 5:
+                            node_type = AllNodes.Node_Type.WC_SWITCH;
+                            break;
+                    }
                 }
             }
 
@@ -165,9 +157,10 @@ public class ActivityAddNode_IoModule_Device_Select extends ActivityEnhanced {
     @Override
     public void translateForm() {
         super.translateForm();
-        mAdd_node_device_select.btnCancel.setText(G.T.getSentence(102));
-        mAdd_node_device_select.btnNext.setText(G.T.getSentence(103));
-        mAdd_node_device_select.btnBack.setText(G.T.getSentence(104));
-        mAdd_node_device_select.txtTitle.setText(G.T.getSentence(855));
+        mAdd_node_input_output.btnInput.setText(G.T.getSentence(853));
+        mAdd_node_input_output.btnOutput.setText(G.T.getSentence(854));
+        mAdd_node_input_output.btnCancel.setText(G.T.getSentence(102));
+        mAdd_node_input_output.btnNext.setText(G.T.getSentence(103));
+        mAdd_node_input_output.txtTitle.setText(G.T.getSentence(855));
     }
 }
