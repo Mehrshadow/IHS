@@ -16,9 +16,7 @@ public class ActivityMyHouse extends ActivityEnhanced implements View.OnClickLis
     private DialogClass dlg;
     private AllViews.CO_f_MyHouse fo;
 
-
     int id = 0;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

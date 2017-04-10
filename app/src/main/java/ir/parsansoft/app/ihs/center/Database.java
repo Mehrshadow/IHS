@@ -87,7 +87,7 @@ public class Database {
                     break;
                 }
             }
-        Node.Struct[] nodes = Node.select("isVisible=1"); // برای اینکه نودهایی که نباید دیده شوند برای موبایل فرستاده نشوند
+        Node.Struct[] nodes = Node.select("");
         JSONArray nodesJSON = new JSONArray();
         if (nodes != null)
             for (int i = 0; i < nodes.length; i++) {

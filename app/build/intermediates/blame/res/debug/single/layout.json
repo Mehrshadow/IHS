@@ -1,11 +1,11 @@
 [
     {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\d_section_add_section_rtl.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\layout\\d_section_add_section_rtl.xml"
-    },
-    {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_download.xml",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\dialog_download.xml"
+    },
+    {
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\d_section_add_section_rtl.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\layout\\d_section_add_section_rtl.xml"
     },
     {
         "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",

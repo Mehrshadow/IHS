@@ -31,6 +31,7 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
     Button btnNext, btnCancel, btnBack;
     TextView txtTitle;
     int id = 0;
+    int node_type;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,6 +57,7 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
             if (extras.containsKey("NODE_ID")) {
                 id = extras.getInt("NODE_ID");
                 nodes = Database.Node.select("ID=" + id);
+                node_type = extras.getInt("NODE_Type");
                 G.log("Node ID=" + id);
             }
         }
@@ -74,6 +76,7 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
                 if (saveForm()) {
                     Intent fw4 = new Intent(G.currentActivity, ActivityAddNode_IoMadule_SelectPlace.class);
                     fw4.putExtra("NODE_ID", id);
+                    fw4.putExtra("NODE_Type", node_type);
                     G.currentActivity.startActivity(fw4);
                     Animation.doAnimation(Animation.Animation_Types.FADE_SLIDE_LEFTRIGHT_RIGHT);
                     finish();
@@ -83,7 +86,7 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
         mAdd_node_nodeType.btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0) {
-                Intent fw3 = new Intent(G.currentActivity, ActivityAddNode_IoMadule_Input_Output.class);
+                Intent fw3 = new Intent(G.currentActivity, ActivityAddNode_IoModule_Device_Select.class);
                 fw3.putExtra("NODE_ID", id);
                 Database.Node.delete(id);
                 Database.Switch.delete("NodeID=" + id);
@@ -130,7 +133,7 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
                 for (int i = 0; i < fakeswitches.length; i++) {
                     if (fakeswitches[i].IOModulePort > 0 &&
                             fakeswitches[i].IOModulePort < 12) {
-                        availablePorts.remove(String.valueOf(fakeswitches[i].IOModulePort));
+                        availablePorts.remove(String.valueOf(fakeswitches[i].IOModulePort + 2));
                     }
                 }
             }

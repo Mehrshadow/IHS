@@ -610,7 +610,7 @@ public class ActivitySections extends ActivityEnhanced implements OnClickListene
 
     private void refreshMyHouseNodeList() {
         try {
-            nodes = Database.Node.select("RoomID=" + AllNodes.myHouseDefaultRoomId);
+            nodes = Database.Node.select("");
         } catch (Exception e) {
             G.printStackTrace(e);
         }

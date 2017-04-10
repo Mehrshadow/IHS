@@ -1,12 +1,5 @@
 package ir.parsansoft.app.ihs.center;
 
-import ir.parsansoft.app.ihs.center.Animation.Animation_Types;
-import ir.parsansoft.app.ihs.center.ModuleWebservice.WebServiceListener;
-import ir.parsansoft.app.ihs.center.components.AssetsManager;
-
-import org.json.JSONArray;
-import org.json.JSONObject;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -14,6 +7,13 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import ir.parsansoft.app.ihs.center.Animation.Animation_Types;
+import ir.parsansoft.app.ihs.center.ModuleWebservice.WebServiceListener;
+import ir.parsansoft.app.ihs.center.components.AssetsManager;
 
 
 public class ActivityAddNode_w4 extends ActivityEnhanced {
@@ -81,7 +81,7 @@ public class ActivityAddNode_w4 extends ActivityEnhanced {
         btnBack.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View arg0) {
-                Intent fw3 = new Intent(G.currentActivity, ActivityAddNode_w3.class);
+                Intent fw3 = new Intent(G.currentActivity, ActivityAddNode_IoMadule_SelectPlace.class);
                 fw3.putExtra("NODE_ID", id);
                 G.currentActivity.startActivity(fw3);
                 Animation.doAnimation(Animation_Types.FADE_SLIDE_LEFTRIGHT_LEFT);

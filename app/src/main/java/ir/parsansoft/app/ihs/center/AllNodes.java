@@ -1212,11 +1212,14 @@ public class AllNodes {
                 if (switchIndex == 2) {
                     nodeMsg.sentData = "*" + switches[switchIndex].IOModulePort + (int) newValue
                             + "*" + switches[switchIndex - 1].IOModulePort + 0;
+                    G.log("sent data: " + nodeMsg.sentData);
                 } else if (switchIndex == 1) {
                     nodeMsg.sentData = "*" + switches[switchIndex].IOModulePort + (int) newValue
                             + "*" + switches[switchIndex + 1].IOModulePort + 0;
+                    G.log("sent data: " + nodeMsg.sentData);
                 } else if (switchIndex == 0) {
                     nodeMsg.sentData = "*" + switches[switchIndex].IOModulePort + (int) newValue;
+                    G.log("sent data: " + nodeMsg.sentData);
                 }
 
             } else {
@@ -1235,6 +1238,7 @@ public class AllNodes {
                                 break;
                         }
                         nodeMsg.sentData = ("*1SS*2" + Node_Model_Name.SWAC.toString() + "*3Pump:" + (int) newValue + "*4AC:" + currentSpeedStr + "#");
+                        G.log("sent data: " + nodeMsg.sentData);
                         break;
                     case 1:
                         String newSpeedStr = "AC_STOP";
@@ -1250,6 +1254,7 @@ public class AllNodes {
                                 break;
                         }
                         nodeMsg.sentData = ("*1SS*2" + Node_Model_Name.SWAC.toString() + "*3Pump:" + (int) switches[0].value + "*4AC:" + newSpeedStr + "#");
+                        G.log("sent data: " + nodeMsg.sentData);
                         break;
                 }
             }
@@ -1959,7 +1964,7 @@ public class AllNodes {
         @Override
         public int addUI(View view) {
             uiCount++;
-            if (UI.size() > 10) {
+            if (UI.size() > 3) {
                 G.log("Deleting some UI references to reduce memory");
                 UI.removeAt(0);
             }
@@ -2006,23 +2011,23 @@ public class AllNodes {
         }
 
 
-        @Override
-        public void setProgressVisiblity(final boolean visiblity) {
-
-            G.HANDLER.post(new Runnable() {
-
-                @Override
-                public void run() {
-                    for (int i = 0; i < UI.size(); i++) {
-                        if (visiblity == true) {
-                            UI.valueAt(i).prgDoOperation.setVisibility(View.VISIBLE);
-                        } else {
-                            UI.valueAt(i).prgDoOperation.setVisibility(View.INVISIBLE);
-                        }
-                    }
-                }
-            });
-        }
+//        @Override
+//        public void setProgressVisiblity(final boolean visiblity) {
+//
+//            G.HANDLER.post(new Runnable() {
+//
+//                @Override
+//                public void run() {
+//                    for (int i = 0; i < UI.size(); i++) {
+//                        if (visiblity == true) {
+//                            UI.valueAt(i).prgDoOperation.setVisibility(View.VISIBLE);
+//                        } else {
+//                            UI.valueAt(i).prgDoOperation.setVisibility(View.INVISIBLE);
+//                        }
+//                    }
+//                }
+//            });
+//        }
 
         @Override
         public void setSettingVisiblity(int uiIndex, boolean isVisible) {
@@ -2591,6 +2596,7 @@ public class AllNodes {
                 newNode.status = 1;
                 newNode.isVisible = false;
                 newNode.iD = (int) Database.Node.insert(newNode);
+                nodeCommunication.allNodes.put(newNode.iD, new IOModule(newNode));
                 break;
             case Node_Type.Sensor_SMOKE: // Sensor
                 if (newNode.name.length() == 0)

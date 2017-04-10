@@ -76,6 +76,7 @@ public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implem
                     if (saveForm()) {
                         Intent fw4 = new Intent(G.currentActivity, ActivityAddNode_IoMadule_SelectPlace.class);// now go to add module wizard...
                         fw4.putExtra("NODE_ID", nodeId);
+                        fw4.putExtra("NODE_Type", sensorType);
                         G.currentActivity.startActivity(fw4);
                         Animation.doAnimation(Animation_Types.FADE_SLIDE_LEFTRIGHT_RIGHT);
                         finish();
@@ -139,7 +140,7 @@ public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implem
         if (fakeswitches != null) {
             for (int i = 0; i < fakeswitches.length; i++) {
                 if (checkPorts(fakeswitches[i])) {
-                    availablePorts.remove(String.valueOf(fakeswitches[i].IOModulePort));
+                    availablePorts.remove(String.valueOf(fakeswitches[i].IOModulePort + 12));
                 }
             }
 
@@ -160,7 +161,7 @@ public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implem
             }, 500);
         }
         sensorPort = Integer.valueOf(availablePorts.get(0));
-        return availablePorts;
+        return spinnerPorts;
     }
 
     private void loadPortsSpinner() {

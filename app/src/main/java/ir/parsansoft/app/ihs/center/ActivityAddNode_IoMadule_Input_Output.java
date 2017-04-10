@@ -77,7 +77,6 @@ public class ActivityAddNode_IoMadule_Input_Output extends ActivityEnhanced {
         mAdd_node_input_output.btnInput.setText(G.T.getSentence(853));
         mAdd_node_input_output.btnOutput.setText(G.T.getSentence(854));
         mAdd_node_input_output.btnCancel.setText(G.T.getSentence(102));
-        mAdd_node_input_output.btnNext.setText(G.T.getSentence(103));
         mAdd_node_input_output.txtTitle.setText(G.T.getSentence(855));
     }
 }

@@ -338,6 +338,111 @@ public class AllViews {
         }
     }
 
+    public static final class CO_d_section_add_IOModuleNode_Select_Place {
+        public LinearLayout layOptions;
+        public ListView listView1;
+        public ScrollView scrollView1;
+        public LinearLayout laySection;
+        public TextView lblSection;
+        public Spinner spnSections;
+        public LinearLayout layRoom;
+        public TextView lblRoom;
+        public Spinner spnRooms;
+        public ir.parsansoft.app.ihs.center.components.ComIconSelector icnNodeIcon;
+        public TextView lblName;
+        public EditText edtNodeName;
+        public LinearLayout layNavigation;
+        public Button btnCancel;
+        public TextView textView1;
+        public TextView txtTitle;
+        public Button btnNext, btnDelete, btnBack;
+        public CheckBox checkBoxMyHouse;
+        public TextView lblMyHouse;
+
+        public CO_d_section_add_IOModuleNode_Select_Place(Context context) {
+            Activity activity = (Activity) context;
+            layOptions = (LinearLayout) activity.findViewById(R.id.layOptions);
+            listView1 = (ListView) activity.findViewById(R.id.lstLanguage);
+            scrollView1 = (ScrollView) activity.findViewById(R.id.scrollView1);
+            laySection = (LinearLayout) activity.findViewById(R.id.laySection);
+            lblSection = (TextView) activity.findViewById(R.id.lblSection);
+            spnSections = (Spinner) activity.findViewById(R.id.spnSections);
+            layRoom = (LinearLayout) activity.findViewById(R.id.layRoom);
+            lblRoom = (TextView) activity.findViewById(R.id.lblRoom);
+            spnRooms = (Spinner) activity.findViewById(R.id.spnRooms);
+            icnNodeIcon = (ir.parsansoft.app.ihs.center.components.ComIconSelector) activity.findViewById(R.id.icnNodeIcon);
+            lblName = (TextView) activity.findViewById(R.id.txtUsername);
+            edtNodeName = (EditText) activity.findViewById(R.id.edtNodeName);
+            layNavigation = (LinearLayout) activity.findViewById(R.id.layNavigation);
+            btnCancel = (Button) activity.findViewById(R.id.btnCancel);
+            textView1 = (TextView) activity.findViewById(R.id.txtLanguage);
+            txtTitle = (TextView) activity.findViewById(R.id.txtTitle);
+            btnNext = (Button) activity.findViewById(R.id.btnNext);
+            btnBack = (Button) activity.findViewById(R.id.btnBack);
+            btnDelete = (Button) activity.findViewById(R.id.btnDelete);
+            checkBoxMyHouse = (CheckBox) activity.findViewById(R.id.checkMyHouse);
+            lblMyHouse = (TextView) activity.findViewById(R.id.lblMyHouse);
+            intializeVariables();
+
+        }
+
+        public CO_d_section_add_IOModuleNode_Select_Place(Dialog dlg) {
+            layOptions = (LinearLayout) dlg.findViewById(R.id.layOptions);
+            listView1 = (ListView) dlg.findViewById(R.id.lstLanguage);
+            scrollView1 = (ScrollView) dlg.findViewById(R.id.scrollView1);
+            laySection = (LinearLayout) dlg.findViewById(R.id.laySection);
+            lblSection = (TextView) dlg.findViewById(R.id.lblSection);
+            spnSections = (Spinner) dlg.findViewById(R.id.spnSections);
+            layRoom = (LinearLayout) dlg.findViewById(R.id.layRoom);
+            lblRoom = (TextView) dlg.findViewById(R.id.lblRoom);
+            spnRooms = (Spinner) dlg.findViewById(R.id.spnRooms);
+            icnNodeIcon = (ir.parsansoft.app.ihs.center.components.ComIconSelector) dlg.findViewById(R.id.icnNodeIcon);
+            lblName = (TextView) dlg.findViewById(R.id.txtUsername);
+            edtNodeName = (EditText) dlg.findViewById(R.id.edtNodeName);
+            layNavigation = (LinearLayout) dlg.findViewById(R.id.layNavigation);
+            btnCancel = (Button) dlg.findViewById(R.id.btnCancel);
+            textView1 = (TextView) dlg.findViewById(R.id.txtLanguage);
+            txtTitle = (TextView) dlg.findViewById(R.id.txtTitle);
+            btnNext = (Button) dlg.findViewById(R.id.btnNext);
+            btnBack = (Button) dlg.findViewById(R.id.btnBack);
+            btnDelete = (Button) dlg.findViewById(R.id.btnDelete);
+            checkBoxMyHouse = (CheckBox) dlg.findViewById(R.id.checkMyHouse);
+            lblMyHouse = (TextView) dlg.findViewById(R.id.lblMyHouse);
+            intializeVariables();
+
+        }
+
+        public CO_d_section_add_IOModuleNode_Select_Place(View view) {
+            layOptions = (LinearLayout) view.findViewById(R.id.layOptions);
+            listView1 = (ListView) view.findViewById(R.id.lstLanguage);
+            scrollView1 = (ScrollView) view.findViewById(R.id.scrollView1);
+            laySection = (LinearLayout) view.findViewById(R.id.laySection);
+            lblSection = (TextView) view.findViewById(R.id.lblSection);
+            spnSections = (Spinner) view.findViewById(R.id.spnSections);
+            layRoom = (LinearLayout) view.findViewById(R.id.layRoom);
+            lblRoom = (TextView) view.findViewById(R.id.lblRoom);
+            spnRooms = (Spinner) view.findViewById(R.id.spnRooms);
+            icnNodeIcon = (ir.parsansoft.app.ihs.center.components.ComIconSelector) view.findViewById(R.id.icnNodeIcon);
+            lblName = (TextView) view.findViewById(R.id.txtUsername);
+            edtNodeName = (EditText) view.findViewById(R.id.edtNodeName);
+            layNavigation = (LinearLayout) view.findViewById(R.id.layNavigation);
+            btnCancel = (Button) view.findViewById(R.id.btnCancel);
+            textView1 = (TextView) view.findViewById(R.id.txtLanguage);
+            txtTitle = (TextView) view.findViewById(R.id.txtTitle);
+            btnNext = (Button) view.findViewById(R.id.btnNext);
+            btnBack = (Button) view.findViewById(R.id.btnBack);
+            btnDelete = (Button) view.findViewById(R.id.btnDelete);
+            checkBoxMyHouse = (CheckBox) view.findViewById(R.id.checkMyHouse);
+            lblMyHouse = (TextView) view.findViewById(R.id.lblMyHouse);
+            intializeVariables();
+
+        }
+
+        private void intializeVariables() {
+
+        }
+    }
+
     public static final class CO_d_section_add_node_w3 {
         public ImageView imgIcon;
         public TextView txtHeader;
@@ -420,7 +525,6 @@ public class AllViews {
             lblSensorPort = (TextView) activity.findViewById(R.id.lblSensorPort);
             lblSensorModel = (TextView) activity.findViewById(R.id.lblSenorModel);
             lblSensorType = (TextView) activity.findViewById(R.id.lblSenorType);
-            lblSensorConrtol = (TextView) activity.findViewById(R.id.lblSensorConrtol);
             txtTitle = (TextView) activity.findViewById(R.id.txtTitle);
             etSensorName = (EditText) activity.findViewById(R.id.edtSensorName);
             spnSensorModel = (Spinner) activity.findViewById(R.id.spnSensorModel);
@@ -2638,6 +2742,33 @@ public class AllViews {
 
         private void intializeVariables() {
 
+        }
+    }
+
+    public static final class CO_d_section_add_node_Device_Select {
+
+        public Button btnCancel;
+        public Button btnNext;
+        public Button btnBack;
+        public Spinner spnTypes;
+        public TextView txtTitle;
+
+        public CO_d_section_add_node_Device_Select(Context context) {
+            Activity activity = (Activity) context;
+            btnCancel = (Button) activity.findViewById(R.id.btnCancel);
+            btnNext = (Button) activity.findViewById(R.id.btnNext);
+            btnBack = (Button) activity.findViewById(R.id.btnBack);
+            spnTypes = (Spinner) activity.findViewById(R.id.spnTypes);
+            txtTitle = (TextView) activity.findViewById(R.id.txtTitle);
+            intializeVariables();
+
+        }
+
+        private void intializeVariables() {
+//            txtTitle.setText(G.T.getSentence(155));
+//            lblName.setText(G.T.getSentence(235));
+//            btnCancel.setText(G.T.getSentence(104));
+//            btnOK.setText(G.T.getSentence(101));
         }
     }
 
