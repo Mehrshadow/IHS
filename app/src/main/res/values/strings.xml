@@ -309,6 +309,7 @@
         <item>248|پورت ها تکراری هستند</item>
         <item>249|افزودن دستگاه جدید به ماژول IO</item>
         <item>250|ماژول IO به سیستم اضاف نشده است</item>
+        <item>251|حذف ماژول IO</item>
 
 
         <item>401|آفتابی</item>
@@ -781,6 +782,7 @@
         <item>248|Ports are duplicates</item>
         <item>249|Add New Device To IO</item>
         <item>250|IO Module does not Exist</item>
+        <item>251|Delete Io Module</item>
 
 
         <item>401|Sunny</item>

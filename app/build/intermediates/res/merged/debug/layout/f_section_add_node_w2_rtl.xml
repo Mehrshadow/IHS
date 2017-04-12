@@ -209,16 +209,6 @@
             android:layout_weight="1" />
 
         <Button
-            android:id="@+id/btnBack"
-            style="@style/button_navigation_theme"
-            android:layout_width="150dp"
-            android:layout_height="48dp"
-            android:layout_marginLeft="32dp"
-            android:layout_marginRight="32dp"
-            android:background="@drawable/button_add_selector"
-            android:text="Back" />
-
-        <Button
             android:id="@+id/btnNext"
             style="@style/button_navigation_theme"
             android:layout_width="150dp"

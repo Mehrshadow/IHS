@@ -19,6 +19,7 @@ public class ActivityFavorites extends ActivityEnhanced {
         formObjects = new CO_f_favorites(this);
         translateForm();
         changeMenuIconBySelect(1);
+        loadFavorites(true);
         formObjects.grdNodes.setOnTouchListener(null);
         formObjects.btnAll.setOnClickListener(new OnClickListener() {
             @Override
@@ -33,12 +34,12 @@ public class ActivityFavorites extends ActivityEnhanced {
             }
         });
 
-        G.HANDLER.postDelayed(new Runnable() {
-            @Override
-            public void run() {
-                loadFavorites(true);
-            }
-        }, 300);
+//        G.HANDLER.postDelayed(new Runnable() {
+//            @Override
+//            public void run() {
+//                loadFavorites(true);
+//            }
+//        }, 300);
     }
 
     private void loadFavorites(boolean onlyFavorites) {

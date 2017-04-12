@@ -3,21 +3,147 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\FCC\Desktop\IHS Repo\IHS\app\libs\maskededittext.jar"
+        jar="C:\Users\HaMiD\.android\build-cache\cc01af25b0b85106037a6faa9c1de4036892f32e\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="af7582c6b327449c6d32518e6a10307860b7b5d6">
+        <dex dex="D:\Android\Jahanmir\Projects\iHS\iHSCenter\iHSCenter\app\build\intermediates\pre-dexed\debug\classes_d46b381b73025d6e61e9c4beb2e6fad91a693208.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HaMiD\.android\build-cache\1eb76a519259f0e2171a8a27c359c847b019948c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="D:\Android\Jahanmir\Projects\iHS\iHSCenter\iHSCenter\app\build\intermediates\pre-dexed\debug\classes_384e8425da60412d643ecd7a485f92047e04448f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HaMiD\.android\build-cache\33a0fba5e579e56cce609da42eae70728947e5db\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="D:\Android\Jahanmir\Projects\iHS\iHSCenter\iHSCenter\app\build\intermediates\pre-dexed\debug\classes_bcbed2e5a2ee691b0369575b6541e88b318b03c5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HaMiD\.android\build-cache\901931eaadc39f2495097f97cd2d08045376fe29\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="D:\Android\Jahanmir\Projects\iHS\iHSCenter\iHSCenter\app\build\intermediates\pre-dexed\debug\classes_e98f9d0690df7b2a548bb23c72fc8fe913deee30.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HaMiD\.android\build-cache\3b210fbd07fea4fd982ffc2a3375ce6bfc7f1770\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="D:\Android\Jahanmir\Projects\iHS\iHSCenter\iHSCenter\app\build\intermediates\pre-dexed\debug\classes_d947ef292dc967d9bd5b73ca8e577ade459f8942.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HaMiD\.android\build-cache\3b210fbd07fea4fd982ffc2a3375ce6bfc7f1770\output\jars\libs\internal_impl-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="D:\Android\Jahanmir\Projects\iHS\iHSCenter\iHSCenter\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_383958307651d233843c06961424e23cfa0bc520.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HaMiD\.android\build-cache\d2aa4200d45ef68404b1efadb225355956141929\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="D:\Android\Jahanmir\Projects\iHS\iHSCenter\iHSCenter\app\build\intermediates\pre-dexed\debug\classes_507145c93994cea36a499bf07cf15cf430f793d5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HaMiD\.android\build-cache\a9def0a06ed9110b7aa30f62269f7992c3be76b7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0dfc12e4aacf514346ea866560c99807d032bc48">
+        <dex dex="D:\Android\Jahanmir\Projects\iHS\iHSCenter\iHSCenter\app\build\intermediates\pre-dexed\debug\classes_a9c7755c9d9207c179a0fdce7ef032dbcebc7c90.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HaMiD\.android\build-cache\229c633f4297ae43c483258d80c271faf1ef5189\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
+        <dex dex="D:\Android\Jahanmir\Projects\iHS\iHSCenter\iHSCenter\app\build\intermediates\pre-dexed\debug\classes_a974ca9f346f348317caac6ba9ce1242e7e97082.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HaMiD\.android\build-cache\f7219b2e8c9d99767c2f437e637d502fa20b7568\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ad7706f8bb4a985656a8d2142f74021c8b0e03d8">
+        <dex dex="D:\Android\Jahanmir\Projects\iHS\iHSCenter\iHSCenter\app\build\intermediates\pre-dexed\debug\classes_59522504dba8d84ba8588da7558d75ad34f353d3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HaMiD\.android\build-cache\1bfa9b1f9444c138ca9e2f4078ff1c1959f65c6b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="D:\Android\Jahanmir\Projects\iHS\iHSCenter\iHSCenter\app\build\intermediates\pre-dexed\debug\classes_dcb8902b7101cc27572845db43ab2ccb422dfb9d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\AndroidSDK\AndroidSDK\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="D:\Android\Jahanmir\Projects\iHS\iHSCenter\iHSCenter\app\build\intermediates\pre-dexed\debug\support-annotations-24.0.0_a307ec60a17d3c5303505d3fa775d4a1cbfaeb4d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HaMiD\.android\build-cache\99e3211522c569f52d057dcfa878b9ea80e0c317\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="D:\Android\Jahanmir\Projects\iHS\iHSCenter\iHSCenter\app\build\intermediates\pre-dexed\debug\classes_2105bb486a1af6fa1ddde40d47c53cc7e860bb86.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\Android\Jahanmir\Projects\iHS\iHSCenter\iHSCenter\app\libs\maskededittext.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="2f4240378fecb18b004c6406ff3131de148852c5">
-        <dex dex="C:\Users\FCC\Desktop\IHS Repo\IHS\app\build\intermediates\pre-dexed\debug\maskededittext_f17cedc1ca8700bd5944c7ab12123068e161565d.jar" />
+        <dex dex="D:\Android\Jahanmir\Projects\iHS\iHSCenter\iHSCenter\app\build\intermediates\pre-dexed\debug\maskededittext_7430cb964a413ceef6c5e96a8ce3cb9aa67a72b5.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\FCC\Desktop\IHS Repo\IHS\app\libs\zxing-1.3.jar"
+        jar="D:\Android\Jahanmir\Projects\iHS\iHSCenter\iHSCenter\app\libs\zxing-1.3.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="c9d8bef9780c5e503cf0758a50ac812bd368a4e7">
-        <dex dex="C:\Users\FCC\Desktop\IHS Repo\IHS\app\build\intermediates\pre-dexed\debug\zxing-1.3_822a1f9a1938b536d43b3e44c7b3c212923157ed.jar" />
+        <dex dex="D:\Android\Jahanmir\Projects\iHS\iHSCenter\iHSCenter\app\build\intermediates\pre-dexed\debug\zxing-1.3_7d77fe9b8bb6c275d0c5d5c0d46b43174ab6bb42.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\HaMiD\.android\build-cache\3d7be802529b6be542d3b6c12361691153eb16c6\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a36600281a648769411ef642c331851732bf29e">
+        <dex dex="D:\Android\Jahanmir\Projects\iHS\iHSCenter\iHSCenter\app\build\intermediates\pre-dexed\debug\classes_ea43c892451cb5c45ac693cc5b18fad4f5d10967.jar" />
     </item>
 
 </items>

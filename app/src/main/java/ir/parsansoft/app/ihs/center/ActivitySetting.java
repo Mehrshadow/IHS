@@ -133,12 +133,12 @@ public class ActivitySetting extends ActivityEnhanced {
             }
         });
     }
+
     @Override
     public void setContentView(int id) {
         LayoutInflater inflater = (LayoutInflater) getBaseContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         inflater.inflate(id, fo_setting.laySettings);
     }
-
 
 
     @Override
@@ -196,6 +196,7 @@ public class ActivitySetting extends ActivityEnhanced {
         fo_setting.lay_btn_weather.setBackgroundResource(R.drawable.lay_setting_icon_weather_selector);
         /************************* jahanbin *****************************/
     }
+
     public void changeSlidebarImage(int position) {
         changeSlidebarImage();
         switch (position) {
@@ -259,6 +260,7 @@ public class ActivitySetting extends ActivityEnhanced {
                 break;
         }
     }
+
     @Override
     public void onBackPressed() {
         //        final DialogClass dlg = new DialogClass(G.currentActivity);

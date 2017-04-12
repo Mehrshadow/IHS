@@ -131,8 +131,8 @@ public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implem
     }
 
     private List<String> getAvailablePorts() {
-        List<String> spinnerPorts = new ArrayList<>();
-        List<String> availablePorts = new ArrayList<>();
+        List<String> availablePorts;
+        availablePorts = new ArrayList<>();
         availablePorts.add("13");
         availablePorts.add("14");
         availablePorts.add("15");
@@ -175,7 +175,7 @@ public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implem
             }, 500);
         }
         sensorPort = Integer.valueOf(availablePorts.get(0));
-        return spinnerPorts;
+        return availablePorts;
     }
 
     private void loadPortsSpinner() {

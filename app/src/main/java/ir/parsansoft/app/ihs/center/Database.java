@@ -87,7 +87,7 @@ public class Database {
                     break;
                 }
             }
-        Node.Struct[] nodes = Node.select("");
+        Node.Struct[] nodes = Node.select("isVisible=1"); // برای اینکه نودهایی که نباید دیده شوند برای موبایل فرستاده نشوند
         JSONArray nodesJSON = new JSONArray();
         if (nodes != null)
             for (int i = 0; i < nodes.length; i++) {
@@ -2270,6 +2270,16 @@ public class Database {
             return G.dbObject.update("T_Node", Values, "ID=" + myNode.iD, null);
         }
 
+        public static void addNewColume(String newColumnName, String columeDataType, Object defaultValue) {
+            int oldVersion = G.dbObject.getVersion();
+            int newVersion = G.context.getResources().getInteger(R.integer.database_version);
+
+            if (oldVersion < newVersion) {
+                G.dbObject.execSQL("ALTER TABLE T_NODE ADD COLUMN " + newColumnName + " " + columeDataType + "NOT NULL DEFAULT '"+defaultValue+"'");
+            }
+            G.dbObject.setVersion(newVersion);
+        }
+
         public static int edit(int iD, String iP, String mac, String serialNumber, int roomID, int nodeTypeID, String icon, String name, int status, String expDate, String regDate, String buildNumber, String osVer, int lastSecKey, boolean isFavorite, String availablePorts, int isIoModuleNode, boolean isVisible) {
             ContentValues Values = new ContentValues();
             Values.put("IP", iP);
@@ -4292,6 +4302,16 @@ public class Database {
             Values.put("isIOModuleSwitch", mySwitch.isIOModuleSwitch);
             Values.put("IOModulePort", mySwitch.IOModulePort);
             return G.dbObject.insert("T_Switch", null, Values);
+        }
+
+        public static void addNewColume(String newColumnName, String columeDataType, Object defaultValue) {
+            int oldVersion = G.dbObject.getVersion();
+            int newVersion = G.context.getResources().getInteger(R.integer.database_version);
+
+            if (oldVersion < newVersion) {
+                G.dbObject.execSQL("ALTER TABLE T_SWITCH ADD COLUMN " + newColumnName + " " + columeDataType + "NOT NULL DEFAULT '"+defaultValue+"'");
+            }
+            G.dbObject.setVersion(newVersion);
         }
 
         public static long insert(String code, String name, float value, int nodeID, int switchType, boolean enableGraphing, boolean isIOModuleSwitch, String IOModulePort) {

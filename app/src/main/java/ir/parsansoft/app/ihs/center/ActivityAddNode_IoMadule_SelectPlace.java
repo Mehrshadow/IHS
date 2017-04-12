@@ -17,7 +17,7 @@ import ir.parsansoft.app.ihs.center.adapters.AdapterSectionSpinner;
 public class ActivityAddNode_IoMadule_SelectPlace extends ActivityEnhanced implements CompoundButton.OnCheckedChangeListener {
     private AdapterListViewNode grdListAdapter;
     private Database.Node.Struct[] nodes;
-    AllViews.CO_d_section_add_IOModuleNode_Select_Place fw2;
+    AllViews.CO_d_section_add_node_w2 fw2;
 
     AdapterSectionSpinner adapterSectionSpinner;
     AdapterRoomSpinner adapterRoomSpinner;
@@ -40,7 +40,7 @@ public class ActivityAddNode_IoMadule_SelectPlace extends ActivityEnhanced imple
 
         setSideBarVisiblity(false);
         G.log("hide Sidebar");
-        fw2 = new AllViews.CO_d_section_add_IOModuleNode_Select_Place(this);
+        fw2 = new AllViews.CO_d_section_add_node_w2(this);
         Bundle extras = getIntent().getExtras();
 
         if (extras != null) {
@@ -339,7 +339,6 @@ public class ActivityAddNode_IoMadule_SelectPlace extends ActivityEnhanced imple
         fw2.lblName.setText(G.T.getSentence(230));
         fw2.btnCancel.setText(G.T.getSentence(102));
         fw2.btnNext.setText(G.T.getSentence(103));
-        fw2.btnBack.setText(G.T.getSentence(104));
         fw2.txtTitle.setText(G.T.getSentence(227));
         fw2.btnDelete.setText(G.T.getSentence(106));
 //        fw2.checkBoxMyHouse.setText(G.T.getSentence(849));

@@ -119,8 +119,8 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
 
     private List<String> getAvailablePorts() {
         try {
-            List<String> spinnerPorts = new ArrayList<>();
-            List<String> availablePorts = new ArrayList<>();
+            List<String> availablePorts;
+            availablePorts = new ArrayList<>();
             availablePorts.add("3");
             availablePorts.add("4");
             availablePorts.add("5");
@@ -175,7 +175,7 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
 
                 return null;
             }
-            return spinnerPorts;
+            return availablePorts;
         } catch (Exception e) {
             e.printStackTrace();
             return null;
