@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "outputFile": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 5858
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -25,7 +25,7 @@
                     "endOffset": 25505
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -38,7 +38,7 @@
                     "endOffset": 47654
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -51,7 +51,7 @@
                     "endOffset": 70654
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -64,7 +64,7 @@
                     "endOffset": 91472
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -340,7 +340,7 @@
                     "endOffset": 93002
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\colors.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\colors.xml"
                 }
             },
             {
@@ -664,7 +664,7 @@
                     "endOffset": 95061
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\colors.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\colors.xml"
                 }
             },
             {
@@ -748,7 +748,7 @@
                     "endOffset": 95525
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\colors.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\colors.xml"
                 }
             },
             {
@@ -760,7 +760,7 @@
                     "endOffset": 95575
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\colors.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\colors.xml"
                 }
             },
             {
@@ -772,7 +772,7 @@
                     "endOffset": 95626
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\colors.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\colors.xml"
                 }
             },
             {
@@ -784,7 +784,7 @@
                     "endOffset": 95676
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\colors.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\colors.xml"
                 }
             },
             {
@@ -796,7 +796,7 @@
                     "endOffset": 95725
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\colors.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\colors.xml"
                 }
             },
             {
@@ -1000,7 +1000,7 @@
                     "endOffset": 96783
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\colors.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\colors.xml"
                 }
             },
             {
@@ -1180,7 +1180,7 @@
                     "endOffset": 97829
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\colors.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\colors.xml"
                 }
             },
             {
@@ -1240,7 +1240,7 @@
                     "endOffset": 98163
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\colors.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\colors.xml"
                 }
             },
             {
@@ -1252,7 +1252,7 @@
                     "endOffset": 98222
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\colors.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\colors.xml"
                 }
             },
             {
@@ -1264,7 +1264,7 @@
                     "endOffset": 98273
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\colors.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\colors.xml"
                 }
             },
             {
@@ -1276,7 +1276,7 @@
                     "endOffset": 98325
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\colors.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\colors.xml"
                 }
             },
             {
@@ -1288,7 +1288,7 @@
                     "endOffset": 98374
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\colors.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\colors.xml"
                 }
             },
             {
@@ -1300,7 +1300,7 @@
                     "endOffset": 98423
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\colors.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\colors.xml"
                 }
             },
             {
@@ -1312,7 +1312,7 @@
                     "endOffset": 98475
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\colors.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\colors.xml"
                 }
             },
             {
@@ -1324,7 +1324,7 @@
                     "endOffset": 98525
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\colors.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\colors.xml"
                 }
             },
             {
@@ -1336,7 +1336,7 @@
                     "endOffset": 98565
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\colors.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\colors.xml"
                 }
             },
             {
@@ -2152,7 +2152,7 @@
                     "endOffset": 129062
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\dimens.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\dimens.xml"
                 }
             },
             {
@@ -2164,7 +2164,7 @@
                     "endOffset": 129118
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\dimens.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\dimens.xml"
                 }
             },
             {
@@ -2860,14 +2860,7 @@
                     "endOffset": 132676
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\integer.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 57,
-                        "endColumn": 48,
-                        "endOffset": 101
-                    }
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\integer.xml"
                 }
             },
             {
@@ -3143,7 +3136,7 @@
                     "endOffset": 134275
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -3155,7 +3148,7 @@
                     "endOffset": 134323
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -3203,7 +3196,7 @@
                     "endOffset": 134841
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\build\\generated\\fabric\\res\\debug\\values\\com_crashlytics_build_id.xml",
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\generated\\fabric\\res\\debug\\values\\com_crashlytics_build_id.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 0,
@@ -3462,7 +3455,7 @@
                     "endOffset": 137647
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -3474,7 +3467,7 @@
                     "endOffset": 137700
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -3486,7 +3479,7 @@
                     "endOffset": 137738
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\strings.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\strings.xml"
                 }
             },
             {
@@ -3572,7 +3565,7 @@
                     "endOffset": 138788
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\styles.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\styles.xml"
                 }
             },
             {
@@ -3584,7 +3577,7 @@
                     "endOffset": 138839
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\styles.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\styles.xml"
                 }
             },
             {
@@ -5544,7 +5537,7 @@
                     "endOffset": 209142
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\styles.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\styles.xml"
                 }
             },
             {
@@ -6680,7 +6673,7 @@
                     "endOffset": 220804
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\styles.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\styles.xml"
                 }
             },
             {
@@ -7687,7 +7680,7 @@
                     "endOffset": 232195
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\styles.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\styles.xml"
                 }
             },
             {
@@ -7700,7 +7693,7 @@
                     "endOffset": 232654
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\styles.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\styles.xml"
                 }
             },
             {
@@ -7713,7 +7706,7 @@
                     "endOffset": 233003
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\styles.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\styles.xml"
                 }
             },
             {
@@ -7726,7 +7719,7 @@
                     "endOffset": 233397
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\styles.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\styles.xml"
                 }
             },
             {
@@ -7739,7 +7732,7 @@
                     "endOffset": 233954
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\styles.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\styles.xml"
                 }
             },
             {
@@ -7752,7 +7745,7 @@
                     "endOffset": 234232
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\styles.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\styles.xml"
                 }
             },
             {
@@ -7765,7 +7758,7 @@
                     "endOffset": 234459
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\styles.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\styles.xml"
                 }
             },
             {
@@ -7778,7 +7771,7 @@
                     "endOffset": 235037
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\styles.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\styles.xml"
                 }
             },
             {
@@ -7791,7 +7784,7 @@
                     "endOffset": 235585
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\styles.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\styles.xml"
                 }
             },
             {
@@ -7804,7 +7797,7 @@
                     "endOffset": 236049
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\styles.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\styles.xml"
                 }
             },
             {
@@ -7817,7 +7810,7 @@
                     "endOffset": 236491
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\styles.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\styles.xml"
                 }
             },
             {
@@ -7830,7 +7823,7 @@
                     "endOffset": 236733
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\styles.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\styles.xml"
                 }
             },
             {
@@ -7843,7 +7836,7 @@
                     "endOffset": 236970
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\styles.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\styles.xml"
                 }
             },
             {
@@ -7856,7 +7849,7 @@
                     "endOffset": 237256
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\styles.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\styles.xml"
                 }
             },
             {
@@ -7869,7 +7862,7 @@
                     "endOffset": 237499
                 },
                 "from": {
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\values\\styles.xml"
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values\\styles.xml"
                 }
             }
         ]
