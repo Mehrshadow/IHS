@@ -253,7 +253,7 @@ public class AllViews {
         public Button btnCancel;
         public TextView textView1;
         public TextView txtTitle;
-        public Button btnNext, btnDelete;
+        public Button btnNext, btnDelete, btnBack;
         public CheckBox checkBoxMyHouse;
         public TextView lblMyHouse;
 
@@ -276,6 +276,7 @@ public class AllViews {
             textView1 = (TextView) activity.findViewById(R.id.txtLanguage);
             txtTitle = (TextView) activity.findViewById(R.id.txtTitle);
             btnNext = (Button) activity.findViewById(R.id.btnNext);
+            btnBack = (Button) activity.findViewById(R.id.btnBack);
             btnDelete = (Button) activity.findViewById(R.id.btnDelete);
             checkBoxMyHouse = (CheckBox) activity.findViewById(R.id.checkMyHouse);
             lblMyHouse = (TextView) activity.findViewById(R.id.lblMyHouse);
@@ -301,6 +302,7 @@ public class AllViews {
             textView1 = (TextView) dlg.findViewById(R.id.txtLanguage);
             txtTitle = (TextView) dlg.findViewById(R.id.txtTitle);
             btnNext = (Button) dlg.findViewById(R.id.btnNext);
+            btnBack = (Button) dlg.findViewById(R.id.btnBack);
             btnDelete = (Button) dlg.findViewById(R.id.btnDelete);
             checkBoxMyHouse = (CheckBox) dlg.findViewById(R.id.checkMyHouse);
             lblMyHouse = (TextView) dlg.findViewById(R.id.lblMyHouse);
@@ -326,6 +328,7 @@ public class AllViews {
             textView1 = (TextView) view.findViewById(R.id.txtLanguage);
             txtTitle = (TextView) view.findViewById(R.id.txtTitle);
             btnNext = (Button) view.findViewById(R.id.btnNext);
+            btnBack = (Button) view.findViewById(R.id.btnBack);
             btnDelete = (Button) view.findViewById(R.id.btnDelete);
             checkBoxMyHouse = (CheckBox) view.findViewById(R.id.checkMyHouse);
             lblMyHouse = (TextView) view.findViewById(R.id.lblMyHouse);

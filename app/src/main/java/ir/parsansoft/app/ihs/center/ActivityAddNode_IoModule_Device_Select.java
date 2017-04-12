@@ -103,31 +103,29 @@ public class ActivityAddNode_IoModule_Device_Select extends ActivityEnhanced {
         mAdd_node_input_output.spnTypes.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                if (!isInput) {
-                    switch (position) {
-                        case 0:
-                            node_type = AllNodes.Node_Type.AIR_CONDITION;
-                            break;
+                switch (position) {
+                    case 0:
+                        node_type = AllNodes.Node_Type.AIR_CONDITION;
+                        break;
 
-                        case 1:
-                            node_type = AllNodes.Node_Type.CURTAIN_SWITCH;
-                            break;
+                    case 1:
+                        node_type = AllNodes.Node_Type.CURTAIN_SWITCH;
+                        break;
 
-                        case 2:
-                            node_type = AllNodes.Node_Type.SIMPLE_SWITCH_1;
-                            break;
+                    case 2:
+                        node_type = AllNodes.Node_Type.SIMPLE_SWITCH_1;
+                        break;
 
-                        case 3:
-                            node_type = AllNodes.Node_Type.SIMPLE_SWITCH_2;
-                            break;
+                    case 3:
+                        node_type = AllNodes.Node_Type.SIMPLE_SWITCH_2;
+                        break;
 
-                        case 4:
-                            node_type = AllNodes.Node_Type.SIMPLE_SWITCH_3;
-                            break;
-                        case 5:
-                            node_type = AllNodes.Node_Type.WC_SWITCH;
-                            break;
-                    }
+                    case 4:
+                        node_type = AllNodes.Node_Type.SIMPLE_SWITCH_3;
+                        break;
+                    case 5:
+                        node_type = AllNodes.Node_Type.WC_SWITCH;
+                        break;
                 }
             }
 

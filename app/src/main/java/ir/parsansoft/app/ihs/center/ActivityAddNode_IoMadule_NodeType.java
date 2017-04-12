@@ -119,8 +119,8 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
 
     private List<String> getAvailablePorts() {
         try {
-            List<String> availablePorts;
-            availablePorts = new ArrayList<>();
+            List<String> availablePorts = new ArrayList<>();
+            List<String> spinnerPorts = new ArrayList<>();
             availablePorts.add("3");
             availablePorts.add("4");
             availablePorts.add("5");
@@ -146,12 +146,9 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
             }
 
 
-                for (int i = 0; i < fakeswitches.size(); i++) {
-//                    if (fakeswitches.get(i).IOModulePort > 0 &&
-//                            fakeswitches.get(i).IOModulePort < 12) {
-                        availablePorts.remove(String.valueOf(fakeswitches.get(i).IOModulePort + 2));
-//                    }
-                }
+            for (int i = 0; i < fakeswitches.size(); i++) {
+                availablePorts.remove(String.valueOf(fakeswitches.get(i).IOModulePort + 2));
+            }
 
 
             for (int i = 0; i < availablePorts.size(); i++) {

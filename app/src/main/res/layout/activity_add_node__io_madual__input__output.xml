@@ -23,10 +23,10 @@
         android:orientation="vertical">
 
         <TextView
-            android:layout_gravity="center"
             android:id="@+id/txtTitle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_margin="15dp"
             android:gravity="center"
             android:text="Please specify place of the new device."
@@ -37,55 +37,44 @@
 
 
         <LinearLayout
-            android:gravity="center"
-            android:layout_gravity="center"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
             android:orientation="horizontal">
 
             <LinearLayout
-                android:layout_weight="1"
-                android:gravity="center"
-                android:layout_gravity="center"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
 
                 <Button
-                    android:layout_margin="8dp"
                     android:id="@+id/btnInput"
                     style="@style/button_other_theme"
                     android:layout_width="150dp"
                     android:layout_height="48dp"
+                    android:layout_margin="8dp"
                     android:background="@drawable/button_add_selector"
                     android:text="Input" />
 
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content" />
 
                 <Button
-                    android:layout_margin="8dp"
                     android:id="@+id/btnOutput"
                     style="@style/button_other_theme"
                     android:layout_width="150dp"
                     android:layout_height="48dp"
+                    android:layout_margin="8dp"
                     android:background="@drawable/button_add_selector"
                     android:text="OutPut" />
 
 
             </LinearLayout>
-
-            <Spinner
-                android:gravity="center"
-                android:layout_gravity="center"
-                android:paddingRight="32dp"
-                android:layout_marginLeft="32dp"
-                android:layout_margin="16dp"
-                android:id="@+id/spnTypes"
-                style="@style/spinner_theme"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="@drawable/spinner_selector"
-                tools:listitem="@android:layout/simple_spinner_item" />
 
 
         </LinearLayout>
@@ -115,16 +104,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1" />
-
-        <Button
-            android:id="@+id/btnNext"
-            style="@style/button_navigation_theme"
-            android:layout_width="150dp"
-            android:layout_height="48dp"
-            android:layout_marginLeft="32dp"
-            android:layout_marginRight="0dp"
-            android:background="@drawable/button_add_selector"
-            android:text="Next" />
 
     </LinearLayout>
 

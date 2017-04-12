@@ -4,7 +4,15 @@
         "source": "C:\\Users\\HaMiD\\.android\\build-cache\\99e3211522c569f52d057dcfa878b9ea80e0c317\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
     },
     {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\FCC\\.android\\build-cache\\a60b8dfce3126584ebc2c00ab866effeb1a0e4f1\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    },
+    {
         "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
         "source": "C:\\Users\\HaMiD\\.android\\build-cache\\99e3211522c569f52d057dcfa878b9ea80e0c317\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\FCC\\.android\\build-cache\\a60b8dfce3126584ebc2c00ab866effeb1a0e4f1\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
     }
 ]
