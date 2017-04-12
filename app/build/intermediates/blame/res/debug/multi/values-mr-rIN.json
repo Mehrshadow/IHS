@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mr-rIN\\values-mr-rIN.xml",
         "map": [
             {
@@ -386,6 +387,9 @@
     },
     {
         "outputFile": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mr-rIN\\values-mr-rIN.xml",
+=======
+        "outputFile": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mr-rIN\\values-mr-rIN.xml",
+>>>>>>> master
         "map": [
             {
                 "to": {

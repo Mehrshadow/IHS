@@ -4,6 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/IHS.iml" filepath="$PROJECT_DIR$/IHS.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+<<<<<<< HEAD
+=======
+      <module fileurl="file://$PROJECT_DIR$/iHsCenter.iml" filepath="$PROJECT_DIR$/iHsCenter.iml" />
+>>>>>>> master
     </modules>
   </component>
 </project>

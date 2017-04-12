@@ -1,5 +1,6 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fi\\values-fi.xml",
         "map": [
             {
@@ -766,6 +767,9 @@
     },
     {
         "outputFile": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fi\\values-fi.xml",
+=======
+        "outputFile": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-fi\\values-fi.xml",
+>>>>>>> master
         "map": [
             {
                 "to": {
