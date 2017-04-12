@@ -18,24 +18,56 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/taskArtifacts/taskArtifacts.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/3.3/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IOModule_SensorType$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IOModule_SensorType$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IOModule_SensorType$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IOModule_SensorType$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IOModule_SensorType$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IOModule_SensorType$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IOModule_SensorType$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IOModule_SensorType$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IOModule_SensorType$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IOModule_SensorType$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IOModule_SensorType$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IOModule_SensorType$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IOModule_SensorType$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IOModule_SensorType$7.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IOModule_SensorType.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IOModule_SensorType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityMyHouse$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityMyHouse$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_Input_Output$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_Input_Output$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_Input_Output$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_Input_Output$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_Input_Output$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_Input_Output$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_Input_Output.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_Input_Output.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_NodeType$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_NodeType$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_NodeType$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_NodeType$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_NodeType$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_NodeType$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_NodeType$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_NodeType$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_NodeType.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_NodeType.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_SelectPlace$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_SelectPlace$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_SelectPlace$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_SelectPlace$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_SelectPlace$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_SelectPlace$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_SelectPlace$4$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_SelectPlace$4$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_SelectPlace$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_SelectPlace$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_SelectPlace$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_SelectPlace$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_SelectPlace.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_SelectPlace.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IoModule_Device_Select$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IoModule_Device_Select$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IoModule_Device_Select$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IoModule_Device_Select$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IoModule_Device_Select$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IoModule_Device_Select$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IoModule_Device_Select$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IoModule_Device_Select$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IoModule_Device_Select.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_IoModule_Device_Select.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_w2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_w2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_w4$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_w4$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_w4$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_w4$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_w4$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_w4$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_w4$4$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_w4$4$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_w4$4$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_w4$4$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_w4$4$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_w4$4$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_w4$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_w4$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_w4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityAddNode_w4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityMyHouse$2$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityMyHouse$2$1$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityMyHouse$2$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityMyHouse$2$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityMyHouse$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityMyHouse$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityMyHouse.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityMyHouse.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/AllNodes$IOModule$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/AllNodes$IOModule$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/AllNodes$IOModule$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/AllNodes$IOModule$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/AllNodes$IOModule$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/AllNodes$IOModule$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/AllNodes$IOModule.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/AllNodes$IOModule.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/AllNodes$Sensore$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/AllNodes$Sensore$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/AllNodes$Sensore$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/AllNodes$Sensore$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/AllNodes$Sensore$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/AllNodes$Sensore$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/AllNodes$Sensore$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/AllNodes$Sensore$4.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/AllNodes$Sensore.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/AllNodes$Sensore.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/AllNodes.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/AllNodes.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/G$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/G$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/G.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/G.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityScenarioW10Notify.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityScenarioW10Notify.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityScenarioW11SMS.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityScenarioW11SMS.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityScenarioW1Name.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityScenarioW1Name.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityScenarioW2Date.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityScenarioW2Date.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityScenarioW3Event.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityScenarioW3Event.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityScenarioW4GPS.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityScenarioW4GPS.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityScenarioW5Weather.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityScenarioW5Weather.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityScenarioW6Temperature.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityScenarioW6Temperature.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityScenarioW7Op.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityScenarioW7Op.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityScenarioW8Keyword.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityScenarioW8Keyword.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityScenarioW9Switch.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/ir/parsansoft/app/ihs/center/ActivityScenarioW9Switch.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/bNd51ScLHSPzEbtFuu0UcsEaIss=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/bNd51ScLHSPzEbtFuu0UcsEaIss=" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_ff2b774b0e483e843c0d6f9b15e6c1542fa972db.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_ff2b774b0e483e843c0d6f9b15e6c1542fa972db.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
@@ -54,9 +86,28 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/values/values.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IOModule_SensorType.java" afterPath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IOModule_SensorType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_Input_Output.java" afterPath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_Input_Output.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_NodeType.java" afterPath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_NodeType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_SelectPlace.java" afterPath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_SelectPlace.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoModule_Device_Select.java" afterPath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoModule_Device_Select.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_w2.java" afterPath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_w2.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_w4.java" afterPath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_w4.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityMyHouse.java" afterPath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityMyHouse.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/AllNodes.java" afterPath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/AllNodes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/G.java" afterPath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/G.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityScenarioW10Notify.java" afterPath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityScenarioW10Notify.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityScenarioW11SMS.java" afterPath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityScenarioW11SMS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityScenarioW1Name.java" afterPath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityScenarioW1Name.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityScenarioW2Date.java" afterPath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityScenarioW2Date.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityScenarioW3Event.java" afterPath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityScenarioW3Event.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityScenarioW4GPS.java" afterPath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityScenarioW4GPS.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityScenarioW5Weather.java" afterPath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityScenarioW5Weather.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityScenarioW6Temperature.java" afterPath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityScenarioW6Temperature.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityScenarioW7Op.java" afterPath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityScenarioW7Op.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityScenarioW8Keyword.java" afterPath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityScenarioW8Keyword.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityScenarioW9Switch.java" afterPath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityScenarioW9Switch.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivitySettingMobile.java" afterPath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivitySettingMobile.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityWelcome7Specifications.java" afterPath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityWelcome7Specifications.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/AllViews.java" afterPath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/AllViews.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/Weather.java" afterPath="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/Weather.java" />
     </list>
     <ignored path="iHSCenter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -90,183 +141,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="ActivityAddNode_IOModule_SensorType.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IOModule_SensorType.java">
+      <file leaf-file-name="ActivityAddNode_IoModule_Device_Select.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoModule_Device_Select.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#initializeForm#0;class#ActivityAddNode_IOModule_SensorType#0" expanded="false" />
-                <element signature="method#loadPortsSpinner#0;class#ActivityAddNode_IOModule_SensorType#0" expanded="false" />
-                <element signature="class#6539:6939" expanded="false" />
-                <element signature="method#onItemSelected#0;class#6539:6939" expanded="false" />
-                <element signature="method#onNothingSelected#0;class#6539:6939" expanded="false" />
-                <element signature="method#loadSensorModelSpinner#0;class#ActivityAddNode_IOModule_SensorType#0" expanded="false" />
-                <element signature="class#7435:8094" expanded="false" />
-                <element signature="method#onItemSelected#0;class#7435:8094" expanded="false" />
-                <element signature="method#onNothingSelected#0;class#7435:8094" expanded="false" />
-                <element signature="method#onNothingSelected#0;class#8615:9277" expanded="false" />
-                <element signature="method#checkPorts#0;class#ActivityAddNode_IOModule_SensorType#0" expanded="false" />
-                <element signature="method#translateForm#0;class#ActivityAddNode_IOModule_SensorType#0" expanded="false" />
-                <element signature="method#onBackPressed#0;class#ActivityAddNode_IOModule_SensorType#0" expanded="false" />
-                <element signature="method#onCheckedChanged#0;class#ActivityAddNode_IOModule_SensorType#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ActivityAddNode_IoMadule_Input_Output.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_Input_Output.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="148">
-              <caret line="45" column="78" selection-start-line="45" selection-start-column="78" selection-end-line="45" selection-end-column="78" />
+            <state relative-caret-position="94">
+              <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ActivitySections.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivitySections.java">
+      <file leaf-file-name="ActivityAddNode_IoMadule_Input_Output.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_Input_Output.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="612" column="45" selection-start-line="612" selection-start-column="45" selection-end-line="612" selection-end-column="45" />
-              <folding>
-                <element signature="method#onCreate#0;class#ActivitySections#0" expanded="false" />
-                <element signature="method#initializeListener#0;class#ActivitySections#0" expanded="false" />
-                <element signature="class#5079:9891" expanded="false" />
-                <element signature="method#onSectionEdit#0;class#5079:9891" expanded="false" />
-                <element signature="method#onRoomDelete#0;class#5079:9891" expanded="false" />
-                <element signature="class#5725:7065" expanded="false" />
-                <element signature="method#yesClick#0;class#5725:7065" expanded="false" />
-                <element signature="method#onSectionDelete#0;class#5079:9891" expanded="false" />
-                <element signature="class#7987:9351" expanded="false" />
-                <element signature="method#yesClick#0;class#7987:9351" expanded="false" />
-                <element signature="method#showAddMenu#0;class#ActivitySections#0" expanded="false" />
-                <element signature="method#startAddNewSection#0;class#ActivitySections#0" expanded="false" />
-                <element signature="method#startAddNewRoom#0;class#ActivitySections#0" expanded="false" />
-                <element signature="method#startAddNewNode#0;class#ActivitySections#0" expanded="false" />
-                <element signature="method#validateName#0;class#ActivitySections#0" expanded="false" />
-                <element signature="method#loadSectionsList#0;class#ActivitySections#0" expanded="false" />
-                <element signature="method#startEditSection#0;class#ActivitySections#0" expanded="false" />
-                <element signature="method#startEditRoom#0;class#ActivitySections#0" expanded="false" />
-                <element signature="method#translateForm#0;class#ActivitySections#0" expanded="false" />
-                <element signature="method#onBackPressed#0;class#ActivitySections#0" expanded="false" />
-                <element signature="method#refreshNodeList#0;class#ActivitySections#0" expanded="false" />
-                <element signature="method#onResume#0;class#ActivitySections#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="111">
+              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ActivityMyHouse.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityMyHouse.java">
+      <file leaf-file-name="ActivityAddNode_IoMadule_NodeType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_NodeType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="178" column="0" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
-              <folding>
-                <element signature="e#1153#1362#0" expanded="true" />
-                <element signature="e#1361#1362#0" expanded="true" />
-                <element signature="class#1755:6872" expanded="false" />
-                <element signature="class#4516:6607" expanded="false" />
-                <element signature="method#yesClick#0;class#4516:6607" expanded="false" />
-                <element signature="e#4669#4716#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AllNodes.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/AllNodes.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="1945" column="58" selection-start-line="1945" selection-start-column="58" selection-end-line="1945" selection-end-column="58" />
-              <folding>
-                <element signature="class#Switch_Type#0;class#AllNodes#0" expanded="false" />
-                <element signature="class#Node_Type#0;class#AllNodes#0" expanded="false" />
-                <element signature="class#Node_Status#0;class#AllNodes#0" expanded="false" />
-                <element signature="class#Node_Model_Name#0;class#AllNodes#0" expanded="false" />
-                <element signature="class#DiscoveryPacket#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#DiscoveryPacket#0;class#DiscoveryPacket#0;class#AllNodes#0" expanded="false" />
-                <element signature="class#SimpleSwitch#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#SimpleSwitch#0;class#SimpleSwitch#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#resetUis#0;class#SimpleSwitch#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#addUI#0;class#SimpleSwitch#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#setProgressVisiblity#0;class#SimpleSwitch#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#setSettingVisiblity#0;class#SimpleSwitch#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#processResult#0;class#SimpleSwitch#0;class#AllNodes#0" expanded="false" />
-                <element signature="e#11513#11582#0" expanded="false" />
-                <element signature="method#executeCommandChangeSwitchValue#0;class#SimpleSwitch#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#switchKey#0;class#SimpleSwitch#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#switchKey#1;class#SimpleSwitch#0;class#AllNodes#0" expanded="false" />
-                <element signature="class#SimpleDimmer#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#SimpleDimmer#0;class#SimpleDimmer#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#resetUis#0;class#SimpleDimmer#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#addUI#0;class#SimpleDimmer#0;class#AllNodes#0" expanded="false" />
-                <element signature="class#24051:27125" expanded="false" />
-                <element signature="method#onTouch#0;class#24051:27125" expanded="false" />
-                <element signature="method#draw#0;class#24051:27125" expanded="false" />
-                <element signature="class#27716:30320" expanded="false" />
-                <element signature="method#onTouch#0;class#27716:30320" expanded="false" />
-                <element signature="method#draw#0;class#27716:30320" expanded="false" />
-                <element signature="e#31678#31715#0" expanded="false" />
-                <element signature="method#setHeight#0;class#SimpleDimmer#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#setProgressVisiblity#0;class#SimpleDimmer#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#setSettingVisiblity#0;class#SimpleDimmer#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#processResult#0;class#SimpleDimmer#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#executeCommandChangeSwitchValue#0;class#SimpleDimmer#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#changeValue#0;class#SimpleDimmer#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#CoolerSwitch#0;class#CoolerSwitch#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#resetUis#0;class#CoolerSwitch#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#addUI#0;class#CoolerSwitch#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#setProgressVisiblity#0;class#CoolerSwitch#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#setSettingVisiblity#0;class#CoolerSwitch#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#processResult#0;class#CoolerSwitch#0;class#AllNodes#0" expanded="false" />
-                <element signature="e#48474#48543#0" expanded="false" />
-                <element signature="method#executeCommandChangeSwitchValue#0;class#CoolerSwitch#0;class#AllNodes#0" expanded="false" />
-                <element signature="class#CurtainSwitch#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#CurtainSwitch#0;class#CurtainSwitch#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#resetUis#0;class#CurtainSwitch#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#addUI#0;class#CurtainSwitch#0;class#AllNodes#0" expanded="false" />
-                <element signature="e#62242#62308#0" expanded="false" />
-                <element signature="method#setProgressVisiblity#0;class#CurtainSwitch#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#setSettingVisiblity#0;class#CurtainSwitch#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#executeCommandChangeSwitchValue#0;class#CurtainSwitch#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#processResult#0;class#CurtainSwitch#0;class#AllNodes#0" expanded="false" />
-                <element signature="e#68819#68888#0" expanded="false" />
-                <element signature="e#74714#74733#0" expanded="false" />
-                <element signature="method#switchKey#0;class#CurtainSwitch#0;class#AllNodes#0" expanded="false" />
-                <element signature="e#76763#76810#0" expanded="false" />
-                <element signature="class#WCSwitch#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#WCSwitch#0;class#WCSwitch#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#setProgressVisiblity#0;class#WCSwitch#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#setSettingVisiblity#0;class#WCSwitch#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#processResult#0;class#WCSwitch#0;class#AllNodes#0" expanded="false" />
-                <element signature="e#84184#84253#0" expanded="false" />
-                <element signature="e#85255#85313#0" expanded="false" />
-                <element signature="method#executeCommandChangeSwitchValue#0;class#WCSwitch#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#switchKey#0;class#WCSwitch#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#switchKey#1;class#WCSwitch#0;class#AllNodes#0" expanded="false" />
-                <element signature="class#IOModule#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#addUI#0;class#IOModule#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#setSettingVisiblity#0;class#IOModule#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#processResult#0;class#IOModule#0;class#AllNodes#0" expanded="false" />
-                <element signature="e#94544#94623#0" expanded="false" />
-                <element signature="method#executeCommandChangeSwitchValue#0;class#IOModule#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#switchKey#0;class#IOModule#0;class#AllNodes#0" expanded="false" />
-                <element signature="docComment;method#makeResponseData#0;class#IOModule#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#makeResponseData#0;class#IOModule#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#getIOModuleSwitches#0;class#IOModule#0;class#AllNodes#0" expanded="false" />
-                <element signature="class#Sensore#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#Sensore#0;class#Sensore#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#resetUis#0;class#Sensore#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#setSettingVisiblity#0;class#Sensore#0;class#AllNodes#0" expanded="false" />
-                <element signature="e#106116#106185#0" expanded="false" />
-                <element signature="e#108697#108741#0" expanded="false" />
-                <element signature="method#executeCommandChangeSwitchValue#0;class#Sensore#0;class#AllNodes#0" expanded="false" />
-                <element signature="docComment;method#AddNewNode#0;class#AllNodes#0" expanded="false" />
-                <element signature="method#AddNewNode#0;class#AllNodes#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="94">
+              <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -274,21 +174,42 @@
       <file leaf-file-name="ActivityAddNode_IoMadule_SelectPlace.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_SelectPlace.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+            <state relative-caret-position="167">
+              <caret line="289" column="42" selection-start-line="289" selection-start-column="36" selection-end-line="289" selection-end-column="42" />
               <folding>
-                <element signature="e#5375#6429#0" expanded="true" />
-                <element signature="e#6428#6429#0" expanded="true" />
+                <element signature="docComment;class#ActivityAddNode_IoMadule_SelectPlace#0" expanded="false" />
+                <element signature="method#onResume#0;class#ActivityAddNode_IoMadule_SelectPlace#0" expanded="false" />
+                <element signature="e#3047#3103#0" expanded="false" />
+                <element signature="e#5249#5275#0" expanded="false" />
+                <element signature="e#7390#7443#0" expanded="false" />
+                <element signature="e#10252#10299#0" expanded="false" />
+                <element signature="method#changeSpinnersVisibility#0;class#ActivityAddNode_IoMadule_SelectPlace#0" expanded="false" />
+                <element signature="class#13562:14890" expanded="false" />
+                <element signature="method#onItemSelected#0;class#13562:14890" expanded="false" />
+                <element signature="method#onNothingSelected#0;class#13562:14890" expanded="false" />
+                <element signature="method#translateForm#0;class#ActivityAddNode_IoMadule_SelectPlace#0" expanded="false" />
+                <element signature="method#onBackPressed#0;class#ActivityAddNode_IoMadule_SelectPlace#0" expanded="false" />
+                <element signature="method#onCheckedChanged#0;class#ActivityAddNode_IoMadule_SelectPlace#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdapterListViewNode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/adapters/AdapterListViewNode.java">
+      <file leaf-file-name="ActivityAddNode_w4.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_w4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+            <state relative-caret-position="252">
+              <caret line="66" column="47" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdapterListViewFakeNode.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/adapters/AdapterListViewFakeNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="805">
+              <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -2248,23 +2169,23 @@
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_Device_Select.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_Input_Output.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoModule_Device_Select.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_add_node__io_madual__input__output.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_add_node__io_module__device_select.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_w4.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/f_section_add_node_w2.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/f_section_add_node_w2_rtl.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/Database.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_NodeType.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/f_section_add_node_sensor.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_SelectPlace.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/AllViews.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivitySections.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/G.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/AllNodes.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityMyHouse.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IOModule_SensorType.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_Input_Output.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoModule_Device_Select.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_NodeType.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_SelectPlace.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_w4.java" />
       </list>
     </option>
   </component>
@@ -2824,7 +2745,7 @@
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979977" sideWeight="0.5085929" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5784983" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.7201365" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30687022" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2832,14 +2753,15 @@
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28244275" sideWeight="0.4936306" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3648855" sideWeight="0.4936306" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Android WiFi ADB" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Fabric" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23952739" sideWeight="0.5063694" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19283277" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42662117" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2849,7 +2771,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -3117,116 +3038,175 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_NodeType.java</url>
-          <line>130</line>
-          <properties />
-          <option name="timeStamp" value="72" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_NodeType.java</url>
-          <line>145</line>
+          <line>161</line>
           <properties />
           <option name="timeStamp" value="74" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/adapters/AdapterListViewFakeNode.java</url>
-          <line>60</line>
-          <properties />
-          <option name="timeStamp" value="78" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_SelectPlace.java</url>
-          <line>140</line>
+          <line>146</line>
           <properties />
           <option name="timeStamp" value="79" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_SelectPlace.java</url>
-          <line>147</line>
+          <line>166</line>
           <properties />
           <option name="timeStamp" value="80" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_SelectPlace.java</url>
-          <line>45</line>
-          <properties />
-          <option name="timeStamp" value="81" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IOModule_SensorType.java</url>
-          <line>150</line>
+          <line>164</line>
           <properties />
           <option name="timeStamp" value="82" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IOModule_SensorType.java</url>
-          <line>138</line>
+          <line>272</line>
           <properties />
-          <option name="timeStamp" value="89" />
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IOModule_SensorType.java</url>
+          <line>160</line>
+          <properties />
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IOModule_SensorType.java</url>
+          <line>142</line>
+          <properties />
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IOModule_SensorType.java</url>
+          <line>165</line>
+          <properties />
+          <option name="timeStamp" value="106" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IOModule_SensorType.java</url>
+          <line>161</line>
+          <properties />
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_SelectPlace.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_SelectPlace.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_SelectPlace.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_SelectPlace.java</url>
+          <line>150</line>
+          <properties />
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_w4.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IOModule_SensorType.java</url>
+          <line>77</line>
+          <properties />
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_SelectPlace.java</url>
+          <line>130</line>
+          <properties />
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/AllNodes.java</url>
+          <line>2612</line>
+          <properties />
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/AllNodes.java</url>
+          <line>2615</line>
+          <properties />
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/AllNodes.java</url>
+          <line>2626</line>
+          <properties />
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IOModule_SensorType.java</url>
+          <line>145</line>
+          <properties />
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IOModule_SensorType.java</url>
+          <line>157</line>
+          <properties />
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IOModule_SensorType.java</url>
+          <line>155</line>
+          <properties />
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_NodeType.java</url>
+          <line>78</line>
+          <properties />
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_NodeType.java</url>
+          <line>92</line>
+          <properties />
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_NodeType.java</url>
+          <line>134</line>
+          <properties />
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_NodeType.java</url>
+          <line>156</line>
+          <properties />
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_SelectPlace.java</url>
+          <line>189</line>
+          <properties />
+          <option name="timeStamp" value="142" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="93" />
+      <option name="time" value="143" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://C:/AndroidSDK/AndroidSDK/sources/android-23/android/database/sqlite/SQLiteDatabase.java" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ScenarioBP.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3850">
-          <caret line="184" column="22" selection-start-line="184" selection-start-column="22" selection-end-line="184" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/adapters/DialogNodeSelector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12254">
-          <caret line="602" column="0" selection-start-line="602" selection-start-column="0" selection-end-line="602" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1453#1454#0" expanded="false" />
-            <element signature="e#1503#1504#0" expanded="false" />
-            <element signature="e#2784#2785#0" expanded="false" />
-            <element signature="e#2834#2835#0" expanded="false" />
-            <element signature="e#3883#3884#0" expanded="false" />
-            <element signature="e#3926#3927#0" expanded="false" />
-            <element signature="e#4033#4034#0" expanded="false" />
-            <element signature="e#4078#4079#0" expanded="false" />
-            <element signature="e#5725#5726#0" expanded="false" />
-            <element signature="e#5757#5758#0" expanded="false" />
-            <element signature="e#13091#13092#0" expanded="false" />
-            <element signature="e#13174#13175#0" expanded="false" />
-            <element signature="e#13369#13370#0" expanded="false" />
-            <element signature="e#13452#13453#0" expanded="false" />
-            <element signature="e#18798#18799#0" expanded="false" />
-            <element signature="e#18881#18882#0" expanded="false" />
-            <element signature="e#22349#22350#0" expanded="false" />
-            <element signature="e#22448#22449#0" expanded="false" />
-            <element signature="e#22990#22991#0" expanded="false" />
-            <element signature="e#23073#23074#0" expanded="false" />
-            <element signature="e#37347#37348#0" expanded="false" />
-            <element signature="e#37435#37436#0" expanded="false" />
-            <element signature="e#40507#40508#0" expanded="false" />
-            <element signature="e#40539#40540#0" expanded="false" />
-            <element signature="e#47518#47519#0" expanded="false" />
-            <element signature="e#47601#47602#0" expanded="false" />
-            <element signature="e#47796#47797#0" expanded="false" />
-            <element signature="e#47879#47880#0" expanded="false" />
-            <element signature="e#53201#53202#0" expanded="false" />
-            <element signature="e#53284#53285#0" expanded="false" />
-            <element signature="e#56843#56844#0" expanded="false" />
-            <element signature="e#56942#56943#0" expanded="false" />
-            <element signature="e#57484#57485#0" expanded="false" />
-            <element signature="e#57567#57568#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/LoginDialog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -3373,13 +3353,13 @@
         <state relative-caret-position="229">
           <caret line="277" column="32" selection-start-line="277" selection-start-column="32" selection-end-line="277" selection-end-column="32" />
           <folding>
-            <element signature="class#3981:4997" expanded="false" />
-            <element signature="method#onItemSelected#0;class#3981:4997" expanded="false" />
-            <element signature="method#onNothingSelected#0;class#3981:4997" expanded="false" />
-            <element signature="e#5195#5251#0" expanded="false" />
-            <element signature="class#10429:12374" expanded="false" />
-            <element signature="method#yesClick#0;class#10429:12374" expanded="false" />
-            <element signature="e#10546#10593#0" expanded="false" />
+            <element signature="class#3987:5003" expanded="false" />
+            <element signature="method#onItemSelected#0;class#3987:5003" expanded="false" />
+            <element signature="method#onNothingSelected#0;class#3987:5003" expanded="false" />
+            <element signature="e#5201#5257#0" expanded="false" />
+            <element signature="class#10435:12380" expanded="false" />
+            <element signature="method#yesClick#0;class#10435:12380" expanded="false" />
+            <element signature="e#10552#10599#0" expanded="false" />
             <element signature="method#onBackPressed#0;class#ActivityAddNode_w2#0" expanded="false" />
           </folding>
         </state>
@@ -3400,14 +3380,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="64" column="43" selection-start-line="64" selection-start-column="43" selection-end-line="64" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_w4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="89" column="11" selection-start-line="89" selection-start-column="11" selection-end-line="89" selection-end-column="11" />
           <folding />
         </state>
       </provider>
@@ -3488,338 +3460,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoModule_Device_Select.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="77">
-          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/DialogClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="267" column="0" selection-start-line="267" selection-start-column="0" selection-end-line="267" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/f_section_add_node_sensor_rtl.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="29" selection-start-line="0" selection-start-column="0" selection-end-line="263" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/f_section_add_node_sensor.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="149" column="36" selection-start-line="149" selection-start-column="36" selection-end-line="149" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/AllViews.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="527" column="0" selection-start-line="527" selection-start-column="0" selection-end-line="527" selection-end-column="0" />
-          <folding>
-            <element signature="class#CO_activity_main#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_activity_main#0;class#CO_activity_main#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_activity_main#1;class#CO_activity_main#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_activity_main#2;class#CO_activity_main#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_activity_main#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_c_comp_icon_selector#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_c_comp_icon_selector#0;class#CO_c_comp_icon_selector#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_c_comp_icon_selector#1;class#CO_c_comp_icon_selector#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_c_comp_icon_selector#2;class#CO_c_comp_icon_selector#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_c_comp_icon_selector#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_c_comp_icon_selector_popup#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_c_comp_icon_selector_popup#0;class#CO_c_comp_icon_selector_popup#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_c_comp_icon_selector_popup#1;class#CO_c_comp_icon_selector_popup#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_c_comp_icon_selector_popup#2;class#CO_c_comp_icon_selector_popup#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_c_comp_icon_selector_popup#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_d_fragment_base#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_d_fragment_base#0;class#CO_d_fragment_base#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_d_fragment_base#1;class#CO_d_fragment_base#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_d_fragment_base#2;class#CO_d_fragment_base#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_d_fragment_base#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_f_section_add_node_w1#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_section_add_node_w1#0;class#CO_f_section_add_node_w1#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_section_add_node_w1#1;class#CO_f_section_add_node_w1#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_section_add_node_w1#2;class#CO_f_section_add_node_w1#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_f_section_add_node_w1#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_d_section_add_node_w2#0;class#CO_d_section_add_node_w2#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_d_section_add_node_w2#1;class#CO_d_section_add_node_w2#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_d_section_add_node_w2#2;class#CO_d_section_add_node_w2#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_d_section_add_node_w2#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_d_section_add_IOModuleNode_Select_Place#1;class#CO_d_section_add_IOModuleNode_Select_Place#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_d_section_add_IOModuleNode_Select_Place#2;class#CO_d_section_add_IOModuleNode_Select_Place#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_d_section_add_IOModuleNode_Select_Place#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_d_section_add_node_w3#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_d_section_add_node_w3#0;class#CO_d_section_add_node_w3#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_d_section_add_node_w3#1;class#CO_d_section_add_node_w3#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_d_section_add_node_w3#2;class#CO_d_section_add_node_w3#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_d_section_add_node_w3#0;class#AllViews#0" expanded="false" />
-            <element signature="e#24551#24628#0" expanded="false" />
-            <element signature="e#25853#25935#0" expanded="false" />
-            <element signature="method#CO_d_section_add_node_Sensor#1;class#CO_d_section_add_node_Sensor#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_d_section_add_node_Sensor#2;class#CO_d_section_add_node_Sensor#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_d_section_add_node_Sensor#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_d_section_add_room#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_d_section_add_room#0;class#CO_d_section_add_room#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_d_section_add_room#1;class#CO_d_section_add_room#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_d_section_add_room#2;class#CO_d_section_add_room#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_d_section_add_room#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_d_section_add_section#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_d_section_add_section#0;class#CO_d_section_add_section#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_d_section_add_section#1;class#CO_d_section_add_section#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_d_section_add_section#2;class#CO_d_section_add_section#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_d_section_add_section#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_c_comp_node_selector#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_c_comp_node_selector#0;class#CO_c_comp_node_selector#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_c_comp_node_selector#1;class#CO_c_comp_node_selector#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_c_comp_node_selector#2;class#CO_c_comp_node_selector#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_c_comp_node_selector#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_c_comp_node_selector_dialog#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_c_comp_node_selector_dialog#0;class#CO_c_comp_node_selector_dialog#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_c_comp_node_selector_dialog#1;class#CO_c_comp_node_selector_dialog#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_c_comp_node_selector_dialog#2;class#CO_c_comp_node_selector_dialog#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_c_comp_node_selector_dialog#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_d_simple_spinner#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_d_simple_spinner#0;class#CO_d_simple_spinner#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_d_simple_spinner#1;class#CO_d_simple_spinner#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_d_simple_spinner#2;class#CO_d_simple_spinner#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_d_simple_spinner#0;class#AllViews#0" expanded="false" />
-            <element signature="e#42072#42128#0" expanded="false" />
-            <element signature="class#CO_f_favorites#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_favorites#0;class#CO_f_favorites#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_favorites#1;class#CO_f_favorites#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_favorites#2;class#CO_f_favorites#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_f_favorites#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_f_sections#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_sections#0;class#CO_f_sections#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_sections#1;class#CO_f_sections#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_sections#2;class#CO_f_sections#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_f_sections#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_f_MyHouse#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_MyHouse#0;class#CO_f_MyHouse#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_f_setting_location#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_setting_location#0;class#CO_f_setting_location#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_setting_location#1;class#CO_f_setting_location#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_setting_location#2;class#CO_f_setting_location#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_f_setting_location#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_f_setting_mobile#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_setting_mobile#0;class#CO_f_setting_mobile#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_setting_mobile#1;class#CO_f_setting_mobile#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_setting_mobile#2;class#CO_f_setting_mobile#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_f_setting_mobile#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_f_senario#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_senario#0;class#CO_f_senario#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_senario#1;class#CO_f_senario#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_senario#2;class#CO_f_senario#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_f_senario#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_f_senario_w1#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_senario_w1#0;class#CO_f_senario_w1#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_senario_w1#1;class#CO_f_senario_w1#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_senario_w1#2;class#CO_f_senario_w1#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_f_senario_w1#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_f_senario_w10#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_senario_w10#0;class#CO_f_senario_w10#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_senario_w10#1;class#CO_f_senario_w10#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_senario_w10#2;class#CO_f_senario_w10#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_f_senario_w10#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_f_senario_w2#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_senario_w2#0;class#CO_f_senario_w2#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_senario_w2#1;class#CO_f_senario_w2#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_senario_w2#2;class#CO_f_senario_w2#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_f_senario_w2#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_f_senario_w3#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_senario_w3#0;class#CO_f_senario_w3#0;class#AllViews#0" expanded="false" />
-            <element signature="e#68447#68587#0" expanded="false" />
-            <element signature="method#CO_f_senario_w3#1;class#CO_f_senario_w3#0;class#AllViews#0" expanded="false" />
-            <element signature="e#70255#70390#0" expanded="false" />
-            <element signature="method#CO_f_senario_w3#2;class#CO_f_senario_w3#0;class#AllViews#0" expanded="false" />
-            <element signature="e#71998#72134#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_f_senario_w3#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_f_senario_w4#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_senario_w4#0;class#CO_f_senario_w4#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_senario_w4#1;class#CO_f_senario_w4#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_senario_w4#2;class#CO_f_senario_w4#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_f_senario_w4#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_f_senario_w5#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_senario_w5#0;class#CO_f_senario_w5#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_senario_w5#1;class#CO_f_senario_w5#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_senario_w5#2;class#CO_f_senario_w5#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_f_senario_w5#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_f_senario_w6#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_senario_w6#0;class#CO_f_senario_w6#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_senario_w6#1;class#CO_f_senario_w6#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_senario_w6#2;class#CO_f_senario_w6#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_f_senario_w6#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_d_add_item_to_expandable#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_d_add_item_to_expandable#0;class#CO_d_add_item_to_expandable#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_d_add_item_to_expandable#1;class#CO_d_add_item_to_expandable#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_d_add_item_to_expandable#2;class#CO_d_add_item_to_expandable#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_d_add_item_to_expandable#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_f_senario_w7#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_senario_w7#0;class#CO_f_senario_w7#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_senario_w7#1;class#CO_f_senario_w7#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_senario_w7#2;class#CO_f_senario_w7#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_f_senario_w7#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_f_senario_w8#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_senario_w8#0;class#CO_f_senario_w8#0;class#AllViews#0" expanded="false" />
-            <element signature="e#94563#94648#0" expanded="false" />
-            <element signature="e#94982#95073#0" expanded="false" />
-            <element signature="method#CO_f_senario_w8#1;class#CO_f_senario_w8#0;class#AllViews#0" expanded="false" />
-            <element signature="e#96830#96910#0" expanded="false" />
-            <element signature="e#97229#97315#0" expanded="false" />
-            <element signature="method#CO_f_senario_w8#2;class#CO_f_senario_w8#0;class#AllViews#0" expanded="false" />
-            <element signature="e#98989#99070#0" expanded="false" />
-            <element signature="e#99392#99479#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_f_senario_w8#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_f_senario_w9#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_senario_w9#0;class#CO_f_senario_w9#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_senario_w9#1;class#CO_f_senario_w9#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_senario_w9#2;class#CO_f_senario_w9#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_f_senario_w9#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_f_setting_network#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_setting_network#0;class#CO_f_setting_network#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_setting_network#1;class#CO_f_setting_network#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_setting_network#2;class#CO_f_setting_network#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_f_setting_network#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_l_simple_list_item#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_l_simple_list_item#0;class#CO_l_simple_list_item#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_l_simple_list_item#1;class#CO_l_simple_list_item#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_l_simple_list_item#2;class#CO_l_simple_list_item#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_l_simple_list_item#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_l_setting_wifi_signal#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_l_setting_wifi_signal#0;class#CO_l_setting_wifi_signal#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_l_setting_wifi_signal#1;class#CO_l_setting_wifi_signal#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_l_setting_wifi_signal#2;class#CO_l_setting_wifi_signal#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_l_setting_wifi_signal#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_d_simple_edit_text#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_d_simple_edit_text#0;class#CO_d_simple_edit_text#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_d_simple_edit_text#1;class#CO_d_simple_edit_text#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_d_simple_edit_text#2;class#CO_d_simple_edit_text#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_d_simple_edit_text#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_l_list_scemario#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_l_list_scemario#0;class#CO_l_list_scemario#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_l_list_scemario#1;class#CO_l_list_scemario#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_l_list_scemario#2;class#CO_l_list_scemario#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_l_list_scemario#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_l_list_scemario_detail_items#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_l_list_scemario_detail_items#0;class#CO_l_list_scemario_detail_items#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_l_list_scemario_detail_items#1;class#CO_l_list_scemario_detail_items#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_l_list_scemario_detail_items#2;class#CO_l_list_scemario_detail_items#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_l_list_scemario_detail_items#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_f_browser#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_browser#0;class#CO_f_browser#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_browser#1;class#CO_f_browser#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_browser#2;class#CO_f_browser#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_f_browser#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_l_list_sections_room#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_l_list_sections_room#0;class#CO_l_list_sections_room#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_l_list_sections_room#1;class#CO_l_list_sections_room#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_l_list_sections_room#2;class#CO_l_list_sections_room#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_l_list_sections_room#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_l_list_sections_section#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_l_list_sections_section#0;class#CO_l_list_sections_section#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_l_list_sections_section#1;class#CO_l_list_sections_section#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_l_list_sections_section#2;class#CO_l_list_sections_section#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_l_list_sections_section#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_l_node_simple_dimmer#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_l_node_simple_dimmer#0;class#CO_l_node_simple_dimmer#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_l_node_simple_dimmer#1;class#CO_l_node_simple_dimmer#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_l_node_simple_dimmer#2;class#CO_l_node_simple_dimmer#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_l_node_simple_dimmer#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_l_node_simple_key#1;class#CO_l_node_simple_key#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_l_node_simple_key#2;class#CO_l_node_simple_key#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_l_node_simple_key#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_l_node_IoModule#1;class#CO_l_node_IoModule#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_l_node_IoModule#2;class#CO_l_node_IoModule#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_l_node_IoModule#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_d_section_add_node_Device_Select#0;class#AllViews#0" expanded="false" />
-            <element signature="e#137741#137794#0" expanded="false" />
-            <element signature="class#CO_d_section_add_node_input_output#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_d_section_add_node_input_output#0;class#CO_d_section_add_node_input_output#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_d_section_add_node_input_output#0;class#AllViews#0" expanded="false" />
-            <element signature="e#138873#138926#0" expanded="false" />
-            <element signature="class#CO_l_spinner_item#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_l_spinner_item#0;class#CO_l_spinner_item#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_l_spinner_item#1;class#CO_l_spinner_item#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_l_spinner_item#2;class#CO_l_spinner_item#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_l_spinner_item#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_l_weather_gridview_item#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_l_weather_gridview_item#0;class#CO_l_weather_gridview_item#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_l_weather_gridview_item#1;class#CO_l_weather_gridview_item#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_l_weather_gridview_item#2;class#CO_l_weather_gridview_item#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_l_weather_gridview_item#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_master_page_main#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_master_page_main#0;class#CO_master_page_main#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_master_page_main#1;class#CO_master_page_main#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_master_page_main#2;class#CO_master_page_main#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_master_page_main#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_master_setting#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_master_setting#0;class#CO_master_setting#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_master_setting#1;class#CO_master_setting#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_master_setting#2;class#CO_master_setting#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_master_setting#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_f_setting_user#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_setting_user#0;class#CO_f_setting_user#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_setting_user#1;class#CO_f_setting_user#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_setting_user#2;class#CO_f_setting_user#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_f_setting_user#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_f_setting_sms#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_setting_sms#0;class#CO_f_setting_sms#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_setting_sms#1;class#CO_f_setting_sms#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_f_setting_sms#2;class#CO_f_setting_sms#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_f_setting_sms#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_l_list_setting_user#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_l_list_setting_user#0;class#CO_l_list_setting_user#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_l_list_setting_user#1;class#CO_l_list_setting_user#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_l_list_setting_user#2;class#CO_l_list_setting_user#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_l_list_setting_user#0;class#AllViews#0" expanded="false" />
-            <element signature="class#CO_d_setting_user_access#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_d_setting_user_access#0;class#CO_d_setting_user_access#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_d_setting_user_access#1;class#CO_d_setting_user_access#0;class#AllViews#0" expanded="false" />
-            <element signature="method#CO_d_setting_user_access#2;class#CO_d_setting_user_access#0;class#AllViews#0" expanded="false" />
-            <element signature="method#intializeVariables#0;class#CO_d_setting_user_access#0;class#AllViews#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_NodeType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="145" column="0" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/adapters/AdapterListViewFakeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_SelectPlace.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="e#5375#6429#0" expanded="true" />
-            <element signature="e#6428#6429#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -3943,10 +3588,340 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityMyHouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="178" column="0" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
+          <folding>
+            <element signature="e#1153#1362#0" expanded="false" />
+            <element signature="e#1361#1362#0" expanded="false" />
+            <element signature="class#1755:6874" expanded="false" />
+            <element signature="class#4516:6609" expanded="false" />
+            <element signature="method#yesClick#0;class#4516:6609" expanded="false" />
+            <element signature="e#4669#4716#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/f_section_add_node_sensor_rtl.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/f_section_add_node_sensor.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="249" column="8" selection-start-line="249" selection-start-column="8" selection-end-line="249" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/AndroidSDK/sources/android-23/android/app/ActivityThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="2348" column="0" selection-start-line="2348" selection-start-column="0" selection-end-line="2348" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/AllViews.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="397" column="12" selection-start-line="397" selection-start-column="12" selection-end-line="397" selection-end-column="12" />
+          <folding>
+            <element signature="class#CO_activity_main#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_activity_main#0;class#CO_activity_main#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_activity_main#1;class#CO_activity_main#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_activity_main#2;class#CO_activity_main#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_activity_main#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_c_comp_icon_selector#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_c_comp_icon_selector#0;class#CO_c_comp_icon_selector#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_c_comp_icon_selector#1;class#CO_c_comp_icon_selector#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_c_comp_icon_selector#2;class#CO_c_comp_icon_selector#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_c_comp_icon_selector#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_c_comp_icon_selector_popup#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_c_comp_icon_selector_popup#0;class#CO_c_comp_icon_selector_popup#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_c_comp_icon_selector_popup#1;class#CO_c_comp_icon_selector_popup#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_c_comp_icon_selector_popup#2;class#CO_c_comp_icon_selector_popup#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_c_comp_icon_selector_popup#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_d_fragment_base#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_d_fragment_base#0;class#CO_d_fragment_base#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_d_fragment_base#1;class#CO_d_fragment_base#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_d_fragment_base#2;class#CO_d_fragment_base#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_d_fragment_base#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_f_section_add_node_w1#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_section_add_node_w1#0;class#CO_f_section_add_node_w1#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_section_add_node_w1#1;class#CO_f_section_add_node_w1#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_section_add_node_w1#2;class#CO_f_section_add_node_w1#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_f_section_add_node_w1#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_d_section_add_node_w2#0;class#CO_d_section_add_node_w2#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_d_section_add_node_w2#1;class#CO_d_section_add_node_w2#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_d_section_add_node_w2#2;class#CO_d_section_add_node_w2#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_d_section_add_node_w2#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_d_section_add_IOModuleNode_Select_Place#2;class#CO_d_section_add_IOModuleNode_Select_Place#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_d_section_add_IOModuleNode_Select_Place#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_d_section_add_node_w3#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_d_section_add_node_w3#0;class#CO_d_section_add_node_w3#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_d_section_add_node_w3#1;class#CO_d_section_add_node_w3#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_d_section_add_node_w3#2;class#CO_d_section_add_node_w3#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_d_section_add_node_w3#0;class#AllViews#0" expanded="false" />
+            <element signature="e#24551#24628#0" expanded="false" />
+            <element signature="e#25853#25941#0" expanded="false" />
+            <element signature="method#CO_d_section_add_node_Sensor#1;class#CO_d_section_add_node_Sensor#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_d_section_add_node_Sensor#2;class#CO_d_section_add_node_Sensor#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_d_section_add_node_Sensor#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_d_section_add_room#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_d_section_add_room#0;class#CO_d_section_add_room#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_d_section_add_room#1;class#CO_d_section_add_room#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_d_section_add_room#2;class#CO_d_section_add_room#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_d_section_add_room#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_d_section_add_section#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_d_section_add_section#0;class#CO_d_section_add_section#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_d_section_add_section#1;class#CO_d_section_add_section#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_d_section_add_section#2;class#CO_d_section_add_section#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_d_section_add_section#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_c_comp_node_selector#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_c_comp_node_selector#0;class#CO_c_comp_node_selector#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_c_comp_node_selector#1;class#CO_c_comp_node_selector#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_c_comp_node_selector#2;class#CO_c_comp_node_selector#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_c_comp_node_selector#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_c_comp_node_selector_dialog#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_c_comp_node_selector_dialog#0;class#CO_c_comp_node_selector_dialog#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_c_comp_node_selector_dialog#1;class#CO_c_comp_node_selector_dialog#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_c_comp_node_selector_dialog#2;class#CO_c_comp_node_selector_dialog#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_c_comp_node_selector_dialog#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_d_simple_spinner#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_d_simple_spinner#0;class#CO_d_simple_spinner#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_d_simple_spinner#1;class#CO_d_simple_spinner#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_d_simple_spinner#2;class#CO_d_simple_spinner#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_d_simple_spinner#0;class#AllViews#0" expanded="false" />
+            <element signature="e#42132#42188#0" expanded="false" />
+            <element signature="class#CO_f_favorites#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_favorites#0;class#CO_f_favorites#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_favorites#1;class#CO_f_favorites#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_favorites#2;class#CO_f_favorites#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_f_favorites#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_f_sections#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_sections#0;class#CO_f_sections#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_sections#1;class#CO_f_sections#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_sections#2;class#CO_f_sections#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_f_sections#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_f_MyHouse#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_MyHouse#0;class#CO_f_MyHouse#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_f_setting_location#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_setting_location#0;class#CO_f_setting_location#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_setting_location#1;class#CO_f_setting_location#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_setting_location#2;class#CO_f_setting_location#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_f_setting_location#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_f_setting_mobile#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_setting_mobile#0;class#CO_f_setting_mobile#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_setting_mobile#1;class#CO_f_setting_mobile#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_setting_mobile#2;class#CO_f_setting_mobile#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_f_setting_mobile#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_f_senario#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_senario#0;class#CO_f_senario#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_senario#1;class#CO_f_senario#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_senario#2;class#CO_f_senario#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_f_senario#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_f_senario_w1#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_senario_w1#0;class#CO_f_senario_w1#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_senario_w1#1;class#CO_f_senario_w1#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_senario_w1#2;class#CO_f_senario_w1#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_f_senario_w1#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_f_senario_w10#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_senario_w10#0;class#CO_f_senario_w10#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_senario_w10#1;class#CO_f_senario_w10#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_senario_w10#2;class#CO_f_senario_w10#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_f_senario_w10#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_f_senario_w2#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_senario_w2#0;class#CO_f_senario_w2#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_senario_w2#1;class#CO_f_senario_w2#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_senario_w2#2;class#CO_f_senario_w2#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_f_senario_w2#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_f_senario_w3#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_senario_w3#0;class#CO_f_senario_w3#0;class#AllViews#0" expanded="false" />
+            <element signature="e#68549#68695#0" expanded="false" />
+            <element signature="method#CO_f_senario_w3#1;class#CO_f_senario_w3#0;class#AllViews#0" expanded="false" />
+            <element signature="e#70417#70558#0" expanded="false" />
+            <element signature="method#CO_f_senario_w3#2;class#CO_f_senario_w3#0;class#AllViews#0" expanded="false" />
+            <element signature="e#72220#72362#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_f_senario_w3#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_f_senario_w4#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_senario_w4#0;class#CO_f_senario_w4#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_senario_w4#1;class#CO_f_senario_w4#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_senario_w4#2;class#CO_f_senario_w4#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_f_senario_w4#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_f_senario_w5#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_senario_w5#0;class#CO_f_senario_w5#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_senario_w5#1;class#CO_f_senario_w5#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_senario_w5#2;class#CO_f_senario_w5#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_f_senario_w5#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_f_senario_w6#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_senario_w6#0;class#CO_f_senario_w6#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_senario_w6#1;class#CO_f_senario_w6#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_senario_w6#2;class#CO_f_senario_w6#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_f_senario_w6#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_d_add_item_to_expandable#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_d_add_item_to_expandable#0;class#CO_d_add_item_to_expandable#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_d_add_item_to_expandable#1;class#CO_d_add_item_to_expandable#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_d_add_item_to_expandable#2;class#CO_d_add_item_to_expandable#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_d_add_item_to_expandable#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_f_senario_w7#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_senario_w7#0;class#CO_f_senario_w7#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_senario_w7#1;class#CO_f_senario_w7#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_senario_w7#2;class#CO_f_senario_w7#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_f_senario_w7#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_f_senario_w8#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_senario_w8#0;class#CO_f_senario_w8#0;class#AllViews#0" expanded="false" />
+            <element signature="e#94857#94948#0" expanded="false" />
+            <element signature="e#95294#95391#0" expanded="false" />
+            <element signature="method#CO_f_senario_w8#1;class#CO_f_senario_w8#0;class#AllViews#0" expanded="false" />
+            <element signature="e#97214#97300#0" expanded="false" />
+            <element signature="e#97631#97723#0" expanded="false" />
+            <element signature="method#CO_f_senario_w8#2;class#CO_f_senario_w8#0;class#AllViews#0" expanded="false" />
+            <element signature="e#99463#99550#0" expanded="false" />
+            <element signature="e#99884#99977#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_f_senario_w8#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_f_senario_w9#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_senario_w9#0;class#CO_f_senario_w9#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_senario_w9#1;class#CO_f_senario_w9#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_senario_w9#2;class#CO_f_senario_w9#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_f_senario_w9#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_f_setting_network#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_setting_network#0;class#CO_f_setting_network#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_setting_network#1;class#CO_f_setting_network#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_setting_network#2;class#CO_f_setting_network#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_f_setting_network#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_l_simple_list_item#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_l_simple_list_item#0;class#CO_l_simple_list_item#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_l_simple_list_item#1;class#CO_l_simple_list_item#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_l_simple_list_item#2;class#CO_l_simple_list_item#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_l_simple_list_item#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_l_setting_wifi_signal#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_l_setting_wifi_signal#0;class#CO_l_setting_wifi_signal#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_l_setting_wifi_signal#1;class#CO_l_setting_wifi_signal#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_l_setting_wifi_signal#2;class#CO_l_setting_wifi_signal#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_l_setting_wifi_signal#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_d_simple_edit_text#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_d_simple_edit_text#0;class#CO_d_simple_edit_text#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_d_simple_edit_text#1;class#CO_d_simple_edit_text#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_d_simple_edit_text#2;class#CO_d_simple_edit_text#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_d_simple_edit_text#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_l_list_scemario#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_l_list_scemario#0;class#CO_l_list_scemario#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_l_list_scemario#1;class#CO_l_list_scemario#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_l_list_scemario#2;class#CO_l_list_scemario#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_l_list_scemario#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_l_list_scemario_detail_items#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_l_list_scemario_detail_items#0;class#CO_l_list_scemario_detail_items#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_l_list_scemario_detail_items#1;class#CO_l_list_scemario_detail_items#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_l_list_scemario_detail_items#2;class#CO_l_list_scemario_detail_items#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_l_list_scemario_detail_items#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_f_browser#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_browser#0;class#CO_f_browser#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_browser#1;class#CO_f_browser#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_browser#2;class#CO_f_browser#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_f_browser#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_l_list_sections_room#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_l_list_sections_room#0;class#CO_l_list_sections_room#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_l_list_sections_room#1;class#CO_l_list_sections_room#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_l_list_sections_room#2;class#CO_l_list_sections_room#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_l_list_sections_room#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_l_list_sections_section#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_l_list_sections_section#0;class#CO_l_list_sections_section#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_l_list_sections_section#1;class#CO_l_list_sections_section#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_l_list_sections_section#2;class#CO_l_list_sections_section#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_l_list_sections_section#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_l_node_simple_dimmer#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_l_node_simple_dimmer#0;class#CO_l_node_simple_dimmer#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_l_node_simple_dimmer#1;class#CO_l_node_simple_dimmer#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_l_node_simple_dimmer#2;class#CO_l_node_simple_dimmer#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_l_node_simple_dimmer#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_l_node_simple_key#1;class#CO_l_node_simple_key#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_l_node_simple_key#2;class#CO_l_node_simple_key#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_l_node_simple_key#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_l_node_IoModule#1;class#CO_l_node_IoModule#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_l_node_IoModule#2;class#CO_l_node_IoModule#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_l_node_IoModule#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_d_section_add_node_Device_Select#0;class#AllViews#0" expanded="false" />
+            <element signature="e#138323#138376#0" expanded="false" />
+            <element signature="class#CO_d_section_add_node_input_output#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_d_section_add_node_input_output#0;class#CO_d_section_add_node_input_output#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_d_section_add_node_input_output#0;class#AllViews#0" expanded="false" />
+            <element signature="e#139455#139508#0" expanded="false" />
+            <element signature="class#CO_l_spinner_item#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_l_spinner_item#0;class#CO_l_spinner_item#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_l_spinner_item#1;class#CO_l_spinner_item#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_l_spinner_item#2;class#CO_l_spinner_item#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_l_spinner_item#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_l_weather_gridview_item#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_l_weather_gridview_item#0;class#CO_l_weather_gridview_item#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_l_weather_gridview_item#1;class#CO_l_weather_gridview_item#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_l_weather_gridview_item#2;class#CO_l_weather_gridview_item#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_l_weather_gridview_item#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_master_page_main#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_master_page_main#0;class#CO_master_page_main#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_master_page_main#1;class#CO_master_page_main#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_master_page_main#2;class#CO_master_page_main#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_master_page_main#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_master_setting#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_master_setting#0;class#CO_master_setting#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_master_setting#1;class#CO_master_setting#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_master_setting#2;class#CO_master_setting#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_master_setting#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_f_setting_user#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_setting_user#0;class#CO_f_setting_user#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_setting_user#1;class#CO_f_setting_user#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_setting_user#2;class#CO_f_setting_user#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_f_setting_user#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_f_setting_sms#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_setting_sms#0;class#CO_f_setting_sms#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_setting_sms#1;class#CO_f_setting_sms#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_f_setting_sms#2;class#CO_f_setting_sms#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_f_setting_sms#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_l_list_setting_user#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_l_list_setting_user#0;class#CO_l_list_setting_user#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_l_list_setting_user#1;class#CO_l_list_setting_user#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_l_list_setting_user#2;class#CO_l_list_setting_user#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_l_list_setting_user#0;class#AllViews#0" expanded="false" />
+            <element signature="class#CO_d_setting_user_access#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_d_setting_user_access#0;class#CO_d_setting_user_access#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_d_setting_user_access#1;class#CO_d_setting_user_access#0;class#AllViews#0" expanded="false" />
+            <element signature="method#CO_d_setting_user_access#2;class#CO_d_setting_user_access#0;class#AllViews#0" expanded="false" />
+            <element signature="method#intializeVariables#0;class#CO_d_setting_user_access#0;class#AllViews#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/AndroidSDK/sources/android-23/android/app/Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="5122" column="0" selection-start-line="5122" selection-start-column="0" selection-end-line="5122" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Android/AndroidSDK/sources/android-23/android/content/Intent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="616" column="13" selection-start-line="616" selection-start-column="13" selection-end-line="616" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/AllNodes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="1945" column="58" selection-start-line="1945" selection-start-column="58" selection-end-line="1945" selection-end-column="58" />
+        <state relative-caret-position="288">
+          <caret line="2614" column="58" selection-start-line="2614" selection-start-column="58" selection-end-line="2614" selection-end-column="58" />
           <folding>
             <element signature="class#Switch_Type#0;class#AllNodes#0" expanded="false" />
             <element signature="class#Node_Type#0;class#AllNodes#0" expanded="false" />
@@ -3982,6 +3957,7 @@
             <element signature="method#processResult#0;class#SimpleDimmer#0;class#AllNodes#0" expanded="false" />
             <element signature="method#executeCommandChangeSwitchValue#0;class#SimpleDimmer#0;class#AllNodes#0" expanded="false" />
             <element signature="method#changeValue#0;class#SimpleDimmer#0;class#AllNodes#0" expanded="false" />
+            <element signature="class#CoolerSwitch#0;class#AllNodes#0" expanded="false" />
             <element signature="method#CoolerSwitch#0;class#CoolerSwitch#0;class#AllNodes#0" expanded="false" />
             <element signature="method#resetUis#0;class#CoolerSwitch#0;class#AllNodes#0" expanded="false" />
             <element signature="method#addUI#0;class#CoolerSwitch#0;class#AllNodes#0" expanded="false" />
@@ -3990,6 +3966,7 @@
             <element signature="method#processResult#0;class#CoolerSwitch#0;class#AllNodes#0" expanded="false" />
             <element signature="e#48474#48543#0" expanded="false" />
             <element signature="method#executeCommandChangeSwitchValue#0;class#CoolerSwitch#0;class#AllNodes#0" expanded="false" />
+            <element signature="method#switchKey#0;class#CoolerSwitch#0;class#AllNodes#0" expanded="false" />
             <element signature="class#CurtainSwitch#0;class#AllNodes#0" expanded="false" />
             <element signature="method#CurtainSwitch#0;class#CurtainSwitch#0;class#AllNodes#0" expanded="false" />
             <element signature="method#resetUis#0;class#CurtainSwitch#0;class#AllNodes#0" expanded="false" />
@@ -4005,6 +3982,8 @@
             <element signature="e#76763#76810#0" expanded="false" />
             <element signature="class#WCSwitch#0;class#AllNodes#0" expanded="false" />
             <element signature="method#WCSwitch#0;class#WCSwitch#0;class#AllNodes#0" expanded="false" />
+            <element signature="method#resetUis#0;class#WCSwitch#0;class#AllNodes#0" expanded="false" />
+            <element signature="method#addUI#0;class#WCSwitch#0;class#AllNodes#0" expanded="false" />
             <element signature="method#setProgressVisiblity#0;class#WCSwitch#0;class#AllNodes#0" expanded="false" />
             <element signature="method#setSettingVisiblity#0;class#WCSwitch#0;class#AllNodes#0" expanded="false" />
             <element signature="method#processResult#0;class#WCSwitch#0;class#AllNodes#0" expanded="false" />
@@ -4014,7 +3993,11 @@
             <element signature="method#switchKey#0;class#WCSwitch#0;class#AllNodes#0" expanded="false" />
             <element signature="method#switchKey#1;class#WCSwitch#0;class#AllNodes#0" expanded="false" />
             <element signature="class#IOModule#0;class#AllNodes#0" expanded="false" />
+            <element signature="method#IOModule#0;class#IOModule#0;class#AllNodes#0" expanded="false" />
+            <element signature="method#resetUis#0;class#IOModule#0;class#AllNodes#0" expanded="false" />
             <element signature="method#addUI#0;class#IOModule#0;class#AllNodes#0" expanded="false" />
+            <element signature="e#91098#91142#0" expanded="false" />
+            <element signature="e#93163#93182#0" expanded="false" />
             <element signature="method#setSettingVisiblity#0;class#IOModule#0;class#AllNodes#0" expanded="false" />
             <element signature="method#processResult#0;class#IOModule#0;class#AllNodes#0" expanded="false" />
             <element signature="e#94544#94623#0" expanded="false" />
@@ -4026,20 +4009,97 @@
             <element signature="class#Sensore#0;class#AllNodes#0" expanded="false" />
             <element signature="method#Sensore#0;class#Sensore#0;class#AllNodes#0" expanded="false" />
             <element signature="method#resetUis#0;class#Sensore#0;class#AllNodes#0" expanded="false" />
+            <element signature="method#addUI#0;class#Sensore#0;class#AllNodes#0" expanded="false" />
+            <element signature="method#setProgressVisiblity#0;class#Sensore#0;class#AllNodes#0" expanded="false" />
             <element signature="method#setSettingVisiblity#0;class#Sensore#0;class#AllNodes#0" expanded="false" />
+            <element signature="method#processResult#0;class#Sensore#0;class#AllNodes#0" expanded="false" />
             <element signature="e#106116#106185#0" expanded="false" />
             <element signature="e#108697#108741#0" expanded="false" />
             <element signature="method#executeCommandChangeSwitchValue#0;class#Sensore#0;class#AllNodes#0" expanded="false" />
             <element signature="docComment;method#AddNewNode#0;class#AllNodes#0" expanded="false" />
-            <element signature="method#AddNewNode#0;class#AllNodes#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IOModule_SensorType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1615">
+          <caret line="140" column="33" selection-start-line="140" selection-start-column="33" selection-end-line="140" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#initializeForm#0;class#ActivityAddNode_IOModule_SensorType#0" expanded="false" />
+            <element signature="method#onNothingSelected#0;class#7133:7533" expanded="false" />
+            <element signature="method#loadSensorModelSpinner#0;class#ActivityAddNode_IOModule_SensorType#0" expanded="false" />
+            <element signature="class#8029:8688" expanded="false" />
+            <element signature="method#onItemSelected#0;class#8029:8688" expanded="false" />
+            <element signature="method#onNothingSelected#0;class#8029:8688" expanded="false" />
+            <element signature="method#loadSensorTypeSpinner#0;class#ActivityAddNode_IOModule_SensorType#0" expanded="false" />
+            <element signature="method#onNothingSelected#0;class#9209:9871" expanded="false" />
+            <element signature="method#translateForm#0;class#ActivityAddNode_IOModule_SensorType#0" expanded="false" />
+            <element signature="method#onBackPressed#0;class#ActivityAddNode_IOModule_SensorType#0" expanded="false" />
+            <element signature="method#onCheckedChanged#0;class#ActivityAddNode_IOModule_SensorType#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_Input_Output.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/adapters/AdapterListViewFakeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoModule_Device_Select.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_NodeType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="134" column="0" selection-start-line="134" selection-start-column="0" selection-end-line="134" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_SelectPlace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="289" column="42" selection-start-line="289" selection-start-column="36" selection-end-line="289" selection-end-column="42" />
+          <folding>
+            <element signature="docComment;class#ActivityAddNode_IoMadule_SelectPlace#0" expanded="false" />
+            <element signature="method#onResume#0;class#ActivityAddNode_IoMadule_SelectPlace#0" expanded="false" />
+            <element signature="e#3047#3103#0" expanded="false" />
+            <element signature="e#5249#5275#0" expanded="false" />
+            <element signature="e#7390#7443#0" expanded="false" />
+            <element signature="e#10252#10299#0" expanded="false" />
+            <element signature="method#changeSpinnersVisibility#0;class#ActivityAddNode_IoMadule_SelectPlace#0" expanded="false" />
+            <element signature="class#13562:14890" expanded="false" />
+            <element signature="method#onItemSelected#0;class#13562:14890" expanded="false" />
+            <element signature="method#onNothingSelected#0;class#13562:14890" expanded="false" />
+            <element signature="method#translateForm#0;class#ActivityAddNode_IoMadule_SelectPlace#0" expanded="false" />
+            <element signature="method#onBackPressed#0;class#ActivityAddNode_IoMadule_SelectPlace#0" expanded="false" />
+            <element signature="method#onCheckedChanged#0;class#ActivityAddNode_IoMadule_SelectPlace#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/Database.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="753" column="33" selection-start-line="753" selection-start-column="33" selection-end-line="753" selection-end-column="33" />
+        <state relative-caret-position="288">
+          <caret line="4251" column="29" selection-start-line="4251" selection-start-column="23" selection-end-line="4251" selection-end-column="29" />
           <folding>
             <element signature="method#InitializeDB#0;class#Database#0" expanded="false" />
             <element signature="e#582#635#0" expanded="false" />
@@ -4139,8 +4199,6 @@
             <element signature="method#select#0;class#NetworkSetting#0;class#Database#0" expanded="false" />
             <element signature="method#select#1;class#NetworkSetting#0;class#Database#0" expanded="false" />
             <element signature="method#getMax#0;class#NetworkSetting#0;class#Database#0" expanded="false" />
-            <element signature="class#Room#0;class#Database#0" expanded="false" />
-            <element signature="class#Struct#0;class#Room#0;class#Database#0" expanded="false" />
             <element signature="method#getRoomDataJson#0;class#Struct#0;class#Room#0;class#Database#0" expanded="false" />
             <element signature="method#insert#0;class#Room#0;class#Database#0" expanded="false" />
             <element signature="method#insert#1;class#Room#0;class#Database#0" expanded="false" />
@@ -4170,8 +4228,6 @@
             <element signature="method#select#0;class#Message#0;class#Database#0" expanded="false" />
             <element signature="method#select#1;class#Message#0;class#Database#0" expanded="false" />
             <element signature="method#getMax#0;class#Message#0;class#Database#0" expanded="false" />
-            <element signature="class#Node#0;class#Database#0" expanded="false" />
-            <element signature="class#Struct#0;class#Node#0;class#Database#0" expanded="false" />
             <element signature="method#getFullName#0;class#Struct#0;class#Node#0;class#Database#0" expanded="false" />
             <element signature="method#getNodeStatusJson#0;class#Struct#0;class#Node#0;class#Database#0" expanded="false" />
             <element signature="e#101884#101915#0" expanded="false" />
@@ -4260,67 +4316,24 @@
             <element signature="method#select#0;class#SwitchType#0;class#Database#0" expanded="false" />
             <element signature="method#select#1;class#SwitchType#0;class#Database#0" expanded="false" />
             <element signature="method#getMax#0;class#SwitchType#0;class#Database#0" expanded="false" />
-            <element signature="class#Switch#0;class#Database#0" expanded="false" />
-            <element signature="class#Struct#0;class#Switch#0;class#Database#0" expanded="false" />
             <element signature="method#getFullName#0;class#Struct#0;class#Switch#0;class#Database#0" expanded="false" />
             <element signature="method#insert#0;class#Switch#0;class#Database#0" expanded="false" />
             <element signature="method#insert#1;class#Switch#0;class#Database#0" expanded="false" />
-            <element signature="method#edit#0;class#Switch#0;class#Database#0" expanded="false" />
             <element signature="method#edit#1;class#Switch#0;class#Database#0" expanded="false" />
             <element signature="method#editValue#0;class#Switch#0;class#Database#0" expanded="false" />
             <element signature="method#editName#0;class#Switch#0;class#Database#0" expanded="false" />
             <element signature="method#edit#2;class#Switch#0;class#Database#0" expanded="false" />
             <element signature="method#delete#1;class#Switch#0;class#Database#0" expanded="false" />
             <element signature="method#select#0;class#Switch#0;class#Database#0" expanded="false" />
-            <element signature="method#select#1;class#Switch#0;class#Database#0" expanded="false" />
             <element signature="method#getMax#0;class#Switch#0;class#Database#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityMyHouse.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_w4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="178" column="0" selection-start-line="178" selection-start-column="0" selection-end-line="178" selection-end-column="0" />
-          <folding>
-            <element signature="e#1153#1362#0" expanded="true" />
-            <element signature="e#1361#1362#0" expanded="true" />
-            <element signature="class#1755:6872" expanded="false" />
-            <element signature="class#4516:6607" expanded="false" />
-            <element signature="method#yesClick#0;class#4516:6607" expanded="false" />
-            <element signature="e#4669#4716#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IOModule_SensorType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#initializeForm#0;class#ActivityAddNode_IOModule_SensorType#0" expanded="false" />
-            <element signature="method#loadPortsSpinner#0;class#ActivityAddNode_IOModule_SensorType#0" expanded="false" />
-            <element signature="class#6539:6939" expanded="false" />
-            <element signature="method#onItemSelected#0;class#6539:6939" expanded="false" />
-            <element signature="method#onNothingSelected#0;class#6539:6939" expanded="false" />
-            <element signature="method#loadSensorModelSpinner#0;class#ActivityAddNode_IOModule_SensorType#0" expanded="false" />
-            <element signature="class#7435:8094" expanded="false" />
-            <element signature="method#onItemSelected#0;class#7435:8094" expanded="false" />
-            <element signature="method#onNothingSelected#0;class#7435:8094" expanded="false" />
-            <element signature="method#onNothingSelected#0;class#8615:9277" expanded="false" />
-            <element signature="method#checkPorts#0;class#ActivityAddNode_IOModule_SensorType#0" expanded="false" />
-            <element signature="method#translateForm#0;class#ActivityAddNode_IOModule_SensorType#0" expanded="false" />
-            <element signature="method#onBackPressed#0;class#ActivityAddNode_IOModule_SensorType#0" expanded="false" />
-            <element signature="method#onCheckedChanged#0;class#ActivityAddNode_IOModule_SensorType#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/ir/parsansoft/app/ihs/center/ActivityAddNode_IoMadule_Input_Output.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="45" column="78" selection-start-line="45" selection-start-column="78" selection-end-line="45" selection-end-column="78" />
+        <state relative-caret-position="252">
+          <caret line="66" column="47" selection-start-line="66" selection-start-column="47" selection-end-line="66" selection-end-column="47" />
           <folding />
         </state>
       </provider>

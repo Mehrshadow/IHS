@@ -14,8 +14,6 @@ import ir.parsansoft.app.ihs.center.Animation.Animation_Types;
 import ir.parsansoft.app.ihs.center.adapters.AdapterIoTypesSpinner;
 import ir.parsansoft.app.ihs.center.adapters.AdapterSensorPortsSpinner;
 
-import static ir.parsansoft.app.ihs.center.Database.Switch.select;
-
 
 public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implements CompoundButton.OnCheckedChangeListener {
 
@@ -28,10 +26,12 @@ public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implem
     private int sensorPort = 0;
     private int sensorModel; /*= AllNodes.Switch_Type.Sensor_NC;*/
     private int sensorType = AllNodes.Node_Type.Sensor_SMOKE;
-    int nodeId;
+    int ioNodeId;
+    int sensorNodeId;
+
 
     private String sensorName = "";
-    Database.Switch.Struct[] switchItems;
+//    Database.Switch.Struct[] switchItems;
 
 
     private AdapterIoTypesSpinner mAdapterIoTypesSpinnerToPorts;
@@ -40,6 +40,7 @@ public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implem
     AllViews.CO_d_section_add_node_Sensor fw;
 
     AdapterSensorPortsSpinner adapterSensorPorts;
+    private Database.Node.Struct[] IONode;
 
 
     @Override
@@ -56,26 +57,27 @@ public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implem
         fw = new AllViews.CO_d_section_add_node_Sensor(this);
 
         try {
-//            Bundle extras = getIntent().getExtras();
-//            if (extras != null) {
-//                if (extras.containsKey("NODE_ID")) {// Sensor ID
-//                    nodeId = extras.getInt("NODE_ID");
-//                    nodes = Database.Node.select("ID=" + nodeId + " LIMIT 1");//Sensor is fetched
-//                    switchItems = select("NodeID=" + nodes[0].iD);
-//
-//                }
-//            }
+            Bundle extras = getIntent().getExtras();
+            if (extras != null) {
+                if (extras.containsKey("IO_NODE_ID")) {// Sensor ID
+                    ioNodeId = extras.getInt("IO_NODE_ID");
+                    IONode = Database.Node.select("iD=" + ioNodeId + " LIMIT 1");//Sensor is fetched
+//                    switchItems = select("deviceID=" + IONode[0].iD);
 
-//            if (nodes == null) {
-//                fw.btnNext.setVisibility(View.INVISIBLE);
-//                return;
-//            }
+                }
+            }
+
+            if (IONode == null) {
+                fw.btnNext.setVisibility(View.INVISIBLE);
+                return;
+            }
             fw.btnNext.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     if (saveForm()) {
                         Intent fw4 = new Intent(G.currentActivity, ActivityAddNode_IoMadule_SelectPlace.class);// now go to add module wizard...
-                        fw4.putExtra("NODE_ID", nodeId);
+                        fw4.putExtra("SENSOR_NODE_ID", sensorNodeId);
+                        fw4.putExtra("IO_NODE_ID", ioNodeId);
                         fw4.putExtra("NODE_Type", sensorType);
                         G.currentActivity.startActivity(fw4);
                         Animation.doAnimation(Animation_Types.FADE_SLIDE_LEFTRIGHT_RIGHT);
@@ -89,8 +91,8 @@ public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implem
             fw.btnCancel.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Database.Node.delete(nodeId);
-                    Database.Switch.delete("NodeID=" + nodeId);
+                    Database.Node.delete(ioNodeId);
+                    Database.Switch.delete("NodeID=" + ioNodeId);
                     finish();
                     Animation.doAnimation(Animation.Animation_Types.FADE);
                 }
@@ -99,8 +101,10 @@ public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implem
                 @Override
                 public void onClick(View v) {
                     Intent in_out = new Intent(G.currentActivity, ActivityAddNode_IoMadule_Input_Output.class);
-                    Database.Node.delete(nodeId);
-                    Database.Switch.delete("NodeID=" + nodeId);
+                    in_out.putExtra("NODE_ID", ioNodeId);
+                    in_out.putExtra("NODE_Type", sensorType);
+//                    Database.Node.delete(sensorNodeId);
+//                    Database.Switch.delete("NodeID=" + sensorNodeId);
                     G.currentActivity.startActivity(in_out);
                     Animation.doAnimation(Animation_Types.FADE_SLIDE_LEFTRIGHT_LEFT);
                     finish();
@@ -136,13 +140,23 @@ public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implem
         availablePorts.add("17");
         availablePorts.add("18");
 
-        Database.Switch.Struct[] fakeswitches = Database.Switch.select("isIOModuleSwitch=" + 1);
-        if (fakeswitches != null) {
-            for (int i = 0; i < fakeswitches.length; i++) {
-                if (checkPorts(fakeswitches[i])) {
-                    availablePorts.remove(String.valueOf(fakeswitches[i].IOModulePort + 12));
+        Database.Node.Struct[] nodes = Database.Node.select("iP='" + IONode[0].iP + "'");
+        ArrayList<Database.Switch.Struct> fakeswitches = new ArrayList<>();
+        for (int i = 0; i < nodes.length; i++) {
+            Database.Switch.Struct[] switches = Database.Switch.select("isIOModuleSwitch=" + 1 + " AND deviceID = " + nodes[i].iD);
+
+            if (switches != null) {
+                for (int j = 0; j < switches.length; j++) {
+                    fakeswitches.add(switches[j]);
                 }
             }
+
+        }
+
+        for (int i = 0; i < fakeswitches.size(); i++) {
+//            if (checkPorts(fakeswitches.get(i))) {
+            availablePorts.remove(String.valueOf(fakeswitches.get(i).IOModulePort + 12));
+//            }
         }
         for (int i = 0; i < availablePorts.size(); i++) {
             spinnerPorts.add(String.valueOf(Integer.parseInt(availablePorts.get(i)) - 12));
@@ -150,7 +164,7 @@ public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implem
 
         if (availablePorts.size() == 0) {
             Intent in_out = new Intent(G.currentActivity, ActivityAddNode_IoMadule_Input_Output.class);// now go to add module wizard...
-            in_out.putExtra("NODE_ID", nodeId);
+            in_out.putExtra("NODE_ID", ioNodeId);
             G.currentActivity.startActivity(in_out);
             finish();
             new Handler().postDelayed(new Runnable() {
@@ -255,21 +269,21 @@ public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implem
 
     }
 
-    private boolean checkPorts(Database.Switch.Struct fakeswitches) {
-        if (fakeswitches.IOModulePort > 12) {
-            if (
-                    fakeswitches.IOModulePort == 13 ||
-                            fakeswitches.IOModulePort == 14 ||
-                            fakeswitches.IOModulePort == 15 ||
-                            fakeswitches.IOModulePort == 16 ||
-                            fakeswitches.IOModulePort == 17 ||
-                            fakeswitches.IOModulePort == 18
-                    ) {
-                return true;
-            }
-        }
-        return false;
-    }
+//    private boolean checkPorts(Database.Switch.Struct fakeswitches) {
+//        if (fakeswitches.IOModulePort > 12) {
+//            if (
+//                    fakeswitches.IOModulePort == 13 ||
+//                            fakeswitches.IOModulePort == 14 ||
+//                            fakeswitches.IOModulePort == 15 ||
+//                            fakeswitches.IOModulePort == 16 ||
+//                            fakeswitches.IOModulePort == 17 ||
+//                            fakeswitches.IOModulePort == 18
+//                    ) {
+//                return true;
+//            }
+//        }
+//        return false;
+//    }
 
     @Override
     public void translateForm() {
@@ -303,18 +317,21 @@ public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implem
             }
             insertFakeNodeToDb();
 
-            switchItems = select("NodeID=" + nodeId);
+            Database.Switch.Struct newSwitch[] = Database.Switch.select("deviceID=" + sensorNodeId);
 
-            switchItems[0].isIOModuleSwitch = 1;
-            switchItems[0].name = sensorName;
-            switchItems[0].switchType = sensorModel;
+//            newSwitch = select("NodeID=" + sensorNodeId);
+
+            newSwitch[0].isIOModuleSwitch = 1;
+            newSwitch[0].name = sensorName;
+            newSwitch[0].switchType = sensorModel;
             if (sensorModel == AllNodes.Switch_Type.Sensor_NC) {
-                switchItems[0].value = 0;
+                newSwitch[0].value = 0;
             } else if (sensorModel == AllNodes.Switch_Type.Sensor_NO) {
-                switchItems[0].value = 1;
+                newSwitch[0].value = 1;
             }
-            switchItems[0].IOModulePort = sensorPort;
-            Database.Switch.edit(switchItems[0]);
+            newSwitch[0].IOModulePort = sensorPort;
+            newSwitch[0].code = "0";
+            Database.Switch.edit(newSwitch[0]);
             return true;
         } catch (Exception e) {
             e.printStackTrace();
@@ -325,8 +342,6 @@ public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implem
     private void insertFakeNodeToDb() {
         String ip = "";
         try {
-            Database.Node.Struct[] IONode = Database.Node.select("nodeTypeID = 9");// Io ماژول را پیدا میکنیم
-
             if (IONode != null)
                 ip = IONode[0].iP;
         } catch (Exception e) {
@@ -337,7 +352,7 @@ public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implem
         newNode.roomID = AllNodes.myHouseDefaultRoomId;
         newNode.iP = ip;
         int newNodeID = AllNodes.AddNewNode(newNode, 1);
-        nodeId = newNodeID;
+        sensorNodeId = newNodeID;
     }
 
     @Override

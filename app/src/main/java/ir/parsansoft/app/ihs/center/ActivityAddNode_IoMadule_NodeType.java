@@ -25,12 +25,13 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
 
     private AdapterListViewFakeNode grdListAdapter;
     private AdapterFakeNodeSwitches adapterNodeSwitches;
-    private Database.Node.Struct[] nodes;
+    private Database.Node.Struct[] ioNode;
     private Database.Switch.Struct[] switches;
     ListView lstNode, lstNodeSwitches;
     Button btnNext, btnCancel, btnBack;
     TextView txtTitle;
-    int id = 0;
+    int deviceID = 0;
+    int ioModuleID = 0;
     int node_type;
 
     @Override
@@ -54,17 +55,18 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
 
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
-            if (extras.containsKey("NODE_ID")) {
-                id = extras.getInt("NODE_ID");
-                nodes = Database.Node.select("ID=" + id);
+            if (extras.containsKey("IO_NODE_ID")) {
+                deviceID = extras.getInt("DEVICE_NODE_ID");
+                ioModuleID = extras.getInt("IO_NODE_ID");
+                ioNode = Database.Node.select("iD=" + deviceID);
                 node_type = extras.getInt("NODE_Type");
-                G.log("Node ID=" + id);
+                G.log("Node ID=" + deviceID);
             }
         }
-        if (nodes != null) {
-            grdListAdapter = new AdapterListViewFakeNode(G.currentActivity, nodes, false);
+        if (ioNode != null) {
+            grdListAdapter = new AdapterListViewFakeNode(G.currentActivity, ioNode, false);
             mAdd_node_nodeType.lstNode.setAdapter(grdListAdapter);
-            switches = Database.Switch.select("NodeID = " + id);
+            switches = Database.Switch.select("NodeID = " + deviceID);
             if (switches != null) {
                 adapterNodeSwitches = new AdapterFakeNodeSwitches(this, switches, getAvailablePorts());
                 mAdd_node_nodeType.lstNodeSwitches.setAdapter(adapterNodeSwitches);
@@ -75,7 +77,8 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
             public void onClick(View arg0) {
                 if (saveForm()) {
                     Intent fw4 = new Intent(G.currentActivity, ActivityAddNode_IoMadule_SelectPlace.class);
-                    fw4.putExtra("NODE_ID", id);
+                    fw4.putExtra("DEVICE_NODE_ID", deviceID);
+                    fw4.putExtra("IO_NODE_ID", ioModuleID);
                     fw4.putExtra("NODE_Type", node_type);
                     G.currentActivity.startActivity(fw4);
                     Animation.doAnimation(Animation.Animation_Types.FADE_SLIDE_LEFTRIGHT_RIGHT);
@@ -87,9 +90,10 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
             @Override
             public void onClick(View arg0) {
                 Intent fw3 = new Intent(G.currentActivity, ActivityAddNode_IoModule_Device_Select.class);
-                fw3.putExtra("NODE_ID", id);
-                Database.Node.delete(id);
-                Database.Switch.delete("NodeID=" + id);
+                fw3.putExtra("DEVICE_NODE_ID", deviceID);
+                fw3.putExtra("IO_NODE_ID", ioModuleID);
+                Database.Node.delete(deviceID);
+                Database.Switch.delete("NodeID=" + deviceID);
                 G.currentActivity.startActivity(fw3);
                 Animation.doAnimation(Animation.Animation_Types.FADE_SLIDE_LEFTRIGHT_LEFT);
                 finish();
@@ -98,8 +102,8 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
         mAdd_node_nodeType.btnCancel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0) {
-                Database.Node.delete(id);
-                Database.Switch.delete("NodeID=" + id);
+                Database.Node.delete(deviceID);
+                Database.Switch.delete("NodeID=" + deviceID);
                 finish();
                 Animation.doAnimation(Animation.Animation_Types.FADE);
             }
@@ -128,22 +132,34 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
             availablePorts.add("11");
             availablePorts.add("12");
 
-            Database.Switch.Struct[] fakeswitches = Database.Switch.select("nodeID=" + id);
-            if (fakeswitches != null) {
-                for (int i = 0; i < fakeswitches.length; i++) {
-                    if (fakeswitches[i].IOModulePort > 0 &&
-                            fakeswitches[i].IOModulePort < 12) {
-                        availablePorts.remove(String.valueOf(fakeswitches[i].IOModulePort + 2));
+            Database.Node.Struct[] nodes = Database.Node.select("iP='" + ioNode[0].iP + "'");
+            ArrayList<Database.Switch.Struct> fakeswitches = new ArrayList<>();
+            for (int i = 0; i < nodes.length; i++) {
+                Database.Switch.Struct[] switches = Database.Switch.select("isIOModuleSwitch=" + 1 + " AND nodeID = " + nodes[i].iD);
+
+                if (switches != null) {
+                    for (int j = 0; j < switches.length; j++) {
+                        fakeswitches.add(switches[j]);
                     }
                 }
+
             }
+
+
+                for (int i = 0; i < fakeswitches.size(); i++) {
+//                    if (fakeswitches.get(i).IOModulePort > 0 &&
+//                            fakeswitches.get(i).IOModulePort < 12) {
+                        availablePorts.remove(String.valueOf(fakeswitches.get(i).IOModulePort + 2));
+//                    }
+                }
+
 
             for (int i = 0; i < availablePorts.size(); i++) {
                 spinnerPorts.add(String.valueOf(Integer.parseInt(availablePorts.get(i)) - 2));
             }
 
             //Check Enough Port
-            Database.Switch.Struct[] s = Database.Switch.select("NodeID=" + id);
+            Database.Switch.Struct[] s = Database.Switch.select("nodeID=" + deviceID);
             if (s.length > availablePorts.size()) {
                 Intent in_out = new Intent(G.currentActivity, ActivityAddNode_IoMadule_Input_Output.class);
                 in_out.putExtra("NODE_ID", nodes[0].iD);
@@ -222,7 +238,7 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
             nm.action = NetMessage.Update;
             nm.type = NetMessage.SwitchData;
             JSONArray ja = new JSONArray();
-            Database.Switch.Struct[] switchValues = Database.Switch.select("NodeID = " + id);
+            Database.Switch.Struct[] switchValues = Database.Switch.select("NodeID = " + deviceID);
             for (int i = 0; i < switchItems.length; i++) {
                 switchItems[i].value = switchValues[i].value;
 //                switchItems[i].IOModulePort = switchValues[i].IOModulePort;
@@ -242,7 +258,7 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
             }
             nm.data = ja.toString();
             nm.messageID = nm.save();
-            SysLog.log("Device " + nodes[0].name + " Edited.", SysLog.LogType.DATA_CHANGE, SysLog.LogOperator.NODE, id);
+            SysLog.log("Device " + ioNode[0].name + " Edited.", SysLog.LogType.DATA_CHANGE, SysLog.LogOperator.NODE, deviceID);
             G.mobileCommunication.sendMessage(nm);
             G.server.sendMessage(nm);
             return true;

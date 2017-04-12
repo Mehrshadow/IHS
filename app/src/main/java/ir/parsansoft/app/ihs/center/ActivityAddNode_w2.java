@@ -99,7 +99,7 @@ public class ActivityAddNode_w2 extends ActivityEnhanced implements CompoundButt
         /***/
         // gereftane section marbut be room morede nazar
         final Database.Room.Struct[] currentRoom = Database.Room.select("iD =" + nodes[0].roomID + " LIMIT 1");
-        G.log("Payam : currentRoom name is " + currentRoom[0].name + " and section nodeId is " + currentRoom[0].sectionID);
+        G.log("Payam : currentRoom name is " + currentRoom[0].name + " and section sensorNodeId is " + currentRoom[0].sectionID);
         fw2.spnSections.setSelection(adapterSectionSpinner.getSectionPositionById(currentRoom[0].sectionID));
 
         fw2.spnSections.setOnItemSelectedListener(new OnItemSelectedListener() {

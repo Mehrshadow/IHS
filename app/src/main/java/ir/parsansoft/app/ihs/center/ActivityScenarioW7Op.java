@@ -119,7 +119,7 @@ public class ActivityScenarioW7Op extends ActivityEnhanced {
         }
         else {
             // Edit current state
-            G.log("Edit the scenario ... nodeId=" + scenario.iD);
+            G.log("Edit the scenario ... sensorNodeId=" + scenario.iD);
             try {
                 Database.Scenario.edit(scenario);
                 return true;

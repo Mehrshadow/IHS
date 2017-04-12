@@ -344,20 +344,20 @@ public class ActivitySettingMobile extends ActivitySetting {
     //        dialog.setContentView(R.layout.dialog_download);
     //        dialog.getWindow().setBackgroundDrawable(new ColorDrawable(0));
     //        dialog.setCancelable(true);
-    //        TextView txtName = (TextView) dialog.findViewById(R.nodeId.txtName);
-    //        TextView txtDescription = (TextView) dialog.findViewById(R.nodeId.txtDescription);
-    //        ImageView imgQR = (ImageView) dialog.findViewById(R.nodeId.imgQR);
+    //        TextView txtName = (TextView) dialog.findViewById(R.sensorNodeId.txtName);
+    //        TextView txtDescription = (TextView) dialog.findViewById(R.sensorNodeId.txtDescription);
+    //        ImageView imgQR = (ImageView) dialog.findViewById(R.sensorNodeId.imgQR);
     //        switch (view.getId()) {
-    //            case R.nodeId.layMarket1:
+    //            case R.sensorNodeId.layMarket1:
     //                imgQR.setImageBitmap(makeNewQR("www.bazar.com"));
     //                break;
-    //            case R.nodeId.layMarket2:
+    //            case R.sensorNodeId.layMarket2:
     //                imgQR.setImageBitmap(makeNewQR("www.googleplay.com"));
     //                break;
-    //            case R.nodeId.layMarket3:
+    //            case R.sensorNodeId.layMarket3:
     //                imgQR.setImageBitmap(makeNewQR("www.maket.com"));
     //                break;
-    //            case R.nodeId.layMarket4:
+    //            case R.sensorNodeId.layMarket4:
     //                imgQR.setImageBitmap(makeNewQR("www.cando.com"));
     //                break;
     //        }

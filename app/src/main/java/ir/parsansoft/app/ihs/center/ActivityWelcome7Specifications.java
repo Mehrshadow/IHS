@@ -315,8 +315,8 @@ public class ActivityWelcome7Specifications extends ActivityWizard {
         //
         //        answer :
         //        md5 send sms    = 6345e3b4611867c0dd11e6830dba7bfd
-        //        customer nodeId     = 3254
-        //        Hex customer nodeId = CB6  =  000CB6  = 000cb6
+        //        customer sensorNodeId     = 3254
+        //        Hex customer sensorNodeId = CB6  =  000CB6  = 000cb6
         //        exKey           = 69d01ea112c7d2d2
         //
         //        answer SMS      = fd + 000cb6 + 69d01ea112c7d2d2 + fc28

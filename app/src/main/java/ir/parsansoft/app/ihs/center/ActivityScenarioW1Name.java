@@ -116,7 +116,7 @@ public class ActivityScenarioW1Name extends ActivityEnhanced {
         } else {
             // Edit current state
             scenario.hasEdited = true;
-            G.log("Edit the scenario ... nodeId=" + scenario.iD);
+            G.log("Edit the scenario ... sensorNodeId=" + scenario.iD);
             try {
                 Database.Scenario.edit(scenario);
 

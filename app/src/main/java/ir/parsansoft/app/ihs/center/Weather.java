@@ -74,7 +74,7 @@ public class Weather {
 //                            try {
 //                                JSONArray ja = new JSONArray(data);
 //                                JSONObject jo = ja.getJSONObject(0);
-//                                weatherCode = jo.getInt("nodeId");
+//                                weatherCode = jo.getInt("sensorNodeId");
 //                                temperature = (int) jo.getDouble("temp");
 //                                G.log("weatherCode:" + weatherCode + "  temperature:" + temperature);
 //                                G.ui.runOnWeatherChanged(weatherCode, temperature);

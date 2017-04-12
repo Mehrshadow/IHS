@@ -21,7 +21,9 @@ public class ActivityAddNode_IoMadule_SelectPlace extends ActivityEnhanced imple
 
     AdapterSectionSpinner adapterSectionSpinner;
     AdapterRoomSpinner adapterRoomSpinner;
-    int nodeId;
+    int sensorNodeId;
+    int deviceNodeId;
+    int ioNodeId;
     int node_type;
 
     private boolean isMyHouseCheckBoxChecked = false;
@@ -42,11 +44,18 @@ public class ActivityAddNode_IoMadule_SelectPlace extends ActivityEnhanced imple
         Bundle extras = getIntent().getExtras();
 
         if (extras != null) {
-            if (extras.containsKey("NODE_ID")) {
-                nodeId = extras.getInt("NODE_ID");
-                nodes = Database.Node.select("ID=" + nodeId + " LIMIT 1");
-                node_type = extras.getInt("NODE_Type");
+            sensorNodeId = extras.getInt("SENSOR_NODE_ID");
+            deviceNodeId = extras.getInt("DEVICE_NODE_ID");
+            ioNodeId = extras.getInt("IO_NODE_ID");
+
+            if (sensorNodeId != 0) {
+                nodes = Database.Node.select("iD=" + sensorNodeId + " LIMIT 1");
+
+            } else if (deviceNodeId != 0) {
+                nodes = Database.Node.select("iD=" + deviceNodeId + " LIMIT 1");
+
             }
+            node_type = extras.getInt("NODE_Type");
         }
 
         if (nodes == null) {
@@ -65,6 +74,7 @@ public class ActivityAddNode_IoMadule_SelectPlace extends ActivityEnhanced imple
         }
         translateForm();
         initializeForm();
+
     }
 
     @Override
@@ -97,12 +107,8 @@ public class ActivityAddNode_IoMadule_SelectPlace extends ActivityEnhanced imple
                     return;
                 }
 
-                if (isMyHouseCheckBoxChecked) {
-                    nodes[0].roomID = -1;// myHouse
-                } else {
-                    nodes[0].roomID = adapterRoomSpinner.getItem(fw2.spnRooms.getSelectedItemPosition()).iD;
-                }
 
+                nodes[0].roomID = adapterRoomSpinner.getItem(fw2.spnRooms.getSelectedItemPosition()).iD;
                 nodes[0].name = fw2.edtNodeName.getText().toString().trim();
                 nodes[0].icon = fw2.icnNodeIcon.getSelectedIconName();
                 Database.Node.edit(nodes[0]);
@@ -123,11 +129,15 @@ public class ActivityAddNode_IoMadule_SelectPlace extends ActivityEnhanced imple
 
 //                if (nodes[0].nodeTypeID == AllNodes.Node_Type.IOModule) {
                 Intent fw3 = new Intent(G.currentActivity, ActivityAddNode_w4.class);// now go to add module wizard...
-                fw3.putExtra("NODE_ID", nodes[0].iD);
+                fw3.putExtra("SENSOR_NODE_ID", sensorNodeId);
+                fw3.putExtra("DEVICE_NODE_ID", deviceNodeId);
+                fw3.putExtra("IO_NODE_ID", ioNodeId);
+                fw3.putExtra("NODE_Type", node_type);
+
                 G.currentActivity.startActivity(fw3);
 //                } else {
 //                    Intent fw3 = new Intent(G.currentActivity, ActivityAddNode_w3.class);
-//                    fw3.putExtra("NODE_ID", nodes[0].iD);
+//                    fw3.putExtra("SENSOR_NODE_ID", nodes[0].iD);
 //                    G.currentActivity.startActivity(fw3);
 //                }
                 Animation.doAnimation(Animation.Animation_Types.FADE_SLIDE_LEFTRIGHT_RIGHT);
@@ -138,16 +148,24 @@ public class ActivityAddNode_IoMadule_SelectPlace extends ActivityEnhanced imple
         fw2.btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (node_type == AllNodes.Node_Type.Sensor_Magnetic | node_type == AllNodes.Node_Type.Sensor_SMOKE)
-                {
+                if (node_type == AllNodes.Node_Type.Sensor_Magnetic | node_type == AllNodes.Node_Type.Sensor_SMOKE) {
                     Intent mAdd_node_input_output = new Intent(G.currentActivity, ActivityAddNode_IOModule_SensorType.class);
-                    mAdd_node_input_output.putExtra("NODE_ID", nodeId);
+                    mAdd_node_input_output.putExtra("SENSOR_NODE_ID", sensorNodeId);
+                    mAdd_node_input_output.putExtra("IO_NODE_ID", ioNodeId);
+                    mAdd_node_input_output.putExtra("NODE_Type", node_type);
+                    try {
+                        Database.Node.delete(sensorNodeId);
+                        Database.Switch.delete("nodeID=" + sensorNodeId);
+                    } catch (Exception e) {
+                        G.printStackTrace(e);
+                    }
+
                     G.currentActivity.startActivity(mAdd_node_input_output);
-                }
-                else {
+                } else {
                     Intent mAdd_node_input_output = new Intent(G.currentActivity, ActivityAddNode_IoMadule_NodeType.class);
                     mAdd_node_input_output.putExtra("NODE_Type", node_type);
-                    mAdd_node_input_output.putExtra("NODE_ID", nodeId);
+                    mAdd_node_input_output.putExtra("NODE_ID", ioNodeId);
+                    mAdd_node_input_output.putExtra("DEVICE_NODE_ID", deviceNodeId);
                     G.currentActivity.startActivity(mAdd_node_input_output);
                 }
 
@@ -159,8 +177,8 @@ public class ActivityAddNode_IoMadule_SelectPlace extends ActivityEnhanced imple
         fw2.btnCancel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0) {
-                Database.Node.delete(nodeId);
-                Database.Switch.delete("NodeID=" + nodeId);
+//                Database.Node.delete(sensorNodeId);
+//                Database.Switch.delete("NodeID=" + sensorNodeId);
                 finish();
                 Animation.doAnimation(Animation.Animation_Types.FADE);
             }
@@ -172,7 +190,7 @@ public class ActivityAddNode_IoMadule_SelectPlace extends ActivityEnhanced imple
                 G.log("Going to delete the node :" + nodes[0].iD);
                 final DialogClass dlg = new DialogClass(G.currentActivity);
                 // check if any of scenarios has used this node?
-                Database.Switch.Struct[] sws = Database.Switch.select("NodeID=" + nodes[0].iD);
+                Database.Switch.Struct[] sws = Database.Switch.select("nodeID=" + nodes[0].iD);
                 if (sws != null) {
                     String swsIDs = "";
                     for (int i = 0; i < sws.length; i++) {
@@ -210,7 +228,7 @@ public class ActivityAddNode_IoMadule_SelectPlace extends ActivityEnhanced imple
 
                 dlg.setOnYesNoListener(new DialogClass.YesNoListener() {
                     @Override
-                    public void yesClick() {
+                    public void yesClick()  {
                         // going to delete selected node and its switch
                         //  Send message to server and local Mobiles
                         NetMessage netMessage = new NetMessage();
@@ -236,7 +254,7 @@ public class ActivityAddNode_IoMadule_SelectPlace extends ActivityEnhanced imple
                         G.nodeCommunication.allNodes.get(nodes[0].iD).distroyNode();
                         G.nodeCommunication.allNodes.remove(nodes[0].iD);
                         Database.Node.delete(nodes[0].iD);
-                        Database.Switch.delete("NodeID=" + nodes[0].iD);
+                        Database.Switch.delete("nodeID=" + nodes[0].iD);
                         finish();
                     }
 
@@ -278,14 +296,14 @@ public class ActivityAddNode_IoMadule_SelectPlace extends ActivityEnhanced imple
         /***/
         // gereftane section marbut be room morede nazar
         final Database.Room.Struct[] currentRoom = Database.Room.select("iD =" + nodes[0].roomID + " LIMIT 1");
-        G.log("Payam : currentRoom name is " + currentRoom[0].name + " and section nodeId is " + currentRoom[0].sectionID);
+        G.log("Payam : currentRoom name is " + currentRoom[0].name + " and section sensorNodeId is " + currentRoom[0].sectionID);
         fw2.spnSections.setSelection(adapterSectionSpinner.getSectionPositionById(currentRoom[0].sectionID));
 
         fw2.spnSections.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
 
             @Override
             public void onItemSelected(AdapterView<?> arg0, View v, int position, long id) {
-                rooms = Database.Room.select("SectionID=" + adapterSectionSpinner.getItemId(position));
+                rooms = Database.Room.select("sectionID=" + adapterSectionSpinner.getItemId(position));
                 if (rooms != null) {
                     adapterRoomSpinner = new AdapterRoomSpinner(rooms);
                     fw2.spnRooms.setAdapter(adapterRoomSpinner);
@@ -297,6 +315,11 @@ public class ActivityAddNode_IoMadule_SelectPlace extends ActivityEnhanced imple
                     fw2.spnRooms.setAdapter(adapterRoomSpinner);
                     adapterRoomSpinner.notifyDataSetChanged();
                 }
+
+                nodes[0].roomID = adapterRoomSpinner.getItem(fw2.spnRooms.getSelectedItemPosition()).iD;
+                nodes[0].name = fw2.edtNodeName.getText().toString().trim();
+                nodes[0].icon = fw2.icnNodeIcon.getSelectedIconName();
+                Database.Node.edit(nodes[0]);
             }
 
             @Override

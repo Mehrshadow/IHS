@@ -223,7 +223,7 @@ public class ActivityScenarioW2Date extends ActivityEnhanced {
         }
         else {
             // Edit current state
-            G.log("Edit the scenario ... nodeId=" + scenario.iD);
+            G.log("Edit the scenario ... sensorNodeId=" + scenario.iD);
             scenario.hasEdited = true;
             try {
                 Database.Scenario.edit(scenario);

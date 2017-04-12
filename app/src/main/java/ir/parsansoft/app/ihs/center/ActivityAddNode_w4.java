@@ -23,7 +23,11 @@ public class ActivityAddNode_w4 extends ActivityEnhanced {
     TextView txtTitle, txtSerial, txtRegDate, txtExpDate;
     ImageView imgIcon;
     int id = 0;
+    int ioNodeId = 0;
+    int sensorNodeId = 0;
+    int deviceNodeId = 0;
     String expDate;
+    private int node_type;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -42,9 +46,29 @@ public class ActivityAddNode_w4 extends ActivityEnhanced {
 
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
-            if (extras.containsKey("NODE_ID")) {
+            if (extras.containsKey("NODE_ID") || extras.containsKey("IO_NODE_ID")) {
                 id = extras.getInt("NODE_ID");
-                node = Database.Node.select(id);
+
+
+                ioNodeId = extras.getInt("IO_NODE_ID");
+                sensorNodeId = extras.getInt("SENSOR_NODE_ID");
+                deviceNodeId = extras.getInt("DEVICE_NODE_ID");
+                node_type = extras.getInt("NODE_Type");
+
+
+                //
+                if (id == 0) {// yani az node majazi umadim
+                    if (sensorNodeId != 0) {//node majazio sensor ast
+                        node = Database.Node.select(sensorNodeId);
+                    } else if (deviceNodeId != 0) {//node majazio device ast
+                        node = Database.Node.select(deviceNodeId);
+                    }
+
+                } else {//az node vaghei umADIM
+                    node = Database.Node.select(id);
+                }
+
+
                 G.log("Node ID=" + id);
             }
             if (node != null) {
@@ -53,7 +77,7 @@ public class ActivityAddNode_w4 extends ActivityEnhanced {
                 imgIcon.setImageBitmap(AssetsManager.getBitmap(G.context, G.DIR_ICONS_NODES + "/" + node.icon));
                 String strSerial = "";
                 if (node.isIoModuleNode == 1) {
-                    strSerial = G.T.getSentence(860)+"\n";
+                    strSerial = G.T.getSentence(860) + "\n";
                     Database.Switch.Struct[] currentswitch = Database.Switch.select("nodeID =" + node.iD);
                     for (int i = 0; i < currentswitch.length; i++) {
                         strSerial += " " + currentswitch[i].IOModulePort;
@@ -83,6 +107,10 @@ public class ActivityAddNode_w4 extends ActivityEnhanced {
             public void onClick(View arg0) {
                 Intent fw3 = new Intent(G.currentActivity, ActivityAddNode_IoMadule_SelectPlace.class);
                 fw3.putExtra("NODE_ID", id);
+
+                fw3.putExtra("SENSOR_NODE_ID", sensorNodeId);
+                fw3.putExtra("IO_NODE_ID", ioNodeId);
+                fw3.putExtra("NODE_Type", node_type);
                 G.currentActivity.startActivity(fw3);
                 Animation.doAnimation(Animation_Types.FADE_SLIDE_LEFTRIGHT_LEFT);
                 finish();

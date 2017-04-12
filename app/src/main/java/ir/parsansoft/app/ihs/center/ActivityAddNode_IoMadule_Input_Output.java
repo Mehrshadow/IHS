@@ -8,7 +8,7 @@ public class ActivityAddNode_IoMadule_Input_Output extends ActivityEnhanced {
 
     AllViews.CO_d_section_add_node_input_output mAdd_node_input_output;
     int node_type;
-    int id = 0;
+    int ioModuleId = 0;
 
     Database.Node.Struct[] ioNode;
 
@@ -25,9 +25,9 @@ public class ActivityAddNode_IoMadule_Input_Output extends ActivityEnhanced {
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
             if (extras.containsKey("NODE_ID")) {
-                id = extras.getInt("NODE_ID");
-                ioNode = Database.Node.select("ID=" + id);
-                G.log("Node ID=" + id);
+                ioModuleId = extras.getInt("NODE_ID");
+                ioNode = Database.Node.select("ID=" + ioModuleId);
+                G.log("Node ID=" + ioModuleId);
             }
         }
 
@@ -44,6 +44,8 @@ public class ActivityAddNode_IoMadule_Input_Output extends ActivityEnhanced {
             @Override
             public void onClick(View v) {
                 Intent mAdd_node_input_output = new Intent(G.currentActivity, ActivityAddNode_IOModule_SensorType.class);
+                mAdd_node_input_output.putExtra("NODE_Type", node_type);
+                mAdd_node_input_output.putExtra("IO_NODE_ID", ioModuleId);
                 G.currentActivity.startActivity(mAdd_node_input_output);
                 Animation.doAnimation(Animation.Animation_Types.FADE_SLIDE_LEFTRIGHT_RIGHT);
                 finish();
@@ -54,8 +56,8 @@ public class ActivityAddNode_IoMadule_Input_Output extends ActivityEnhanced {
             @Override
             public void onClick(View v) {
                 Intent mAdd_node_input_output = new Intent(G.currentActivity, ActivityAddNode_IoModule_Device_Select.class);
-//                mAdd_node_input_output.putExtra("NODE_Type", node_type);
-//                mAdd_node_input_output.putExtra("NODE_ID", id);
+                mAdd_node_input_output.putExtra("NODE_Type", node_type);
+                mAdd_node_input_output.putExtra("IO_NODE_ID", ioModuleId);
                 G.currentActivity.startActivity(mAdd_node_input_output);
                 Animation.doAnimation(Animation.Animation_Types.FADE_SLIDE_LEFTRIGHT_RIGHT);
                 finish();
