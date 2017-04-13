@@ -50,7 +50,7 @@ public class ActivityMyHouse extends ActivityEnhanced implements View.OnClickLis
                 G.log("Going to delete the node :" + nodes[0].iD);
                 final DialogClass dlg = new DialogClass(G.currentActivity);
                 // check if any of scenarios has used this node?
-                Database.Node.Struct[] ioNode = Database.Node.select("ip='" + nodes[0].iP + "'");
+                final Database.Node.Struct[] ioNode = Database.Node.select("ip='" + nodes[0].iP + "'");
                 for (int i = 0; i < ioNode.length; i++) {
                     Database.Switch.Struct[] sws = Database.Switch.select("NodeID=" + ioNode[i].iD);
                     if (sws != null) {
@@ -114,9 +114,20 @@ public class ActivityMyHouse extends ActivityEnhanced implements View.OnClickLis
 
 
                         SysLog.log("Device :" + nodes[0].name + " Deleted.", SysLog.LogType.DATA_CHANGE, SysLog.LogOperator.NODE, nodes[0].iD);
+                        Database.Node.Struct[] ioNodes = Database.Node.select("iP='" + nodes[0].iP + "'" + " EXCEPT SELECT * FROM T_NODE WHERE nodeTypeID =" + AllNodes.Node_Type.IOModule);
 
-                        Database.Node.delete("iP='" + nodes[0].iP + "'");
-                        Database.Switch.delete("nodeID=" + id);
+                        if (ioNodes != null) {
+                            for (int i = 0; i < ioNodes.length; i++) {
+                                try {
+                                    Database.Node.delete("iD=" + ioNodes[i].iD);
+                                    Database.Switch.delete("nodeID='" + ioNodes[i].iP + "'");
+                                } catch (Exception e) {
+                                    G.printStackTrace(e);
+                                    continue;
+                                }
+
+                            }
+                        }
                         finish();
                     }
 

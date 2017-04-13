@@ -1,15 +1,6 @@
 [
     {
-<<<<<<< HEAD
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\build\\intermediates\\res\\merged\\debug\\raw\\hover_sound.mp3",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\iHSCenter\\iHSCenter\\app\\src\\main\\res\\raw\\hover_sound.mp3"
-    },
-    {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\raw\\hover_sound.mp3",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\raw\\hover_sound.mp3"
-=======
         "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\raw\\hover_sound.mp3",
         "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\raw\\hover_sound.mp3"
->>>>>>> master
     }
 ]
