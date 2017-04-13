@@ -28,7 +28,7 @@ public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implem
     private int sensorType = AllNodes.Node_Type.Sensor_SMOKE;
     int ioNodeId;
     int sensorNodeId;
-
+    List<String> availablePorts;
 
     private String sensorName = "";
 //    Database.Switch.Struct[] switchItems;
@@ -92,7 +92,7 @@ public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implem
                 @Override
                 public void onClick(View v) {
                     Database.Node.delete(ioNodeId);
-                    Database.Switch.delete("NodeID=" + ioNodeId);
+                    Database.Switch.delete("nodeID=" + ioNodeId);
                     finish();
                     Animation.doAnimation(Animation.Animation_Types.FADE);
                 }
@@ -132,7 +132,7 @@ public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implem
 
     private List<String> getAvailablePorts() {
         List<String> spinnerPorts = new ArrayList<>();
-        List<String> availablePorts = new ArrayList<>();
+        availablePorts = new ArrayList<>();
         availablePorts.add("13");
         availablePorts.add("14");
         availablePorts.add("15");
@@ -143,7 +143,7 @@ public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implem
         Database.Node.Struct[] nodes = Database.Node.select("iP='" + IONode[0].iP + "'");
         ArrayList<Database.Switch.Struct> fakeswitches = new ArrayList<>();
         for (int i = 0; i < nodes.length; i++) {
-            Database.Switch.Struct[] switches = Database.Switch.select("isIOModuleSwitch=" + 1 + " AND deviceID = " + nodes[i].iD);
+            Database.Switch.Struct[] switches = Database.Switch.select("isIOModuleSwitch=" + 1 + " AND nodeID = " + nodes[i].iD);
 
             if (switches != null) {
                 for (int j = 0; j < switches.length; j++) {
@@ -155,7 +155,7 @@ public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implem
 
         for (int i = 0; i < fakeswitches.size(); i++) {
 //            if (checkPorts(fakeswitches.get(i))) {
-            availablePorts.remove(String.valueOf(fakeswitches.get(i).IOModulePort + 12));
+            availablePorts.remove(String.valueOf(fakeswitches.get(i).IOModulePort));
 //            }
         }
         for (int i = 0; i < availablePorts.size(); i++) {
@@ -175,7 +175,7 @@ public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implem
             }, 500);
         }
         sensorPort = Integer.valueOf(availablePorts.get(0));
-        return availablePorts;
+        return spinnerPorts;
     }
 
     private void loadPortsSpinner() {
@@ -185,7 +185,7 @@ public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implem
             fw.spnSensorPort.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
                 @Override
                 public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                    sensorPort = Integer.valueOf(getAvailablePorts().get(position));
+                    sensorPort = Integer.valueOf(availablePorts.get(position));
                 }
 
                 @Override
@@ -317,7 +317,7 @@ public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implem
             }
             insertFakeNodeToDb();
 
-            Database.Switch.Struct newSwitch[] = Database.Switch.select("deviceID=" + sensorNodeId);
+            Database.Switch.Struct newSwitch[] = Database.Switch.select("nodeID=" + sensorNodeId);
 
 //            newSwitch = select("NodeID=" + sensorNodeId);
 

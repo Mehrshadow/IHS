@@ -3,7 +3,6 @@ package ir.parsansoft.app.ihs.center;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Handler;
 import android.view.View;
 
 import ir.parsansoft.app.ihs.center.adapters.AdapterListViewNode;
@@ -59,7 +58,7 @@ public class ActivityMyHouse extends ActivityEnhanced implements View.OnClickLis
                             swsIDs += sws[k].iD + ",";
                         }
                         swsIDs = swsIDs.substring(0, swsIDs.length() - 1);
-                        Database.PreOperand.Struct snops[] = Database.PreOperand.select("SwitchID IN (" + swsIDs + ")");
+                        Database.PreOperand.Struct snops[] = Database.PreOperand.select("switchID IN (" + swsIDs + ")");
                         Database.Results.Struct snrts[] = Database.Results.select("SwitchID IN (" + swsIDs + ")");
                         String message = "";
                         if (snops != null || snrts != null) {

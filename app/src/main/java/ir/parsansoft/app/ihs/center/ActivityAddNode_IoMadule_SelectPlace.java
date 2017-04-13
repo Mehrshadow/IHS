@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.CompoundButton;
 
 import ir.parsansoft.app.ihs.center.adapters.AdapterListViewNode;
 import ir.parsansoft.app.ihs.center.adapters.AdapterRoomSpinner;
@@ -14,7 +13,7 @@ import ir.parsansoft.app.ihs.center.adapters.AdapterSectionSpinner;
  * Created by HaMiD on 2/14/2017.
  */
 
-public class ActivityAddNode_IoMadule_SelectPlace extends ActivityEnhanced implements CompoundButton.OnCheckedChangeListener {
+public class ActivityAddNode_IoMadule_SelectPlace extends ActivityEnhanced {
     private AdapterListViewNode grdListAdapter;
     private Database.Node.Struct[] nodes;
     AllViews.CO_d_section_add_node_w2 fw2;
@@ -25,9 +24,6 @@ public class ActivityAddNode_IoMadule_SelectPlace extends ActivityEnhanced imple
     int deviceNodeId;
     int ioNodeId;
     int node_type;
-
-    private boolean isMyHouseCheckBoxChecked = false;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -164,12 +160,12 @@ public class ActivityAddNode_IoMadule_SelectPlace extends ActivityEnhanced imple
                 } else {
                     Intent mAdd_node_input_output = new Intent(G.currentActivity, ActivityAddNode_IoMadule_NodeType.class);
                     mAdd_node_input_output.putExtra("NODE_Type", node_type);
-                    mAdd_node_input_output.putExtra("NODE_ID", ioNodeId);
+                    mAdd_node_input_output.putExtra("IO_NODE_ID", ioNodeId);
                     mAdd_node_input_output.putExtra("DEVICE_NODE_ID", deviceNodeId);
                     G.currentActivity.startActivity(mAdd_node_input_output);
                 }
 
-                Animation.doAnimation(Animation.Animation_Types.FADE_SLIDE_LEFTRIGHT_RIGHT);
+                Animation.doAnimation(Animation.Animation_Types.FADE_SLIDE_LEFTRIGHT_LEFT);
                 finish();
             }
         });
@@ -228,7 +224,7 @@ public class ActivityAddNode_IoMadule_SelectPlace extends ActivityEnhanced imple
 
                 dlg.setOnYesNoListener(new DialogClass.YesNoListener() {
                     @Override
-                    public void yesClick()  {
+                    public void yesClick() {
                         // going to delete selected node and its switch
                         //  Send message to server and local Mobiles
                         NetMessage netMessage = new NetMessage();
@@ -273,17 +269,11 @@ public class ActivityAddNode_IoMadule_SelectPlace extends ActivityEnhanced imple
     Database.Room.Struct[] rooms;
 
     private void changeSpinnersVisibility() {
-        if (isMyHouseCheckBoxChecked) {
-            fw2.spnSections.setVisibility(View.INVISIBLE);
-            fw2.spnRooms.setVisibility(View.INVISIBLE);
-            fw2.lblRoom.setVisibility(View.INVISIBLE);
-            fw2.lblSection.setVisibility(View.INVISIBLE);
-        } else {
-            fw2.spnSections.setVisibility(View.VISIBLE);
-            fw2.spnRooms.setVisibility(View.VISIBLE);
-            fw2.lblRoom.setVisibility(View.VISIBLE);
-            fw2.lblSection.setVisibility(View.VISIBLE);
-        }
+        fw2.spnSections.setVisibility(View.VISIBLE);
+        fw2.spnRooms.setVisibility(View.VISIBLE);
+        fw2.lblRoom.setVisibility(View.VISIBLE);
+        fw2.lblSection.setVisibility(View.VISIBLE);
+
     }
 
     private void loadSpinners() {
@@ -349,11 +339,5 @@ public class ActivityAddNode_IoMadule_SelectPlace extends ActivityEnhanced imple
     public void onBackPressed() {
         super.onBackPressed();
         Animation.doAnimation(Animation.Animation_Types.FADE);
-    }
-
-    @Override
-    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-        isMyHouseCheckBoxChecked = isChecked;
-        changeSpinnersVisibility();
     }
 }

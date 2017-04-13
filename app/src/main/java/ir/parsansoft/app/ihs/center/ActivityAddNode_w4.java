@@ -1,12 +1,5 @@
 package ir.parsansoft.app.ihs.center;
 
-import ir.parsansoft.app.ihs.center.Animation.Animation_Types;
-import ir.parsansoft.app.ihs.center.ModuleWebservice.WebServiceListener;
-import ir.parsansoft.app.ihs.center.components.AssetsManager;
-
-import org.json.JSONArray;
-import org.json.JSONObject;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -14,6 +7,13 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
+
+import ir.parsansoft.app.ihs.center.Animation.Animation_Types;
+import ir.parsansoft.app.ihs.center.ModuleWebservice.WebServiceListener;
+import ir.parsansoft.app.ihs.center.components.AssetsManager;
 
 
 public class ActivityAddNode_w4 extends ActivityEnhanced {
@@ -80,7 +80,16 @@ public class ActivityAddNode_w4 extends ActivityEnhanced {
                     strSerial = G.T.getSentence(860) + "\n";
                     Database.Switch.Struct[] currentswitch = Database.Switch.select("nodeID =" + node.iD);
                     for (int i = 0; i < currentswitch.length; i++) {
-                        strSerial += " " + currentswitch[i].IOModulePort;
+                        // choon tooye db baraye sensor port haye 13-16 save shode
+                        // va mikhaim b karbar az 1-6 neshoon bedim
+                        // bayad -12 konim
+                        // baraye node haye khorooji ham choon az 3 shoroo shode
+                        // bayad -2 beshe
+
+                        if (node.nodeTypeID == AllNodes.Node_Type.Sensor_Magnetic || node.nodeTypeID == AllNodes.Node_Type.Sensor_SMOKE)
+                            strSerial += " " + (currentswitch[i].IOModulePort - 12);
+                        else
+                            strSerial += " " + (currentswitch[i].IOModulePort - 2);
                     }
                     strSerial += "\n" + G.T.getSentence(861);
                 } else {
@@ -105,13 +114,22 @@ public class ActivityAddNode_w4 extends ActivityEnhanced {
         btnBack.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View arg0) {
-                Intent fw3 = new Intent(G.currentActivity, ActivityAddNode_w3.class);
-                fw3.putExtra("NODE_ID", id);
-
-                fw3.putExtra("SENSOR_NODE_ID", sensorNodeId);
-                fw3.putExtra("IO_NODE_ID", ioNodeId);
-                fw3.putExtra("NODE_Type", node_type);
-                G.currentActivity.startActivity(fw3);
+                if (node.isIoModuleNode != 1) {
+                    Intent fw3 = new Intent(G.currentActivity, ActivityAddNode_w3.class);
+                    fw3.putExtra("NODE_ID", id);
+//                    fw3.putExtra("SENSOR_NODE_ID", sensorNodeId);
+//                    fw3.putExtra("IO_NODE_ID", ioNodeId);
+//                    fw3.putExtra("NODE_Type", node_type);
+                    G.currentActivity.startActivity(fw3);
+                }
+                else {
+                    Intent fw3 = new Intent(G.currentActivity, ActivityAddNode_IoMadule_SelectPlace.class);
+                    fw3.putExtra("DEVICE_NODE_ID", deviceNodeId);
+                    fw3.putExtra("SENSOR_NODE_ID", sensorNodeId);
+                    fw3.putExtra("IO_NODE_ID", ioNodeId);
+                    fw3.putExtra("NODE_Type", node_type);
+                    G.currentActivity.startActivity(fw3);
+                }
                 Animation.doAnimation(Animation_Types.FADE_SLIDE_LEFTRIGHT_LEFT);
                 finish();
             }

@@ -73,7 +73,6 @@ public class ActivityAddNode_IoModule_Device_Select extends ActivityEnhanced {
                 if (saveForm()) {
                     Intent mAdd_node_input_output = new Intent(G.currentActivity, ActivityAddNode_IoMadule_NodeType.class);
                     mAdd_node_input_output.putExtra("NODE_Type", node_type);
-
                     mAdd_node_input_output.putExtra("IO_NODE_ID", ioModuleID);
                     mAdd_node_input_output.putExtra("DEVICE_NODE_ID", deviceID);
                     G.currentActivity.startActivity(mAdd_node_input_output);
@@ -138,11 +137,12 @@ public class ActivityAddNode_IoModule_Device_Select extends ActivityEnhanced {
     }
 
     private boolean saveForm() {
-        if (node_type != -1) {// در صورتی که نود سنسور انتخاب شد ،فعلا وارد دیتابیس نشود
+        try {
             insertFakeNodeToDb();
             return true;
-        } else {
-            return true;
+        } catch (Exception e) {
+            G.printStackTrace(e);
+            return false;
         }
     }
 
@@ -158,8 +158,6 @@ public class ActivityAddNode_IoModule_Device_Select extends ActivityEnhanced {
     @Override
     public void translateForm() {
         super.translateForm();
-        mAdd_node_input_output.btnInput.setText(G.T.getSentence(853));
-        mAdd_node_input_output.btnOutput.setText(G.T.getSentence(854));
         mAdd_node_input_output.btnCancel.setText(G.T.getSentence(102));
         mAdd_node_input_output.btnNext.setText(G.T.getSentence(103));
         mAdd_node_input_output.txtTitle.setText(G.T.getSentence(855));

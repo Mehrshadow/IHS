@@ -33,6 +33,7 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
     int deviceID = 0;
     int ioModuleID = 0;
     int node_type;
+    List<String> availablePorts;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -93,7 +94,7 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
                 fw3.putExtra("DEVICE_NODE_ID", deviceID);
                 fw3.putExtra("IO_NODE_ID", ioModuleID);
                 Database.Node.delete(deviceID);
-                Database.Switch.delete("NodeID=" + deviceID);
+                Database.Switch.delete("nodeID=" + deviceID);
                 G.currentActivity.startActivity(fw3);
                 Animation.doAnimation(Animation.Animation_Types.FADE_SLIDE_LEFTRIGHT_LEFT);
                 finish();
@@ -103,7 +104,7 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
             @Override
             public void onClick(View arg0) {
                 Database.Node.delete(deviceID);
-                Database.Switch.delete("NodeID=" + deviceID);
+                Database.Switch.delete("nodeID=" + deviceID);
                 finish();
                 Animation.doAnimation(Animation.Animation_Types.FADE);
             }
@@ -119,7 +120,7 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
 
     private List<String> getAvailablePorts() {
         try {
-            List<String> availablePorts = new ArrayList<>();
+            availablePorts = new ArrayList<>();
             List<String> spinnerPorts = new ArrayList<>();
             availablePorts.add("3");
             availablePorts.add("4");
@@ -147,7 +148,7 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
 
 
             for (int i = 0; i < fakeswitches.size(); i++) {
-                availablePorts.remove(String.valueOf(fakeswitches.get(i).IOModulePort + 2));
+                availablePorts.remove(String.valueOf(fakeswitches.get(i).IOModulePort));
             }
 
 
@@ -158,8 +159,16 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
             //Check Enough Port
             Database.Switch.Struct[] s = Database.Switch.select("nodeID=" + deviceID);
             if (s.length > availablePorts.size()) {
-                Intent in_out = new Intent(G.currentActivity, ActivityAddNode_IoMadule_Input_Output.class);
+                Intent in_out = new Intent(G.currentActivity, ActivityAddNode_IoModule_Device_Select.class);
                 in_out.putExtra("NODE_ID", nodes[0].iD);
+
+                // device dar activity ghabli insert shode ama port vasash nadarim
+                // pas bayad pak beshe!
+                Database.Node.delete(nodes[0].iD);
+                for (int i = 0; i < switches.length; i++) {
+                    Database.Switch.delete(switches[i].iD);
+                }
+
                 G.currentActivity.startActivity(in_out);
                 finish();
                 Animation.doAnimation(Animation.Animation_Types.FADE);
@@ -172,7 +181,7 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
 
                 return null;
             }
-            return availablePorts;
+            return spinnerPorts;
         } catch (Exception e) {
             e.printStackTrace();
             return null;
@@ -235,7 +244,7 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
             nm.action = NetMessage.Update;
             nm.type = NetMessage.SwitchData;
             JSONArray ja = new JSONArray();
-            Database.Switch.Struct[] switchValues = Database.Switch.select("NodeID = " + deviceID);
+            Database.Switch.Struct[] switchValues = Database.Switch.select("nodeID = " + deviceID);
             for (int i = 0; i < switchItems.length; i++) {
                 switchItems[i].value = switchValues[i].value;
 //                switchItems[i].IOModulePort = switchValues[i].IOModulePort;

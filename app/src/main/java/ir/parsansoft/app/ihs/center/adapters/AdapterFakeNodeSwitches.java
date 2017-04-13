@@ -145,7 +145,7 @@ public class AdapterFakeNodeSwitches extends BaseAdapter {
             spnPorts.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
                 @Override
                 public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                    switchItems[mainPosition].IOModulePort = Integer.valueOf(availablePorts.get(position));
+                    switchItems[mainPosition].IOModulePort = Integer.valueOf(availablePorts.get(position)) + 2;
 
                     Port = Integer.valueOf(availablePorts.get(position));
 //                    selectedPorts.add(String.valueOf(Port));
