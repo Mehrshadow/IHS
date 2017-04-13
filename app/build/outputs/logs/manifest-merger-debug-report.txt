@@ -1,5 +1,6 @@
 -- Merging decision tree log ---
 manifest
+<<<<<<< HEAD
 ADDED from C:\Users\FCC\Desktop\IHS Repo\IHS\app\src\main\AndroidManifest.xml:2:1-285:12
 	package
 		ADDED from C:\Users\FCC\Desktop\IHS Repo\IHS\app\src\main\AndroidManifest.xml:3:5-43
@@ -651,36 +652,689 @@ MERGED from [com.google.android.gms:play-services-base:9.6.1] C:\Users\FCC\.andr
 MERGED from [com.google.android.gms:play-services-tasks:9.6.1] C:\Users\FCC\.android\build-cache\e948f36182c177afa96bf3c1b284aa4317ef175a\output\AndroidManifest.xml:3:5-42
 MERGED from [com.google.android.gms:play-services-basement:9.6.1] C:\Users\FCC\.android\build-cache\bcf5113be089aec24f39b615fee072bf05e14c0c\output\AndroidManifest.xml:17:5-42
 MERGED from [com.android.support:support-v4:24.0.0] C:\Users\FCC\.android\build-cache\db6262f3351951ebb4f52e4007a844daac181694\output\AndroidManifest.xml:21:5-23:54
+=======
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:2:1-281:12
+	package
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:3:5-43
+		INJECTED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:5:5-31
+		INJECTED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:2:11-69
+permission#ir.parsansoft.app.ihs.center.permission.C2D_MESSAGE
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:7:5-9:47
+	android:protectionLevel
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:9:9-44
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:8:9-75
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:11:5-79
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\HaMiD\.android\build-cache\1eb76a519259f0e2171a8a27c359c847b019948c\output\AndroidManifest.xml:20:5-78
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:12:5-76
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:12:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:13:5-76
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:13:22-73
+uses-permission#android.permission.CHANGE_WIFI_MULTICAST_STATE
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:14:5-86
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:14:22-83
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:15:22-76
+uses-permission#android.permission.CHANGE_CONFIGURATION
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:16:5-79
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:16:22-76
+uses-permission#android.permission.GET_TASKS
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:17:5-68
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:17:22-65
+uses-permission#android.permission.INTERNET
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:18:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.6] C:\Users\HaMiD\.android\build-cache\59f2e263e367b6ae425479f5a3b28721735a0112\output\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.3] C:\Users\HaMiD\.android\build-cache\6970837f50bdd2a3a38257bd36370c3bba6b761a\output\AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.15] C:\Users\HaMiD\.android\build-cache\dae3fc2275d78cb54ce8f24c8f44c09f28432bb1\output\AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.3.11] C:\Users\HaMiD\.android\build-cache\e3a32388b6f46c591a2777a4a9d83894880bc793\output\AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.3.15] C:\Users\HaMiD\.android\build-cache\7c82920dbb40384b0595d18bca5e868e2cc0f334\output\AndroidManifest.xml:29:5-67
+MERGED from [com.google.android.gms:play-services-gcm:9.6.1] C:\Users\HaMiD\.android\build-cache\f7219b2e8c9d99767c2f437e637d502fa20b7568\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:9.6.1] C:\Users\HaMiD\.android\build-cache\a9def0a06ed9110b7aa30f62269f7992c3be76b7\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\HaMiD\.android\build-cache\1eb76a519259f0e2171a8a27c359c847b019948c\output\AndroidManifest.xml:21:5-66
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:18:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:19:5-80
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:19:22-77
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:20:5-75
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:20:22-72
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:21:5-81
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:21:22-78
+uses-permission#android.permission.EXPAND_STATUS_BAR
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:22:5-76
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:22:22-73
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:23:5-78
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:23:22-75
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:24:5-81
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:24:22-78
+uses-permission#com.android.permission.WRITE_SECURE_SETTINGS
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:25:5-84
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:25:22-81
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:26:5-73
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:26:22-70
+uses-permission#com.android.alarm.permission.SET_ALARM
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:27:5-78
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:27:22-75
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:28:5-68
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:28:22-65
+uses-permission#android.permission.INSTALL_PACKAGES
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:29:5-75
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:29:22-72
+uses-permission#ir.parsansoft.app.ihs.center.permission.C2D_MESSAGE
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:30:5-91
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:30:22-88
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:31:5-79
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:31:22-76
+application
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:33:5-279:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.6] C:\Users\HaMiD\.android\build-cache\59f2e263e367b6ae425479f5a3b28721735a0112\output\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.3] C:\Users\HaMiD\.android\build-cache\6970837f50bdd2a3a38257bd36370c3bba6b761a\output\AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-ndk:1.1.6] C:\Users\HaMiD\.android\build-cache\24081d141cf0a8059a57c144fb1d696f67ca859f\output\AndroidManifest.xml:31:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.15] C:\Users\HaMiD\.android\build-cache\dae3fc2275d78cb54ce8f24c8f44c09f28432bb1\output\AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.3.11] C:\Users\HaMiD\.android\build-cache\e3a32388b6f46c591a2777a4a9d83894880bc793\output\AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.3.15] C:\Users\HaMiD\.android\build-cache\7c82920dbb40384b0595d18bca5e868e2cc0f334\output\AndroidManifest.xml:31:5-20
+MERGED from [com.android.support:design:23.3.0] C:\Users\HaMiD\.android\build-cache\99e3211522c569f52d057dcfa878b9ea80e0c317\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.3.0] C:\Users\HaMiD\.android\build-cache\d2aa4200d45ef68404b1efadb225355956141929\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] C:\Users\HaMiD\.android\build-cache\1bfa9b1f9444c138ca9e2f4078ff1c1959f65c6b\output\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\HaMiD\.android\build-cache\901931eaadc39f2495097f97cd2d08045376fe29\output\AndroidManifest.xml:7:5-20
+MERGED from [com.xwray:passwordview:0.1] C:\Users\HaMiD\.android\build-cache\ef93406b50c7a4cbd5ffa5faaff19bbe81807ffd\output\AndroidManifest.xml:12:5-13:19
+MERGED from [com.google.android.gms:play-services-gcm:9.6.1] C:\Users\HaMiD\.android\build-cache\f7219b2e8c9d99767c2f437e637d502fa20b7568\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-iid:9.6.1] C:\Users\HaMiD\.android\build-cache\a9def0a06ed9110b7aa30f62269f7992c3be76b7\output\AndroidManifest.xml:23:5-19
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\HaMiD\.android\build-cache\1eb76a519259f0e2171a8a27c359c847b019948c\output\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-base:9.6.1] C:\Users\HaMiD\.android\build-cache\cc01af25b0b85106037a6faa9c1de4036892f32e\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:9.6.1] C:\Users\HaMiD\.android\build-cache\3d7be802529b6be542d3b6c12361691153eb16c6\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:9.6.1] C:\Users\HaMiD\.android\build-cache\229c633f4297ae43c483258d80c271faf1ef5189\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\HaMiD\.android\build-cache\3b210fbd07fea4fd982ffc2a3375ce6bfc7f1770\output\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:37:9-41
+	android:allowBackup
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:35:9-35
+	android:icon
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:36:9-45
+	android:largeHeap
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:38:9-33
+	android:theme
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:39:9-73
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:34:9-26
+activity#ir.parsansoft.app.ihs.center.ActivityStarter
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:40:9-48:20
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:42:13-50
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:41:13-44
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:43:13-47:29
+action#android.intent.action.MAIN
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:44:17-69
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:44:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:46:17-77
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:46:27-74
+activity#ir.parsansoft.app.ihs.center.ActivityMain
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:49:9-53:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:53:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:51:13-45
+	android:launchMode
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:52:13-44
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:50:13-41
+activity#ir.parsansoft.app.ihs.center.ActivitySections
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:54:9-57:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:57:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:56:13-45
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:55:13-45
+activity#ir.parsansoft.app.ihs.center.ActivityHelp
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:58:9-61:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:61:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:60:13-45
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:59:13-41
+activity#ir.parsansoft.app.ihs.center.ActivityScenario
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:62:9-65:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:65:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:64:13-45
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:63:13-45
+activity#ir.parsansoft.app.ihs.center.ActivityFavorites
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:66:9-69:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:69:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:68:13-45
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:67:13-46
+activity#ir.parsansoft.app.ihs.center.ActivityScenarioW1Name
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:70:9-73:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:73:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:72:13-45
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:71:13-51
+activity#ir.parsansoft.app.ihs.center.ActivityScenarioW2Date
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:74:9-77:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:77:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:76:13-45
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:75:13-51
+activity#ir.parsansoft.app.ihs.center.ActivityScenarioW3Event
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:78:9-81:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:81:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:80:13-45
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:79:13-52
+activity#ir.parsansoft.app.ihs.center.ActivityScenarioW4GPS
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:82:9-85:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:85:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:84:13-45
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:83:13-50
+activity#ir.parsansoft.app.ihs.center.ActivityScenarioW5Weather
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:86:9-89:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:89:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:88:13-45
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:87:13-54
+activity#ir.parsansoft.app.ihs.center.ActivityScenarioW6Temperature
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:90:9-93:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:93:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:92:13-45
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:91:13-58
+activity#ir.parsansoft.app.ihs.center.ActivityScenarioW7Op
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:94:9-97:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:97:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:96:13-45
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:95:13-49
+activity#ir.parsansoft.app.ihs.center.ActivityScenarioW8Keyword
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:98:9-101:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:101:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:100:13-45
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:99:13-54
+activity#ir.parsansoft.app.ihs.center.ActivityScenarioW9Switch
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:102:9-105:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:105:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:104:13-45
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:103:13-53
+activity#ir.parsansoft.app.ihs.center.ActivityScenarioW10Notify
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:106:9-109:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:109:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:108:13-45
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:107:13-54
+activity#ir.parsansoft.app.ihs.center.ActivityScenarioW11SMS
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:110:9-113:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:113:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:112:13-45
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:111:13-51
+activity#ir.parsansoft.app.ihs.center.ActivityAddNode_w1
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:114:9-117:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:117:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:116:13-45
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:115:13-47
+activity#ir.parsansoft.app.ihs.center.ActivityAddNode_w2
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:118:9-121:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:121:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:120:13-45
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:119:13-47
+activity#ir.parsansoft.app.ihs.center.ActivityAddNode_w3
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:122:9-125:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:125:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:124:13-45
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:123:13-47
+activity#ir.parsansoft.app.ihs.center.ActivityAddNode_w4
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:126:9-129:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:129:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:128:13-45
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:127:13-47
+activity#ir.parsansoft.app.ihs.center.ActivitySettingNetwork
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:130:9-134:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:134:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:132:13-45
+	android:noHistory
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:133:13-37
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:131:13-51
+activity#ir.parsansoft.app.ihs.center.ActivitySettingMobile
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:135:9-139:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:139:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:137:13-45
+	android:noHistory
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:138:13-37
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:136:13-50
+activity#ir.parsansoft.app.ihs.center.ActivitySettingSMS
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:140:9-144:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:144:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:142:13-45
+	android:noHistory
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:143:13-37
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:141:13-47
+activity#ir.parsansoft.app.ihs.center.ActivitySettingLocation
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:145:9-149:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:149:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:147:13-45
+	android:noHistory
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:148:13-37
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:146:13-52
+activity#ir.parsansoft.app.ihs.center.ActivitySettingLOG
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:150:9-154:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:154:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:152:13-45
+	android:noHistory
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:153:13-37
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:151:13-47
+activity#ir.parsansoft.app.ihs.center.ActivitySettingLanguage
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:155:9-159:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:159:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:157:13-45
+	android:noHistory
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:158:13-37
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:156:13-52
+activity#ir.parsansoft.app.ihs.center.ActivitySettingUser
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:160:9-164:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:164:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:162:13-45
+	android:noHistory
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:163:13-37
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:161:13-48
+activity#ir.parsansoft.app.ihs.center.ActivitySettingDateTime
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:165:9-169:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:169:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:167:13-45
+	android:noHistory
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:168:13-37
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:166:13-52
+activity#ir.parsansoft.app.ihs.center.ActivitySettingScreen
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:170:9-174:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:174:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:172:13-45
+	android:noHistory
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:173:13-37
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:171:13-50
+activity#ir.parsansoft.app.ihs.center.ActivitySettingReset
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:175:9-179:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:179:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:177:13-45
+	android:noHistory
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:178:13-37
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:176:13-49
+activity#ir.parsansoft.app.ihs.center.ActivityWelcome1Language
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:180:9-183:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:183:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:182:13-45
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:181:13-53
+activity#ir.parsansoft.app.ihs.center.ActivityWelcome2Screen
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:184:9-187:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:187:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:186:13-45
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:185:13-51
+activity#ir.parsansoft.app.ihs.center.ActivityWelcome3Network
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:188:9-191:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:191:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:190:13-45
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:189:13-52
+activity#ir.parsansoft.app.ihs.center.ActivityWelcome4Location
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:192:9-195:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:195:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:194:13-45
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:193:13-53
+activity#ir.parsansoft.app.ihs.center.ActivityWelcome5DateandTime
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:196:9-199:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:199:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:198:13-45
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:197:13-56
+activity#ir.parsansoft.app.ihs.center.ActivityWelcome6Weather
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:200:9-203:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:203:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:202:13-45
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:201:13-52
+activity#ir.parsansoft.app.ihs.center.ActivityWelcome8FloorandRoom
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:204:9-207:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:207:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:206:13-45
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:205:13-57
+activity#ir.parsansoft.app.ihs.center.ActivityWelcome9Equipment
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:208:9-211:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:211:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:210:13-45
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:209:13-54
+activity#ir.parsansoft.app.ihs.center.ActivityWelcome10Mobile
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:212:9-215:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:215:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:214:13-45
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:213:13-52
+activity#ir.parsansoft.app.ihs.center.ActivityWelcome11Scenario
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:216:9-219:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:219:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:218:13-45
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:217:13-54
+activity#ir.parsansoft.app.ihs.center.ActivityWelcome7Specifications
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:220:9-223:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:223:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:222:13-45
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:221:13-59
+activity#ir.parsansoft.app.ihs.center.ActivityWelcome12User
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:224:9-227:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:227:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:226:13-45
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:225:13-50
+activity#ir.parsansoft.app.ihs.center.ActivityWelcome13ChargeSMS
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:228:9-231:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:231:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:230:13-45
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:229:13-55
+activity#ir.parsansoft.app.ihs.center.ActivityBrowser
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:232:9-235:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:235:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:234:13-45
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:233:13-44
+activity#ir.parsansoft.app.ihs.center.ActivitySettingUpdate
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:236:9-239:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:239:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:238:13-45
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:237:13-50
+activity#ir.parsansoft.app.ihs.center.ActivitySettingWeather
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:240:9-243:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:243:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:242:13-45
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:241:13-51
+activity#ir.parsansoft.app.ihs.center.ActivityAddNode_IoMadule_SelectPlace
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:244:9-247:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:247:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:246:13-45
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:245:13-65
+activity#ir.parsansoft.app.ihs.center.ActivityAddNode_IoMadule_Input_Output
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:248:9-251:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:251:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:250:13-45
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:249:13-66
+activity#ir.parsansoft.app.ihs.center.ActivityAddNode_IoMadule_NodeType
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:252:9-255:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:255:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:254:13-45
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:253:13-62
+activity#ir.parsansoft.app.ihs.center.ActivityAddNode_IOModule_SensorType
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:256:9-259:53
+	android:screenOrientation
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:259:13-50
+	android:label
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:258:13-45
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:257:13-64
+service#ir.parsansoft.app.ihs.center.ServiceServerCommunication
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:261:9-263:40
+	android:exported
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:263:13-37
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:262:13-55
+receiver#ir.parsansoft.app.ihs.center.BootReceiver
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:265:9-269:20
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:265:19-47
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:266:13-268:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:267:17-79
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:267:25-76
+receiver#ir.parsansoft.app.ihs.center.BroadcastReciverAlarmManager
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:270:9-66
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:270:19-63
+receiver#ir.parsansoft.app.ihs.center.BroadcastReceiverWeather
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:271:9-62
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:271:19-59
+meta-data#io.fabric.ApiKey
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:273:9-275:72
+	android:value
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:275:13-69
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:274:13-44
+activity#ir.parsansoft.app.ihs.center.ActivityMyHouse
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:277:9-53
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:277:19-50
+activity#ir.parsansoft.app.ihs.center.ActivityAddNode_IoModule_SelectIo
+ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:278:9-80
+	android:name
+		ADDED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml:278:19-68
+uses-sdk
+INJECTED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.6] C:\Users\HaMiD\.android\build-cache\59f2e263e367b6ae425479f5a3b28721735a0112\output\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.3] C:\Users\HaMiD\.android\build-cache\6970837f50bdd2a3a38257bd36370c3bba6b761a\output\AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-ndk:1.1.6] C:\Users\HaMiD\.android\build-cache\24081d141cf0a8059a57c144fb1d696f67ca859f\output\AndroidManifest.xml:29:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.15] C:\Users\HaMiD\.android\build-cache\dae3fc2275d78cb54ce8f24c8f44c09f28432bb1\output\AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.3.11] C:\Users\HaMiD\.android\build-cache\e3a32388b6f46c591a2777a4a9d83894880bc793\output\AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.3.15] C:\Users\HaMiD\.android\build-cache\7c82920dbb40384b0595d18bca5e868e2cc0f334\output\AndroidManifest.xml:27:5-43
+MERGED from [com.android.support:design:23.3.0] C:\Users\HaMiD\.android\build-cache\99e3211522c569f52d057dcfa878b9ea80e0c317\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.3.0] C:\Users\HaMiD\.android\build-cache\d2aa4200d45ef68404b1efadb225355956141929\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] C:\Users\HaMiD\.android\build-cache\1bfa9b1f9444c138ca9e2f4078ff1c1959f65c6b\output\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.3.0] C:\Users\HaMiD\.android\build-cache\901931eaadc39f2495097f97cd2d08045376fe29\output\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:recyclerview-v7:23.3.0] C:\Users\HaMiD\.android\build-cache\33a0fba5e579e56cce609da42eae70728947e5db\output\AndroidManifest.xml:20:5-43
+MERGED from [com.xwray:passwordview:0.1] C:\Users\HaMiD\.android\build-cache\ef93406b50c7a4cbd5ffa5faaff19bbe81807ffd\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.google.android.gms:play-services-gcm:9.6.1] C:\Users\HaMiD\.android\build-cache\f7219b2e8c9d99767c2f437e637d502fa20b7568\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-iid:9.6.1] C:\Users\HaMiD\.android\build-cache\a9def0a06ed9110b7aa30f62269f7992c3be76b7\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\HaMiD\.android\build-cache\1eb76a519259f0e2171a8a27c359c847b019948c\output\AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-base:9.6.1] C:\Users\HaMiD\.android\build-cache\cc01af25b0b85106037a6faa9c1de4036892f32e\output\AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.6.1] C:\Users\HaMiD\.android\build-cache\3d7be802529b6be542d3b6c12361691153eb16c6\output\AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.6.1] C:\Users\HaMiD\.android\build-cache\229c633f4297ae43c483258d80c271faf1ef5189\output\AndroidManifest.xml:17:5-42
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\HaMiD\.android\build-cache\3b210fbd07fea4fd982ffc2a3375ce6bfc7f1770\output\AndroidManifest.xml:21:5-23:54
+>>>>>>> master
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:23.3.0] C:\Users\FCC\.android\build-cache\48c1395017649164fc5d761dc8a2d70f422e6449\output\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:23.3.0] C:\Users\HaMiD\.android\build-cache\d2aa4200d45ef68404b1efadb225355956141929\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
+<<<<<<< HEAD
 		INJECTED from C:\Users\FCC\Desktop\IHS Repo\IHS\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\FCC\Desktop\IHS Repo\IHS\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from C:\Users\FCC\Desktop\IHS Repo\IHS\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\FCC\Desktop\IHS Repo\IHS\app\src\main\AndroidManifest.xml
+=======
+		INJECTED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\Jahanmir\Projects\iHS\newRepo\iHsCenter\app\src\main\AndroidManifest.xml
+>>>>>>> master
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.android.gms:play-services-gcm:9.6.1] C:\Users\FCC\.android\build-cache\da53aecbbf7a2f00fbe90abd613efd0add91d0cd\output\AndroidManifest.xml:20:5-81
-MERGED from [com.google.android.gms:play-services-iid:9.6.1] C:\Users\FCC\.android\build-cache\a8d3ebf41c76fd726ef5394e6d6b7985da5fe341\output\AndroidManifest.xml:20:5-81
+ADDED from [com.google.android.gms:play-services-gcm:9.6.1] C:\Users\HaMiD\.android\build-cache\f7219b2e8c9d99767c2f437e637d502fa20b7568\output\AndroidManifest.xml:20:5-81
+MERGED from [com.google.android.gms:play-services-iid:9.6.1] C:\Users\HaMiD\.android\build-cache\a9def0a06ed9110b7aa30f62269f7992c3be76b7\output\AndroidManifest.xml:20:5-81
 	android:name
-		ADDED from [com.google.android.gms:play-services-gcm:9.6.1] C:\Users\FCC\.android\build-cache\da53aecbbf7a2f00fbe90abd613efd0add91d0cd\output\AndroidManifest.xml:20:22-79
+		ADDED from [com.google.android.gms:play-services-gcm:9.6.1] C:\Users\HaMiD\.android\build-cache\f7219b2e8c9d99767c2f437e637d502fa20b7568\output\AndroidManifest.xml:20:22-79
 uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\FCC\.android\build-cache\5d13dfe4388149bfb2b4799559f2a082aad9b0ec\output\AndroidManifest.xml:22:5-24:33
+ADDED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\HaMiD\.android\build-cache\1eb76a519259f0e2171a8a27c359c847b019948c\output\AndroidManifest.xml:22:5-24:33
 	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\FCC\.android\build-cache\5d13dfe4388149bfb2b4799559f2a082aad9b0ec\output\AndroidManifest.xml:23:8-40
+		ADDED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\HaMiD\.android\build-cache\1eb76a519259f0e2171a8a27c359c847b019948c\output\AndroidManifest.xml:23:8-40
 	android:required
-		ADDED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\FCC\.android\build-cache\5d13dfe4388149bfb2b4799559f2a082aad9b0ec\output\AndroidManifest.xml:24:8-31
+		ADDED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\HaMiD\.android\build-cache\1eb76a519259f0e2171a8a27c359c847b019948c\output\AndroidManifest.xml:24:8-31
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:9.6.1] C:\Users\FCC\.android\build-cache\550361ace40a162c3736de118df6487751699548\output\AndroidManifest.xml:19:9-172
+ADDED from [com.google.android.gms:play-services-base:9.6.1] C:\Users\HaMiD\.android\build-cache\cc01af25b0b85106037a6faa9c1de4036892f32e\output\AndroidManifest.xml:19:9-172
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:9.6.1] C:\Users\FCC\.android\build-cache\550361ace40a162c3736de118df6487751699548\output\AndroidManifest.xml:19:146-170
+		ADDED from [com.google.android.gms:play-services-base:9.6.1] C:\Users\HaMiD\.android\build-cache\cc01af25b0b85106037a6faa9c1de4036892f32e\output\AndroidManifest.xml:19:146-170
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:9.6.1] C:\Users\FCC\.android\build-cache\550361ace40a162c3736de118df6487751699548\output\AndroidManifest.xml:19:86-145
+		ADDED from [com.google.android.gms:play-services-base:9.6.1] C:\Users\HaMiD\.android\build-cache\cc01af25b0b85106037a6faa9c1de4036892f32e\output\AndroidManifest.xml:19:86-145
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:9.6.1] C:\Users\FCC\.android\build-cache\550361ace40a162c3736de118df6487751699548\output\AndroidManifest.xml:19:19-85
+		ADDED from [com.google.android.gms:play-services-base:9.6.1] C:\Users\HaMiD\.android\build-cache\cc01af25b0b85106037a6faa9c1de4036892f32e\output\AndroidManifest.xml:19:19-85
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:9.6.1] C:\Users\FCC\.android\build-cache\bcf5113be089aec24f39b615fee072bf05e14c0c\output\AndroidManifest.xml:20:9-121
+ADDED from [com.google.android.gms:play-services-basement:9.6.1] C:\Users\HaMiD\.android\build-cache\229c633f4297ae43c483258d80c271faf1ef5189\output\AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:9.6.1] C:\Users\FCC\.android\build-cache\bcf5113be089aec24f39b615fee072bf05e14c0c\output\AndroidManifest.xml:20:66-119
+		ADDED from [com.google.android.gms:play-services-basement:9.6.1] C:\Users\HaMiD\.android\build-cache\229c633f4297ae43c483258d80c271faf1ef5189\output\AndroidManifest.xml:20:66-119
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:9.6.1] C:\Users\FCC\.android\build-cache\bcf5113be089aec24f39b615fee072bf05e14c0c\output\AndroidManifest.xml:20:20-65
+		ADDED from [com.google.android.gms:play-services-basement:9.6.1] C:\Users\HaMiD\.android\build-cache\229c633f4297ae43c483258d80c271faf1ef5189\output\AndroidManifest.xml:20:20-65

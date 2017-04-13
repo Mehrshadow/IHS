@@ -1,6 +1,10 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+=======
+        "outputFile": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+>>>>>>> master
         "map": [
             {
                 "to": {
@@ -12,7 +16,11 @@
                     "endOffset": 187
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\values-v11\\styles.xml",
+=======
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values-v11\\styles.xml",
+>>>>>>> master
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -33,7 +41,11 @@
                     "endOffset": 606
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\values-v11\\values-v11.xml",
+=======
+                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\values-v11\\values-v11.xml",
+>>>>>>> master
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -54,7 +66,11 @@
                     "endOffset": 1031
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\values-v11\\values-v11.xml",
+=======
+                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\values-v11\\values-v11.xml",
+>>>>>>> master
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -75,7 +91,11 @@
                     "endOffset": 1459
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\values-v11\\values-v11.xml",
+=======
+                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\values-v11\\values-v11.xml",
+>>>>>>> master
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -96,7 +116,11 @@
                     "endOffset": 1885
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\values-v11\\values-v11.xml",
+=======
+                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\values-v11\\values-v11.xml",
+>>>>>>> master
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -117,7 +141,11 @@
                     "endOffset": 2312
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\values-v11\\values-v11.xml",
+=======
+                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\values-v11\\values-v11.xml",
+>>>>>>> master
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -138,7 +166,11 @@
                     "endOffset": 2737
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\values-v11\\values-v11.xml",
+=======
+                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\values-v11\\values-v11.xml",
+>>>>>>> master
                     "position": {
                         "startLine": 32,
                         "startColumn": 4,
@@ -158,7 +190,11 @@
                     "endOffset": 2826
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\values-v11\\values-v11.xml",
+=======
+                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\values-v11\\values-v11.xml",
+>>>>>>> master
                     "position": {
                         "startLine": 38,
                         "startColumn": 4,
@@ -177,7 +213,11 @@
                     "endOffset": 2927
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\values-v11\\values-v11.xml",
+=======
+                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\values-v11\\values-v11.xml",
+>>>>>>> master
                     "position": {
                         "startLine": 39,
                         "startColumn": 4,
@@ -197,7 +237,11 @@
                     "endOffset": 3335
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\values-v11\\values-v11.xml",
+=======
+                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\values-v11\\values-v11.xml",
+>>>>>>> master
                     "position": {
                         "startLine": 40,
                         "startColumn": 4,
@@ -218,7 +262,11 @@
                     "endOffset": 3755
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\values-v11\\values-v11.xml",
+=======
+                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\values-v11\\values-v11.xml",
+>>>>>>> master
                     "position": {
                         "startLine": 45,
                         "startColumn": 4,
@@ -239,7 +287,11 @@
                     "endOffset": 3862
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\values-v11\\values-v11.xml",
+=======
+                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\values-v11\\values-v11.xml",
+>>>>>>> master
                     "position": {
                         "startLine": 50,
                         "startColumn": 4,
@@ -260,7 +312,11 @@
                     "endOffset": 3991
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\values-v11\\values-v11.xml",
+=======
+                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\values-v11\\values-v11.xml",
+>>>>>>> master
                     "position": {
                         "startLine": 52,
                         "startColumn": 4,
@@ -280,7 +336,11 @@
                     "endOffset": 4062
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\values-v11\\values-v11.xml",
+=======
+                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\values-v11\\values-v11.xml",
+>>>>>>> master
                     "position": {
                         "startLine": 54,
                         "startColumn": 4,
@@ -299,7 +359,11 @@
                     "endOffset": 4145
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\values-v11\\values-v11.xml",
+=======
+                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\values-v11\\values-v11.xml",
+>>>>>>> master
                     "position": {
                         "startLine": 55,
                         "startColumn": 4,
@@ -319,7 +383,11 @@
                     "endOffset": 7853
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\values-v11\\values-v11.xml",
+=======
+                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\values-v11\\values-v11.xml",
+>>>>>>> master
                     "position": {
                         "startLine": 56,
                         "startColumn": 4,
@@ -340,7 +408,11 @@
                     "endOffset": 11701
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\values-v11\\values-v11.xml",
+=======
+                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\values-v11\\values-v11.xml",
+>>>>>>> master
                     "position": {
                         "startLine": 107,
                         "startColumn": 4,
@@ -360,7 +432,11 @@
                     "endOffset": 11792
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\values-v11\\values-v11.xml",
+=======
+                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\values-v11\\values-v11.xml",
+>>>>>>> master
                     "position": {
                         "startLine": 159,
                         "startColumn": 4,
