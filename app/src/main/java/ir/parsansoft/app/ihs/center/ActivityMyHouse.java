@@ -13,12 +13,9 @@ public class ActivityMyHouse extends ActivityEnhanced implements View.OnClickLis
     private AdapterListViewNode grdListAdapter;
     private Database.Node.Struct[] nodes;
     private Database.Node.Struct[] ioNode;
-    private DialogClass dlg;
     private AllViews.CO_f_MyHouse fo;
 
-
     int id = 0;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -175,7 +172,7 @@ public class ActivityMyHouse extends ActivityEnhanced implements View.OnClickLis
 
     private void refreshNodeList() {
         try {
-            nodes = Database.Node.select("iP='" + ioNode[0].iP + "'");
+            nodes = Database.Node.select("iP='" + ioNode[0].iP + "' Except Select * From T_Node Where nodeTypeID = " + AllNodes.Node_Type.IOModule);
             G.log("nodes Size  = " + nodes.length);
         } catch (Exception e) {
             G.printStackTrace(e);
@@ -186,7 +183,6 @@ public class ActivityMyHouse extends ActivityEnhanced implements View.OnClickLis
         }
         fo.grdNodes.setAdapter(grdListAdapter);
     }
-
 
     @Override
     protected void onResume() {

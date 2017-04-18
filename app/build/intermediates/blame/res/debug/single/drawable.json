@@ -1,19 +1,13 @@
 [
     {
-<<<<<<< HEAD
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
         "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
-=======
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_keyboard_selector.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\btn_keyboard_selector.xml"
->>>>>>> master
     },
     {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lay_setting_icon_reset_selector.xml",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\lay_setting_icon_reset_selector.xml"
     },
     {
-<<<<<<< HEAD
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lay_setting_icon_datetime_selector.xml",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\lay_setting_icon_datetime_selector.xml"
     },
@@ -52,62 +46,20 @@
     {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_main_menu_setting_selector.xml",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\btn_main_menu_setting_selector.xml"
-=======
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lay_setting_icon_network_selector.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\lay_setting_icon_network_selector.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\main_bg_repeative.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\main_bg_repeative.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\drawable\\abc_cab_background_top_material.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lay_list_edit_selector.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\lay_list_edit_selector.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lay_setting_icon_location_selector.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\lay_setting_icon_location_selector.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lay_setting_icon_language_selector.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\lay_setting_icon_language_selector.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
->>>>>>> master
     },
     {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_backward_selector.xml",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\button_backward_selector.xml"
     },
     {
-<<<<<<< HEAD
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lay_back_datetime_button_down.xml",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\lay_back_datetime_button_down.xml"
-=======
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_main_menu_devices_selector.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\btn_main_menu_devices_selector.xml"
->>>>>>> master
     },
     {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\laybtn_settings_selector.xml",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\laybtn_settings_selector.xml"
     },
     {
-<<<<<<< HEAD
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
         "source": "C:\\Users\\FCC\\.android\\build-cache\\550361ace40a162c3736de118df6487751699548\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
     },
@@ -122,34 +74,20 @@
     {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbar_style.xml",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\progressbar_style.xml"
-=======
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lay_back_datetime_button_up.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\lay_back_datetime_button_up.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lay_btn_checkbox_rtl.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\lay_btn_checkbox_rtl.xml"
->>>>>>> master
     },
     {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
         "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\drawable\\abc_ratingbar_full_material.xml"
     },
     {
-<<<<<<< HEAD
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
         "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-=======
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lay_setting_icon_reset_selector.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\lay_setting_icon_reset_selector.xml"
->>>>>>> master
     },
     {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
         "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
-<<<<<<< HEAD
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lay_list_delete_selector.xml",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\lay_list_delete_selector.xml"
     },
@@ -168,10 +106,6 @@
     {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_main_icon_help_selector.xml",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\btn_main_icon_help_selector.xml"
-=======
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
->>>>>>> master
     },
     {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lay_sections_exp_head_expand_selector.xml",
@@ -182,13 +116,8 @@
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\checkbox_selector_rtl.xml"
     },
     {
-<<<<<<< HEAD
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
         "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\drawable\\abc_seekbar_track_material.xml"
-=======
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_main_menu_favorites_selector.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\btn_main_menu_favorites_selector.xml"
->>>>>>> master
     },
     {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_other_selector.xml",
@@ -199,7 +128,6 @@
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\lay_setting_icon_mobile_selector.xml"
     },
     {
-<<<<<<< HEAD
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
         "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\drawable\\abc_btn_borderless_material.xml"
     },
@@ -238,41 +166,12 @@
     {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
         "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
-=======
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_slide_menu_setting_selector.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\btn_slide_menu_setting_selector.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
-        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\cc01af25b0b85106037a6faa9c1de4036892f32e\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\laybtn_scenario_selector.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\laybtn_scenario_selector.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_button_next.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\custom_button_next.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_slide_menu_scenario_selector.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\btn_slide_menu_scenario_selector.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lay_setting_icon_update_selector.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\lay_setting_icon_update_selector.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\custom_edittext.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\custom_edittext.xml"
->>>>>>> master
     },
     {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_selector.xml",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\spinner_selector.xml"
     },
     {
-<<<<<<< HEAD
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_main_menu_favorites_selector.xml",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\btn_main_menu_favorites_selector.xml"
     },
@@ -323,66 +222,6 @@
     {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_forward_selector.xml",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\button_forward_selector.xml"
-=======
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_refresh_selector.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\button_refresh_selector.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lay_setting_icon_mobile_selector.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\lay_setting_icon_mobile_selector.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lay_setting_icon_support_selector.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\lay_setting_icon_support_selector.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_main_icon_help_selector.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\btn_main_icon_help_selector.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lay_setting_icon_log_selector.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\lay_setting_icon_log_selector.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
-        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\99e3211522c569f52d057dcfa878b9ea80e0c317\\output\\res\\drawable\\design_snackbar_background.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_selector_rtl.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\checkbox_selector_rtl.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
-        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\99e3211522c569f52d057dcfa878b9ea80e0c317\\output\\res\\drawable\\design_fab_background.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lay_language_tk.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\lay_language_tk.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\drawable\\abc_btn_check_material.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lay_setting_icon_datetime_selector.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\lay_setting_icon_datetime_selector.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lay_setting_icon_users_selector.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\lay_setting_icon_users_selector.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_add_selector.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\button_add_selector.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\drawable\\abc_btn_radio_material.xml"
->>>>>>> master
     },
     {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_selector.xml",
@@ -397,20 +236,14 @@
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\slide_tabs_selector.xml"
     },
     {
-<<<<<<< HEAD
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\thumb_switch_selector.xml",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\thumb_switch_selector.xml"
-=======
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
-        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\cc01af25b0b85106037a6faa9c1de4036892f32e\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
->>>>>>> master
     },
     {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_refresh_selector.xml",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\button_refresh_selector.xml"
     },
     {
-<<<<<<< HEAD
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_selector_rtl.xml",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\spinner_selector_rtl.xml"
     },
@@ -429,10 +262,6 @@
     {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_slide_menu_home_selector.xml",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\btn_slide_menu_home_selector.xml"
-=======
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
->>>>>>> master
     },
     {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
@@ -447,20 +276,14 @@
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\lay_setting_icon_display_selector.xml"
     },
     {
-<<<<<<< HEAD
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lay_list_edit_selector.xml",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\lay_list_edit_selector.xml"
-=======
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lay_back_run_button.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\lay_back_run_button.xml"
->>>>>>> master
     },
     {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lay_setting_icon_language_selector.xml",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\lay_setting_icon_language_selector.xml"
     },
     {
-<<<<<<< HEAD
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\laybtn_devices_selector.xml",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\laybtn_devices_selector.xml"
     },
@@ -487,75 +310,18 @@
     {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\laybtn_favorites_selector.xml",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\laybtn_favorites_selector.xml"
-=======
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\drawable\\abc_textfield_search_material.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\drawable\\abc_seekbar_track_material.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\left_shadow.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\left_shadow.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lay_setting_icon_sms_selector.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\lay_setting_icon_sms_selector.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lay_language_ar.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\lay_language_ar.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_slide_menu_devices_selector.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\btn_slide_menu_devices_selector.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_main_menu_setting_selector.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\btn_main_menu_setting_selector.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lay_sections_exp_head_collapse_selector.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\lay_sections_exp_head_collapse_selector.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lay_language_en.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\lay_language_en.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\drawable\\abc_btn_colored_material.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_selector.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\checkbox_selector.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lay_sections_exp_head_expand_selector.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\lay_sections_exp_head_expand_selector.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_slide_menu_home_selector.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\btn_slide_menu_home_selector.xml"
->>>>>>> master
     },
     {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
         "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\drawable\\abc_dialog_material_background_light.xml"
     },
     {
-<<<<<<< HEAD
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lay_language_en.xml",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\lay_language_en.xml"
     },
     {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lay_setting_icon_location_selector.xml",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\lay_setting_icon_location_selector.xml"
-=======
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lay_setting_icon_display_selector.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\lay_setting_icon_display_selector.xml"
->>>>>>> master
     },
     {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lay_language_tk.xml",
@@ -570,7 +336,6 @@
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\lay_setting_icon_sms_selector.xml"
     },
     {
-<<<<<<< HEAD
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
         "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
@@ -633,97 +398,5 @@
     {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
         "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\drawable\\abc_edit_text_material.xml"
-=======
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lay_list_delete_selector.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\lay_list_delete_selector.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_forward_selector.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\button_forward_selector.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\radiobutton_selector.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\radiobutton_selector.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_main_menu_scenario_selector.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\btn_main_menu_scenario_selector.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_slide_menu_favorites_selector.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\btn_slide_menu_favorites_selector.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
-        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\cc01af25b0b85106037a6faa9c1de4036892f32e\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_full_material.xml",
-        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\drawable\\abc_ratingbar_full_material.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\drawable\\abc_switch_thumb_material.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\drawable\\abc_text_cursor_material.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lay_sections_exp_item_middle_selector.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\lay_sections_exp_item_middle_selector.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lay_sections_exp_item_last_selector.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\lay_sections_exp_item_last_selector.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background_light.xml",
-        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\drawable\\abc_dialog_material_background_light.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_edittext.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\rounded_edittext.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbar_style.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\progressbar_style.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lay_language_fa.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\lay_language_fa.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_backward_selector.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\button_backward_selector.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\drawable\\abc_item_background_holo_light.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\lay_back_datetime_button_down.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\lay_back_datetime_button_down.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\drawable\\abc_edit_text_material.xml"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\spinner_selector.xml",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\drawable\\spinner_selector.xml"
->>>>>>> master
     }
 ]

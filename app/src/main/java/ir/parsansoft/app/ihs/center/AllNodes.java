@@ -212,6 +212,9 @@ public class AllNodes {
                 public void onClick(View arg0) {
                     Intent fw2 = new Intent(G.currentActivity, ActivityAddNode_w2.class);
                     fw2.putExtra("NODE_ID", myNode.iD);
+                    // vase in k befahmim darim edit mikonim
+                    // va dar activity haye badi wizardesh ba wizarde add kardane device ghati nashe
+                    fw2.putExtra("EDIT_MODE", true);
                     G.currentActivity.startActivity(fw2);
                 }
             });
@@ -934,6 +937,9 @@ public class AllNodes {
                 public void onClick(View arg0) {
                     Intent fw2 = new Intent(G.currentActivity, ActivityAddNode_w2.class);
                     fw2.putExtra("NODE_ID", myNode.iD);
+                    // vase in k befahmim darim edit mikonim
+                    // va dar activity haye badi wizardesh ba wizarde add kardane device ghati nashe
+                    fw2.putExtra("EDIT_MODE", true);
                     G.currentActivity.startActivity(fw2);
                 }
             });
@@ -951,7 +957,7 @@ public class AllNodes {
                             if (switches[1].value == 2)
                                 switchKey(1, 0, null, LogOperator.OPERAOR, G.currentUser.iD);
                             else
-                                switchKey(1, 1, null, LogOperator.OPERAOR, G.currentUser.iD);
+                                switchKey(1, 2, null, LogOperator.OPERAOR, G.currentUser.iD);
                         }
                 }
             });
@@ -1104,20 +1110,17 @@ public class AllNodes {
                         for (int i = 0; i < coolerUIs.size(); i++) {
                             int k = coolerUIs.keyAt(i);
                             if (myNode.isIoModuleNode != 1) {
-                                if (switches[1].value == 0 && switches[2].value == 0) {
+                                if (switches[1].value == 0) {// off
                                     coolerUIs.get(k).imgKey1.setImageResource(R.drawable.lay_cooler_fast_off);
                                     coolerUIs.get(k).imgKey2.setImageResource(R.drawable.lay_cooler_slow_off);
-                                } else if (switches[1].value == 0) {
-                                    coolerUIs.get(k).imgKey1.setImageResource(R.drawable.lay_cooler_fast_off);
-                                    coolerUIs.get(k).imgKey2.setImageResource(R.drawable.lay_cooler_slow_off);
-                                } else if (switches[1].value == 1) {
+                                } else if (switches[1].value == 1) {// slow
                                     coolerUIs.get(k).imgKey1.setImageResource(R.drawable.lay_cooler_fast_off);
                                     coolerUIs.get(k).imgKey2.setImageResource(R.drawable.lay_cooler_slow_on);
-                                } else if (switches[2].value == 1) {
+                                } else if (switches[1].value == 2) {// fast
                                     coolerUIs.get(k).imgKey1.setImageResource(R.drawable.lay_cooler_fast_on);
                                     coolerUIs.get(k).imgKey2.setImageResource(R.drawable.lay_cooler_slow_off);
                                 }
-                                if (switches[0].value == 0) {
+                                if (switches[0].value == 0) {// water
                                     coolerUIs.get(k).imgKey3.setImageResource(R.drawable.lay_cooler_water_off);
                                 } else if (switches[0].value == 1) {
                                     coolerUIs.get(k).imgKey3.setImageResource(R.drawable.lay_cooler_water_on);
@@ -1350,6 +1353,9 @@ public class AllNodes {
                 public void onClick(View arg0) {
                     Intent fw2 = new Intent(G.currentActivity, ActivityAddNode_w2.class);
                     fw2.putExtra("NODE_ID", myNode.iD);
+                    // vase in k befahmim darim edit mikonim
+                    // va dar activity haye badi wizardesh ba wizarde add kardane device ghati nashe
+                    fw2.putExtra("EDIT_MODE", true);
                     G.currentActivity.startActivity(fw2);
                 }
             });
@@ -1733,6 +1739,9 @@ public class AllNodes {
                 public void onClick(View arg0) {
                     Intent fw2 = new Intent(G.currentActivity, ActivityAddNode_w2.class);
                     fw2.putExtra("NODE_ID", myNode.iD);
+                    // vase in k befahmim darim edit mikonim
+                    // va dar activity haye badi wizardesh ba wizarde add kardane device ghati nashe
+                    fw2.putExtra("EDIT_MODE", true);
                     G.currentActivity.startActivity(fw2);
                 }
             });
@@ -1961,14 +1970,10 @@ public class AllNodes {
         @Override
         public int addUI(View view) {
             uiCount++;
-//            if (UI.size() > 10) {
-//                G.log("Deleting some UI references to reduce memory");
-//                UI.removeAt(0);
-//            }
-//            if (outputKeyUIs.size() > 6) {
-//                G.log("Deleting some UI references to reduce memory");
-//                outputKeyUIs.removeAt(0);
-//            }
+            if (UI.size() > 1) {
+                G.log("Deleting some UI references to reduce memory");
+                UI.removeAt(0);
+            }
             G.log("This is adding Simple Node UI for node : " + myNode.iD);
             final AllViews.CO_l_node_IoModule newIoModule = new AllViews.CO_l_node_IoModule(view);
             newIoModule.prgDoOperation.setVisibility(View.INVISIBLE);
@@ -2160,12 +2165,12 @@ public class AllNodes {
 
     }
 
-    public static final class Sensore extends SampleNode {
+    public static final class Sensor extends SampleNode {
         private SparseArray<CO_l_node_simple_key> simpleKeyUIs = new SparseArray<CO_l_node_simple_key>();
         private Database.Switch.Struct[] switches;
         private boolean isBusy;
 
-        public Sensore(Database.Node.Struct node) {
+        public Sensor(Database.Node.Struct node) {
             super(G.context);
             this.myNode = node;
             switches = select("NodeID=" + myNode.iD);
@@ -2198,38 +2203,30 @@ public class AllNodes {
                 newSimpleKey.layKey3.setVisibility(View.INVISIBLE);
                 return 0;
             }
-            newSimpleKey.txtNodeName.setText(myNode.name);
-            if (switches.length >= 1) {
-                newSimpleKey.layKey1.setVisibility(View.VISIBLE);
-                newSimpleKey.txtKey1.setText(switches[0].name);
-                if (switches[0].value == 0)
-                    newSimpleKey.imgKey1.setImageResource(R.drawable.lay_simple_switch_off);
-                else
-                    newSimpleKey.imgKey1.setImageResource(R.drawable.lay_simple_switch_on);
-            } else {
-                newSimpleKey.layKey1.setVisibility(View.GONE);
-            }
-            if (switches.length >= 2) {
-                newSimpleKey.layKey2.setVisibility(View.VISIBLE);
-                newSimpleKey.txtKey2.setText(switches[1].name);
-                if (switches[1].value == 0)
-                    newSimpleKey.imgKey2.setImageResource(R.drawable.lay_simple_switch_off);
-                else
-                    newSimpleKey.imgKey2.setImageResource(R.drawable.lay_simple_switch_on);
-            } else {
-                newSimpleKey.layKey2.setVisibility(View.GONE);
-            }
-            if (switches.length >= 3) {
-                newSimpleKey.layKey3.setVisibility(View.VISIBLE);
-                newSimpleKey.txtKey3.setText(switches[2].name);
-                if (switches[2].value == 0)
-                    newSimpleKey.imgKey3.setImageResource(R.drawable.lay_simple_switch_off);
-                else
-                    newSimpleKey.imgKey3.setImageResource(R.drawable.lay_simple_switch_on);
-            } else {
-                newSimpleKey.layKey3.setVisibility(View.GONE);
-            }
 
+            newSimpleKey.txtNodeName.setText(myNode.name);
+            newSimpleKey.layKey1.setVisibility(View.VISIBLE);
+            newSimpleKey.layKey2.setVisibility(View.GONE);
+            newSimpleKey.layKey3.setVisibility(View.GONE);
+            newSimpleKey.txtKey1.setText(switches[0].name);
+            int emptyImage = 0;
+            int fullImage = 0;
+
+            switch (myNode.nodeTypeID) {
+                case Node_Type.Sensor_Magnetic:
+                    emptyImage = R.drawable.icon_magnetic_empty;
+                    fullImage = R.drawable.icon_magnetic_full;
+                    break;
+                case Node_Type.Sensor_SMOKE:
+                    emptyImage = R.drawable.icon_smoke_empty;
+                    fullImage = R.drawable.icon_smoke_full;
+                    break;
+            }
+            if (switches[0].value == 0)
+                newSimpleKey.imgKey1.setImageResource(emptyImage);
+            else {
+                newSimpleKey.imgKey1.setImageResource(fullImage);
+            }
             if (myNode.isFavorite)
                 newSimpleKey.imgFavorites.setImageResource(R.drawable.icon_fav_full);
             else
@@ -2261,6 +2258,7 @@ public class AllNodes {
             simpleKeyUIs.put(uiCount, newSimpleKey);
             G.log("NodeID=" + myNode.iD + "  ui code : " + uiCount);
             return uiCount;
+
         }
 
         @Override
@@ -2299,16 +2297,16 @@ public class AllNodes {
 
             setProgressVisiblity(false);
 
-            float[] previousValues = new float[0];
+            float[] previousValues;
 
             if (myNode.isIoModuleNode == 1) {
 
                 previousValues = new float[16];
                 try {
 
-
-                    // hame 16 ta port ro mikhoonim va value jadid ro too db save mikonim
-                    //value ghabli ro ham darim
+                    /** hame 16 ta port ro mikhoonim va value jadid ro too db save mikonim
+                     * value ghabli ro ham darim
+                     **/
                     for (int i = 0; i < switches.length; i++) {
                         int index = 0;
                         if (switches[i].IOModulePort > 9 && switches[i].IOModulePort != 0) {// ex: *101
@@ -2332,45 +2330,47 @@ public class AllNodes {
 
                     @Override
                     public void run() {
-                        for (int i = 0; i < simpleKeyUIs.size(); i++) {
-                            int k = simpleKeyUIs.keyAt(i);
-                            if (switches.length >= 1)
-                                if (switches[0].value == 0) {
-                                    simpleKeyUIs.get(k).imgKey1.setImageResource(R.drawable.lay_simple_switch_off);
-                                } else {
-                                    simpleKeyUIs.get(k).imgKey1.setImageResource(R.drawable.lay_simple_switch_on);
-                                }
-                            if (switches.length >= 2)
-                                if (switches[1].value == 0) {
-                                    simpleKeyUIs.get(k).imgKey2.setImageResource(R.drawable.lay_simple_switch_off);
-                                } else {
-                                    simpleKeyUIs.get(k).imgKey2.setImageResource(R.drawable.lay_simple_switch_on);
-                                }
-                            if (switches.length >= 3)
-                                if (switches[2].value == 0) {
-                                    simpleKeyUIs.get(k).imgKey3.setImageResource(R.drawable.lay_simple_switch_off);
-                                } else {
-                                    simpleKeyUIs.get(k).imgKey3.setImageResource(R.drawable.lay_simple_switch_on);
-                                }
+                        int k = simpleKeyUIs.keyAt(0);
+                        int emptyImage = 0;
+                        int fullImage = 0;
+
+                        switch (myNode.nodeTypeID) {
+                            case Node_Type.Sensor_Magnetic:
+                                emptyImage = R.drawable.icon_magnetic_empty;
+                                fullImage = R.drawable.icon_magnetic_full;
+                                break;
+                            case Node_Type.Sensor_SMOKE:
+                                emptyImage = R.drawable.icon_smoke_empty;
+                                fullImage = R.drawable.icon_smoke_full;
+                                break;
+                        }
+                        if (switches[0].value == 0)
+                            simpleKeyUIs.get(k).imgKey1.setImageResource(emptyImage);
+                        else {
+                            simpleKeyUIs.get(k).imgKey1.setImageResource(fullImage);
                         }
                     }
                 });
 
                 //  Send message to server and local Mobiles
-//                NetMessage netMessage = new NetMessage();
-//                netMessage.data = myNode.getNodeStatusJson(false);// true means > isIOModule = 1
-//                netMessage.action = NetMessage.Update;
-//                netMessage.type = NetMessage.SwitchStatus;
-//                netMessage.typeName = NetMessageType.SwitchStatus;
-//                netMessage.messageID = netMessage.save();
-//                G.mobileCommunication.sendMessage(netMessage);
-//                G.server.sendMessage(netMessage);
+                NetMessage netMessage = new NetMessage();
+                netMessage.data = myNode.getNodeStatusJson(false);// true means > isIOModule = 1
+                netMessage.action = NetMessage.Update;
+                netMessage.type = NetMessage.SwitchStatus;
+                netMessage.typeName = NetMessageType.SwitchStatus;
+                netMessage.messageID = netMessage.save();
+                G.mobileCommunication.sendMessage(netMessage);
+                G.server.sendMessage(netMessage);
 
 
                 // Run scenarios that uses this condition.
-                for (int i = 0; i < 3; i++)
+                for (
+                        int i = 0;
+                        i < 3; i++)
 
-                    if (switches.length > i && preValue[i] != switches[i].value) {
+                    if (switches.length > i && preValue[i] != switches[i].value)
+
+                    {
                         G.log("previusValues [" + i + "] =" + preValue[i] + "   New Value[" + i + "] = " + switches[i].value);
                         G.scenarioBP.runBySwitchStatus(switches[i]);
                     }
@@ -2385,7 +2385,6 @@ public class AllNodes {
                 originalNetMessage, LogOperator op, int operatorID) {
 
         }
-
 
     }
 
@@ -2403,7 +2402,6 @@ public class AllNodes {
                 if (newNode.name.length() == 0)
                     newNode.name = G.T.getSentence(1101);
                 newNode.status = 1;
-                newNode.isVisible = true;
                 newNode.isIoModuleNode = isIOModuleNode;
                 newNode.iD = (int) Database.Node.insert(newNode);
                 sw = new Database.Switch.Struct();
@@ -2419,7 +2417,6 @@ public class AllNodes {
                 if (newNode.name.length() == 0)
                     newNode.name = G.T.getSentence(1102);
                 newNode.status = 1;
-                newNode.isVisible = true;
                 newNode.isIoModuleNode = isIOModuleNode;
                 newNode.iD = (int) Database.Node.insert(newNode);
                 for (int i = 0; i < 2; i++) {
@@ -2439,7 +2436,7 @@ public class AllNodes {
                 if (newNode.name.length() == 0)
                     newNode.name = G.T.getSentence(1103);
                 newNode.status = 1;
-                newNode.isVisible = true;
+
                 newNode.isIoModuleNode = isIOModuleNode;
                 newNode.iD = (int) Database.Node.insert(newNode);
                 for (int i = 0; i < 3; i++) {
@@ -2458,7 +2455,7 @@ public class AllNodes {
                 if (newNode.name.length() == 0)
                     newNode.name = G.T.getSentence(1104);
                 newNode.status = 1;
-                newNode.isVisible = true;
+
                 newNode.iD = (int) Database.Node.insert(newNode);
                 sw = new Database.Switch.Struct();
                 sw.code = "0";
@@ -2474,7 +2471,6 @@ public class AllNodes {
                 if (newNode.name.length() == 0)
                     newNode.name = G.T.getSentence(1105);
                 newNode.status = 1;
-                newNode.isVisible = true;
                 newNode.iD = (int) Database.Node.insert(newNode);
                 for (int i = 0; i < 2; i++) {
                     sw = new Database.Switch.Struct();
@@ -2493,7 +2489,6 @@ public class AllNodes {
                 if (newNode.name.length() == 0)
                     newNode.name = G.T.getSentence(1106);
                 newNode.status = 1;
-                newNode.isVisible = true;
                 newNode.isIoModuleNode = isIOModuleNode;
                 newNode.iD = (int) Database.Node.insert(newNode);
                 sw = new Database.Switch.Struct();
@@ -2538,7 +2533,6 @@ public class AllNodes {
                 if (newNode.name.length() == 0)
                     newNode.name = G.T.getSentence(1107);
                 newNode.status = 1;
-                newNode.isVisible = true;
                 newNode.isIoModuleNode = isIOModuleNode;
                 newNode.iD = (int) Database.Node.insert(newNode);
                 sw = new Database.Switch.Struct();
@@ -2573,7 +2567,6 @@ public class AllNodes {
                 if (newNode.name.length() == 0)
                     newNode.name = G.T.getSentence(1108);
                 newNode.status = 1;
-                newNode.isVisible = true;
                 newNode.isIoModuleNode = isIOModuleNode;
                 newNode.iD = (int) Database.Node.insert(newNode);
                 sw = new Database.Switch.Struct();
@@ -2592,7 +2585,6 @@ public class AllNodes {
                 if (newNode.name.length() == 0)
                     newNode.name = "IO";
                 newNode.status = 1;
-                newNode.isVisible = false;
                 newNode.iD = (int) Database.Node.insert(newNode);
                 nodeCommunication.allNodes.put(newNode.iD, new IOModule(newNode));
 
@@ -2602,7 +2594,6 @@ public class AllNodes {
                     newNode.name = G.T.getSentence(1217);
                 newNode.status = 1;
                 newNode.isIoModuleNode = isIOModuleNode;
-                newNode.isVisible = false;
                 newNode.iD = (int) Database.Node.insert(newNode);
                 sw = new Database.Switch.Struct();
                 sw.nodeID = newNode.iD;
@@ -2623,7 +2614,7 @@ public class AllNodes {
 
                 Database.Switch.insert(sw);
                 G.log("Added WC for node: " + newNode.iD);
-                nodeCommunication.allNodes.put(newNode.iD, new Sensore(newNode));
+                nodeCommunication.allNodes.put(newNode.iD, new Sensor(newNode));
                 break;
 
             case Node_Type.Sensor_Magnetic: // Sensor
@@ -2631,7 +2622,6 @@ public class AllNodes {
                     newNode.name = G.T.getSentence(1218);
                 newNode.status = 1;
                 newNode.isIoModuleNode = isIOModuleNode;
-                newNode.isVisible = false;
                 newNode.iD = (int) Database.Node.insert(newNode);
                 sw = new Database.Switch.Struct();
                 sw.nodeID = newNode.iD;
@@ -2650,7 +2640,7 @@ public class AllNodes {
                 }
                 Database.Switch.insert(sw);
                 G.log("Added WC for node: " + newNode.iD);
-                nodeCommunication.allNodes.put(newNode.iD, new Sensore(newNode));
+                nodeCommunication.allNodes.put(newNode.iD, new Sensor(newNode));
                 break;
         }
         SysLog.log("New Device added:" + newNode.name, LogType.DATA_CHANGE, LogOperator.NODE, newNode.iD);

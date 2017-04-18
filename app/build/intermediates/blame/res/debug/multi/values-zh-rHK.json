@@ -1,10 +1,6 @@
 [
     {
-<<<<<<< HEAD
         "outputFile": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rHK\\values-zh-rHK.xml",
-=======
-        "outputFile": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rHK\\values-zh-rHK.xml",
->>>>>>> master
         "map": [
             {
                 "to": {
@@ -15,11 +11,7 @@
                     "endOffset": 195
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\values-zh-rHK\\values-zh-rHK.xml",
-=======
-                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\values-zh-rHK\\values-zh-rHK.xml",
->>>>>>> master
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -38,11 +30,7 @@
                     "endOffset": 302
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\values-zh-rHK\\values-zh-rHK.xml",
-=======
-                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\values-zh-rHK\\values-zh-rHK.xml",
->>>>>>> master
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -61,11 +49,7 @@
                     "endOffset": 425
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\values-zh-rHK\\values-zh-rHK.xml",
-=======
-                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\values-zh-rHK\\values-zh-rHK.xml",
->>>>>>> master
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -84,11 +68,7 @@
                     "endOffset": 518
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\values-zh-rHK\\values-zh-rHK.xml",
-=======
-                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\values-zh-rHK\\values-zh-rHK.xml",
->>>>>>> master
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -107,11 +87,7 @@
                     "endOffset": 618
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\values-zh-rHK\\values-zh-rHK.xml",
-=======
-                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\values-zh-rHK\\values-zh-rHK.xml",
->>>>>>> master
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -130,11 +106,7 @@
                     "endOffset": 700
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\values-zh-rHK\\values-zh-rHK.xml",
-=======
-                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\values-zh-rHK\\values-zh-rHK.xml",
->>>>>>> master
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -153,11 +125,7 @@
                     "endOffset": 797
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\values-zh-rHK\\values-zh-rHK.xml",
-=======
-                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\values-zh-rHK\\values-zh-rHK.xml",
->>>>>>> master
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -176,11 +144,7 @@
                     "endOffset": 905
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\values-zh-rHK\\values-zh-rHK.xml",
-=======
-                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\values-zh-rHK\\values-zh-rHK.xml",
->>>>>>> master
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -199,11 +163,7 @@
                     "endOffset": 981
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\values-zh-rHK\\values-zh-rHK.xml",
-=======
-                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\values-zh-rHK\\values-zh-rHK.xml",
->>>>>>> master
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -222,11 +182,7 @@
                     "endOffset": 1057
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\values-zh-rHK\\values-zh-rHK.xml",
-=======
-                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\values-zh-rHK\\values-zh-rHK.xml",
->>>>>>> master
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -245,11 +201,7 @@
                     "endOffset": 1135
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\values-zh-rHK\\values-zh-rHK.xml",
-=======
-                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\values-zh-rHK\\values-zh-rHK.xml",
->>>>>>> master
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -268,11 +220,7 @@
                     "endOffset": 1231
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\values-zh-rHK\\values-zh-rHK.xml",
-=======
-                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\values-zh-rHK\\values-zh-rHK.xml",
->>>>>>> master
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -291,11 +239,7 @@
                     "endOffset": 1327
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\values-zh-rHK\\values-zh-rHK.xml",
-=======
-                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\values-zh-rHK\\values-zh-rHK.xml",
->>>>>>> master
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -314,11 +258,7 @@
                     "endOffset": 1422
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\values-zh-rHK\\values-zh-rHK.xml",
-=======
-                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\values-zh-rHK\\values-zh-rHK.xml",
->>>>>>> master
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -337,11 +277,7 @@
                     "endOffset": 1519
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\values-zh-rHK\\values-zh-rHK.xml",
-=======
-                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\values-zh-rHK\\values-zh-rHK.xml",
->>>>>>> master
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -360,11 +296,7 @@
                     "endOffset": 1614
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\values-zh-rHK\\values-zh-rHK.xml",
-=======
-                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\values-zh-rHK\\values-zh-rHK.xml",
->>>>>>> master
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -383,11 +315,7 @@
                     "endOffset": 1712
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\values-zh-rHK\\values-zh-rHK.xml",
-=======
-                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\values-zh-rHK\\values-zh-rHK.xml",
->>>>>>> master
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -406,11 +334,7 @@
                     "endOffset": 1825
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\values-zh-rHK\\values-zh-rHK.xml",
-=======
-                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\values-zh-rHK\\values-zh-rHK.xml",
->>>>>>> master
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -429,11 +353,7 @@
                     "endOffset": 1919
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\values-zh-rHK\\values-zh-rHK.xml",
-=======
-                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\values-zh-rHK\\values-zh-rHK.xml",
->>>>>>> master
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -452,11 +372,7 @@
                     "endOffset": 2022
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\550361ace40a162c3736de118df6487751699548\\output\\res\\values-zh-rHK\\values.xml",
-=======
-                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\cc01af25b0b85106037a6faa9c1de4036892f32e\\output\\res\\values-zh-rHK\\values.xml",
->>>>>>> master
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -475,11 +391,7 @@
                     "endOffset": 2182
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\550361ace40a162c3736de118df6487751699548\\output\\res\\values-zh-rHK\\values.xml",
-=======
-                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\cc01af25b0b85106037a6faa9c1de4036892f32e\\output\\res\\values-zh-rHK\\values.xml",
->>>>>>> master
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -498,11 +410,7 @@
                     "endOffset": 2299
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\550361ace40a162c3736de118df6487751699548\\output\\res\\values-zh-rHK\\values.xml",
-=======
-                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\cc01af25b0b85106037a6faa9c1de4036892f32e\\output\\res\\values-zh-rHK\\values.xml",
->>>>>>> master
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -521,11 +429,7 @@
                     "endOffset": 2403
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\550361ace40a162c3736de118df6487751699548\\output\\res\\values-zh-rHK\\values.xml",
-=======
-                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\cc01af25b0b85106037a6faa9c1de4036892f32e\\output\\res\\values-zh-rHK\\values.xml",
->>>>>>> master
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -544,11 +448,7 @@
                     "endOffset": 2575
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\550361ace40a162c3736de118df6487751699548\\output\\res\\values-zh-rHK\\values.xml",
-=======
-                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\cc01af25b0b85106037a6faa9c1de4036892f32e\\output\\res\\values-zh-rHK\\values.xml",
->>>>>>> master
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -567,11 +467,7 @@
                     "endOffset": 2750
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\550361ace40a162c3736de118df6487751699548\\output\\res\\values-zh-rHK\\values.xml",
-=======
-                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\cc01af25b0b85106037a6faa9c1de4036892f32e\\output\\res\\values-zh-rHK\\values.xml",
->>>>>>> master
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -590,11 +486,7 @@
                     "endOffset": 2868
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\550361ace40a162c3736de118df6487751699548\\output\\res\\values-zh-rHK\\values.xml",
-=======
-                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\cc01af25b0b85106037a6faa9c1de4036892f32e\\output\\res\\values-zh-rHK\\values.xml",
->>>>>>> master
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -613,11 +505,7 @@
                     "endOffset": 2990
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\550361ace40a162c3736de118df6487751699548\\output\\res\\values-zh-rHK\\values.xml",
-=======
-                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\cc01af25b0b85106037a6faa9c1de4036892f32e\\output\\res\\values-zh-rHK\\values.xml",
->>>>>>> master
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -636,11 +524,7 @@
                     "endOffset": 3168
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\bcf5113be089aec24f39b615fee072bf05e14c0c\\output\\res\\values-zh-rHK\\values.xml",
-=======
-                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\229c633f4297ae43c483258d80c271faf1ef5189\\output\\res\\values-zh-rHK\\values.xml",
->>>>>>> master
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -659,11 +543,7 @@
                     "endOffset": 3353
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\550361ace40a162c3736de118df6487751699548\\output\\res\\values-zh-rHK\\values.xml",
-=======
-                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\cc01af25b0b85106037a6faa9c1de4036892f32e\\output\\res\\values-zh-rHK\\values.xml",
->>>>>>> master
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -682,11 +562,7 @@
                     "endOffset": 3471
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\550361ace40a162c3736de118df6487751699548\\output\\res\\values-zh-rHK\\values.xml",
-=======
-                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\cc01af25b0b85106037a6faa9c1de4036892f32e\\output\\res\\values-zh-rHK\\values.xml",
->>>>>>> master
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -705,11 +581,7 @@
                     "endOffset": 3574
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\550361ace40a162c3736de118df6487751699548\\output\\res\\values-zh-rHK\\values.xml",
-=======
-                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\cc01af25b0b85106037a6faa9c1de4036892f32e\\output\\res\\values-zh-rHK\\values.xml",
->>>>>>> master
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -728,11 +600,7 @@
                     "endOffset": 3734
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\550361ace40a162c3736de118df6487751699548\\output\\res\\values-zh-rHK\\values.xml",
-=======
-                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\cc01af25b0b85106037a6faa9c1de4036892f32e\\output\\res\\values-zh-rHK\\values.xml",
->>>>>>> master
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -751,11 +619,7 @@
                     "endOffset": 3851
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\550361ace40a162c3736de118df6487751699548\\output\\res\\values-zh-rHK\\values.xml",
-=======
-                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\cc01af25b0b85106037a6faa9c1de4036892f32e\\output\\res\\values-zh-rHK\\values.xml",
->>>>>>> master
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -774,11 +638,7 @@
                     "endOffset": 4017
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\550361ace40a162c3736de118df6487751699548\\output\\res\\values-zh-rHK\\values.xml",
-=======
-                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\cc01af25b0b85106037a6faa9c1de4036892f32e\\output\\res\\values-zh-rHK\\values.xml",
->>>>>>> master
                     "position": {
                         "startLine": 17,
                         "startColumn": 4,
@@ -797,11 +657,7 @@
                     "endOffset": 4138
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\550361ace40a162c3736de118df6487751699548\\output\\res\\values-zh-rHK\\values.xml",
-=======
-                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\cc01af25b0b85106037a6faa9c1de4036892f32e\\output\\res\\values-zh-rHK\\values.xml",
->>>>>>> master
                     "position": {
                         "startLine": 18,
                         "startColumn": 4,
@@ -820,11 +676,7 @@
                     "endOffset": 4276
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\550361ace40a162c3736de118df6487751699548\\output\\res\\values-zh-rHK\\values.xml",
-=======
-                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\cc01af25b0b85106037a6faa9c1de4036892f32e\\output\\res\\values-zh-rHK\\values.xml",
->>>>>>> master
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -843,11 +695,7 @@
                     "endOffset": 4361
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\550361ace40a162c3736de118df6487751699548\\output\\res\\values-zh-rHK\\values.xml",
-=======
-                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\cc01af25b0b85106037a6faa9c1de4036892f32e\\output\\res\\values-zh-rHK\\values.xml",
->>>>>>> master
                     "position": {
                         "startLine": 20,
                         "startColumn": 4,
@@ -866,11 +714,7 @@
                     "endOffset": 4448
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\550361ace40a162c3736de118df6487751699548\\output\\res\\values-zh-rHK\\values.xml",
-=======
-                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\cc01af25b0b85106037a6faa9c1de4036892f32e\\output\\res\\values-zh-rHK\\values.xml",
->>>>>>> master
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -889,11 +733,7 @@
                     "endOffset": 4549
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\550361ace40a162c3736de118df6487751699548\\output\\res\\values-zh-rHK\\values.xml",
-=======
-                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\cc01af25b0b85106037a6faa9c1de4036892f32e\\output\\res\\values-zh-rHK\\values.xml",
->>>>>>> master
                     "position": {
                         "startLine": 22,
                         "startColumn": 4,
@@ -912,11 +752,7 @@
                     "endOffset": 4651
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\values-zh-rHK\\values-zh-rHK.xml",
-=======
-                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\values-zh-rHK\\values-zh-rHK.xml",
->>>>>>> master
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,

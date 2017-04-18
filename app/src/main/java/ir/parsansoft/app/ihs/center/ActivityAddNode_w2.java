@@ -18,8 +18,6 @@ import ir.parsansoft.app.ihs.center.adapters.AdapterListViewNode;
 import ir.parsansoft.app.ihs.center.adapters.AdapterRoomSpinner;
 import ir.parsansoft.app.ihs.center.adapters.AdapterSectionSpinner;
 
-import static android.R.attr.name;
-
 
 public class ActivityAddNode_w2 extends ActivityEnhanced implements CompoundButton.OnCheckedChangeListener {
     private AdapterListViewNode grdListAdapter;
@@ -30,6 +28,7 @@ public class ActivityAddNode_w2 extends ActivityEnhanced implements CompoundButt
     AdapterRoomSpinner adapterRoomSpinner;
 
     private boolean isMyHouseCheckBoxChecked = false;
+    private boolean isInEditMode;
 
 
     @Override
@@ -49,6 +48,7 @@ public class ActivityAddNode_w2 extends ActivityEnhanced implements CompoundButt
         if (extras != null) {
             if (extras.containsKey("NODE_ID")) {
                 int id = extras.getInt("NODE_ID");
+                isInEditMode = extras.getBoolean("EDIT_MODE");
                 nodes = Database.Node.select("ID=" + id + " LIMIT 1");
             }
         }
@@ -171,6 +171,7 @@ public class ActivityAddNode_w2 extends ActivityEnhanced implements CompoundButt
                 if (nodes[0].isIoModuleNode == 1) {
                     Intent fw3 = new Intent(G.currentActivity, ActivityAddNode_w3.class);// now go to add module wizard...
                     fw3.putExtra("NODE_ID", nodes[0].iD);
+                    fw3.putExtra("EDIT_MODE", isInEditMode);
                     G.currentActivity.startActivity(fw3);
                 } else {
                     Intent fw3 = new Intent(G.currentActivity, ActivityAddNode_w3.class);

@@ -38,7 +38,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:listSelector="@android:color/transparent"
-                    android:numColumns="3"
+                    android:numColumns="4"
                     android:verticalSpacing="10dp"
                     tools:listitem="@layout/l_node_simple_key">
 

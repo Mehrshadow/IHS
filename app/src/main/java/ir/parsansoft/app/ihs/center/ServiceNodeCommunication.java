@@ -44,7 +44,7 @@ public class ServiceNodeCommunication {
                         break;
                     case AllNodes.Node_Type.Sensor_Magnetic:
                     case AllNodes.Node_Type.Sensor_SMOKE:
-                        allNodes.put(nodes[i].iD, new AllNodes.Sensore(nodes[i]));
+                        allNodes.put(nodes[i].iD, new AllNodes.Sensor(nodes[i]));
                         break;
                     default:
                         break;

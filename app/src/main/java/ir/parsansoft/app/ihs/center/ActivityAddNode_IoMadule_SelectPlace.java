@@ -16,7 +16,7 @@ import ir.parsansoft.app.ihs.center.adapters.AdapterSectionSpinner;
 public class ActivityAddNode_IoMadule_SelectPlace extends ActivityEnhanced {
     private AdapterListViewNode grdListAdapter;
     private Database.Node.Struct[] nodes;
-    AllViews.CO_d_section_add_node_w2 fw2;
+    AllViews.CO_d_section_Select_Place fw2;
 
     AdapterSectionSpinner adapterSectionSpinner;
     AdapterRoomSpinner adapterRoomSpinner;
@@ -30,13 +30,13 @@ public class ActivityAddNode_IoMadule_SelectPlace extends ActivityEnhanced {
         super.onCreate(savedInstanceState);
 
         if (G.setting.languageID == 1 || G.setting.languageID == 4)
-            setContentView(R.layout.f_section_add_node_w2);
+            setContentView(R.layout.f_section_add_node_select_place);
         else
-            setContentView(R.layout.f_section_add_node_w2_rtl);
+            setContentView(R.layout.f_section_add_node_select_place_rtl);
 
         setSideBarVisiblity(false);
         G.log("hide Sidebar");
-        fw2 = new AllViews.CO_d_section_add_node_w2(this);
+        fw2 = new AllViews.CO_d_section_Select_Place(this);
         Bundle extras = getIntent().getExtras();
 
         if (extras != null) {
@@ -49,7 +49,6 @@ public class ActivityAddNode_IoMadule_SelectPlace extends ActivityEnhanced {
 
             } else if (deviceNodeId != 0) {
                 nodes = Database.Node.select("iD=" + deviceNodeId + " LIMIT 1");
-
             }
             node_type = extras.getInt("NODE_Type");
         }
@@ -126,7 +125,8 @@ public class ActivityAddNode_IoMadule_SelectPlace extends ActivityEnhanced {
 //                if (nodes[0].nodeTypeID == AllNodes.Node_Type.IOModule) {
                 Intent fw3 = new Intent(G.currentActivity, ActivityAddNode_w4.class);// now go to add module wizard...
                 fw3.putExtra("SENSOR_NODE_ID", sensorNodeId);
-                fw3.putExtra("DEVICE_NODE_ID", deviceNodeId);
+//                fw3.putExtra("DEVICE_NODE_ID", deviceNodeId);
+                fw3.putExtra("NODE_ID", deviceNodeId);
                 fw3.putExtra("IO_NODE_ID", ioNodeId);
                 fw3.putExtra("NODE_Type", node_type);
 
@@ -146,7 +146,7 @@ public class ActivityAddNode_IoMadule_SelectPlace extends ActivityEnhanced {
             public void onClick(View v) {
                 if (node_type == AllNodes.Node_Type.Sensor_Magnetic | node_type == AllNodes.Node_Type.Sensor_SMOKE) {
                     Intent mAdd_node_input_output = new Intent(G.currentActivity, ActivityAddNode_IOModule_SensorType.class);
-                    mAdd_node_input_output.putExtra("SENSOR_NODE_ID", sensorNodeId);
+//                    mAdd_node_input_output.putExtra("SENSOR_NODE_ID", sensorNodeId);
                     mAdd_node_input_output.putExtra("IO_NODE_ID", ioNodeId);
                     mAdd_node_input_output.putExtra("NODE_Type", node_type);
                     try {
@@ -161,7 +161,20 @@ public class ActivityAddNode_IoMadule_SelectPlace extends ActivityEnhanced {
                     Intent mAdd_node_input_output = new Intent(G.currentActivity, ActivityAddNode_IoMadule_NodeType.class);
                     mAdd_node_input_output.putExtra("NODE_Type", node_type);
                     mAdd_node_input_output.putExtra("IO_NODE_ID", ioNodeId);
-                    mAdd_node_input_output.putExtra("DEVICE_NODE_ID", deviceNodeId);
+//                    mAdd_node_input_output.putExtra("DEVICE_NODE_ID", deviceNodeId);
+
+                    try {
+                        // device dar activity ghabli insert shode ama port vasash nadarim
+                        // pas bayad pak beshe!
+                        Database.Switch.Struct[] switches = Database.Switch.select("isIOModuleSwitch=" + 1 + " AND nodeID = " + deviceNodeId);
+                        Database.Node.delete(deviceNodeId);
+                        for (int i = 0; i < switches.length; i++) {
+                            Database.Switch.delete(switches[i].iD);
+                        }
+                    } catch (Exception e) {
+                        G.printStackTrace(e);
+                    }
+
                     G.currentActivity.startActivity(mAdd_node_input_output);
                 }
 
@@ -329,6 +342,7 @@ public class ActivityAddNode_IoMadule_SelectPlace extends ActivityEnhanced {
         fw2.lblName.setText(G.T.getSentence(230));
         fw2.btnCancel.setText(G.T.getSentence(102));
         fw2.btnNext.setText(G.T.getSentence(103));
+        fw2.btnBack.setText(G.T.getSentence(104));
         fw2.txtTitle.setText(G.T.getSentence(227));
         fw2.btnDelete.setText(G.T.getSentence(106));
 //        fw2.checkBoxMyHouse.setText(G.T.getSentence(849));

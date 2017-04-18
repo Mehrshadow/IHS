@@ -119,7 +119,7 @@ public class SampleNode extends ViewGroup {
 
 
         }
-//        sendMessageToNode("GSFD*"); // Get Status From Device
+        sendMessageToNode("GSFD*"); // Get Status From Device
     }
 
     protected void onSocketDisconnect() {
@@ -380,7 +380,7 @@ public class SampleNode extends ViewGroup {
 
     public void refreshStatus() {
         try {
-//            sendMessageToNode("GSFD*"); // Get Status From Device
+            sendMessageToNode("GSFD*"); // Get Status From Device
         } catch (Exception e) {
         }
     }

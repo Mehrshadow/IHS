@@ -596,8 +596,7 @@ public class ActivitySections extends ActivityEnhanced implements OnClickListene
 
     private void refreshNodeList() {
         try {
-            nodes = Database.Node.select("RoomID=" + expChildItems.get(selectedSection)[selectedRoom].iD+
-            " AND isVisible=1");
+            nodes = Database.Node.select("RoomID=" + expChildItems.get(selectedSection)[selectedRoom].iD);
         } catch (Exception e) {
             G.printStackTrace(e);
         }

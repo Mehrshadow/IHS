@@ -276,6 +276,7 @@ public class ActivityAddNode_w1 extends ActivityEnhanced {
 
                                 if (newNode.nodeTypeID == AllNodes.Node_Type.IOModule)//IO Module
                                 {
+                                    newNode.roomID = AllNodes.myHouseDefaultRoomId;
                                     Intent fw2 = new Intent(G.currentActivity, ActivityAddNode_IoMadule_Input_Output.class);
                                     fw2.putExtra("NODE_ID", newNodeID);
                                     G.currentActivity.startActivity(fw2);
@@ -361,7 +362,7 @@ public class ActivityAddNode_w1 extends ActivityEnhanced {
                 newNode.isFavorite = oldNode.isFavorite;
                 // ----------------- Delete Old node ---------------
                 //  Send message to server and local Mobiles
-                if(oldNode.isIoModuleNode!=1){
+                if (oldNode.isIoModuleNode != 1) {
                     NetMessage netMessage = new NetMessage();
                     netMessage.data = oldNode.getNodeDataJson();
                     netMessage.action = NetMessage.Delete;
@@ -381,12 +382,12 @@ public class ActivityAddNode_w1 extends ActivityEnhanced {
                     SysLog.log("Device :" + oldNode.name + " Deleted.", LogType.DATA_CHANGE, LogOperator.NODE, oldNode.iD);
 
                 }
-             try{
+                try {
                     G.nodeCommunication.allNodes.get(oldNode.iD).distroyNode();
                     G.nodeCommunication.allNodes.remove(oldNode.iD);
                     Database.Node.delete(oldNode.iD);
                     Database.Switch.delete("NodeID=" + oldNode.iD);
-                }catch (Exception e){
+                } catch (Exception e) {
                     G.log(e.getMessage());
                 }
                 //--------------------------Create new node ------------------------

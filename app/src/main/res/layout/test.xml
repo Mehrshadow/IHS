@@ -73,7 +73,7 @@
                         android:text="Delete IO" />
 
                     <Button
-                        android:id="@+id/btnBack"
+                        android:id="@+id/btnBackPage"
                         style="@style/button_other_theme"
                         android:layout_margin="16dp"
                         android:text="Back" />

@@ -28,6 +28,7 @@ public class ActivityAddNode_w4 extends ActivityEnhanced {
     int deviceNodeId = 0;
     String expDate;
     private int node_type;
+    private boolean isInEditMode;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +49,7 @@ public class ActivityAddNode_w4 extends ActivityEnhanced {
         if (extras != null) {
             if (extras.containsKey("NODE_ID") || extras.containsKey("IO_NODE_ID")) {
                 id = extras.getInt("NODE_ID");
+                isInEditMode = extras.getBoolean("EDIT_MODE");
 
 
                 ioNodeId = extras.getInt("IO_NODE_ID");
@@ -114,9 +116,14 @@ public class ActivityAddNode_w4 extends ActivityEnhanced {
         btnBack.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View arg0) {
-                if (node.isIoModuleNode != 1) {
+                // age darim edit mikonim dg nabayad berim too select place
+                // bayad bargardim b W3
+                // vaghti too edit hastim dg data nadarim pass bedim too selectPlace
+                // SelectPlace dokme back dare va age bezanim dg chizi poshtesh nis va crash mikone
+                if (node.isIoModuleNode != 1 || isInEditMode) {
                     Intent fw3 = new Intent(G.currentActivity, ActivityAddNode_w3.class);
                     fw3.putExtra("NODE_ID", id);
+                    fw3.putExtra("EDIT_MODE", isInEditMode);
 //                    fw3.putExtra("SENSOR_NODE_ID", sensorNodeId);
 //                    fw3.putExtra("IO_NODE_ID", ioNodeId);
 //                    fw3.putExtra("NODE_Type", node_type);

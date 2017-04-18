@@ -1,6 +1,7 @@
 package ir.parsansoft.app.ihs.center.adapters;
 
 import android.content.Context;
+import android.util.Log;
 import android.util.SparseArray;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -30,14 +31,11 @@ public class AdapterListViewNode extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        View row;/* = convertView;*/
-        if (position >= 9 && position % 3 == 0) {
-            convertView = null;
-        }
-        LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        if (convertView == null) {
+        View row  = convertView;
 
-            row = new View(context);
+        if (convertView == null) {
+            LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
             G.log("Node Type ID=" + nodes[position].nodeTypeID);
             switch (nodes[position].nodeTypeID) {
                 case AllNodes.Node_Type.SIMPLE_SWITCH_1:
@@ -60,6 +58,8 @@ public class AdapterListViewNode extends BaseAdapter {
                 default:
                     break;
             }
+
+
             if (row != null) {
                 G.log("Node ID: " + nodes[position].iD);
 
@@ -67,12 +67,14 @@ public class AdapterListViewNode extends BaseAdapter {
 
                 int nodeIndex = G.nodeCommunication.allNodes.indexOfKey(nodes[position].iD);
                 G.log("Node index:" + nodeIndex);
+                Log.e("***********", nodeIndex + "");
                 if (nodeIndex >= 0) {
                     int uiIndex = G.nodeCommunication.allNodes.get(nodes[position].iD).addUI(row);
                     G.log("ui Index= " + uiIndex);
                     G.nodeCommunication.allNodes.get(nodes[position].iD).setSettingVisiblity(uiIndex, isSettingVisible);
                 }
             }
+
         } else {
             row = convertView;
         }

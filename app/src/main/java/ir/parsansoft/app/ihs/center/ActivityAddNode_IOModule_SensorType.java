@@ -59,7 +59,7 @@ public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implem
         try {
             Bundle extras = getIntent().getExtras();
             if (extras != null) {
-                if (extras.containsKey("IO_NODE_ID")) {// Sensor ID
+                if (extras.containsKey("IO_NODE_ID")) {// IO Module Id
                     ioNodeId = extras.getInt("IO_NODE_ID");
                     IONode = Database.Node.select("iD=" + ioNodeId + " LIMIT 1");//Sensor is fetched
 //                    switchItems = select("deviceID=" + IONode[0].iD);
@@ -91,8 +91,8 @@ public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implem
             fw.btnCancel.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    Database.Node.delete(ioNodeId);
-                    Database.Switch.delete("nodeID=" + ioNodeId);
+//                    Database.Node.delete(ioNodeId);
+//                    Database.Switch.delete("nodeID=" + ioNodeId);
                     finish();
                     Animation.doAnimation(Animation.Animation_Types.FADE);
                 }

@@ -2110,7 +2110,6 @@ public class Database {
             public String buildnumber = "";
             public int lastSecKey = 0;
             public boolean isFavorite = false;
-            public boolean isVisible = false;
             public String AvailablePorts = "";
             public int isIoModuleNode;
 
@@ -2217,7 +2216,6 @@ public class Database {
             Values.put("RegDate", myNode.regDate);
             Values.put("BuildNumber", myNode.osVer);
             Values.put("OsVer", myNode.buildnumber);
-            Values.put("isVisible", myNode.isVisible);
             Values.put("LastSecKey", myNode.lastSecKey);
             Values.put("isFavorite", myNode.isFavorite);
             Values.put("AvailablePorts", myNode.AvailablePorts);
@@ -2261,7 +2259,6 @@ public class Database {
             Values.put("ExpDate", myNode.expDate.toString());
             Values.put("BuildNumber", myNode.buildnumber);
             Values.put("OsVer", myNode.osVer);
-            Values.put("isVisible", myNode.isVisible);
             Values.put("LastSecKey", myNode.lastSecKey);
             Values.put("isFavorite", myNode.isFavorite);
             Values.put("AvailablePorts", myNode.AvailablePorts);
@@ -2334,7 +2331,6 @@ public class Database {
                 selectedRow.osVer = cursor.getString(cursor.getColumnIndex("OsVer"));
                 selectedRow.lastSecKey = cursor.getInt(cursor.getColumnIndex("LastSecKey"));
                 selectedRow.isFavorite = cursor.getInt(cursor.getColumnIndex("isFavorite")) != 0;
-                selectedRow.isVisible = cursor.getInt(cursor.getColumnIndex("isVisible")) != 0;
                 selectedRow.AvailablePorts = cursor.getString(cursor.getColumnIndex("AvailablePorts"));
                 selectedRow.isIoModuleNode = cursor.getInt(cursor.getColumnIndex("isIoModuleNode"));
             }
@@ -2378,7 +2374,6 @@ public class Database {
                 selectedRow.osVer = cursor.getString(cursor.getColumnIndex("OsVer"));
                 selectedRow.lastSecKey = cursor.getInt(cursor.getColumnIndex("LastSecKey"));
                 selectedRow.isFavorite = cursor.getInt(cursor.getColumnIndex("isFavorite")) != 0;
-                selectedRow.isVisible = cursor.getInt(cursor.getColumnIndex("isVisible")) != 0;
                 selectedRow.AvailablePorts = cursor.getString(cursor.getColumnIndex("AvailablePorts"));
                 selectedRow.isIoModuleNode = cursor.getInt(cursor.getColumnIndex("isIoModuleNode"));
                 result[i] = selectedRow;

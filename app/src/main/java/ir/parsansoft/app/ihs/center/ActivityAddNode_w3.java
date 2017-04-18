@@ -22,14 +22,15 @@ import ir.parsansoft.app.ihs.center.adapters.AdapterNodeSwitches;
 public class ActivityAddNode_w3 extends ActivityEnhanced {
 
 
-    private AdapterListViewNode      grdListAdapter;
-    private AdapterNodeSwitches      adapterNodeSwitches;
-    private Database.Node.Struct[]   nodes;
+    private AdapterListViewNode grdListAdapter;
+    private AdapterNodeSwitches adapterNodeSwitches;
+    private Database.Node.Struct[] nodes;
     private Database.Switch.Struct[] switches;
-    ListView                         lstNode, lstNodeSwitches;
-    Button                           btnNext, btnCancel, btnBack;
-    TextView                         txtTitle;
-    int                              id = 0;
+    ListView lstNode, lstNodeSwitches;
+    Button btnNext, btnCancel, btnBack;
+    TextView txtTitle;
+    int deviceNodeId = 0;
+    private boolean isInEditMode;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,39 +52,46 @@ public class ActivityAddNode_w3 extends ActivityEnhanced {
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
             if (extras.containsKey("NODE_ID")) {
-                id = extras.getInt("NODE_ID");
-                nodes = Database.Node.select("ID=" + id);
-                G.log("Node ID=" + id);
+                deviceNodeId = extras.getInt("NODE_ID");
+                isInEditMode = extras.getBoolean("EDIT_MODE");
+                nodes = Database.Node.select("ID=" + deviceNodeId);
+                G.log("Node ID=" + deviceNodeId);
             }
         }
         if (nodes != null) {
             grdListAdapter = new AdapterListViewNode(G.currentActivity, nodes, false);
             lstNode.setAdapter(grdListAdapter);
-            switches = Database.Switch.select("NodeID = " + id);
+            switches = Database.Switch.select("NodeID = " + deviceNodeId);
             if (switches != null) {
                 adapterNodeSwitches = new AdapterNodeSwitches(this, switches);
                 lstNodeSwitches.setAdapter(adapterNodeSwitches);
             }
         }
+
         btnNext.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View arg0) {
                 if (saveForm()) {
                     Intent fw4 = new Intent(G.currentActivity, ActivityAddNode_w4.class);
-                    fw4.putExtra("NODE_ID", id);
+                    fw4.putExtra("NODE_ID", deviceNodeId);
+                    fw4.putExtra("EDIT_MODE", isInEditMode);
                     G.currentActivity.startActivity(fw4);
                     Animation.doAnimation(Animation_Types.FADE_SLIDE_LEFTRIGHT_RIGHT);
                     finish();
                 }
             }
         });
+
         btnBack.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View arg0) {
                 if (saveForm()) {
+
                     Intent fw3 = new Intent(G.currentActivity, ActivityAddNode_w2.class);
-                    fw3.putExtra("NODE_ID", id);
+                    fw3.putExtra("NODE_ID", deviceNodeId);
+                    fw3.putExtra("EDIT_MODE", isInEditMode);
                     G.currentActivity.startActivity(fw3);
+
                     Animation.doAnimation(Animation_Types.FADE_SLIDE_LEFTRIGHT_LEFT);
                     finish();
                 }
@@ -98,6 +106,7 @@ public class ActivityAddNode_w3 extends ActivityEnhanced {
         });
         translateForm();
     }
+
     @Override
     public void translateForm() {
         super.translateForm();
@@ -127,7 +136,7 @@ public class ActivityAddNode_w3 extends ActivityEnhanced {
             nm.type = NetMessage.SwitchData;
             nm.typeName = NetMessage.NetMessageType.SwitchData;
             JSONArray ja = new JSONArray();
-            Database.Switch.Struct[] switchValues = Database.Switch.select("NodeID = " + id);
+            Database.Switch.Struct[] switchValues = Database.Switch.select("NodeID = " + deviceNodeId);
             for (int i = 0; i < switchItems.length; i++) {
                 switchItems[i].value = switchValues[i].value;
                 Database.Switch.edit(switchItems[i]);
@@ -139,19 +148,17 @@ public class ActivityAddNode_w3 extends ActivityEnhanced {
                     jo.put("Value", switchItems[i].value);
                     jo.put("NodeID", switchItems[i].nodeID);
                     ja.put(jo);
-                }
-                catch (JSONException e) {
+                } catch (JSONException e) {
                     G.printStackTrace(e);
                 }
             }
             nm.data = ja.toString();
             nm.messageID = nm.save();
-            SysLog.log("Device " + nodes[0].name + " Edited.", LogType.DATA_CHANGE, LogOperator.NODE, id);
+            SysLog.log("Device " + nodes[0].name + " Edited.", LogType.DATA_CHANGE, LogOperator.NODE, deviceNodeId);
             G.mobileCommunication.sendMessage(nm);
             G.server.sendMessage(nm);
             return true;
-        }
-        else {
+        } else {
             return false;
         }
     }

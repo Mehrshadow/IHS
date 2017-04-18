@@ -8,12 +8,29 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.view.*;
+import android.view.Gravity;
+import android.view.LayoutInflater;
+import android.view.MotionEvent;
+import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.View.OnTouchListener;
+import android.view.ViewGroup;
+import android.view.Window;
 import android.view.WindowManager.LayoutParams;
-import android.widget.*;
+import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemSelectedListener;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.CompoundButton;
+import android.widget.EditText;
+import android.widget.LinearLayout;
+import android.widget.Spinner;
+import android.widget.TextView;
+
+import java.math.BigDecimal;
+import java.util.ArrayList;
+import java.util.List;
 
 import ir.parsansoft.app.ihs.center.AllNodes;
 import ir.parsansoft.app.ihs.center.AllViews.CO_d_fragment_base;
@@ -22,10 +39,6 @@ import ir.parsansoft.app.ihs.center.Database;
 import ir.parsansoft.app.ihs.center.DialogClass;
 import ir.parsansoft.app.ihs.center.G;
 import ir.parsansoft.app.ihs.center.R;
-
-import java.math.BigDecimal;
-import java.util.ArrayList;
-import java.util.List;
 
 public class DialogNodeSelector extends DialogFragment {
 
@@ -359,7 +372,7 @@ public class DialogNodeSelector extends DialogFragment {
                 List<String> list = new ArrayList<>();
                 if (isVisibleToUser) {
                     G.log("DialogNodeSelector : FragmentNode is visible");
-                    nodes = Database.Node.select("RoomID=" + myRoomID);
+                    nodes = Database.Node.select("RoomID=" + myRoomID + " and nodeTypeID not in (" + AllNodes.Node_Type.IOModule + ")");
                     G.log("load Nodes ....");
                     if (nodes != null) {
                         if (nodes.length > 0) {
@@ -585,17 +598,17 @@ public class DialogNodeSelector extends DialogFragment {
                             loadValues(currentSwitch.iD);
                             txtTitle.setText(currentSwitch.name);
                             txtBody.setText("");
-                            G.log("ScenarioBP >>AllNodes.Switch_Type >> "+currentSwitch.switchType );
+                            G.log("ScenarioBP >>AllNodes.Switch_Type >> " + currentSwitch.switchType);
                             if (currentSwitch.switchType == AllNodes.Switch_Type.Sensor_NO) {
                                 if (dcl != null)
-                                    G.log("ScenarioBP >>AllNodes.Switch_Type.Sensor_NO" );
-                                    dcl.onSwitchSelected(mySwitchID, "=", 0);
+                                    G.log("ScenarioBP >>AllNodes.Switch_Type.Sensor_NO");
+                                dcl.onSwitchSelected(mySwitchID, "=", 0);
                                 dialog.dismiss();
                             }
 
                             if (currentSwitch.switchType == AllNodes.Switch_Type.Sensor_NC) {
                                 if (dcl != null)
-                                    G.log("ScenarioBP >>AllNodes.Switch_Type.Sensor_NC" );
+                                    G.log("ScenarioBP >>AllNodes.Switch_Type.Sensor_NC");
                                 dcl.onSwitchSelected(mySwitchID, "=", 1);
                                 dialog.dismiss();
                             }
@@ -1043,7 +1056,10 @@ public class DialogNodeSelector extends DialogFragment {
             public void setUserVisibleHint(boolean isVisibleToUser) {
                 super.setUserVisibleHint(isVisibleToUser);
                 if (isVisibleToUser) {
-                    nodes = Database.Node.select("RoomID = " + myRoomID);
+                    nodes = Database.Node.select("RoomID = " + myRoomID +
+                            " and nodeTypeId not in (" + AllNodes.Node_Type.IOModule + ", " +
+                            AllNodes.Node_Type.Sensor_SMOKE + ", " +
+                            AllNodes.Node_Type.Sensor_Magnetic + ")");
                     G.log("load Nodes ....");
                     ArrayAdapter<String> adapter;
                     List<String> list = new ArrayList<>();

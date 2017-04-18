@@ -70,15 +70,15 @@ public class ActivityAddNode_IoModule_Device_Select extends ActivityEnhanced {
         mAdd_node_input_output.btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (saveForm()) {
-                    Intent mAdd_node_input_output = new Intent(G.currentActivity, ActivityAddNode_IoMadule_NodeType.class);
-                    mAdd_node_input_output.putExtra("NODE_Type", node_type);
-                    mAdd_node_input_output.putExtra("IO_NODE_ID", ioModuleID);
-                    mAdd_node_input_output.putExtra("DEVICE_NODE_ID", deviceID);
-                    G.currentActivity.startActivity(mAdd_node_input_output);
-                    Animation.doAnimation(Animation.Animation_Types.FADE_SLIDE_LEFTRIGHT_RIGHT);
-                    finish();
-                }
+//                if (saveForm()) {
+                Intent mAdd_node_input_output = new Intent(G.currentActivity, ActivityAddNode_IoMadule_NodeType.class);
+                mAdd_node_input_output.putExtra("NODE_Type", node_type);
+                mAdd_node_input_output.putExtra("IO_NODE_ID", ioModuleID);
+//                mAdd_node_input_output.putExtra("DEVICE_NODE_ID", deviceID);
+                G.currentActivity.startActivity(mAdd_node_input_output);
+                Animation.doAnimation(Animation.Animation_Types.FADE_SLIDE_LEFTRIGHT_RIGHT);
+                finish();
+//                }
             }
         });
 
@@ -136,24 +136,24 @@ public class ActivityAddNode_IoModule_Device_Select extends ActivityEnhanced {
 
     }
 
-    private boolean saveForm() {
-        try {
-            insertFakeNodeToDb();
-            return true;
-        } catch (Exception e) {
-            G.printStackTrace(e);
-            return false;
-        }
-    }
+//    private boolean saveForm() {
+//        try {
+//            insertFakeNodeToDb();
+//            return true;
+//        } catch (Exception e) {
+//            G.printStackTrace(e);
+//            return false;
+//        }
+//    }
 
-    private void insertFakeNodeToDb() {
-        newNode = new Database.Node.Struct();
-        newNode.nodeTypeID = node_type;
-        newNode.roomID = AllNodes.myHouseDefaultRoomId;
-        newNode.iP = ioNode[0].iP;
-        int newNodeID = AllNodes.AddNewNode(newNode, 1);
-        deviceID = newNodeID;
-    }
+//    private void insertFakeNodeToDb() {
+//        newNode = new Database.Node.Struct();
+//        newNode.nodeTypeID = node_type;
+//        newNode.roomID = AllNodes.myHouseDefaultRoomId;
+//        newNode.iP = ioNode[0].iP;
+//        int newNodeID = AllNodes.AddNewNode(newNode, 1);
+//        deviceID = newNodeID;
+//    }
 
     @Override
     public void translateForm() {

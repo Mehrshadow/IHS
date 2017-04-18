@@ -1,10 +1,6 @@
 [
     {
-<<<<<<< HEAD
         "outputFile": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
-=======
-        "outputFile": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-land-v13\\values-sw720dp-land-v13.xml",
->>>>>>> master
         "map": [
             {
                 "to": {
@@ -15,11 +11,7 @@
                     "endOffset": 109
                 },
                 "from": {
-<<<<<<< HEAD
                     "file": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
-=======
-                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\newRepo\\iHsCenter\\app\\src\\main\\res\\values-sw720dp-land\\dimens.xml",
->>>>>>> master
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,

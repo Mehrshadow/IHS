@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ir.parsansoft.app.ihs.center"
-    android:versionCode="5"
-    android:versionName="1.31" >
+    android:versionCode="8"
+    android:versionName="1.34" >
 
     <uses-sdk
         android:minSdkVersion="16"
@@ -290,7 +290,6 @@
             android:value="c0fa959b956eff57d903c0bec031fc881cfcbd0d" />
 
         <activity android:name="ir.parsansoft.app.ihs.center.ActivityMyHouse" />
-        <activity android:name="ir.parsansoft.app.ihs.center.ActivityAddNode_IoModule_SelectIo" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"

@@ -25,8 +25,9 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
 
     private AdapterListViewFakeNode grdListAdapter;
     private AdapterFakeNodeSwitches adapterNodeSwitches;
-    private Database.Node.Struct[] ioNode;
+    private Database.Node.Struct[] newDevice;
     private Database.Switch.Struct[] switches;
+    Database.Node.Struct[] ioNode;
     ListView lstNode, lstNodeSwitches;
     Button btnNext, btnCancel, btnBack;
     TextView txtTitle;
@@ -34,6 +35,7 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
     int ioModuleID = 0;
     int node_type;
     List<String> availablePorts;
+    private Database.Node.Struct newNode;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -56,23 +58,25 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
 
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
-            if (extras.containsKey("IO_NODE_ID")) {
+            if (extras.containsKey("IO_NODE_ID")) { // IO Module Id
                 deviceID = extras.getInt("DEVICE_NODE_ID");
                 ioModuleID = extras.getInt("IO_NODE_ID");
-                ioNode = Database.Node.select("iD=" + deviceID);
+//                newDevice = Database.Node.select("iD=" + deviceID);
                 node_type = extras.getInt("NODE_Type");
                 G.log("Node ID=" + deviceID);
             }
         }
-        if (ioNode != null) {
-            grdListAdapter = new AdapterListViewFakeNode(G.currentActivity, ioNode, false);
-            mAdd_node_nodeType.lstNode.setAdapter(grdListAdapter);
-            switches = Database.Switch.select("NodeID = " + deviceID);
-            if (switches != null) {
-                adapterNodeSwitches = new AdapterFakeNodeSwitches(this, switches, getAvailablePorts());
-                mAdd_node_nodeType.lstNodeSwitches.setAdapter(adapterNodeSwitches);
-            }
+
+        insertFakeNodeToDb();
+
+        grdListAdapter = new AdapterListViewFakeNode(G.currentActivity, newDevice, false);
+        mAdd_node_nodeType.lstNode.setAdapter(grdListAdapter);
+        switches = Database.Switch.select("nodeID = " + deviceID);
+        if (switches != null) {
+            adapterNodeSwitches = new AdapterFakeNodeSwitches(this, switches, getAvailablePorts());
+            mAdd_node_nodeType.lstNodeSwitches.setAdapter(adapterNodeSwitches);
         }
+
         mAdd_node_nodeType.btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0) {
@@ -133,7 +137,7 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
             availablePorts.add("11");
             availablePorts.add("12");
 
-            Database.Node.Struct[] nodes = Database.Node.select("iP='" + ioNode[0].iP + "'");
+            Database.Node.Struct[] nodes = Database.Node.select("iP='" + newDevice[0].iP + "'");
             ArrayList<Database.Switch.Struct> fakeswitches = new ArrayList<>();
             for (int i = 0; i < nodes.length; i++) {
                 Database.Switch.Struct[] switches = Database.Switch.select("isIOModuleSwitch=" + 1 + " AND nodeID = " + nodes[i].iD);
@@ -143,9 +147,7 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
                         fakeswitches.add(switches[j]);
                     }
                 }
-
             }
-
 
             for (int i = 0; i < fakeswitches.size(); i++) {
                 availablePorts.remove(String.valueOf(fakeswitches.get(i).IOModulePort));
@@ -160,13 +162,18 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
             Database.Switch.Struct[] s = Database.Switch.select("nodeID=" + deviceID);
             if (s.length > availablePorts.size()) {
                 Intent in_out = new Intent(G.currentActivity, ActivityAddNode_IoModule_Device_Select.class);
-                in_out.putExtra("NODE_ID", nodes[0].iD);
+                in_out.putExtra("IO_NODE_ID", nodes[0].iD);
 
-                // device dar activity ghabli insert shode ama port vasash nadarim
-                // pas bayad pak beshe!
-                Database.Node.delete(nodes[0].iD);
-                for (int i = 0; i < switches.length; i++) {
-                    Database.Switch.delete(switches[i].iD);
+                try {
+                    // device dar activity ghabli insert shode ama port vasash nadarim
+                    // pas bayad pak beshe!
+                    Database.Switch.Struct[] switches = Database.Switch.select("isIOModuleSwitch=" + 1 + " AND nodeID = " + deviceID);
+                    Database.Node.delete(deviceID);
+                    for (int i = 0; i < switches.length; i++) {
+                        Database.Switch.delete(switches[i].iD);
+                    }
+                } catch (Exception e) {
+                    G.printStackTrace(e);
                 }
 
                 G.currentActivity.startActivity(in_out);
@@ -201,6 +208,19 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
     public void onBackPressed() {
         super.onBackPressed();
         Animation.doAnimation(Animation.Animation_Types.FADE_SLIDE_LEFTRIGHT_LEFT);
+    }
+
+    private void insertFakeNodeToDb() {
+        ioNode = Database.Node.select("iD=" + ioModuleID);
+        newNode = new Database.Node.Struct();
+        newNode.nodeTypeID = node_type;
+        newNode.roomID = AllNodes.myHouseDefaultRoomId;
+        newNode.iP = ioNode[0].iP;
+        int newNodeID = AllNodes.AddNewNode(newNode, 1);
+        deviceID = newNodeID;
+
+        newDevice = new Database.Node.Struct[1];
+        newDevice[0] = newNode;
     }
 
     private boolean saveForm() {
@@ -264,7 +284,7 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
             }
             nm.data = ja.toString();
             nm.messageID = nm.save();
-            SysLog.log("Device " + ioNode[0].name + " Edited.", SysLog.LogType.DATA_CHANGE, SysLog.LogOperator.NODE, deviceID);
+            SysLog.log("Device " + newDevice[0].name + " Edited.", SysLog.LogType.DATA_CHANGE, SysLog.LogOperator.NODE, deviceID);
             G.mobileCommunication.sendMessage(nm);
             G.server.sendMessage(nm);
             return true;
