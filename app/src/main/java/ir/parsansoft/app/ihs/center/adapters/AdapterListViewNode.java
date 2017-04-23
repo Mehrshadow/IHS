@@ -52,8 +52,6 @@ public class AdapterListViewNode extends ArrayAdapter<Database.Node.Struct> {
         AllViews.CO_l_node_simple_dimmer newDimmer = null;
         AllViews.CO_l_node_IoModule newIOModule = null;
 
-        View row = convertView;
-
         Database.Node.Struct node = getItem(position);
 
         if (convertView == null) {
@@ -69,22 +67,22 @@ public class AdapterListViewNode extends ArrayAdapter<Database.Node.Struct> {
                 case AllNodes.Node_Type.WC_SWITCH:
                 case AllNodes.Node_Type.Sensor_Magnetic:
                 case AllNodes.Node_Type.Sensor_SMOKE:
-                    row = inflater.inflate(R.layout.l_node_simple_key, parent, false);
-                    newSimpleKey = new AllViews.CO_l_node_simple_key(row);
-                    row.setTag(newSimpleKey);
+                    convertView = inflater.inflate(R.layout.l_node_simple_key, parent, false);
+                    newSimpleKey = new AllViews.CO_l_node_simple_key(convertView);
+                    convertView.setTag(newSimpleKey);
                     G.log("*** position = " + position + " simple key");
                     break;
                 case AllNodes.Node_Type.SIMPLE_DIMMER_1:
                 case AllNodes.Node_Type.SIMPLE_DIMMER_2:
-                    row = inflater.inflate(R.layout.l_node_simple_dimmer, parent, false);
-                    newDimmer = new AllViews.CO_l_node_simple_dimmer(row);
-                    row.setTag(newDimmer);
+                    convertView = inflater.inflate(R.layout.l_node_simple_dimmer, parent, false);
+                    newDimmer = new AllViews.CO_l_node_simple_dimmer(convertView);
+                    convertView.setTag(newDimmer);
                     G.log("*** position = " + position + " dimmer");
                     break;
                 case AllNodes.Node_Type.IOModule:
-                    row = inflater.inflate(R.layout.l_node_io_module, parent, false);
-                    newIOModule = new AllViews.CO_l_node_IoModule(row);
-                    row.setTag(newIOModule);
+                    convertView = inflater.inflate(R.layout.l_node_io_module, parent, false);
+                    newIOModule = new AllViews.CO_l_node_IoModule(convertView);
+                    convertView.setTag(newIOModule);
                     G.log("*** position = " + position + " IO Module");
                     break;
                 default:
@@ -101,30 +99,30 @@ public class AdapterListViewNode extends ArrayAdapter<Database.Node.Struct> {
                 case AllNodes.Node_Type.Sensor_Magnetic:
                 case AllNodes.Node_Type.Sensor_SMOKE:
                     try {
-                        newSimpleKey = (AllViews.CO_l_node_simple_key) row.getTag();
+                        newSimpleKey = (AllViews.CO_l_node_simple_key) convertView.getTag();
                     } catch (ClassCastException e) {
-                        row = inflater.inflate(R.layout.l_node_simple_key, parent, false);
-                        newSimpleKey = new AllViews.CO_l_node_simple_key(row);
-                        row.setTag(newSimpleKey);
+                        convertView = inflater.inflate(R.layout.l_node_simple_key, parent, false);
+                        newSimpleKey = new AllViews.CO_l_node_simple_key(convertView);
+                        convertView.setTag(newSimpleKey);
                     }
                     break;
                 case AllNodes.Node_Type.SIMPLE_DIMMER_1:
                 case AllNodes.Node_Type.SIMPLE_DIMMER_2:
                     try {
-                        newDimmer = (AllViews.CO_l_node_simple_dimmer) row.getTag();
+                        newDimmer = (AllViews.CO_l_node_simple_dimmer) convertView.getTag();
                     } catch (ClassCastException e) {
-                        row = inflater.inflate(R.layout.l_node_simple_dimmer, parent, false);
-                        newDimmer = new AllViews.CO_l_node_simple_dimmer(row);
-                        row.setTag(newDimmer);
+                        convertView = inflater.inflate(R.layout.l_node_simple_dimmer, parent, false);
+                        newDimmer = new AllViews.CO_l_node_simple_dimmer(convertView);
+                        convertView.setTag(newDimmer);
                     }
                     break;
                 case AllNodes.Node_Type.IOModule:
                     try {
-                        newIOModule = (AllViews.CO_l_node_IoModule) row.getTag();
+                        newIOModule = (AllViews.CO_l_node_IoModule) convertView.getTag();
                     } catch (ClassCastException e) {
-                        row = inflater.inflate(R.layout.l_node_io_module, parent, false);
-                        newIOModule = new AllViews.CO_l_node_IoModule(row);
-                        row.setTag(newIOModule);
+                        convertView = inflater.inflate(R.layout.l_node_io_module, parent, false);
+                        newIOModule = new AllViews.CO_l_node_IoModule(convertView);
+                        convertView.setTag(newIOModule);
                     }
                     break;
             }
@@ -165,6 +163,6 @@ public class AdapterListViewNode extends ArrayAdapter<Database.Node.Struct> {
             G.log("ui Index= " + uiIndex);
             G.nodeCommunication.allNodes.get(node.iD).setSettingVisiblity(uiIndex, isSettingVisible);
         }
-        return row;
+        return convertView;
     }
 }
