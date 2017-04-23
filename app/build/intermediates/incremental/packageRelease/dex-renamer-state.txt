@@ -1,4 +1,0 @@
-#Sun Apr 23 07:35:37 IRDT 2017
-base.0=C\:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main
-renamed.0=classes.dex
-file.0=C\:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main\\classes.dex
