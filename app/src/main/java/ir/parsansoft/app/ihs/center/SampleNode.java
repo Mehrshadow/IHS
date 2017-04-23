@@ -2,7 +2,6 @@ package ir.parsansoft.app.ihs.center;
 
 import android.content.Context;
 import android.view.MotionEvent;
-import android.view.View;
 import android.view.ViewGroup;
 
 import java.io.BufferedReader;
@@ -70,7 +69,19 @@ public class SampleNode extends ViewGroup {
         return myNode.isIoModuleNode;
     }
 
-    public int addUI(View view) {
+    public int addUI(AllViews.CO_l_node_simple_key simple_key) {
+        return 0;
+    }
+
+    public int addUI(AllViews.CO_l_node_simple_dimmer dimmer) {
+        return 0;
+    }
+
+    public int addUI(AllViews.CO_l_node_IoModule ioModule) {
+        return 0;
+    }
+
+    public int addUI(Database.Node.Struct view) {
         return 0;
     }
 
@@ -120,6 +131,7 @@ public class SampleNode extends ViewGroup {
 
         }
         sendMessageToNode("GSFD*"); // Get Status From Device
+        G.log("Sending GSFD");
     }
 
     protected void onSocketDisconnect() {
@@ -381,6 +393,7 @@ public class SampleNode extends ViewGroup {
     public void refreshStatus() {
         try {
             sendMessageToNode("GSFD*"); // Get Status From Device
+            G.log("Sending GSFD");
         } catch (Exception e) {
         }
     }

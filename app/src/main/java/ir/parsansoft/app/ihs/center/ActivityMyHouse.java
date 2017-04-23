@@ -154,7 +154,6 @@ public class ActivityMyHouse extends ActivityEnhanced implements View.OnClickLis
 
     }
 
-
     @Override
     public void translateForm() {
         super.translateForm();
@@ -179,7 +178,8 @@ public class ActivityMyHouse extends ActivityEnhanced implements View.OnClickLis
         }
         grdListAdapter = null;
         if (nodes != null) {
-            grdListAdapter = new AdapterListViewNode(G.currentActivity, nodes, true);
+            grdListAdapter = new AdapterListViewNode(G.currentActivity, nodes, true, 4);
+//            grdListAdapter = new AdapterListViewNode(G.currentActivity, nodes, true);
         }
         fo.grdNodes.setAdapter(grdListAdapter);
     }

@@ -1,16 +1,17 @@
 package ir.parsansoft.app.ihs.center;
 
-import ir.parsansoft.app.ihs.center.AllViews.CO_f_favorites;
-import ir.parsansoft.app.ihs.center.adapters.AdapterListViewNode;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 
+import ir.parsansoft.app.ihs.center.AllViews.CO_f_favorites;
+import ir.parsansoft.app.ihs.center.adapters.AdapterListViewNode;
+
 public class ActivityFavorites extends ActivityEnhanced {
 
-    private AdapterListViewNode    grdListAdapter;
+    private AdapterListViewNode grdListAdapter;
     private Database.Node.Struct[] nodes;
-    private CO_f_favorites         formObjects;
+    private CO_f_favorites formObjects;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,7 +50,10 @@ public class ActivityFavorites extends ActivityEnhanced {
             nodes = Database.Node.select("");
 
         grdListAdapter = null;
-        grdListAdapter = new AdapterListViewNode(G.currentActivity, nodes, true);
+        if (nodes == null)
+            nodes = new Database.Node.Struct[0];
+
+        grdListAdapter = new AdapterListViewNode(G.currentActivity, nodes, true, 4);
         formObjects.grdNodes.setAdapter(grdListAdapter);
         Animation.setListAnimation(this, formObjects.grdNodes);
         //grdListAdapter.notifyDataSetChanged();

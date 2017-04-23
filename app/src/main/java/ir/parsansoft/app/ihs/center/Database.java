@@ -172,9 +172,9 @@ public class Database {
         try {
             jo.put("CustomerID", G.setting.customerID);
             jo.put("CustomerName", G.setting.customerName);
-            jo.put("ServerIP", G.setting.serverSocketIP);
-//            jo.put("ServerIP", "192.168.1.35");
+//            jo.put("ServerIP", G.setting.serverSocketIP);
 //            jo.put("ServerPort", G.setting.serverSocketPort);
+            jo.put("ServerIP", "192.168.1.14");
             jo.put("ServerPort", 8089);
             jo.put("Ver", Utility.getApplicationVersionName());
             jo.put("CenterIP", G.networkSetting.mainIPAddress);
@@ -2256,7 +2256,7 @@ public class Database {
             Values.put("Icon", myNode.icon);
             Values.put("Name", myNode.name);
             Values.put("Status", myNode.status);
-            Values.put("ExpDate", myNode.expDate.toString());
+            Values.put("ExpDate", myNode.expDate);
             Values.put("BuildNumber", myNode.buildnumber);
             Values.put("OsVer", myNode.osVer);
             Values.put("LastSecKey", myNode.lastSecKey);

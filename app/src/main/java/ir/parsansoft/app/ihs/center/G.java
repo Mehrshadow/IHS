@@ -101,6 +101,7 @@ public class G extends Application {
 
 
     public static final int DEFAULT_MINUTES_CHECK_NODE_EXIST = 1;
+//    public static final int DEFAULT_NODE_SOCKET_TIMEOUT = 5000;
     public static final int DEFAULT_NODE_SOCKET_TIMEOUT = 5000;
     public static final int DEFAULT_NODE_SEND_PORT = 54123;
     public static final int DEFAULT_NODE_GET_PORT = 54123;
@@ -234,8 +235,8 @@ public class G extends Application {
         } catch (MalformedURLException e) {
             G.printStackTrace(e);
         }
-//        return "192.168.1.35";//ip;
-        return ip;
+        return "192.168.1.14";//ip;
+//        return ip;
     }
 
     public static int getServerPort() {
@@ -243,15 +244,15 @@ public class G extends Application {
     }
 
     public static void configureURLs() {
-        URL_Webservice = "http://service." + G.setting.serverURL + "/service.aspx";
-        URL_Weather_Webservice = "http://service." + G.setting.serverURL + "/service.aspx";
-        URL_Map_Webservice = "http://service." + G.setting.serverURL + "/map/";
-        URL_Sms_Webservice = "http://user." + G.setting.serverURL + "/[LANG]/service/sms?customerid=[CUSTOMERID]&exkey=[EXKEY]";
-
-//                URL_Webservice = "http://192.168.1.35:205/service.aspx";
-//                URL_Weather_Webservice = "http://192.168.1.111:200/service.aspx";
-//                URL_Map_Webservice = "http://192.168.1.111:200/map/";
-//                URL_Sms_Webservice = "http://192.168.1.111:200/[LANG]/service/sms?customerid=[CUSTOMERID]&exkey=[EXKEY]";
+//        URL_Webservice = "http://service." + G.setting.serverURL + "/service.aspx";
+//        URL_Weather_Webservice = "http://service." + G.setting.serverURL + "/service.aspx";
+//        URL_Map_Webservice = "http://service." + G.setting.serverURL + "/map/";
+//        URL_Sms_Webservice = "http://user." + G.setting.serverURL + "/[LANG]/service/sms?customerid=[CUSTOMERID]&exkey=[EXKEY]";
+//
+                URL_Webservice = "http://192.168.1.14:2012/service.aspx";
+                URL_Weather_Webservice = "http://192.168.1.14:2012/service.aspx";
+                URL_Map_Webservice = "http://192.168.1.14:2012/map/";
+                URL_Sms_Webservice = "http://192.168.1.14:2012/[LANG]/service/sms?customerid=[CUSTOMERID]&exkey=[EXKEY]";
     }
 
     public static int getIconResource(String name) {

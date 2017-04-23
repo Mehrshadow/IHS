@@ -1,0 +1,111 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/layout_theme"
+    android:gravity="bottom|right|center_horizontal"
+    tools:context=".ActivityMain" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="115dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:background="@drawable/lay_back_wizard"
+        android:orientation="vertical"
+        android:paddingLeft="25dp"
+        android:paddingTop="25dp" >
+
+        <LinearLayout
+            android:id="@+id/laySwitcher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Switch
+                android:id="@+id/swhActive"
+                style="@style/switch_theme"
+                android:text="Do you want to enable weather preconditions"
+                android:thumb="@drawable/thumb_switch_selector"
+                android:track="@drawable/lay_on_off_back" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layOptions"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="25dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:visibility="visible" >
+
+            <TextView
+                android:id="@+id/txtWeatherTitle"
+                style="@style/txt_matn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="10dp"
+                android:text="Select the weather situations you want to enable this scenario :"
+                android:typeface="monospace" />
+
+            <GridView
+                android:id="@+id/gridView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="25dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:numColumns="7"
+                android:padding="16dp"
+                android:verticalSpacing="20dp"
+                tools:listitem="@layout/l_weather_gridview_item" >
+
+            </GridView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginRight="115dp"
+        android:layout_marginTop="10dp"
+        android:gravity="right" >
+
+        <Button
+            android:id="@+id/btnCancel"
+            style="@style/button_navigation_theme"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:text="Close" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnBack"
+            style="@style/button_navigation_theme"
+            android:text="Back" />
+
+        <Button
+            android:id="@+id/btnNext"
+            style="@style/button_navigation_theme"
+            android:layout_marginRight="0dp"
+            android:text="Next" />
+
+    </LinearLayout>
+
+</LinearLayout>

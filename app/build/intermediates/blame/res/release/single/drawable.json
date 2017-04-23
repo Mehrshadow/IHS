@@ -1,0 +1,402 @@
+[
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\custom_button_next.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\custom_button_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\checkbox_selector_rtl.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\checkbox_selector_rtl.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\spinner_selector_rtl.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\spinner_selector_rtl.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\btn_slide_menu_setting_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\btn_slide_menu_setting_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\checkbox_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\checkbox_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\FCC\\.android\\build-cache\\550361ace40a162c3736de118df6487751699548\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\btn_keyboard_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\btn_keyboard_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\lay_language_fa.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\lay_language_fa.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\lay_setting_icon_reset_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\lay_setting_icon_reset_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\left_shadow.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\left_shadow.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\btn_main_menu_scenario_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\btn_main_menu_scenario_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\rounded_edittext.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\rounded_edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\lay_sections_exp_head_collapse_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\lay_sections_exp_head_collapse_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\laybtn_devices_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\laybtn_devices_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\lay_language_tk.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\lay_language_tk.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\lay_list_password_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\lay_list_password_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\custom_edittext.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\custom_edittext.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\lay_language_ar.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\lay_language_ar.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\lay_sections_exp_item_last_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\lay_sections_exp_item_last_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\FCC\\.android\\build-cache\\a60b8dfce3126584ebc2c00ab866effeb1a0e4f1\\output\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\button_refresh_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\button_refresh_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\btn_main_menu_devices_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\btn_main_menu_devices_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\right_shadow.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\right_shadow.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\FCC\\.android\\build-cache\\550361ace40a162c3736de118df6487751699548\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\btn_slide_menu_favorites_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\btn_slide_menu_favorites_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\lay_sections_exp_item_middle_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\lay_sections_exp_item_middle_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\lay_setting_icon_sms_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\lay_setting_icon_sms_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\lay_setting_icon_location_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\lay_setting_icon_location_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\button_forward_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\button_forward_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_dark.xml",
+        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\drawable\\abc_dialog_material_background_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\lay_setting_icon_weather_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\lay_setting_icon_weather_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\laybtn_settings_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\laybtn_settings_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\lay_setting_icon_warranty_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\lay_setting_icon_warranty_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\lay_sections_exp_head_expand_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\lay_sections_exp_head_expand_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\lay_setting_icon_language_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\lay_setting_icon_language_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\btn_main_icon_help_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\btn_main_icon_help_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\lay_language_en.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\lay_language_en.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\btn_slide_menu_devices_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\btn_slide_menu_devices_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\FCC\\.android\\build-cache\\550361ace40a162c3736de118df6487751699548\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_full_material.xml",
+        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\drawable\\abc_ratingbar_full_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\radiobutton_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\radiobutton_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\FCC\\.android\\build-cache\\550361ace40a162c3736de118df6487751699548\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\btn_slide_menu_home_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\btn_slide_menu_home_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\lay_back_run_button.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\lay_back_run_button.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\button_add_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\button_add_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\lay_btn_checkbox_rtl.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\lay_btn_checkbox_rtl.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\lay_setting_icon_users_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\lay_setting_icon_users_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\btn_main_menu_favorites_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\btn_main_menu_favorites_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\laybtn_scenario_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\laybtn_scenario_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\lay_setting_icon_log_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\lay_setting_icon_log_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\btn_main_menu_setting_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\btn_main_menu_setting_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\button_backward_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\button_backward_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\button_other_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\button_other_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\slider_back.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\slider_back.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\spinner_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\spinner_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\lay_setting_icon_network_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\lay_setting_icon_network_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\lay_list_edit_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\lay_list_edit_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\listview_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\listview_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\lay_sections_exp_item_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\lay_sections_exp_item_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\lay_setting_icon_support_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\lay_setting_icon_support_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\slide_tabs_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\slide_tabs_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\lay_back_datetime_button_up.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\lay_back_datetime_button_up.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\laybtn_favorites_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\laybtn_favorites_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\lay_list_delete_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\lay_list_delete_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\FCC\\.android\\build-cache\\a60b8dfce3126584ebc2c00ab866effeb1a0e4f1\\output\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\button_home_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\button_home_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\lay_setting_icon_datetime_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\lay_setting_icon_datetime_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\lay_back_datetime_button_down.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\lay_back_datetime_button_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\thumb_switch_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\thumb_switch_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\main_bg_repeative.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\main_bg_repeative.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\viewpager_tabs_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\viewpager_tabs_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\lay_setting_icon_update_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\lay_setting_icon_update_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\lay_setting_icon_display_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\lay_setting_icon_display_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\btn_slide_menu_scenario_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\btn_slide_menu_scenario_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\lay_setting_icon_mobile_selector.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\lay_setting_icon_mobile_selector.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\drawable\\abc_dialog_material_background_light.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable\\progressbar_style.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable\\progressbar_style.xml"
+    }
+]
