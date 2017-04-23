@@ -641,6 +641,8 @@
         <item>859|لطفا نام، نوع و پورت سنسور مورد نظر را مشخص کنید</item>
         <item>860|این دستگاه به وردی های </item>
         <item>861|متصل شده است </item>
+        <item>862|نام ماژول:</item>
+        <item>863|لطفا نام ماژول را وارد نمایید</item>
 
 
         <item>1101|کلید تک پل</item>
@@ -1102,7 +1104,8 @@
         <item>859|Please Select Name, Type And Port Of The Sensor</item>
         <item>860|This Device is Connected To </item>
         <item>861|Ports</item>
-
+        <item>862|Module name:</item>
+        <item>863|Please enter Module's name</item>
 
         <item>1101|One Gang Switch</item>
         <item>1102|Two Gang Switch</item>
@@ -1531,6 +1534,8 @@
         <item>843|حالة الطقس</item>
         <item>844|يرجى تحديث الوقت والتاريخ</item>
         <item>847|بحث</item>
+        <item>862|اسم وحدة</item>
+        <item>863|يرجى إدخال اسم الوحدة النمطية</item>
 
         <item>1101|واحد القطب التبديل</item>
         <item>1102|اثنين من القطب التبديل</item>
@@ -1952,6 +1957,8 @@
         <item>843|yükseltmeler</item>
         <item>844|Tim Bliss gösterilen DAT</item>
         <item>847|arama</item>
+        <item>862|Modül adı</item>
+        <item>863|Lütfen modül adı girin</item>
 
         <item>1101|Bir Kutup Anahtarı</item>
         <item>1102|İki Kutuplu Anahtarı</item>

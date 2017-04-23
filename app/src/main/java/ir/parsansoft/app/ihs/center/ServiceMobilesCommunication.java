@@ -172,7 +172,7 @@ public class ServiceMobilesCommunication extends IntentService {
         netMessage.type = NetMessage.SocketStatus;
         netMessage.typeName = NetMessage.NetMessageType.ScenarioStatus;
         netMessage.action = NetMessage.SocketStart;
-        netMessage.messageID = netMessage.save();
+//        netMessage.messageID = netMessage.save();
         sendPushNotificationToAll(netMessage);
     }
 

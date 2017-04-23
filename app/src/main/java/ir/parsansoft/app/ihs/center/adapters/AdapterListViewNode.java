@@ -48,6 +48,10 @@ public class AdapterListViewNode extends ArrayAdapter<Database.Node.Struct> {
     @Override
     public View getView(final int position, View convertView, ViewGroup parent) {
 
+//        if (position != 0) {
+            convertView = null;
+//        }
+
         AllViews.CO_l_node_simple_key newSimpleKey = null;
         AllViews.CO_l_node_simple_dimmer newDimmer = null;
         AllViews.CO_l_node_IoModule newIOModule = null;

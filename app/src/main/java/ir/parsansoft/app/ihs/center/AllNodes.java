@@ -2440,6 +2440,7 @@ public class AllNodes {
 
                 newNode.isIoModuleNode = isIOModuleNode;
                 newNode.iD = (int) Database.Node.insert(newNode);
+                newNode.roomID = myHouseDefaultRoomId;
                 for (int i = 0; i < 3; i++) {
                     sw = new Database.Switch.Struct();
                     sw.code = "" + i;

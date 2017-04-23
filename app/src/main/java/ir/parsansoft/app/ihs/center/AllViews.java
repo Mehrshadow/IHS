@@ -513,7 +513,7 @@ public class AllViews {
         public Spinner spnSensorModel;
         public Spinner spnSensorType;
         public Spinner spnSensorPort;
-        public Button btnNext,btnCancel,btnBack;
+        public Button btnNext, btnCancel, btnBack;
 //        public CheckBox chkBoxPort1, chkBoxPort2, chkBoxPort3, chkBoxPort4,
 //                chkBoxPort5, chkBoxPort6, chkBoxPort7, chkBoxPort8, chkBoxPort9, chkBoxPort10;
 
@@ -962,7 +962,7 @@ public class AllViews {
         }
     }
 
-    public static final class CO_f_MyHouse{
+    public static final class CO_f_MyHouse {
 
         public Button btnAddNode;
         public Button btnBack;
@@ -2668,7 +2668,7 @@ public class AllViews {
     }
 
     public static final class CO_l_node_IoModule {
-//        public LinearLayout layKey1;
+        //        public LinearLayout layKey1;
 //        public ImageView imgKey1;
 //        public TextView txtKey1;
 //        public LinearLayout layKey2;
@@ -2700,7 +2700,7 @@ public class AllViews {
             txtNodeName = (TextView) activity.findViewById(R.id.txtNodeName);
             imgbtnEdit = (ImageView) activity.findViewById(R.id.imgbtnEdit);
             imgFavorites = (ImageView) activity.findViewById(R.id.imgFavorites);
-            layMain = (LinearLayout)activity.findViewById(R.id.layMain);
+            layMain = (LinearLayout) activity.findViewById(R.id.layMain);
             intializeVariables();
         }
 
@@ -2753,6 +2753,8 @@ public class AllViews {
         public Button btnOutput;
         public Spinner spnTypes;
         public TextView txtTitle;
+        public TextView txtIOName;
+        public EditText etIOName;
 
         public CO_d_section_add_node_input_output(Context context) {
             Activity activity = (Activity) context;
@@ -2762,6 +2764,8 @@ public class AllViews {
             btnOutput = (Button) activity.findViewById(R.id.btnOutput);
             spnTypes = (Spinner) activity.findViewById(R.id.spnTypes);
             txtTitle = (TextView) activity.findViewById(R.id.txtTitle);
+            txtIOName = (TextView) activity.findViewById(R.id.tv_io_name);
+            etIOName = (EditText) activity.findViewById(R.id.et_io_name);
             intializeVariables();
 
 
@@ -2799,7 +2803,7 @@ public class AllViews {
 
     }
 
-    public static final class Co_d_add_Node_IoModule_SelectIo{
+    public static final class Co_d_add_Node_IoModule_SelectIo {
 
         public GridView grdNodes;
         public TextView txtTitle;
@@ -2807,12 +2811,12 @@ public class AllViews {
         public Button btnBack;
         public Button btnCancel;
 
-        public Co_d_add_Node_IoModule_SelectIo(Activity activity){
+        public Co_d_add_Node_IoModule_SelectIo(Activity activity) {
             btnNext = (Button) activity.findViewById(R.id.btnNext);
             btnBack = (Button) activity.findViewById(R.id.btnBack);
             btnCancel = (Button) activity.findViewById(R.id.btnCancel);
             txtTitle = (TextView) activity.findViewById(R.id.txtTitle);
-            grdNodes = (GridView)  activity.findViewById(R.id.grdNodes);
+            grdNodes = (GridView) activity.findViewById(R.id.grdNodes);
 
         }
 

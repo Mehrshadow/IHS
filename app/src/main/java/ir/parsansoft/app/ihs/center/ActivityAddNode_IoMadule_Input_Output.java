@@ -19,7 +19,7 @@ public class ActivityAddNode_IoMadule_Input_Output extends ActivityEnhanced {
         if (G.setting.languageID == 1 || G.setting.languageID == 4)
             setContentView(R.layout.activity_add_node__io_madual__input__output);
         else
-            setContentView(R.layout.activity_add_node__io_madual__input__output);
+            setContentView(R.layout.activity_add_node__io_madual__input__output_rtl);
 
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
@@ -40,26 +40,31 @@ public class ActivityAddNode_IoMadule_Input_Output extends ActivityEnhanced {
 
     private void initializeForm() {
         mAdd_node_input_output.btnInput.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View v) {
-                Intent mAdd_node_input_output = new Intent(G.currentActivity, ActivityAddNode_IOModule_SensorType.class);
-                mAdd_node_input_output.putExtra("NODE_Type", node_type);
-                mAdd_node_input_output.putExtra("IO_NODE_ID", ioModuleId);
-                G.currentActivity.startActivity(mAdd_node_input_output);
-                Animation.doAnimation(Animation.Animation_Types.FADE_SLIDE_LEFTRIGHT_RIGHT);
-                finish();
+                if (saveForm()) {
+                    Intent mAdd_node_input_output = new Intent(G.currentActivity, ActivityAddNode_IOModule_SensorType.class);
+                    mAdd_node_input_output.putExtra("NODE_Type", node_type);
+                    mAdd_node_input_output.putExtra("IO_NODE_ID", ioModuleId);
+                    G.currentActivity.startActivity(mAdd_node_input_output);
+                    Animation.doAnimation(Animation.Animation_Types.FADE_SLIDE_LEFTRIGHT_RIGHT);
+                    finish();
+                }
             }
         });
 
         mAdd_node_input_output.btnOutput.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent mAdd_node_input_output = new Intent(G.currentActivity, ActivityAddNode_IoModule_Device_Select.class);
-                mAdd_node_input_output.putExtra("NODE_Type", node_type);
-                mAdd_node_input_output.putExtra("IO_NODE_ID", ioModuleId);
-                G.currentActivity.startActivity(mAdd_node_input_output);
-                Animation.doAnimation(Animation.Animation_Types.FADE_SLIDE_LEFTRIGHT_RIGHT);
-                finish();
+                if (saveForm()) {
+                    Intent mAdd_node_input_output = new Intent(G.currentActivity, ActivityAddNode_IoModule_Device_Select.class);
+                    mAdd_node_input_output.putExtra("NODE_Type", node_type);
+                    mAdd_node_input_output.putExtra("IO_NODE_ID", ioModuleId);
+                    G.currentActivity.startActivity(mAdd_node_input_output);
+                    Animation.doAnimation(Animation.Animation_Types.FADE_SLIDE_LEFTRIGHT_RIGHT);
+                    finish();
+                }
             }
         });
 
@@ -72,6 +77,21 @@ public class ActivityAddNode_IoMadule_Input_Output extends ActivityEnhanced {
 
     }
 
+
+    private boolean saveForm() {
+
+        String inputName = mAdd_node_input_output.etIOName.getText().toString().trim();
+
+        if (inputName.length() == 0) {
+            new DialogClass(G.currentActivity).showOk(G.T.getSentence(216), G.T.getSentence(863));
+            return false;
+        } else {
+            ioNode[0].name = inputName;
+            Database.Node.edit(ioNode[0]);
+            return true;
+        }
+    }
+
     @Override
     public void translateForm() {
         super.translateForm();
@@ -79,5 +99,6 @@ public class ActivityAddNode_IoMadule_Input_Output extends ActivityEnhanced {
         mAdd_node_input_output.btnOutput.setText(G.T.getSentence(854));
         mAdd_node_input_output.btnCancel.setText(G.T.getSentence(102));
         mAdd_node_input_output.txtTitle.setText(G.T.getSentence(855));
+        mAdd_node_input_output.txtIOName.setText(G.T.getSentence(862));
     }
 }

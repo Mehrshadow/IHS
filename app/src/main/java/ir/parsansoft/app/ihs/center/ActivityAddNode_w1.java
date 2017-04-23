@@ -276,7 +276,6 @@ public class ActivityAddNode_w1 extends ActivityEnhanced {
 
                                 if (newNode.nodeTypeID == AllNodes.Node_Type.IOModule)//IO Module
                                 {
-                                    newNode.roomID = AllNodes.myHouseDefaultRoomId;
                                     Intent fw2 = new Intent(G.currentActivity, ActivityAddNode_IoMadule_Input_Output.class);
                                     fw2.putExtra("NODE_ID", newNodeID);
                                     G.currentActivity.startActivity(fw2);
