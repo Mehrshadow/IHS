@@ -1,0 +1,143 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/layout_theme"
+    android:layout_marginRight="115dp"
+    android:gravity="bottom|right|center_horizontal"
+    tools:context=".ActivityMain" >
+
+    <LinearLayout
+        android:id="@+id/layOptions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="100dp"
+            android:background="@drawable/lay_back_wizard"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="40dp" >
+
+                <TextView
+                    android:id="@+id/txtSenarioName"
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/edtName"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:gravity="right"
+                    android:text="Scenario Name:"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    android:typeface="monospace" />
+
+                <EditText
+                    android:id="@+id/edtName"
+                    style="@style/edittext_theme"
+                    android:layout_width="400dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_toRightOf="@+id/txtSenarioName"
+                    android:ems="10"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:paddingLeft="10dp"
+                    android:privateImeOptions="nm"
+                    android:textSize="15sp" >
+
+                    <requestFocus />
+                </EditText>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:gravity="top" >
+
+                <EditText
+                    android:id="@+id/edtDes"
+                    style="@style/edittext_theme"
+                    android:layout_width="400dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_toRightOf="@+id/txtDes"
+                    android:ems="10"
+                    android:gravity="top"
+                    android:inputType="textMultiLine"
+                    android:lines="9"
+                    android:maxLines="9"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="10dp"
+                    android:privateImeOptions="nm"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/txtDes"
+                    style="@style/textview_before_editbox_theme"
+                    android:layout_width="150dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="5dp"
+                    android:gravity="right"
+                    android:text="Description:"
+                    android:textSize="15sp" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="95dp"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnCancel"
+            style="@style/button_navigation_theme"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:text="Cancel" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnNext"
+            style="@style/button_navigation_theme"
+            android:layout_gravity="right"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:text="Next" />
+
+    </LinearLayout>
+
+</LinearLayout>

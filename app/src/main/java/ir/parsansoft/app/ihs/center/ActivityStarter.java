@@ -9,7 +9,6 @@ public class ActivityStarter extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        Database.Node.addNewColume("newwwww", "TEXT", "default");
         G.log("Database Version "+G.dbObject.getVersion());
 
         if (G.setting.customerID > 0) {

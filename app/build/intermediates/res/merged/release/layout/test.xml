@@ -1,0 +1,161 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginLeft="100dp"
+    android:layout_marginRight="80dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ActivityMain" >
+
+    <LinearLayout
+        android:id="@+id/layOptions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/lay_back_wizard"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical" >
+
+            <LinearLayout
+                android:layout_width="400dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_marginRight="5dp"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+                <LinearLayout
+                    android:id="@+id/layIoNode"
+                    android:visibility="invisible"
+                    android:layout_width="170dp"
+                    android:layout_height="240dp"
+                    android:background="@drawable/lay_node_back_main"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical">
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/btnAddNode"
+                        style="@style/button_other_theme"
+                        android:layout_margin="16dp"
+                        android:text="Add Node To IO" />
+
+                    <Button
+                        android:id="@+id/btnDeleteIO"
+                        style="@style/button_other_theme"
+                        android:layout_margin="16dp"
+                        android:text="Delete IO" />
+
+                    <Button
+                        android:id="@+id/btnBackPage"
+                        style="@style/button_other_theme"
+                        android:layout_margin="16dp"
+                        android:text="Back" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:visibility="invisible"
+                    android:id="@+id/btn_io_module"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="30dp"
+                    android:src="@drawable/lay_main_slidebar_icon_home" />
+
+                <GridView
+                    android:id="@+id/grdNodes"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:listSelector="@android:color/transparent"
+                    android:numColumns="3"
+                    android:verticalSpacing="10dp"
+                    tools:listitem="@layout/l_node_simple_key">
+
+                </GridView>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:gravity="right" >
+
+        <Button
+            android:id="@+id/btnCancel"
+            style="@style/button_navigation_theme"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="32dp"
+            android:background="@drawable/button_add_selector"
+            android:text="Cancel" />
+
+        <TextView
+            android:id="@+id/txtLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btnBack"
+            style="@style/button_navigation_theme"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:background="@drawable/button_add_selector"
+            android:text="Back" />
+
+        <Button
+            android:id="@+id/btnNext"
+            style="@style/button_navigation_theme"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/button_add_selector"
+            android:text="Next" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActivityMain" >
+
+    <LinearLayout
+        android:id="@+id/layOptions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/lay_popup_bg"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:text="This is a dialog Title :"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="normal|bold"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/txtBody"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="The main text of dialog box goes here :"
+            android:textColor="#ffffff"
+            android:textSize="15sp"
+            android:textStyle="normal|bold"
+            android:typeface="monospace" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp" >
+
+            <TextView
+                android:id="@+id/txtValueLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:text="Value"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="normal|bold"
+                android:typeface="monospace" />
+
+            <Spinner
+                android:id="@+id/spnSections"
+                style="@style/AppTheme"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="15dp"
+                tools:listitem="@android:layout/simple_spinner_item" />
+
+            <EditText
+                android:id="@+id/edtValue"
+                android:layout_width="150dp"
+                android:layout_height="32dp"
+             
+                android:ems="10" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="right" >
+
+        <Button
+            android:id="@+id/btnNegative"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:text="Cancel" />
+
+        <TextView
+            android:id="@+id/txtLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btnPositive"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:text="Next" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -2,7 +2,6 @@ package ir.parsansoft.app.ihs.center;
 
 import android.content.Context;
 import android.view.MotionEvent;
-import android.view.View;
 import android.view.ViewGroup;
 
 import java.io.BufferedReader;
@@ -66,11 +65,23 @@ public class SampleNode extends ViewGroup {
         return myNode.iD;
     }
 
-    public int getIfNodeIsIOModuleNode() {
-        return myNode.isIoModuleNode;
+//    public int getIfNodeIsIOModuleNode() {
+//        return myNode.isIoModuleNode;
+//    }
+
+    public int addUI(AllViews.CO_l_node_simple_key simple_key) {
+        return 0;
     }
 
-    public int addUI(View view) {
+    public int addUI(AllViews.CO_l_node_simple_dimmer dimmer) {
+        return 0;
+    }
+
+    public int addUI(AllViews.CO_l_node_IoModule ioModule) {
+        return 0;
+    }
+
+    public int addUI(Database.Node.Struct view) {
         return 0;
     }
 
@@ -120,6 +131,7 @@ public class SampleNode extends ViewGroup {
 
         }
         sendMessageToNode("GSFD*"); // Get Status From Device
+        G.log("Sending GSFD");
     }
 
     protected void onSocketDisconnect() {
@@ -179,7 +191,7 @@ public class SampleNode extends ViewGroup {
                             G.log("Try to open socket : Node : " + myNode.iD);
 
                             ///اگر node متصل به io بود ، سوکت io مربوط به همان node را پیدا میکنیم
-                            if (myNode.isIoModuleNode == 1) {
+                            if (myNode.parentNodeId != 0) {
                                 socket = G.findSocketOfIoModuleNode(myNode);
                             } else {
                                 socket = new Socket();
@@ -205,6 +217,7 @@ public class SampleNode extends ViewGroup {
 
                     } catch (IOException e) {
                         G.printStackTrace(e);
+
                     }
                     try {
                         onSocketDisconnect();
@@ -220,7 +233,7 @@ public class SampleNode extends ViewGroup {
         boolean doProcess;
 
 
-        if (myNode.isIoModuleNode == 1) {
+        if (myNode.parentNodeId != 0) {
             socket = G.findSocketOfIoModuleNode(myNode);
 
             try {
@@ -381,6 +394,7 @@ public class SampleNode extends ViewGroup {
     public void refreshStatus() {
         try {
             sendMessageToNode("GSFD*"); // Get Status From Device
+            G.log("Sending GSFD");
         } catch (Exception e) {
         }
     }

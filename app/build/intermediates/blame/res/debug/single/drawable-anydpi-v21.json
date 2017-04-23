@@ -4,7 +4,15 @@
         "source": "C:\\Users\\FCC\\.android\\build-cache\\1bead7e1ec865dd21e15a9d1feced9f5c8cdb40e\\output\\res\\drawable-anydpi-v21\\ic_eye.xml"
     },
     {
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_eye.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\ef93406b50c7a4cbd5ffa5faaff19bbe81807ffd\\output\\res\\drawable-anydpi-v21\\ic_eye.xml"
+    },
+    {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_eye_strike.xml",
         "source": "C:\\Users\\FCC\\.android\\build-cache\\1bead7e1ec865dd21e15a9d1feced9f5c8cdb40e\\output\\res\\drawable-anydpi-v21\\ic_eye_strike.xml"
+    },
+    {
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_eye_strike.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\ef93406b50c7a4cbd5ffa5faaff19bbe81807ffd\\output\\res\\drawable-anydpi-v21\\ic_eye_strike.xml"
     }
 ]

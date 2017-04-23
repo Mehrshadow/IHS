@@ -40,6 +40,21 @@ public class Database {
         }
     }
 
+    public static void updateDB(){
+        try {
+            G.log("Database Version :" + G.dbObject.getVersion());
+            Database.Node.addNewColumn("parentNodeId", "INTEGER", "0", UpdateVersionDetail.add_parentNodeId_Column);
+        } catch (Exception e) {
+            G.log(e.getMessage());
+        }
+    }
+
+    public static final class UpdateVersionDetail {
+        public static final int add_parentNodeId_Column = 1;
+
+    }
+
+
     public static String generateNewMobileConfiguration(Mobiles.Struct newMobile) {
 
         //  Generate Json of :
@@ -172,9 +187,9 @@ public class Database {
         try {
             jo.put("CustomerID", G.setting.customerID);
             jo.put("CustomerName", G.setting.customerName);
-            jo.put("ServerIP", G.setting.serverSocketIP);
-//            jo.put("ServerIP", "192.168.1.35");
+//            jo.put("ServerIP", G.setting.serverSocketIP);
 //            jo.put("ServerPort", G.setting.serverSocketPort);
+            jo.put("ServerIP", "192.168.1.14");
             jo.put("ServerPort", 8089);
             jo.put("Ver", Utility.getApplicationVersionName());
             jo.put("CenterIP", G.networkSetting.mainIPAddress);
@@ -2110,8 +2125,7 @@ public class Database {
             public String buildnumber = "";
             public int lastSecKey = 0;
             public boolean isFavorite = false;
-            public String AvailablePorts = "";
-            public int isIoModuleNode;
+            public int parentNodeId = 0;
 
             public String getFullName() {
                 Cursor cursor = G.dbObject.rawQuery("SELECT T_Section.Name  AS SectionName,T_Room.Name AS RoomName, T_Node.Name AS NodeName FROM T_Node INNER JOIN T_ROOM ON T_Node.RoomID=T_Room.ID INNER JOIN T_Section ON T_Room.SectionID= T_Section.ID WHERE " +
@@ -2169,7 +2183,7 @@ public class Database {
                     jsonObj.put("RegisterDate", regDate);
                     jsonObj.put("NodeTypeID", nodeTypeID);
                     jsonObj.put("SerialNumber", serialNumber);
-                    jsonObj.put("isIOModuleNode", isIoModuleNode);
+                    jsonObj.put("parentNodeId", parentNodeId);
 
                     ja.put(jsonObj);
                 } catch (Exception e) {
@@ -2218,13 +2232,12 @@ public class Database {
             Values.put("OsVer", myNode.buildnumber);
             Values.put("LastSecKey", myNode.lastSecKey);
             Values.put("isFavorite", myNode.isFavorite);
-            Values.put("AvailablePorts", myNode.AvailablePorts);
-            Values.put("isIoModuleNode", myNode.isIoModuleNode);
+            Values.put("parentNodeId", myNode.parentNodeId);
 
             return G.dbObject.insert("T_Node", null, Values);
         }
 
-        public static long insert(String iP, String mac, String serialNumber, int roomID, int nodeTypeID, String icon, String name, int status, String expDate, String regDate, String buildNumber, String osVer, int lastSecKey, boolean isFavorite, String availablePorts, int inIoModuleNode, boolean isVisible) {
+        public static long insert(String iP, String mac, String serialNumber, int roomID, int nodeTypeID, String icon, String name, int status, String expDate, String regDate, String buildNumber, String osVer, int lastSecKey, boolean isFavorite, int parentNodeId) {
             ContentValues Values = new ContentValues();
             Values.put("IP", iP);
             Values.put("Mac", mac);
@@ -2240,9 +2253,7 @@ public class Database {
             Values.put("OsVer", osVer);
             Values.put("LastSecKey", lastSecKey);
             Values.put("isFavorite", isFavorite);
-            Values.put("isVisible", isVisible);
-            Values.put("AvailablePorts", availablePorts);
-            Values.put("isIoModuleNode", inIoModuleNode);
+            Values.put("parentNodeId", parentNodeId);
             return G.dbObject.insert("T_Node", null, Values);
         }
 
@@ -2256,28 +2267,27 @@ public class Database {
             Values.put("Icon", myNode.icon);
             Values.put("Name", myNode.name);
             Values.put("Status", myNode.status);
-            Values.put("ExpDate", myNode.expDate.toString());
+            Values.put("ExpDate", myNode.expDate);
             Values.put("BuildNumber", myNode.buildnumber);
             Values.put("OsVer", myNode.osVer);
             Values.put("LastSecKey", myNode.lastSecKey);
             Values.put("isFavorite", myNode.isFavorite);
-            Values.put("AvailablePorts", myNode.AvailablePorts);
-            Values.put("isIoModuleNode", myNode.isIoModuleNode);
+            Values.put("parentNodeId", myNode.parentNodeId);
 
             return G.dbObject.update("T_Node", Values, "ID=" + myNode.iD, null);
         }
 
-        public static void addNewColume(String newColumnName, String columeDataType, Object defaultValue) {
+        public static void addNewColumn(String newColumnName, String columnDataType, Object defaultValue,int newVersion ) {
             int oldVersion = G.dbObject.getVersion();
-            int newVersion = G.context.getResources().getInteger(R.integer.database_version);
+//            int newVersion = G.context.getResources().getInteger(R.integer.database_version);
 
             if (oldVersion < newVersion) {
-                G.dbObject.execSQL("ALTER TABLE T_NODE ADD COLUMN " + newColumnName + " " + columeDataType + "NOT NULL DEFAULT '"+defaultValue+"'");
+                G.dbObject.execSQL("ALTER TABLE T_NODE ADD COLUMN " + newColumnName + " " + columnDataType + "NOT NULL DEFAULT '"+defaultValue+"'");
             }
             G.dbObject.setVersion(newVersion);
         }
 
-        public static int edit(int iD, String iP, String mac, String serialNumber, int roomID, int nodeTypeID, String icon, String name, int status, String expDate, String regDate, String buildNumber, String osVer, int lastSecKey, boolean isFavorite, String availablePorts, int isIoModuleNode, boolean isVisible) {
+        public static int edit(int iD, String iP, String mac, String serialNumber, int roomID, int nodeTypeID, String icon, String name, int status, String expDate, String regDate, String buildNumber, String osVer, int lastSecKey, boolean isFavorite, int parentNodeId) {
             ContentValues Values = new ContentValues();
             Values.put("IP", iP);
             Values.put("Mac", mac);
@@ -2291,11 +2301,9 @@ public class Database {
             Values.put("RegDate", regDate);
             Values.put("BuildNumber", buildNumber);
             Values.put("OsVer", osVer);
-            Values.put("isVisible", isVisible);
             Values.put("LastSecKey", lastSecKey);
             Values.put("isFavorite", isFavorite);
-            Values.put("AvailablePorts", availablePorts);
-            Values.put("isIoModuleNode", isIoModuleNode);
+            Values.put("parentNodeId", parentNodeId);
             return G.dbObject.update("T_Node", Values, "ID=" + iD, null);
         }
 
@@ -2331,8 +2339,7 @@ public class Database {
                 selectedRow.osVer = cursor.getString(cursor.getColumnIndex("OsVer"));
                 selectedRow.lastSecKey = cursor.getInt(cursor.getColumnIndex("LastSecKey"));
                 selectedRow.isFavorite = cursor.getInt(cursor.getColumnIndex("isFavorite")) != 0;
-                selectedRow.AvailablePorts = cursor.getString(cursor.getColumnIndex("AvailablePorts"));
-                selectedRow.isIoModuleNode = cursor.getInt(cursor.getColumnIndex("isIoModuleNode"));
+                selectedRow.parentNodeId = cursor.getInt(cursor.getColumnIndex("parentNodeId"));
             }
             try {
                 cursor.close();
@@ -2374,8 +2381,7 @@ public class Database {
                 selectedRow.osVer = cursor.getString(cursor.getColumnIndex("OsVer"));
                 selectedRow.lastSecKey = cursor.getInt(cursor.getColumnIndex("LastSecKey"));
                 selectedRow.isFavorite = cursor.getInt(cursor.getColumnIndex("isFavorite")) != 0;
-                selectedRow.AvailablePorts = cursor.getString(cursor.getColumnIndex("AvailablePorts"));
-                selectedRow.isIoModuleNode = cursor.getInt(cursor.getColumnIndex("isIoModuleNode"));
+                selectedRow.parentNodeId = cursor.getInt(cursor.getColumnIndex("parentNodeId"));
                 result[i] = selectedRow;
                 i++;
             }
@@ -2410,8 +2416,7 @@ public class Database {
                 selectedRow.osVer = cursor.getString(cursor.getColumnIndex("OsVer"));
                 selectedRow.lastSecKey = cursor.getInt(cursor.getColumnIndex("LastSecKey"));
                 selectedRow.isFavorite = cursor.getInt(cursor.getColumnIndex("isFavorite")) != 0;
-                selectedRow.AvailablePorts = cursor.getString(cursor.getColumnIndex("AvailablePorts"));
-                selectedRow.isIoModuleNode = cursor.getInt(cursor.getColumnIndex("isIoModuleNode"));
+                selectedRow.parentNodeId = cursor.getInt(cursor.getColumnIndex("parentNodeId"));
             }
             try {
                 cursor.close();
@@ -4257,7 +4262,7 @@ public class Database {
             public int nodeID = 0;
             public int switchType = 0;
             public boolean enableGraphing = false;
-            public int isIOModuleSwitch = 0;
+//            public int isIOModuleSwitch = 0;
             public int IOModulePort = 0;
 
             public String getFullName() {
@@ -4294,7 +4299,7 @@ public class Database {
             Values.put("NodeID", mySwitch.nodeID);
             Values.put("SwitchType", mySwitch.switchType);
             Values.put("EnableGraphing", mySwitch.enableGraphing);
-            Values.put("isIOModuleSwitch", mySwitch.isIOModuleSwitch);
+//            Values.put("isIOModuleSwitch", mySwitch.isIOModuleSwitch);
             Values.put("IOModulePort", mySwitch.IOModulePort);
             return G.dbObject.insert("T_Switch", null, Values);
         }
@@ -4330,7 +4335,7 @@ public class Database {
             Values.put("NodeID", mySwitch.nodeID);
             Values.put("SwitchType", mySwitch.switchType);
             Values.put("EnableGraphing", mySwitch.enableGraphing);
-            Values.put("isIOModuleSwitch", mySwitch.isIOModuleSwitch);
+//            Values.put("isIOModuleSwitch", mySwitch.isIOModuleSwitch);
             Values.put("IOModulePort", mySwitch.IOModulePort);
             return G.dbObject.update("T_Switch", Values, "ID=" + mySwitch.iD, null);
         }
@@ -4343,7 +4348,7 @@ public class Database {
             Values.put("NodeID", nodeID);
             Values.put("SwitchType", switchType);
             Values.put("EnableGraphing", enableGraphing);
-            Values.put("isIOModuleSwitch", isIOModuleSwitch);
+//            Values.put("isIOModuleSwitch", isIOModuleSwitch);
             Values.put("IOModulePort", IOModulePort);
             return G.dbObject.update("T_Switch", Values, "ID=" + iD, null);
         }
@@ -4390,7 +4395,7 @@ public class Database {
                 selectedRow.nodeID = cursor.getInt(cursor.getColumnIndex("NodeID"));
                 selectedRow.switchType = cursor.getInt(cursor.getColumnIndex("SwitchType"));
                 selectedRow.enableGraphing = cursor.getInt(cursor.getColumnIndex("EnableGraphing")) != 0;
-                selectedRow.isIOModuleSwitch = cursor.getInt(cursor.getColumnIndex("isIOModuleSwitch"));
+//                selectedRow.isIOModuleSwitch = cursor.getInt(cursor.getColumnIndex("isIOModuleSwitch"));
                 selectedRow.IOModulePort = cursor.getInt(cursor.getColumnIndex("IOModulePort"));
             }
             try {
@@ -4425,7 +4430,7 @@ public class Database {
                 selectedRow.nodeID = cursor.getInt(cursor.getColumnIndex("NodeID"));
                 selectedRow.switchType = cursor.getInt(cursor.getColumnIndex("SwitchType"));
                 selectedRow.IOModulePort = cursor.getInt(cursor.getColumnIndex("IOModulePort"));
-                selectedRow.isIOModuleSwitch = cursor.getInt(cursor.getColumnIndex("isIOModuleSwitch"));
+//                selectedRow.isIOModuleSwitch = cursor.getInt(cursor.getColumnIndex("isIOModuleSwitch"));
                 selectedRow.enableGraphing = cursor.getInt(cursor.getColumnIndex("EnableGraphing")) != 0;
                 result[i] = selectedRow;
                 i++;
@@ -4453,7 +4458,7 @@ public class Database {
                 selectedRow.nodeID = cursor.getInt(cursor.getColumnIndex("NodeID"));
                 selectedRow.switchType = cursor.getInt(cursor.getColumnIndex("SwitchType"));
                 selectedRow.enableGraphing = cursor.getInt(cursor.getColumnIndex("EnableGraphing")) != 0;
-                selectedRow.isIOModuleSwitch = cursor.getInt(cursor.getColumnIndex("isIOModuleSwitch"));
+//                selectedRow.isIOModuleSwitch = cursor.getInt(cursor.getColumnIndex("isIOModuleSwitch"));
                 selectedRow.IOModulePort = cursor.getInt(cursor.getColumnIndex("IOModulePort"));
             }
             try {

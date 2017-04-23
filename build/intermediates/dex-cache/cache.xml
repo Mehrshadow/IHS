@@ -3,21 +3,21 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\FCC\Desktop\IHS Repo\IHS\app\libs\maskededittext.jar"
+        jar="D:\Android\Jahanmir\Projects\iHS\IHSCenter\IHS\app\libs\maskededittext.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="2f4240378fecb18b004c6406ff3131de148852c5">
-        <dex dex="C:\Users\FCC\Desktop\IHS Repo\IHS\app\build\intermediates\pre-dexed\debug\maskededittext_f17cedc1ca8700bd5944c7ab12123068e161565d.jar" />
+        <dex dex="D:\Android\Jahanmir\Projects\iHS\IHSCenter\IHS\app\build\intermediates\pre-dexed\debug\maskededittext_b8eb516539dcbddbf63673fdc48ffbf3b07ea37a.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\FCC\Desktop\IHS Repo\IHS\app\libs\zxing-1.3.jar"
+        jar="D:\Android\Jahanmir\Projects\iHS\IHSCenter\IHS\app\libs\zxing-1.3.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="c9d8bef9780c5e503cf0758a50ac812bd368a4e7">
-        <dex dex="C:\Users\FCC\Desktop\IHS Repo\IHS\app\build\intermediates\pre-dexed\debug\zxing-1.3_822a1f9a1938b536d43b3e44c7b3c212923157ed.jar" />
+        <dex dex="D:\Android\Jahanmir\Projects\iHS\IHSCenter\IHS\app\build\intermediates\pre-dexed\debug\zxing-1.3_ece88c5ae136c09c7e3f46ae008a1298b3d45dd4.jar" />
     </item>
 
 </items>

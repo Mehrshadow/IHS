@@ -602,7 +602,7 @@ public class ActivitySections extends ActivityEnhanced implements OnClickListene
         }
         grdListAdapter = null;
         if (nodes != null) {
-            grdListAdapter = new AdapterListViewNode(G.currentActivity, nodes, true);
+            grdListAdapter = new AdapterListViewNode(G.currentActivity, nodes, true, 3);
         }
         fo.grdNodes.setAdapter(grdListAdapter);
     }
@@ -615,7 +615,7 @@ public class ActivitySections extends ActivityEnhanced implements OnClickListene
         }
         grdListAdapter = null;
         if (nodes != null) {
-            grdListAdapter = new AdapterListViewNode(G.currentActivity, nodes, true);
+            grdListAdapter = new AdapterListViewNode(G.currentActivity, nodes, true, 3);
         }
         fo.grdNodes.setAdapter(grdListAdapter);
     }

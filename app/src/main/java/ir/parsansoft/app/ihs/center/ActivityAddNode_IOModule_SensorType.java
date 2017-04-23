@@ -26,7 +26,7 @@ public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implem
     private int sensorPort = 0;
     private int sensorModel; /*= AllNodes.Switch_Type.Sensor_NC;*/
     private int sensorType = AllNodes.Node_Type.Sensor_SMOKE;
-    int ioNodeId;
+    int ioModuleID;
     int sensorNodeId;
     List<String> availablePorts;
 
@@ -60,8 +60,8 @@ public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implem
             Bundle extras = getIntent().getExtras();
             if (extras != null) {
                 if (extras.containsKey("IO_NODE_ID")) {// IO Module Id
-                    ioNodeId = extras.getInt("IO_NODE_ID");
-                    IONode = Database.Node.select("iD=" + ioNodeId + " LIMIT 1");//Sensor is fetched
+                    ioModuleID = extras.getInt("IO_NODE_ID");
+                    IONode = Database.Node.select("iD=" + ioModuleID + " LIMIT 1");//Sensor is fetched
 //                    switchItems = select("deviceID=" + IONode[0].iD);
 
                 }
@@ -77,7 +77,7 @@ public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implem
                     if (saveForm()) {
                         Intent fw4 = new Intent(G.currentActivity, ActivityAddNode_IoMadule_SelectPlace.class);// now go to add module wizard...
                         fw4.putExtra("SENSOR_NODE_ID", sensorNodeId);
-                        fw4.putExtra("IO_NODE_ID", ioNodeId);
+                        fw4.putExtra("IO_NODE_ID", ioModuleID);
                         fw4.putExtra("NODE_Type", sensorType);
                         G.currentActivity.startActivity(fw4);
                         Animation.doAnimation(Animation_Types.FADE_SLIDE_LEFTRIGHT_RIGHT);
@@ -91,8 +91,8 @@ public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implem
             fw.btnCancel.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-//                    Database.Node.delete(ioNodeId);
-//                    Database.Switch.delete("nodeID=" + ioNodeId);
+//                    Database.Node.delete(ioModuleID);
+//                    Database.Switch.delete("nodeID=" + ioModuleID);
                     finish();
                     Animation.doAnimation(Animation.Animation_Types.FADE);
                 }
@@ -101,7 +101,7 @@ public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implem
                 @Override
                 public void onClick(View v) {
                     Intent in_out = new Intent(G.currentActivity, ActivityAddNode_IoMadule_Input_Output.class);
-                    in_out.putExtra("NODE_ID", ioNodeId);
+                    in_out.putExtra("NODE_ID", ioModuleID);
                     in_out.putExtra("NODE_Type", sensorType);
 //                    Database.Node.delete(sensorNodeId);
 //                    Database.Switch.delete("NodeID=" + sensorNodeId);
@@ -164,7 +164,7 @@ public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implem
 
         if (availablePorts.size() == 0) {
             Intent in_out = new Intent(G.currentActivity, ActivityAddNode_IoMadule_Input_Output.class);// now go to add module wizard...
-            in_out.putExtra("NODE_ID", ioNodeId);
+            in_out.putExtra("NODE_ID", ioModuleID);
             G.currentActivity.startActivity(in_out);
             finish();
             new Handler().postDelayed(new Runnable() {
@@ -321,7 +321,7 @@ public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implem
 
 //            newSwitch = select("NodeID=" + sensorNodeId);
 
-            newSwitch[0].isIOModuleSwitch = 1;
+//            newSwitch[0].isIOModuleSwitch = 1;
             newSwitch[0].name = sensorName;
             newSwitch[0].switchType = sensorModel;
             if (sensorModel == AllNodes.Switch_Type.Sensor_NC) {
@@ -351,7 +351,7 @@ public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implem
         newNode.nodeTypeID = sensorType;
         newNode.roomID = AllNodes.myHouseDefaultRoomId;
         newNode.iP = ip;
-        int newNodeID = AllNodes.AddNewNode(newNode, 1);
+        int newNodeID = AllNodes.AddNewNode(newNode, ioModuleID);
         sensorNodeId = newNodeID;
     }
 

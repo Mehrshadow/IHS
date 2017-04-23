@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ActivityMain" >
+
+    <LinearLayout
+        android:id="@+id/layBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/lay_sections_exp_item_middle_selector"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/imgIcon"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_margin="5dp"
+            android:src="@android:drawable/ic_menu_send" />
+
+        <TextView
+            android:id="@+id/txtUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:typeface="monospace"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="@color/white" />
+
+        <LinearLayout android:layout_width="48dp" android:layout_height="48dp"
+                      android:gravity="center">
+            <ImageView
+                    android:id="@+id/imgEdit"
+                    android:layout_width="15dp"
+                    android:layout_height="28dp"
+                    android:layout_marginRight="5dp"
+                    android:background="@drawable/lay_list_edit_selector"
+                    android:clickable="true"/>
+
+        </LinearLayout>
+        <LinearLayout android:layout_width="48dp" android:layout_height="48dp"
+                      android:gravity="center">
+        <ImageView
+            android:id="@+id/imgDelete"
+            android:layout_width="20dp"
+            android:layout_height="28dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/lay_list_delete_selector"
+            android:clickable="true" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

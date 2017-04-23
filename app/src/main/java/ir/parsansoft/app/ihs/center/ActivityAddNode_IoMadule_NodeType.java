@@ -16,14 +16,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 import ir.parsansoft.app.ihs.center.adapters.AdapterFakeNodeSwitches;
-import ir.parsansoft.app.ihs.center.adapters.AdapterListViewFakeNode;
+import ir.parsansoft.app.ihs.center.adapters.AdapterListViewNode;
 
 public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
 
     AllViews.CO_d_section_add_node_NodeType mAdd_node_nodeType;
 
-
-    private AdapterListViewFakeNode grdListAdapter;
+    private AdapterListViewNode grdListAdapter;
     private AdapterFakeNodeSwitches adapterNodeSwitches;
     private Database.Node.Struct[] newDevice;
     private Database.Switch.Struct[] switches;
@@ -69,7 +68,7 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
 
         insertFakeNodeToDb();
 
-        grdListAdapter = new AdapterListViewFakeNode(G.currentActivity, newDevice, false);
+        grdListAdapter = new AdapterListViewNode(G.currentActivity, newDevice, false);
         mAdd_node_nodeType.lstNode.setAdapter(grdListAdapter);
         switches = Database.Switch.select("nodeID = " + deviceID);
         if (switches != null) {
@@ -216,7 +215,7 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
         newNode.nodeTypeID = node_type;
         newNode.roomID = AllNodes.myHouseDefaultRoomId;
         newNode.iP = ioNode[0].iP;
-        int newNodeID = AllNodes.AddNewNode(newNode, 1);
+        int newNodeID = AllNodes.AddNewNode(newNode, ioModuleID);
         deviceID = newNodeID;
 
         newDevice = new Database.Node.Struct[1];

@@ -362,7 +362,7 @@ public class ActivityAddNode_w1 extends ActivityEnhanced {
                 newNode.isFavorite = oldNode.isFavorite;
                 // ----------------- Delete Old node ---------------
                 //  Send message to server and local Mobiles
-                if (oldNode.isIoModuleNode != 1) {
+                if (oldNode.parentNodeId == 0) {
                     NetMessage netMessage = new NetMessage();
                     netMessage.data = oldNode.getNodeDataJson();
                     netMessage.action = NetMessage.Delete;

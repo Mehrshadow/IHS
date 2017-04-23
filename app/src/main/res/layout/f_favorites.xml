@@ -4,39 +4,40 @@
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".ActivityMain" >
+    tools:context=".ActivityMain">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical" >
+        android:orientation="vertical">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <LinearLayout
-                android:visibility="gone"
                 android:layout_width="160dp"
                 android:layout_height="match_parent"
-                android:orientation="vertical" android:layout_marginLeft="10dp">
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical"
+                android:visibility="gone">
 
-              <Button
-                  android:id="@+id/btnFavorites"
-                  style="@style/button_other_theme"
-                  android:layout_marginBottom="5dp"
-                  android:layout_marginLeft="5dp"
-                  android:layout_marginRight="8dp"
-                  android:layout_marginTop="10dp"
-                  android:text="Favorite" />
+                <Button
+                    android:id="@+id/btnFavorites"
+                    style="@style/button_other_theme"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Favorite" />
 
-              <Button
-                  android:id="@+id/btnAll"
-                  android:layout_marginBottom="16dp"
-                  android:layout_marginLeft="5dp"
-                  android:layout_marginRight="8dp"
-                  style="@style/button_other_theme"
-                  android:text="All" />
+                <Button
+                    android:id="@+id/btnAll"
+                    style="@style/button_other_theme"
+                    android:layout_marginBottom="16dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="8dp"
+                    android:text="All" />
 
             </LinearLayout>
 
@@ -44,16 +45,16 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:orientation="vertical" >
+                android:orientation="vertical">
 
                 <GridView
                     android:id="@+id/grdNodes"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-					android:listSelector="@color/transparent"
+                    android:fadeScrollbars="true"
+                    android:listSelector="@color/transparent"
                     android:numColumns="4"
-                    android:verticalSpacing="10dp"
-                    tools:listitem="@layout/l_node_simple_key" >
+                    android:verticalSpacing="10dp">
 
                 </GridView>
 

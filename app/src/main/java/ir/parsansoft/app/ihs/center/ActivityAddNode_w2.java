@@ -168,7 +168,7 @@ public class ActivityAddNode_w2 extends ActivityEnhanced implements CompoundButt
                 G.mobileCommunication.sendMessage(netMessage);
                 G.server.sendMessage(netMessage);
 
-                if (nodes[0].isIoModuleNode == 1) {
+                if (nodes[0].parentNodeId != 0) {
                     Intent fw3 = new Intent(G.currentActivity, ActivityAddNode_w3.class);// now go to add module wizard...
                     fw3.putExtra("NODE_ID", nodes[0].iD);
                     fw3.putExtra("EDIT_MODE", isInEditMode);
