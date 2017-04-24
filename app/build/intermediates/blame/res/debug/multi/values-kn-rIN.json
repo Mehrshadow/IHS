@@ -1,6 +1,10 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "D:\\Android\\Jahanmir\\Projects\\iHS\\Repository\\iHSCenter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-kn-rIN\\values-kn-rIN.xml",
+=======
+        "outputFile": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-kn-rIN\\values-kn-rIN.xml",
+>>>>>>> master
         "map": [
             {
                 "to": {

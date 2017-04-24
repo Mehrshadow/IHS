@@ -24,7 +24,11 @@
         ]
     },
     {
+<<<<<<< HEAD
         "outputFile": "D:\\Android\\Jahanmir\\Projects\\iHS\\Repository\\iHSCenter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
+=======
+        "outputFile": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
+>>>>>>> master
         "map": [
             {
                 "to": {

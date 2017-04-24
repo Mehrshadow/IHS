@@ -1,13 +1,25 @@
 [
     {
+<<<<<<< HEAD
         "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\Repository\\iHSCenter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
         "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+=======
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\zoom_out.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\src\\main\\res\\anim\\zoom_out.xml"
+>>>>>>> master
     },
     {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
         "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\anim\\abc_popup_exit.xml"
     },
     {
+<<<<<<< HEAD
+=======
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\99e3211522c569f52d057dcfa878b9ea80e0c317\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+>>>>>>> master
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\layout_griditem_animation.xml",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\anim\\layout_griditem_animation.xml"
     },
@@ -16,6 +28,7 @@
         "source": "C:\\Users\\FCC\\.android\\build-cache\\a60b8dfce3126584ebc2c00ab866effeb1a0e4f1\\output\\res\\anim\\design_snackbar_in.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\Repository\\iHSCenter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
         "source": "C:\\Users\\HaMiD\\.android\\build-cache\\99e3211522c569f52d057dcfa878b9ea80e0c317\\output\\res\\anim\\design_fab_in.xml"
     },
@@ -28,8 +41,14 @@
         "source": "C:\\Users\\FCC\\.android\\build-cache\\a60b8dfce3126584ebc2c00ab866effeb1a0e4f1\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
     },
     {
+=======
+>>>>>>> master
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_slide_in_left.xml",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\anim\\fade_slide_in_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\FCC\\.android\\build-cache\\a60b8dfce3126584ebc2c00ab866effeb1a0e4f1\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
     },
     {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
@@ -48,6 +67,7 @@
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\anim\\zoom_in.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\Repository\\iHSCenter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
         "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\anim\\abc_slide_out_bottom.xml"
     },
@@ -58,6 +78,26 @@
     {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_in.xml",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\anim\\fade_in.xml"
+=======
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_in.xml",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_slide_in_left.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\src\\main\\res\\anim\\fade_slide_in_left.xml"
+>>>>>>> master
     },
     {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\zoom_out.xml",
@@ -72,18 +112,32 @@
         "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\anim\\abc_slide_out_top.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\Repository\\iHSCenter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
         "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\anim\\abc_fade_out.xml"
+=======
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\99e3211522c569f52d057dcfa878b9ea80e0c317\\output\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\zoom_in.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\src\\main\\res\\anim\\zoom_in.xml"
+>>>>>>> master
     },
     {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_slide_out_left.xml",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\anim\\fade_slide_out_left.xml"
     },
     {
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_griditem.xml",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\anim\\fade_griditem.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\Repository\\iHSCenter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_slide_in_left.xml",
         "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\Repository\\iHSCenter\\app\\src\\main\\res\\anim\\fade_slide_in_left.xml"
     },
@@ -94,12 +148,21 @@
     {
         "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\Repository\\iHSCenter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
         "source": "C:\\Users\\HaMiD\\.android\\build-cache\\99e3211522c569f52d057dcfa878b9ea80e0c317\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+=======
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\99e3211522c569f52d057dcfa878b9ea80e0c317\\output\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\anim\\abc_slide_in_top.xml"
+>>>>>>> master
     },
     {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fast_change_activity_hide.xml",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\anim\\fast_change_activity_hide.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\Repository\\iHSCenter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
         "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\anim\\abc_slide_in_bottom.xml"
     },
@@ -110,6 +173,10 @@
     {
         "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\Repository\\iHSCenter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_griditem.xml",
         "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\Repository\\iHSCenter\\app\\src\\main\\res\\anim\\fade_griditem.xml"
+=======
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\99e3211522c569f52d057dcfa878b9ea80e0c317\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+>>>>>>> master
     },
     {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
@@ -120,12 +187,21 @@
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\anim\\fade_out.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\Repository\\iHSCenter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
         "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\anim\\abc_popup_exit.xml"
     },
     {
         "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\Repository\\iHSCenter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fast_change_activity_hide.xml",
         "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\Repository\\iHSCenter\\app\\src\\main\\res\\anim\\fast_change_activity_hide.xml"
+=======
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_out.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\src\\main\\res\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_in.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\src\\main\\res\\anim\\fade_in.xml"
+>>>>>>> master
     },
     {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
@@ -144,10 +220,18 @@
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\anim\\zoom.xml"
     },
     {
+<<<<<<< HEAD
+=======
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+>>>>>>> master
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
         "source": "C:\\Users\\FCC\\.android\\build-cache\\a60b8dfce3126584ebc2c00ab866effeb1a0e4f1\\output\\res\\anim\\design_snackbar_out.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\Repository\\iHSCenter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
         "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\anim\\abc_slide_out_top.xml"
     },
@@ -176,10 +260,45 @@
         "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\anim\\abc_popup_enter.xml"
     },
     {
+=======
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_slide_out_right.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\src\\main\\res\\anim\\fade_slide_out_right.xml"
+    },
+    {
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_slide_out_left.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\src\\main\\res\\anim\\fade_slide_out_left.xml"
+    },
+    {
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\layout_griditem_animation.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\src\\main\\res\\anim\\layout_griditem_animation.xml"
+    },
+    {
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+>>>>>>> master
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
         "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\Repository\\iHSCenter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
         "source": "C:\\Users\\HaMiD\\.android\\build-cache\\99e3211522c569f52d057dcfa878b9ea80e0c317\\output\\res\\anim\\design_snackbar_in.xml"
     },
@@ -190,10 +309,34 @@
     {
         "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\Repository\\iHSCenter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
         "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\anim\\abc_fade_in.xml"
+=======
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_slide_in_right.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\src\\main\\res\\anim\\fade_slide_in_right.xml"
+    },
+    {
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fast_change_activity_show.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\src\\main\\res\\anim\\fast_change_activity_show.xml"
+    },
+    {
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_griditem.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\src\\main\\res\\anim\\fade_griditem.xml"
+    },
+    {
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fast_change_activity_hide.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\src\\main\\res\\anim\\fast_change_activity_hide.xml"
+    },
+    {
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\zoom.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\src\\main\\res\\anim\\zoom.xml"
+>>>>>>> master
     },
     {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
         "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\99e3211522c569f52d057dcfa878b9ea80e0c317\\output\\res\\anim\\design_fab_out.xml"
     },
     {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
@@ -208,27 +351,38 @@
         "source": "C:\\Users\\FCC\\.android\\build-cache\\a60b8dfce3126584ebc2c00ab866effeb1a0e4f1\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\Repository\\iHSCenter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fast_change_activity_show.xml",
         "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\Repository\\iHSCenter\\app\\src\\main\\res\\anim\\fast_change_activity_show.xml"
     },
     {
+=======
+>>>>>>> master
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_slide_in_right.xml",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\anim\\fade_slide_in_right.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\Repository\\iHSCenter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\zoom_out.xml",
         "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\Repository\\iHSCenter\\app\\src\\main\\res\\anim\\zoom_out.xml"
     },
     {
+=======
+>>>>>>> master
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fast_change_activity_show.xml",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\anim\\fast_change_activity_show.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\Repository\\iHSCenter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\zoom.xml",
         "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\Repository\\iHSCenter\\app\\src\\main\\res\\anim\\zoom.xml"
     },
     {
         "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\Repository\\iHSCenter\\app\\build\\intermediates\\res\\merged\\debug\\anim\\layout_griditem_animation.xml",
         "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\Repository\\iHSCenter\\app\\src\\main\\res\\anim\\layout_griditem_animation.xml"
+=======
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\99e3211522c569f52d057dcfa878b9ea80e0c317\\output\\res\\anim\\design_snackbar_out.xml"
+>>>>>>> master
     }
 ]

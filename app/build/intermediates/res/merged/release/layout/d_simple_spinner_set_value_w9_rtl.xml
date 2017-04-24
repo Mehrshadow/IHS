@@ -1,0 +1,140 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/lay_popup_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ActivityMain" >
+
+    <LinearLayout
+        android:id="@+id/layOptions"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="This is a dialog Title :"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:textStyle="normal|bold"
+            android:typeface="monospace" />
+        <TextView
+                android:id="@+id/txtBody"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:text="The main text of dialog box goes here :"
+                android:textColor="#ffffff"
+                android:textSize="15sp"
+                android:textStyle="normal|bold"
+                android:typeface="monospace" />
+        <LinearLayout
+                android:id="@+id/layParameters"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+            <LinearLayout
+                    android:id="@+id/layPerOperandValueRange"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right" >
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+                </LinearLayout>
+                <EditText
+                        android:id="@+id/edtLogicalValue"
+                        style="@style/edittext_theme"
+                        android:layout_width="200dp"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:ems="10"
+                        android:inputType="numberDecimal" >
+                    <requestFocus />
+                </EditText>
+                <TextView
+                        android:id="@+id/txtNumericValue"
+                        style="@style/textview_before_editbox_theme"
+                        android:layout_width="wrap_content"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginRight="15dp"
+                        android:text="Value :"
+                        android:textSize="15sp" />
+            </LinearLayout>
+            <LinearLayout
+                    android:id="@+id/layPerOperandValueSelective"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical|right" >
+                <Spinner
+                        android:id="@+id/spnSelectiveValue"
+                        style="@style/spinner_theme"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        tools:listitem="@android:layout/simple_spinner_item" />
+                <TextView
+                        android:id="@+id/txtSelectiveValue"
+                        style="@style/textview_before_editbox_theme"
+                        android:layout_margin="15dp"
+                        android:text="Value :"
+                        android:textSize="15sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/layNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/btnNegative"
+            style="@style/button_other_theme"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="32dp"
+            android:background="@drawable/button_add_selector"
+            android:text="Cancel" />
+
+        <TextView
+            android:id="@+id/txtLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:id="@+id/btnPositive"
+            style="@style/button_other_theme"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/button_add_selector"
+            android:text="Next" />
+
+    </LinearLayout>
+
+</LinearLayout>

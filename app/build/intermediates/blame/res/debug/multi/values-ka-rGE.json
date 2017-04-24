@@ -385,7 +385,11 @@
         ]
     },
     {
+<<<<<<< HEAD
         "outputFile": "D:\\Android\\Jahanmir\\Projects\\iHS\\Repository\\iHSCenter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ka-rGE\\values-ka-rGE.xml",
+=======
+        "outputFile": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ka-rGE\\values-ka-rGE.xml",
+>>>>>>> master
         "map": [
             {
                 "to": {

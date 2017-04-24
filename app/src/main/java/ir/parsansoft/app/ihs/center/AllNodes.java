@@ -131,7 +131,7 @@ public class AllNodes {
             super(G.context);
             this.myNode = node;
             switches = select("NodeID=" + myNode.iD);
-            if (myNode.isIoModuleNode != 1)
+            if (myNode.parentNodeId == 0)// node is a ioModule node
                 connectToNode();
         }
 
@@ -287,7 +287,7 @@ public class AllNodes {
 
             float[] previousValues;
 
-            if (myNode.isIoModuleNode == 1) {
+            if (myNode.parentNodeId != 0) {
 
                 previousValues = new float[16];
                 try {
@@ -442,7 +442,7 @@ public class AllNodes {
 
             setProgressVisiblity(true);
 
-            if (myNode.isIoModuleNode == 1) {
+            if (myNode.parentNodeId != 0) {
 
                 nodeMsg.sentData = "*" + switches[switchIndex].IOModulePort + (int) newValue;
 
@@ -865,7 +865,7 @@ public class AllNodes {
             super(G.context);
             this.myNode = node;
             switches = select("NodeID=" + myNode.iD);
-            if (myNode.isIoModuleNode != 1)
+            if (myNode.parentNodeId == 0)
                 connectToNode();
         }
 
@@ -947,7 +947,7 @@ public class AllNodes {
                 @Override
                 public void onClick(View arg0) {
                     if (!isBusy)
-                        if (myNode.isIoModuleNode == 1) {
+                        if (myNode.parentNodeId != 0) {
 
                             if (switches[2].value == 1)
                                 switchKey(2, 0, null, LogOperator.OPERAOR, G.currentUser.iD);
@@ -966,7 +966,7 @@ public class AllNodes {
                 @Override
                 public void onClick(View arg0) {// slow
                     if (!isBusy)
-                        if (myNode.isIoModuleNode == 1) {
+                        if (myNode.parentNodeId != 0) {
                             if (switches[1].value == 1)// slow is on
                                 switchKey(1, 0, null, LogOperator.OPERAOR, G.currentUser.iD);// slow goes on
                             else
@@ -986,7 +986,7 @@ public class AllNodes {
                 @Override
                 public void onClick(View arg0) {
                     if (!isBusy)
-                        if (myNode.isIoModuleNode == 1) {
+                        if (myNode.parentNodeId != 0) {
                             if (switches[0].value == 1)// water is on
                                 switchKey(0, 0, null, LogOperator.OPERAOR, G.currentUser.iD);
                             else
@@ -1046,7 +1046,7 @@ public class AllNodes {
 
             float[] previousValues;
 
-            if (myNode.isIoModuleNode == 1) {
+            if (myNode.parentNodeId != 0) {
 
                 previousValues = new float[16];
                 try {
@@ -1109,7 +1109,7 @@ public class AllNodes {
                     public void run() {
                         for (int i = 0; i < coolerUIs.size(); i++) {
                             int k = coolerUIs.keyAt(i);
-                            if (myNode.isIoModuleNode != 1) {
+                            if (myNode.parentNodeId == 0) {
                                 if (switches[1].value == 0) {// off
                                     coolerUIs.get(k).imgKey1.setImageResource(R.drawable.lay_cooler_fast_off);
                                     coolerUIs.get(k).imgKey2.setImageResource(R.drawable.lay_cooler_slow_off);
@@ -1209,7 +1209,7 @@ public class AllNodes {
             final NodeMsg nodeMsg = new NodeMsg();
 
             setProgressVisiblity(true);
-            if (myNode.isIoModuleNode == 1) {
+            if (myNode.parentNodeId != 0) {
 
                 //baraye inke dore kam va ziad ham zaman roshan nashavnd
                 if (switchIndex == 2) {
@@ -1281,7 +1281,7 @@ public class AllNodes {
             super(G.context);
             this.myNode = node;
             switches = select("NodeID=" + myNode.iD);
-            if (myNode.isIoModuleNode != 1)
+            if (myNode.parentNodeId == 0)
                 connectToNode();
         }
 
@@ -1363,7 +1363,7 @@ public class AllNodes {
                 @Override
                 public void onClick(View arg0) {//open
                     if (!isBusy)
-                        if (myNode.isIoModuleNode == 1)
+                        if (myNode.parentNodeId != 0)
                             switchKey(0, 1, null, LogOperator.OPERAOR, G.currentUser.iD);
                         else
                             switchKey(2, 1, null, LogOperator.OPERAOR, G.currentUser.iD);
@@ -1375,7 +1375,7 @@ public class AllNodes {
                 @Override
                 public void onClick(View arg0) {//stop
                     if (!isBusy)
-                        if (myNode.isIoModuleNode == 1)
+                        if (myNode.parentNodeId != 0)
                             switchKey(0, 0, null, LogOperator.OPERAOR, G.currentUser.iD);
                         else
                             switchKey(1, 2, null, LogOperator.OPERAOR, G.currentUser.iD);
@@ -1386,7 +1386,7 @@ public class AllNodes {
                 @Override
                 public void onClick(View arg0) {//close
                     if (!isBusy)
-                        if (myNode.isIoModuleNode == 1)
+                        if (myNode.parentNodeId != 0)
                             switchKey(1, 1, null, LogOperator.OPERAOR, G.currentUser.iD);
                         else
 //                            switchKey(0, null, LogOperator.OPERAOR, G.currentUser.iD);
@@ -1457,7 +1457,7 @@ public class AllNodes {
 
             float[] previousValues;
 
-            if (myNode.isIoModuleNode == 1) {
+            if (myNode.parentNodeId != 0) {
 
                 previousValues = new float[16];
                 try {
@@ -1508,7 +1508,7 @@ public class AllNodes {
                         for (int i = 0; i < curtainUIs.size(); i++) {
                             int k = curtainUIs.keyAt(i);
 
-                            if (myNode.isIoModuleNode == 1) {
+                            if (myNode.parentNodeId != 0) {
                                 if (switches[0].value == 1 && switches[1].value == 0) {// open bashe
                                     curtainUIs.get(k).imgKey1.setImageResource(R.drawable.lay_curtain_open_on);
                                     curtainUIs.get(k).imgKey2.setImageResource(R.drawable.lay_curtain_stop_off);
@@ -1595,7 +1595,7 @@ public class AllNodes {
 
             final NodeMsg nodeMsg = new NodeMsg();
 
-            if (myNode.isIoModuleNode == 1) {
+            if (myNode.parentNodeId != 0) {
 
                 //baraye inke switch baz o baste hamzaman roshan nashavand
                 if (switches.length == 2) {
@@ -1670,7 +1670,7 @@ public class AllNodes {
             super(G.context);
             this.myNode = node;
             switches = select("NodeID=" + myNode.iD);
-            if (myNode.isIoModuleNode != 1)
+            if (myNode.parentNodeId == 0)
                 connectToNode();
         }
 
@@ -1806,7 +1806,7 @@ public class AllNodes {
 
                 float[] previousValues;
 
-                if (myNode.isIoModuleNode == 1) {
+                if (myNode.parentNodeId != 0) {
 
                     previousValues = new float[16];
                     try {
@@ -1922,7 +1922,7 @@ public class AllNodes {
 
             final NodeMsg nodeMsg = new NodeMsg();
 
-            if (myNode.isIoModuleNode == 1) {
+            if (myNode.parentNodeId != 0) {
 
                 nodeMsg.sentData = "*" + switches[switchIndex].IOModulePort + (int) newValue;
 
@@ -2047,7 +2047,7 @@ public class AllNodes {
             for (int i = 0; i < G.nodeCommunication.allNodes.size(); i++) {
                 int key = G.nodeCommunication.allNodes.keyAt(i);
 
-                if (G.nodeCommunication.allNodes.get(key).myNode.isIoModuleNode == 1)
+                if (G.nodeCommunication.allNodes.get(key).myNode.parentNodeId != 0)
                     G.nodeCommunication.allNodes.get(key).processResult(result);
 
             }
@@ -2173,7 +2173,7 @@ public class AllNodes {
             super(G.context);
             this.myNode = node;
             switches = select("NodeID=" + myNode.iD);
-            if (myNode.isIoModuleNode != 1)
+            if (myNode.parentNodeId == 0)
                 connectToNode();
         }
 
@@ -2298,7 +2298,7 @@ public class AllNodes {
 
             float[] previousValues;
 
-            if (myNode.isIoModuleNode == 1) {
+            if (myNode.parentNodeId != 0) {
 
                 previousValues = new float[16];
                 try {
@@ -2394,7 +2394,7 @@ public class AllNodes {
      * 0 = false
      * 1 = true
      */
-    public static int AddNewNode(Database.Node.Struct newNode, Integer isIOModuleNode) {
+    public static int AddNewNode(Database.Node.Struct newNode, Integer parentNodeId) {
         Database.Switch.Struct sw;
         newNode.regDate = new SimpleDateFormat("yyyy/MM/dd").format(new Date());
 
@@ -2403,14 +2403,14 @@ public class AllNodes {
                 if (newNode.name.length() == 0)
                     newNode.name = G.T.getSentence(1101);
                 newNode.status = 1;
-                newNode.isIoModuleNode = isIOModuleNode;
+                newNode.parentNodeId = parentNodeId;
                 newNode.iD = (int) Database.Node.insert(newNode);
                 sw = new Database.Switch.Struct();
                 sw.code = "0";
                 sw.nodeID = newNode.iD;
                 sw.switchType = Switch_Type.SIMPLE_SWITCH;
                 sw.name = newNode.name;
-                sw.isIOModuleSwitch = isIOModuleNode;
+//                sw.isIOModuleSwitch = isIOModuleNode;
                 Database.Switch.insert(sw);
                 nodeCommunication.allNodes.put(newNode.iD, new SimpleSwitch(newNode));
                 break;
@@ -2418,7 +2418,7 @@ public class AllNodes {
                 if (newNode.name.length() == 0)
                     newNode.name = G.T.getSentence(1102);
                 newNode.status = 1;
-                newNode.isIoModuleNode = isIOModuleNode;
+//                newNode.isIoModuleNode = isIOModuleNode;
                 newNode.iD = (int) Database.Node.insert(newNode);
                 for (int i = 0; i < 2; i++) {
                     sw = new Database.Switch.Struct();
@@ -2426,7 +2426,7 @@ public class AllNodes {
                     sw.nodeID = newNode.iD;
                     sw.switchType = Switch_Type.SIMPLE_SWITCH;
                     sw.name = G.T.getSentence(1201) + " " + (i + 1);
-                    sw.isIOModuleSwitch = isIOModuleNode;
+//                    sw.isIOModuleSwitch = isIOModuleNode;
 
                     Database.Switch.insert(sw);
                     G.log("Added Switch: " + i + " for node: " + newNode.iD);
@@ -2438,7 +2438,7 @@ public class AllNodes {
                     newNode.name = G.T.getSentence(1103);
                 newNode.status = 1;
 
-                newNode.isIoModuleNode = isIOModuleNode;
+                newNode.parentNodeId = parentNodeId;
                 newNode.iD = (int) Database.Node.insert(newNode);
                 newNode.roomID = myHouseDefaultRoomId;
                 for (int i = 0; i < 3; i++) {
@@ -2447,7 +2447,7 @@ public class AllNodes {
                     sw.nodeID = newNode.iD;
                     sw.switchType = Switch_Type.SIMPLE_SWITCH;
                     sw.name = G.T.getSentence(1201) + " " + (i + 1);
-                    sw.isIOModuleSwitch = isIOModuleNode;
+//                    sw.isIOModuleSwitch = isIOModuleNode;
 
                     Database.Switch.insert(sw);
                 }
@@ -2464,7 +2464,7 @@ public class AllNodes {
                 sw.nodeID = newNode.iD;
                 sw.switchType = Switch_Type.SIMPLE_DIMMER;
                 sw.name = G.T.getSentence(1202);
-                sw.isIOModuleSwitch = isIOModuleNode;
+//                sw.isIOModuleSwitch = isIOModuleNode;
 
                 Database.Switch.insert(sw);
                 nodeCommunication.allNodes.put(newNode.iD, new SimpleDimmer(newNode));
@@ -2480,7 +2480,7 @@ public class AllNodes {
                     sw.nodeID = newNode.iD;
                     sw.switchType = Switch_Type.SIMPLE_DIMMER;
                     sw.name = G.T.getSentence(1202) + " " + (i + 1);
-                    sw.isIOModuleSwitch = isIOModuleNode;
+//                    sw.isIOModuleSwitch = isIOModuleNode;
 
                     Database.Switch.insert(sw);
                     G.log("Added Dimmer: " + i + " for node: " + newNode.iD);
@@ -2491,28 +2491,28 @@ public class AllNodes {
                 if (newNode.name.length() == 0)
                     newNode.name = G.T.getSentence(1106);
                 newNode.status = 1;
-                newNode.isIoModuleNode = isIOModuleNode;
+                newNode.parentNodeId = parentNodeId;
                 newNode.iD = (int) Database.Node.insert(newNode);
                 sw = new Database.Switch.Struct();
                 sw.nodeID = newNode.iD;
 
-                if (isIOModuleNode == 1) {
+                if (parentNodeId != 0) {
                     sw.code = "0";
                     sw.switchType = Switch_Type.COOLER_PUMP;
                     sw.name = G.T.getSentence(1204);
-                    sw.isIOModuleSwitch = isIOModuleNode;
+//                    sw.isIOModuleSwitch = isIOModuleNode;
                     Database.Switch.insert(sw);
 
                     sw.code = "1";
                     sw.switchType = Switch_Type.COOLER_SPEED_Slow;
                     sw.name = G.T.getSentence(1212);
-                    sw.isIOModuleSwitch = isIOModuleNode;
+//                    sw.isIOModuleSwitch = isIOModuleNode;
                     Database.Switch.insert(sw);
 
                     sw.code = "2";
                     sw.switchType = Switch_Type.COOLER_SPEED_Fast;
                     sw.name = G.T.getSentence(1213);
-                    sw.isIOModuleSwitch = isIOModuleNode;
+//                    sw.isIOModuleSwitch = isIOModuleNode;
                     Database.Switch.insert(sw);
 
                 } else {
@@ -2535,29 +2535,29 @@ public class AllNodes {
                 if (newNode.name.length() == 0)
                     newNode.name = G.T.getSentence(1107);
                 newNode.status = 1;
-                newNode.isIoModuleNode = isIOModuleNode;
+                newNode.parentNodeId = parentNodeId;
                 newNode.iD = (int) Database.Node.insert(newNode);
                 sw = new Database.Switch.Struct();
                 sw.nodeID = newNode.iD;
 
-                if (isIOModuleNode == 1) {
+                if (parentNodeId != 0) {
                     sw.code = "0";
                     sw.switchType = Switch_Type.CURTAIN_STATUS_Open;
                     sw.name = G.T.getSentence(120502);
-                    sw.isIOModuleSwitch = isIOModuleNode;
+//                    sw.isIOModuleSwitch = isIOModuleNode;
                     Database.Switch.insert(sw);
 
                     sw.code = "1";
                     sw.switchType = Switch_Type.CURTAIN_STATUS_Close;
                     sw.name = G.T.getSentence(120501);
-                    sw.isIOModuleSwitch = isIOModuleNode;
+//                    sw.isIOModuleSwitch = isIOModuleNode;
                     Database.Switch.insert(sw);
                 } else {
                     sw.code = "0";
                     sw.nodeID = newNode.iD;
                     sw.switchType = Switch_Type.CURTAIN_STATUS;
                     sw.name = G.T.getSentence(1205);
-                    sw.isIOModuleSwitch = isIOModuleNode;
+//                    sw.isIOModuleSwitch = isIOModuleNode;
 
                     Database.Switch.insert(sw);
                 }
@@ -2569,7 +2569,7 @@ public class AllNodes {
                 if (newNode.name.length() == 0)
                     newNode.name = G.T.getSentence(1108);
                 newNode.status = 1;
-                newNode.isIoModuleNode = isIOModuleNode;
+                newNode.parentNodeId = parentNodeId;
                 newNode.iD = (int) Database.Node.insert(newNode);
                 sw = new Database.Switch.Struct();
                 sw.nodeID = newNode.iD;
@@ -2577,7 +2577,7 @@ public class AllNodes {
                 sw.code = "0";
                 sw.switchType = Switch_Type.WC_LAMP;
                 sw.name = G.T.getSentence(1206);
-                sw.isIOModuleSwitch = isIOModuleNode;
+//                sw.isIOModuleSwitch = isIOModuleNode;
 
                 Database.Switch.insert(sw);
                 G.log("Added WC for node: " + newNode.iD);
@@ -2595,7 +2595,7 @@ public class AllNodes {
                 if (newNode.name.length() == 0)
                     newNode.name = G.T.getSentence(1217);
                 newNode.status = 1;
-                newNode.isIoModuleNode = isIOModuleNode;
+                newNode.parentNodeId = parentNodeId;
                 newNode.iD = (int) Database.Node.insert(newNode);
                 sw = new Database.Switch.Struct();
                 sw.nodeID = newNode.iD;
@@ -2604,13 +2604,13 @@ public class AllNodes {
                     sw.code = "0";
                     sw.switchType = Switch_Type.Sensor_NC;
                     sw.name = G.T.getSentence(1214);
-                    sw.isIOModuleSwitch = isIOModuleNode;
+//                    sw.isIOModuleSwitch = isIOModuleNode;
                     sw.value = 0;
                 } else if (newNode.nodeTypeID == Switch_Type.Sensor_NO) {
                     sw.code = "0";
                     sw.switchType = Switch_Type.Sensor_NO;
                     sw.name = G.T.getSentence(1215);
-                    sw.isIOModuleSwitch = isIOModuleNode;
+//                    sw.isIOModuleSwitch = isIOModuleNode;
                     sw.value = 1;
                 }
 
@@ -2623,7 +2623,7 @@ public class AllNodes {
                 if (newNode.name.length() == 0)
                     newNode.name = G.T.getSentence(1218);
                 newNode.status = 1;
-                newNode.isIoModuleNode = isIOModuleNode;
+                newNode.parentNodeId = parentNodeId;
                 newNode.iD = (int) Database.Node.insert(newNode);
                 sw = new Database.Switch.Struct();
                 sw.nodeID = newNode.iD;
@@ -2631,13 +2631,13 @@ public class AllNodes {
                     sw.code = "0";
                     sw.switchType = Switch_Type.Sensor_NC;
                     sw.name = G.T.getSentence(1214);
-                    sw.isIOModuleSwitch = isIOModuleNode;
+//                    sw.isIOModuleSwitch = isIOModuleNode;
                     sw.value = 0;
                 } else if (newNode.nodeTypeID == Switch_Type.Sensor_NO) {
                     sw.code = "0";
                     sw.switchType = Switch_Type.Sensor_NO;
                     sw.name = G.T.getSentence(1215);
-                    sw.isIOModuleSwitch = isIOModuleNode;
+//                    sw.isIOModuleSwitch = isIOModuleNode;
                     sw.value = 1;
                 }
                 Database.Switch.insert(sw);

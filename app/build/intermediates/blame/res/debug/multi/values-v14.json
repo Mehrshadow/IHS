@@ -1,6 +1,10 @@
 [
     {
+<<<<<<< HEAD
         "outputFile": "D:\\Android\\Jahanmir\\Projects\\iHS\\Repository\\iHSCenter\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
+=======
+        "outputFile": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
+>>>>>>> master
         "map": [
             {
                 "to": {
@@ -12,7 +16,11 @@
                     "endOffset": 201
                 },
                 "from": {
+<<<<<<< HEAD
                     "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\Repository\\iHSCenter\\app\\src\\main\\res\\values-v14\\styles.xml",
+=======
+                    "file": "D:\\Android\\Jahanmir\\Projects\\iHS\\IHSCenter\\IHS\\app\\src\\main\\res\\values-v14\\styles.xml",
+>>>>>>> master
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,

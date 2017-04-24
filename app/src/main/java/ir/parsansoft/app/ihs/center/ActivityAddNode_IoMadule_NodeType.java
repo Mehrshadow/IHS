@@ -215,7 +215,7 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
         newNode.nodeTypeID = node_type;
         newNode.roomID = AllNodes.myHouseDefaultRoomId;
         newNode.iP = ioNode[0].iP;
-        int newNodeID = AllNodes.AddNewNode(newNode, 1);
+        int newNodeID = AllNodes.AddNewNode(newNode, ioModuleID);
         deviceID = newNodeID;
 
         newDevice = new Database.Node.Struct[1];

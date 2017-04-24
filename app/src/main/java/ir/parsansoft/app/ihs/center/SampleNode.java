@@ -65,23 +65,15 @@ public class SampleNode extends ViewGroup {
         return myNode.iD;
     }
 
-    public int getIfNodeIsIOModuleNode() {
-        return myNode.isIoModuleNode;
-    }
+//    public int getIfNodeIsIOModuleNode() {
+//        return myNode.isIoModuleNode;
+//    }
 
     public int addUI(AllViews.CO_l_node_simple_key simple_key) {
         return 0;
     }
 
-    public int addUI(AllViews.CO_l_node_simple_dimmer dimmer) {
-        return 0;
-    }
-
-    public int addUI(AllViews.CO_l_node_IoModule ioModule) {
-        return 0;
-    }
-
-    public int addUI(Database.Node.Struct view) {
+    public int addUI(View view) {
         return 0;
     }
 
@@ -191,7 +183,7 @@ public class SampleNode extends ViewGroup {
                             G.log("Try to open socket : Node : " + myNode.iD);
 
                             ///اگر node متصل به io بود ، سوکت io مربوط به همان node را پیدا میکنیم
-                            if (myNode.isIoModuleNode == 1) {
+                            if (myNode.parentNodeId != 0) {
                                 socket = G.findSocketOfIoModuleNode(myNode);
                             } else {
                                 socket = new Socket();
@@ -217,6 +209,7 @@ public class SampleNode extends ViewGroup {
 
                     } catch (IOException e) {
                         G.printStackTrace(e);
+
                     }
                     try {
                         onSocketDisconnect();
@@ -232,7 +225,7 @@ public class SampleNode extends ViewGroup {
         boolean doProcess;
 
 
-        if (myNode.isIoModuleNode == 1) {
+        if (myNode.parentNodeId != 0) {
             socket = G.findSocketOfIoModuleNode(myNode);
 
             try {

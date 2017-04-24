@@ -78,7 +78,7 @@ public class ActivityAddNode_w4 extends ActivityEnhanced {
                 txtTitle.setText(G.T.getSentence(127) + "\n" + G.T.getSentence(128) + "  :  " + node.name);
                 imgIcon.setImageBitmap(AssetsManager.getBitmap(G.context, G.DIR_ICONS_NODES + "/" + node.icon));
                 String strSerial = "";
-                if (node.isIoModuleNode == 1) {
+                if (node.parentNodeId != 0) {
                     strSerial = G.T.getSentence(860) + "\n";
                     Database.Switch.Struct[] currentswitch = Database.Switch.select("nodeID =" + node.iD);
                     for (int i = 0; i < currentswitch.length; i++) {
@@ -120,12 +120,12 @@ public class ActivityAddNode_w4 extends ActivityEnhanced {
                 // bayad bargardim b W3
                 // vaghti too edit hastim dg data nadarim pass bedim too selectPlace
                 // SelectPlace dokme back dare va age bezanim dg chizi poshtesh nis va crash mikone
-                if (node.isIoModuleNode != 1 || isInEditMode) {
+                if (node.parentNodeId == 0 || isInEditMode) {
                     Intent fw3 = new Intent(G.currentActivity, ActivityAddNode_w3.class);
                     fw3.putExtra("NODE_ID", id);
                     fw3.putExtra("EDIT_MODE", isInEditMode);
 //                    fw3.putExtra("SENSOR_NODE_ID", sensorNodeId);
-//                    fw3.putExtra("IO_NODE_ID", ioNodeId);
+//                    fw3.putExtra("IO_NODE_ID", ioModuleID);
 //                    fw3.putExtra("NODE_Type", node_type);
                     G.currentActivity.startActivity(fw3);
                 }

@@ -1,0 +1,119 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginLeft="100dp"
+    android:layout_marginRight="80dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ActivityMain" >
+
+<LinearLayout
+    android:id="@+id/layOptions"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_weight="1"
+    android:background="@drawable/lay_back_wizard"
+    android:orientation="vertical" >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="right"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/txtTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:text="Please Specify the name of each subDevice"
+                    android:textColor="@color/white"
+                    android:typeface="monospace" />
+
+                <LinearLayout
+                    android:id="@+id/laySwitches"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="16dp"
+                    android:orientation="vertical" >
+
+                    <ListView
+                        android:id="@+id/lstNodeSwitches"
+                        android:layout_width="400dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:divider="@null" >
+
+                    </ListView>
+                </LinearLayout>
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/lstNode"
+                android:layout_width="242dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:divider="@null"
+                android:listSelector="@android:color/transparent"
+                tools:listitem="@layout/l_node_simple_key" >
+
+            </ListView>
+        </LinearLayout>
+    </LinearLayout>
+
+<LinearLayout
+    android:id="@+id/layNavigation"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="10dp"
+    android:gravity="right" >
+
+        <Button
+            android:id="@+id/btnCancel"
+            style="@style/button_navigation_theme"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="32dp"
+            android:background="@drawable/button_add_selector"
+            android:text="Cancel" />
+
+        <TextView
+            android:id="@+id/txtLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+<Button
+    android:id="@+id/btnBack"
+    style="@style/button_navigation_theme"
+    android:layout_width="150dp"
+    android:layout_height="48dp"
+    android:layout_marginLeft="32dp"
+    android:layout_marginRight="32dp"
+    android:background="@drawable/button_add_selector"
+    android:text="Back" />
+
+<Button
+    android:id="@+id/btnNext"
+    style="@style/button_navigation_theme"
+    android:layout_width="150dp"
+    android:layout_height="48dp"
+    android:layout_marginLeft="32dp"
+    android:layout_marginRight="0dp"
+    android:background="@drawable/button_add_selector"
+    android:text="Next" />
+
+    </LinearLayout>
+</LinearLayout>

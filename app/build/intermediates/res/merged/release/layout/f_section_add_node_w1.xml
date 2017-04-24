@@ -1,0 +1,131 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="100dp"
+    android:layout_marginRight="80dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ActivityMain" >
+
+    <LinearLayout
+        android:id="@+id/layOptions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/lay_back_wizard"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/layHeadr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/txtTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add new Device"
+                android:textColor="#ffffff"
+                android:textSize="40sp"
+                android:typeface="monospace" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/layStart"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/txtInstruction"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginLeft="30dip"
+                    android:layout_marginRight="30dp"
+                    android:gravity="center"
+                    android:text="Please hold down the learn key on the new device for 7 seconds.\nAfter the learn indicator turned on click start button.\n\nThe home center may not work when in learning !"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:typeface="monospace" />
+
+                <TextView
+                    android:id="@+id/txtStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The home center may not work when in learning !"
+                    android:textColor="#ffffff"
+                    android:textSize="20sp"
+                    android:typeface="monospace" />
+
+                <Button
+                    android:id="@+id/btnStart"
+                    android:layout_width="100dp"
+                    android:layout_height="48dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/button_add_selector"
+                    android:text="Start"
+                    android:textColor="#ffffff"
+                    android:typeface="monospace" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layProgress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical" >
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:gravity="right" >
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="32dp"
+            android:background="@drawable/button_add_selector"
+            android:text="Cancel"
+            android:textColor="#ffffff"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/txtLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</LinearLayout>

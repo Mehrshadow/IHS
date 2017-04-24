@@ -1,0 +1,205 @@
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/layout_theme"
+    android:gravity="bottom|right|center_vertical"
+    tools:context=".ActivityMain" >
+
+    <LinearLayout
+        android:id="@+id/layOptions"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="115dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:background="@drawable/lay_back_wizard"
+        android:orientation="vertical" >
+
+        <ScrollView
+            android:id="@+id/scrollView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="25dp"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/txtHeaderText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="You Can control this scenario by sending SMS . Please specify the control key words :"
+                    android:textColor="@color/white"
+                    android:typeface="monospace" />
+
+                <GridLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="20dp"
+                    android:columnCount="3" >
+
+                    <TextView
+                        android:id="@+id/txtlblKeyword"
+                        style="@style/textview_before_editbox_theme"
+                        android:layout_column="1"
+                        android:layout_gravity="right"
+                        android:layout_row="1"
+                        android:text="Scenario Keyword:"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/edtKeyword"
+                        style="@style/edittext_theme"
+                        android:layout_width="250dp"
+                        android:layout_height="50dp"
+                        android:layout_column="2"
+                        android:layout_gravity="fill_horizontal"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_row="1"
+                        android:digits="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890-_"
+                        android:ems="10"
+                        android:hint="example"
+                        android:inputType="text|textNoSuggestions"
+                        android:maxLines="1"
+                        android:paddingLeft="10dp"
+                        android:privateImeOptions="nm"
+                        android:textSize="23sp" >
+
+                        <requestFocus />
+                    </EditText>
+
+                    <TextView
+                        android:id="@+id/txtlblEnableKey"
+                        style="@style/textview_before_editbox_theme"
+                        android:layout_column="1"
+                        android:layout_gravity="right"
+                        android:layout_marginTop="10dp"
+                        android:layout_row="2"
+                        android:text="Enable:"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/txtEnableKey"
+                        style="@style/edittext_theme"
+                        android:layout_width="250dp"
+                        android:layout_height="50dp"
+                        android:layout_column="2"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_row="2"
+                        android:background="@drawable/lay_edittext_bg_disabled"
+                        android:enabled="false"
+                        android:gravity="center_vertical"
+                        android:hint="example*on"
+                        android:paddingLeft="15dp"
+                        android:textSize="23sp" />
+
+                    <TextView
+                        android:id="@+id/txtDisableKey"
+                        style="@style/edittext_theme"
+                        android:layout_width="250dp"
+                        android:layout_height="50dp"
+                        android:layout_column="2"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_row="3"
+                        android:background="@drawable/lay_edittext_bg_disabled"
+                        android:enabled="false"
+                        android:gravity="center_vertical"
+                        android:hint="example*off"
+                        android:paddingLeft="15dp"
+                        android:textSize="23sp" />
+
+                    <TextView
+                        android:id="@+id/txtlblStartKey"
+                        style="@style/textview_before_editbox_theme"
+                        android:layout_column="1"
+                        android:layout_gravity="right|center"
+                        android:layout_marginTop="10dp"
+                        android:layout_row="4"
+                        android:text="Run the scenario:"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/txtlblDisableKey"
+                        style="@style/textview_before_editbox_theme"
+                        android:layout_column="1"
+                        android:layout_gravity="right"
+                        android:layout_marginTop="10dp"
+                        android:layout_row="3"
+                        android:text="Disable:"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:id="@+id/txtStartKey"
+                        style="@style/edittext_theme"
+                        android:layout_width="250dp"
+                        android:layout_height="50dp"
+                        android:layout_column="2"
+                        android:layout_gravity="left|top"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_row="4"
+                        android:background="@drawable/lay_edittext_bg_disabled"
+                        android:enabled="false"
+                        android:gravity="center_vertical"
+                        android:hint="example*start"
+                        android:paddingLeft="15dp"
+                        android:textSize="23sp" />
+
+                </GridLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layNavigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginRight="115dp"
+        android:layout_marginTop="10dp"
+        android:gravity="right" >
+
+        <Button
+            android:id="@+id/btnCancel"
+            style="@style/button_navigation_theme"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:text="Cancel" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnBack"
+            style="@style/button_navigation_theme"
+            android:text="Back" />
+
+        <Button
+            android:id="@+id/btnNext"
+            style="@style/button_navigation_theme"
+            android:layout_marginRight="0dp"
+            android:text="Next" />
+
+    </LinearLayout>
+
+</LinearLayout>

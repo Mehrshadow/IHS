@@ -136,6 +136,7 @@ public class G extends Application {
         //Settings.Global.putInt(getContentResolver(), Global.TRANSITION_ANIMATION_SCALE, 1);
         /*************************************************** Mobarraei ***********************************************************/
         Database.InitializeDB();
+        Database.updateDB();
         SysLog.log("Program Start.", LogType.SYSTEM_EVENTS, LogOperator.SYSYTEM, 0);
         networkSetting = Database.NetworkSetting.select("")[0];
         setting = Database.Setting.select("")[0];
@@ -197,6 +198,15 @@ public class G extends Application {
         }
     }
 
+    public final static void eLog(String logText) {
+        if (logText != null) {
+            String className = "";
+            if (G.currentActivity != null)
+                className = " - " + G.currentActivity.getLocalClassName();
+            Log.e("LOG" + className, logText);
+        }
+    }
+
     public final static void log(String tag, String logText) {
         if (logText != null && tag != null)
             Log.i(tag, logText);
@@ -204,7 +214,7 @@ public class G extends Application {
 
     public final static void printStackTrace(Exception exception) {
 //        toast(exception.getMessage());
-        G.log("** " + exception.getMessage());
+        G.eLog("** " + exception.getMessage());
         exception.printStackTrace();
     }
 

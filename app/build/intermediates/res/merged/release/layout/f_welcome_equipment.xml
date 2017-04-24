@@ -1,0 +1,83 @@
+                                                                                                                                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                                    xmlns:tools="http://schemas.android.com/tools"
+                                                                    android:layout_width="match_parent"
+                                                                    android:layout_height="match_parent"
+                                                                    android:gravity="center"
+                                                                    android:orientation="vertical"
+                                                                    tools:context=".ActivityMain" >
+
+        <LinearLayout
+            android:id="@+id/laySettings"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <LinearLayout
+                        android:layout_width="400dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <ExpandableListView
+                            android:id="@+id/elist1"
+                            style="@style/list_theme"
+                            android:layout_width="match_parent"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="32dp"
+                            android:layout_marginRight="32dp"
+                            android:layout_weight="1"
+                            android:divider="@null"
+                            android:dividerHeight="0dp"
+                            android:groupIndicator="@null"
+                            android:listSelector="@android:color/transparent"
+                            android:padding="10dp"
+                            tools:listitem="@android:layout/simple_expandable_list_item_2" >
+                        </ExpandableListView>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="right" >
+
+                            <Button
+                                android:id="@+id/btnAdd"
+                                style="@style/button_other_theme"
+                                android:layout_marginBottom="16dp"
+                                android:layout_marginLeft="48dp"
+                                android:layout_marginRight="48dip"
+                                android:layout_marginTop="5dp"
+                                android:text="Add" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical" >
+
+                        <GridView
+                            android:id="@+id/grdNodes"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:listSelector="@android:color/transparent"
+                            android:numColumns="3"
+                            android:verticalSpacing="10dp"
+                            tools:listitem="@layout/l_node_simple_key" >
+                        </GridView>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
