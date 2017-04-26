@@ -39,6 +39,9 @@ public class ActivityAddNode_IoMadule_Input_Output extends ActivityEnhanced {
     }
 
     private void initializeForm() {
+
+        mAdd_node_input_output.etIOName.setText(ioNode[0].name);
+
         mAdd_node_input_output.btnInput.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -71,7 +74,8 @@ public class ActivityAddNode_IoMadule_Input_Output extends ActivityEnhanced {
         mAdd_node_input_output.btnCancel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                finish();
+                if (saveForm())
+                    finish();
             }
         });
 
@@ -88,6 +92,8 @@ public class ActivityAddNode_IoMadule_Input_Output extends ActivityEnhanced {
         } else {
             ioNode[0].name = inputName;
             Database.Node.edit(ioNode[0]);
+            G.nodeCommunication.allNodes.get(ioNode[0].iD).refreshNodeStruct();
+
             return true;
         }
     }

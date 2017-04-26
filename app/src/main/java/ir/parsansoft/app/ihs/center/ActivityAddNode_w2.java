@@ -6,7 +6,6 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemSelectedListener;
-import android.widget.CompoundButton;
 
 import ir.parsansoft.app.ihs.center.AllViews.CO_d_section_add_node_w2;
 import ir.parsansoft.app.ihs.center.Animation.Animation_Types;
@@ -19,7 +18,7 @@ import ir.parsansoft.app.ihs.center.adapters.AdapterRoomSpinner;
 import ir.parsansoft.app.ihs.center.adapters.AdapterSectionSpinner;
 
 
-public class ActivityAddNode_w2 extends ActivityEnhanced implements CompoundButton.OnCheckedChangeListener {
+public class ActivityAddNode_w2 extends ActivityEnhanced {
     private AdapterListViewNode grdListAdapter;
     private Database.Node.Struct[] nodes;
     CO_d_section_add_node_w2 fw2;
@@ -27,9 +26,7 @@ public class ActivityAddNode_w2 extends ActivityEnhanced implements CompoundButt
     AdapterSectionSpinner adapterSectionSpinner;
     AdapterRoomSpinner adapterRoomSpinner;
 
-    private boolean isMyHouseCheckBoxChecked = false;
     private boolean isInEditMode;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -70,25 +67,10 @@ public class ActivityAddNode_w2 extends ActivityEnhanced implements CompoundButt
         fw2.edtNodeName.setText(nodes[0].name);
         fw2.icnNodeIcon.setImageDir(G.DIR_ICONS_NODES);
         fw2.icnNodeIcon.setImageToSelector(nodes[0].icon);
-        fw2.checkBoxMyHouse.setOnCheckedChangeListener(this);
     }
 
     Database.Section.Struct[] sections;
     Database.Room.Struct[] rooms;
-
-    private void changeSpinnersVisibility() {
-        if (isMyHouseCheckBoxChecked) {
-            fw2.spnSections.setVisibility(View.INVISIBLE);
-            fw2.spnRooms.setVisibility(View.INVISIBLE);
-            fw2.lblRoom.setVisibility(View.INVISIBLE);
-            fw2.lblSection.setVisibility(View.INVISIBLE);
-        } else {
-            fw2.spnSections.setVisibility(View.VISIBLE);
-            fw2.spnRooms.setVisibility(View.VISIBLE);
-            fw2.lblRoom.setVisibility(View.VISIBLE);
-            fw2.lblSection.setVisibility(View.VISIBLE);
-        }
-    }
 
     private void loadSpinners() {
         sections = Database.Section.select("");
@@ -143,11 +125,7 @@ public class ActivityAddNode_w2 extends ActivityEnhanced implements CompoundButt
                     new DialogClass(G.currentActivity).showOk(G.T.getSentence(201), G.T.getSentence(219));
                     return;
                 }
-                if (isMyHouseCheckBoxChecked) {
-                    nodes[0].roomID = -1;
-                } else {
-                    nodes[0].roomID = adapterRoomSpinner.getItem(fw2.spnRooms.getSelectedItemPosition()).iD;
-                }
+                nodes[0].roomID = adapterRoomSpinner.getItem(fw2.spnRooms.getSelectedItemPosition()).iD;
 
 
                 nodes[0].name = fw2.edtNodeName.getText().toString().trim();
@@ -294,9 +272,4 @@ public class ActivityAddNode_w2 extends ActivityEnhanced implements CompoundButt
         Animation.doAnimation(Animation_Types.FADE);
     }
 
-    @Override
-    public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-        isMyHouseCheckBoxChecked = isChecked;
-        changeSpinnersVisibility();
-    }
 }

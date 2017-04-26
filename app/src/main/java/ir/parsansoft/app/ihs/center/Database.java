@@ -40,7 +40,7 @@ public class Database {
         }
     }
 
-    public static void updateDB(){
+    public static void updateDB() {
         try {
             G.log("Database Version :" + G.dbObject.getVersion());
             Database.Node.addNewColumn("parentNodeId", "INTEGER", "0", UpdateVersionDetail.add_parentNodeId_Column);
@@ -2277,12 +2277,12 @@ public class Database {
             return G.dbObject.update("T_Node", Values, "ID=" + myNode.iD, null);
         }
 
-        public static void addNewColumn(String newColumnName, String columnDataType, Object defaultValue,int newVersion ) {
+        public static void addNewColumn(String newColumnName, String columnDataType, Object defaultValue, int newVersion) {
             int oldVersion = G.dbObject.getVersion();
 //            int newVersion = G.context.getResources().getInteger(R.integer.database_version);
 
             if (oldVersion < newVersion) {
-                G.dbObject.execSQL("ALTER TABLE T_NODE ADD COLUMN " + newColumnName + " " + columnDataType + "NOT NULL DEFAULT '"+defaultValue+"'");
+                G.dbObject.execSQL("ALTER TABLE T_NODE ADD COLUMN " + newColumnName + " " + columnDataType + "NOT NULL DEFAULT '" + defaultValue + "'");
             }
             G.dbObject.setVersion(newVersion);
         }
@@ -4262,7 +4262,7 @@ public class Database {
             public int nodeID = 0;
             public int switchType = 0;
             public boolean enableGraphing = false;
-//            public int isIOModuleSwitch = 0;
+            //            public int isIOModuleSwitch = 0;
             public int IOModulePort = 0;
 
             public String getFullName() {
@@ -4309,7 +4309,7 @@ public class Database {
             int newVersion = G.context.getResources().getInteger(R.integer.database_version);
 
             if (oldVersion < newVersion) {
-                G.dbObject.execSQL("ALTER TABLE T_SWITCH ADD COLUMN " + newColumnName + " " + columeDataType + "NOT NULL DEFAULT '"+defaultValue+"'");
+                G.dbObject.execSQL("ALTER TABLE T_SWITCH ADD COLUMN " + newColumnName + " " + columeDataType + "NOT NULL DEFAULT '" + defaultValue + "'");
             }
             G.dbObject.setVersion(newVersion);
         }

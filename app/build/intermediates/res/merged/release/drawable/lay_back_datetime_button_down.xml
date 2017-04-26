@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android" >
-    <item android:drawable="@drawable/lay_datetimepicker_arrow_down_press" android:state_pressed="true"></item>
-    <item android:drawable="@drawable/lay_datetimepicker_arrow_down_hover" android:state_focused="true"></item>
-    <item android:drawable="@drawable/lay_datetimepicker_arrow_down_hover" android:state_hovered="true"></item>
-    <item android:drawable="@drawable/lay_datetimepicker_arrow_down_normal" ></item>
-</selector>

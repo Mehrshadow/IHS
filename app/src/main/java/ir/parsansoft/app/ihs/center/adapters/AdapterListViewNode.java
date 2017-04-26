@@ -41,15 +41,13 @@ public class AdapterListViewNode extends ArrayAdapter<Database.Node.Struct> {
     }
 
     // A wrong way we did!!
-    // bazi az gridview ha 4 tai hastan baziashoon 3 tai
-    // vase in k item haye gridview 2ros load beshan majboor shodim be soorate dasti, az jai k gridview scroll mikhore
-    // view item ha ro bayad null konim ta load beshan
-    // vase grid 3 tai item haye zaribe 3 va gridview 4tai item haye zaribe 4
+    // har raveshi test kardam nashod!
+    // be ejbar hame item ha ro null mikonim k view generate beshe o 2ros neshoon bede
     @Override
     public View getView(final int position, View convertView, ViewGroup parent) {
 
 //        if (position != 0) {
-            convertView = null;
+        convertView = null;
 //        }
 
         AllViews.CO_l_node_simple_key newSimpleKey = null;

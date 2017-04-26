@@ -107,7 +107,7 @@ public class G extends Application {
     public static final int DEFAULT_NODE_GET_PORT = 54123;
     public static final int DEFAULT_NODE_LEARN_PORT = 54123;
     public static final int DEFAULT_MOBILE_GET_PORT = 54127;
-    public static final int DEFAULT_TIMER_REFRESH = 5 * 1000;
+    public static final int DEFAULT_TIMER_REFRESH = 60 * 1000;// 1 min
     public static final int DEFAULT_MOBILE_NEW_GET_PORT = 54128;
     public static final int DEFAULT_SERVER_CONNECTION_RETRY_TIMEOUT = 10 * 1000;
     public static final int DEFAULT_SERVER_SOCKET_TIMEOUT = 8000;

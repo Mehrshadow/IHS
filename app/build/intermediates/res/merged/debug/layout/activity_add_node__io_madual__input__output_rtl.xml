@@ -14,26 +14,37 @@
     <LinearLayout
         android:id="@+id/layOptions"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         android:layout_marginBottom="10dp"
         android:layout_marginTop="10dp"
         android:layout_weight="1"
         android:background="@drawable/lay_back_wizard"
         android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/txtTitle"
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_margin="15dp"
-            android:gravity="center"
-            android:text="Please specify place of the new device."
-            android:textColor="#ffffff"
-            android:textSize="20sp"
-            android:textStyle="bold"
-            android:typeface="monospace" />
+            android:layout_marginTop="50dp"
+            android:orientation="horizontal">
 
+            <EditText
+                android:id="@+id/et_io_name"
+                style="@style/edittext_theme"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:maxLines="1" />
+
+            <TextView
+                android:id="@+id/tv_io_name"
+                style="@style/textview_before_editbox_theme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -42,29 +53,18 @@
             android:gravity="center"
             android:orientation="vertical">
 
-            <LinearLayout
+            <TextView
+                android:id="@+id/txtTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
-
-                <EditText
-                    android:id="@+id/et_io_name"
-                    style="@style/edittext_theme"
-                    android:layout_width="300dp"
-                    android:layout_height="wrap_content"
-                    android:layout_marginBottom="50dp"
-                    android:ems="10"
-                    android:inputType="textPersonName"
-                    android:maxLines="1" />
-
-                <TextView
-                    android:id="@+id/tv_io_name"
-                    style="@style/textview_before_editbox_theme"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
-
-            </LinearLayout>
-
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginBottom="50dp"
+                android:text="Please specify place of the new device."
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:typeface="monospace" />
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -97,7 +97,6 @@
 
 
             </LinearLayout>
-
 
         </LinearLayout>
 

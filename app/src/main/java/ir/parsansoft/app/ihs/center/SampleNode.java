@@ -73,7 +73,11 @@ public class SampleNode extends ViewGroup {
         return 0;
     }
 
-    public int addUI(View view) {
+    public int addUI(AllViews.CO_l_node_simple_dimmer dimmer) {
+        return 0;
+    }
+
+    public int addUI(AllViews.CO_l_node_IoModule ioModule) {
         return 0;
     }
 

@@ -162,7 +162,7 @@ public class AllNodes {
             }
             newSimpleKey.txtNodeName.setText(myNode.name);
             if (switches.length >= 1) {
-                 newSimpleKey.layKey1.setVisibility(View.VISIBLE);
+                newSimpleKey.layKey1.setVisibility(View.VISIBLE);
                 newSimpleKey.txtKey1.setText(switches[0].name);
                 if (switches[0].value == 0)
                     newSimpleKey.imgKey1.setImageResource(R.drawable.lay_simple_switch_off);
@@ -272,6 +272,8 @@ public class AllNodes {
         public void setSettingVisiblity(int uiIndex, boolean isVisible) {
             G.log("Ui Index :" + uiIndex);
             if (isVisible) {
+                if (myNode.parentNodeId != 0)
+                    simpleKeyUIs.get(uiIndex).imgbtnEdit.setImageResource(R.drawable.ic_io_node_setting);
                 simpleKeyUIs.get(uiIndex).imgbtnEdit.setVisibility(View.VISIBLE);
             } else {
                 simpleKeyUIs.get(uiIndex).imgbtnEdit.setVisibility(View.GONE);
@@ -896,9 +898,9 @@ public class AllNodes {
             }
             ui.txtNodeName.setText(myNode.name);
 
-            ui.txtKey1.setText(G.T.getSentence(120303)); // Fast
-            ui.txtKey2.setText(G.T.getSentence(120302)); // Slow
-            ui.txtKey3.setText(G.T.getSentence(1204)); // Pump
+            ui.txtKey1.setText(switches[0].name); // Fast
+            ui.txtKey2.setText(switches[1].name); // Slow
+            ui.txtKey3.setText(switches[2].name); // Pump
 
             if (switches[0].value == 0) {
                 ui.imgKey3.setImageResource(R.drawable.lay_cooler_water_off);
@@ -1031,6 +1033,8 @@ public class AllNodes {
         public void setSettingVisiblity(int uiIndex, boolean isVisible) {
             G.log("Ui Index :" + uiIndex);
             if (isVisible) {
+                if (myNode.parentNodeId != 0)
+                    coolerUIs.get(uiIndex).imgbtnEdit.setImageResource(R.drawable.ic_io_node_setting);
                 coolerUIs.get(uiIndex).imgbtnEdit.setVisibility(View.VISIBLE);
             } else {
                 coolerUIs.get(uiIndex).imgbtnEdit.setVisibility(View.GONE);
@@ -1422,6 +1426,8 @@ public class AllNodes {
         public void setSettingVisiblity(int uiIndex, boolean isVisible) {
             G.log("Ui Index :" + uiIndex);
             if (isVisible) {
+                if (myNode.parentNodeId != 0)
+                    curtainUIs.get(uiIndex).imgbtnEdit.setImageResource(R.drawable.ic_io_node_setting);
                 curtainUIs.get(uiIndex).imgbtnEdit.setVisibility(View.VISIBLE);
             } else {
                 curtainUIs.get(uiIndex).imgbtnEdit.setVisibility(View.GONE);
@@ -1682,7 +1688,7 @@ public class AllNodes {
         }
 
         @Override
-        public int addUI( final CO_l_node_simple_key ui) {
+        public int addUI(final CO_l_node_simple_key ui) {
             uiCount++;
             if (WCKeyUIs.size() > 5) {
                 G.log("Deleting some UI references to reduce memory");
@@ -1789,6 +1795,8 @@ public class AllNodes {
         public void setSettingVisiblity(int uiIndex, boolean isVisible) {
             G.log("Ui Index :" + uiIndex);
             if (isVisible) {
+                if (myNode.parentNodeId != 0)
+                    WCKeyUIs.get(uiIndex).imgbtnEdit.setImageResource(R.drawable.ic_io_node_setting);
                 WCKeyUIs.get(uiIndex).imgbtnEdit.setVisibility(View.VISIBLE);
             } else {
                 WCKeyUIs.get(uiIndex).imgbtnEdit.setVisibility(View.GONE);
@@ -2282,6 +2290,8 @@ public class AllNodes {
         public void setSettingVisiblity(int uiIndex, boolean isVisible) {
             G.log("Ui Index :" + uiIndex);
             if (isVisible) {
+                if (myNode.parentNodeId != 0)
+                    simpleKeyUIs.get(uiIndex).imgbtnEdit.setImageResource(R.drawable.ic_io_node_setting);
                 simpleKeyUIs.get(uiIndex).imgbtnEdit.setVisibility(View.VISIBLE);
             } else {
                 simpleKeyUIs.get(uiIndex).imgbtnEdit.setVisibility(View.GONE);
@@ -2390,11 +2400,14 @@ public class AllNodes {
     }
 
     /**
-     * isIOModuleNode
-     * 0 = false
-     * 1 = true
+     * @param parentNodeId             moshakhas shodane in k age device majazi bashe
+     *                                 be kodoom IOModule connect hast
+     * @param shouldNotifyNodeCreation niaz hast be server va mobile ha etela bedim k node ijad shode ya na
+     *                                 dar ActivityAddNode_IoModule_NodeType, aval node ijad mishe bad roosh port set mikonim
+     *                                 ama nemikhaim ta ghabl az in k port ha set shode bashan be baghie etela bede
+     *                                 vase hamin in field ro false mikonim ta etela nade
      */
-    public static int AddNewNode(Database.Node.Struct newNode, Integer parentNodeId) {
+    public static int AddNewNode(Database.Node.Struct newNode, int parentNodeId, boolean shouldNotifyNodeCreation) {
         Database.Switch.Struct sw;
         newNode.regDate = new SimpleDateFormat("yyyy/MM/dd").format(new Date());
 
@@ -2440,7 +2453,6 @@ public class AllNodes {
 
                 newNode.parentNodeId = parentNodeId;
                 newNode.iD = (int) Database.Node.insert(newNode);
-                newNode.roomID = myHouseDefaultRoomId;
                 for (int i = 0; i < 3; i++) {
                     sw = new Database.Switch.Struct();
                     sw.code = "" + i;
@@ -2649,7 +2661,8 @@ public class AllNodes {
 
         if (newNode.nodeTypeID != Node_Type.IOModule ||
                 newNode.nodeTypeID != Node_Type.Sensor_Magnetic ||
-                newNode.nodeTypeID != Node_Type.Sensor_SMOKE) {
+                newNode.nodeTypeID != Node_Type.Sensor_SMOKE &&
+                        shouldNotifyNodeCreation) {
 
             NetMessage netMessage = new NetMessage();
             netMessage.data = newNode.getNodeDataJson();

@@ -269,7 +269,7 @@ public class ActivityAddNode_w1 extends ActivityEnhanced {
                                 G.server.connectToServer();
                                 G.mobileCommunication.startServer();
 
-                                int newNodeID = AllNodes.AddNewNode(newNode, 0);
+                                int newNodeID = AllNodes.AddNewNode(newNode, 0, true);
                                 /**************************** Jahanbin ***************************/
 
                                 G.log("New Node Added with ID :" + newNodeID);
@@ -390,7 +390,7 @@ public class ActivityAddNode_w1 extends ActivityEnhanced {
                     G.log(e.getMessage());
                 }
                 //--------------------------Create new node ------------------------
-                int newNodeID = AllNodes.AddNewNode(newNode, 0);
+                int newNodeID = AllNodes.AddNewNode(newNode, 0, true);
                 newNode.iD = newNodeID;
                 G.log("Connected to main wifi");
 

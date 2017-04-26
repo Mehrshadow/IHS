@@ -110,7 +110,7 @@ public class ActivityMyHouse extends ActivityEnhanced implements View.OnClickLis
 
 
                         SysLog.log("Device :" + nodes[0].name + " Deleted.", SysLog.LogType.DATA_CHANGE, SysLog.LogOperator.NODE, nodes[0].iD);
-                        Database.Node.Struct[] ioNodes = Database.Node.select("iP='" + nodes[0].iP + "'" + " EXCEPT SELECT * FROM T_NODE WHERE nodeTypeID =" + AllNodes.Node_Type.IOModule);
+                        Database.Node.Struct[] ioNodes = Database.Node.select("iP='" + nodes[0].iP + "'" );
 
                         if (ioNodes != null) {
                             for (int i = 0; i < ioNodes.length; i++) {

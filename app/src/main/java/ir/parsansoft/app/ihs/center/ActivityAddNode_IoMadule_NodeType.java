@@ -66,13 +66,15 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
             }
         }
 
-        insertFakeNodeToDb();
+        getAvailablePorts();
+
+        insertFakeNodeToDb(availablePorts);
 
         grdListAdapter = new AdapterListViewNode(G.currentActivity, newDevice, false);
         mAdd_node_nodeType.lstNode.setAdapter(grdListAdapter);
         switches = Database.Switch.select("nodeID = " + deviceID);
         if (switches != null) {
-            adapterNodeSwitches = new AdapterFakeNodeSwitches(this, switches, getAvailablePorts());
+            adapterNodeSwitches = new AdapterFakeNodeSwitches(this, switches, availablePorts);
             mAdd_node_nodeType.lstNodeSwitches.setAdapter(adapterNodeSwitches);
         }
 
@@ -209,17 +211,23 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
         Animation.doAnimation(Animation.Animation_Types.FADE_SLIDE_LEFTRIGHT_LEFT);
     }
 
-    private void insertFakeNodeToDb() {
+    private void insertFakeNodeToDb(List<String> availablePorts) {
         ioNode = Database.Node.select("iD=" + ioModuleID);
         newNode = new Database.Node.Struct();
         newNode.nodeTypeID = node_type;
-        newNode.roomID = AllNodes.myHouseDefaultRoomId;
+//        newNode.roomID = AllNodes.myHouseDefaultRoomId;
+        newNode.roomID = Database.Room.getMax("ID", "").iD;
         newNode.iP = ioNode[0].iP;
-        int newNodeID = AllNodes.AddNewNode(newNode, ioModuleID);
-        deviceID = newNodeID;
+        deviceID = AllNodes.AddNewNode(newNode, ioModuleID, false);
 
         newDevice = new Database.Node.Struct[1];
         newDevice[0] = newNode;
+
+        switches = Database.Switch.select("nodeID = " + deviceID);
+
+        for (int i = 0; i < switches.length; i++) {
+            switches[i].IOModulePort = Integer.parseInt(availablePorts.get(i));
+        }
     }
 
     private boolean saveForm() {
@@ -255,7 +263,6 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
                         }
                         break;
                 }
-
             }
 
 
@@ -268,6 +275,7 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
                 switchItems[i].value = switchValues[i].value;
 //                switchItems[i].IOModulePort = switchValues[i].IOModulePort;
                 Database.Switch.edit(switchItems[i]);
+
                 JSONObject jo = new JSONObject();
                 try {
                     jo.put("ID", switchItems[i].iD);
@@ -281,6 +289,7 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
                     G.printStackTrace(e);
                 }
             }
+            G.nodeCommunication.allNodes.get(newNode.iD).refreshNodeStruct();
             nm.data = ja.toString();
             nm.messageID = nm.save();
             SysLog.log("Device " + newDevice[0].name + " Edited.", SysLog.LogType.DATA_CHANGE, SysLog.LogOperator.NODE, deviceID);
