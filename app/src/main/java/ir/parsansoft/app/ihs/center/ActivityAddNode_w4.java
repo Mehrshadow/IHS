@@ -131,7 +131,7 @@ public class ActivityAddNode_w4 extends ActivityEnhanced {
                 }
                 else {
                     Intent fw3 = new Intent(G.currentActivity, ActivityAddNode_IoMadule_SelectPlace.class);
-                    fw3.putExtra("DEVICE_NODE_ID", deviceNodeId);
+                    fw3.putExtra("DEVICE_NODE_ID", id);
                     fw3.putExtra("SENSOR_NODE_ID", sensorNodeId);
                     fw3.putExtra("IO_NODE_ID", ioNodeId);
                     fw3.putExtra("NODE_Type", node_type);

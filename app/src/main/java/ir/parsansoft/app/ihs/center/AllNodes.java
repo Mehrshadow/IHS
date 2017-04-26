@@ -2439,6 +2439,7 @@ public class AllNodes {
                 if (newNode.name.length() == 0)
                     newNode.name = G.T.getSentence(1102);
                 newNode.status = 1;
+                newNode.parentNodeId = parentNodeId;
                 newNode.iD = (int) Database.Node.insert(newNode);
                 for (int i = 0; i < 2; i++) {
                     sw = new Database.Switch.Struct();
@@ -2457,7 +2458,6 @@ public class AllNodes {
                 if (newNode.name.length() == 0)
                     newNode.name = G.T.getSentence(1103);
                 newNode.status = 1;
-
                 newNode.parentNodeId = parentNodeId;
                 newNode.iD = (int) Database.Node.insert(newNode);
                 for (int i = 0; i < 3; i++) {

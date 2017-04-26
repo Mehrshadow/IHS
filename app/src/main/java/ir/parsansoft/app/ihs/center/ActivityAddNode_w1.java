@@ -218,6 +218,7 @@ public class ActivityAddNode_w1 extends ActivityEnhanced {
 
                             newNode = new Database.Node.Struct();
                             newNode.iP = freeNodeIP;
+//                            newNode.iP = "192.168.1.130";
                             newNode.mac = wifiStations.get(ws).macAddress;
                             DiscoveryPacket discoveryPacket = new DiscoveryPacket(hardwareData);
                             newNode.nodeTypeID = discoveryPacket.type;

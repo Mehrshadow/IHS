@@ -301,6 +301,26 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
             }
 
 
+            NetMessage netMessage = new NetMessage();
+            netMessage.data = newNode.getNodeDataJson();
+            netMessage.action = NetMessage.Insert;
+            netMessage.type = NetMessage.NodeData;
+            netMessage.typeName = NetMessage.NetMessageType.NodeData;
+            netMessage.messageID = netMessage.save();
+            G.mobileCommunication.sendMessage(netMessage);
+            G.server.sendMessage(netMessage);
+
+            //  Send message to server and local Mobiles
+            NetMessage netMessage2 = new NetMessage();
+            netMessage2.data = newNode.getNodeSwitchesDataJson();
+            netMessage2.action = NetMessage.Insert;
+            netMessage2.type = NetMessage.SwitchData;
+            netMessage2.typeName = NetMessage.NetMessageType.SwitchData;
+            netMessage2.messageID = netMessage2.save();
+            G.mobileCommunication.sendMessage(netMessage2);
+            G.server.sendMessage(netMessage2);
+
+
             NetMessage nm = new NetMessage();
             nm.action = NetMessage.Update;
             nm.type = NetMessage.SwitchData;
