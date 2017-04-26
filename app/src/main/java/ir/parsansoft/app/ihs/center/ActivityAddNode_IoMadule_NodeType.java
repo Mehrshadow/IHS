@@ -35,6 +35,7 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
     int node_type;
     List<String> availablePorts;
     private Database.Node.Struct newNode;
+    private ArrayList<String> spinnerPorts;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -60,6 +61,7 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
             if (extras.containsKey("IO_NODE_ID")) { // IO Module Id
                 deviceID = extras.getInt("DEVICE_NODE_ID");
                 ioModuleID = extras.getInt("IO_NODE_ID");
+                ioNode = Database.Node.select("iD=" + ioModuleID);
 //                newDevice = Database.Node.select("iD=" + deviceID);
                 node_type = extras.getInt("NODE_Type");
                 G.log("Node ID=" + deviceID);
@@ -68,13 +70,46 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
 
         getAvailablePorts();
 
+        int neededPorts = 0;
+
+        switch (node_type) {
+            case AllNodes.Node_Type.SIMPLE_SWITCH_1:
+            case AllNodes.Node_Type.WC_SWITCH:
+                neededPorts = 1;
+                break;
+            case AllNodes.Node_Type.SIMPLE_SWITCH_2:
+            case AllNodes.Node_Type.CURTAIN_SWITCH:
+                neededPorts = 2;
+                break;
+            case AllNodes.Node_Type.SIMPLE_SWITCH_3:
+            case AllNodes.Node_Type.AIR_CONDITION:
+                neededPorts = 3;
+                break;
+        }
+
+        if (availablePorts.size() < neededPorts) {
+            Intent in_out = new Intent(G.currentActivity, ActivityAddNode_IoModule_Device_Select.class);
+            in_out.putExtra("IO_NODE_ID", ioNode[0].iD);
+            G.currentActivity.startActivity(in_out);
+            finish();
+            Animation.doAnimation(Animation.Animation_Types.FADE);
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    new DialogClass(G.currentActivity).showOk(G.T.getSentence(201), G.T.getSentence(858));
+                }
+            }, 500);
+
+            return;
+        }
+
         insertFakeNodeToDb(availablePorts);
 
         grdListAdapter = new AdapterListViewNode(G.currentActivity, newDevice, false);
         mAdd_node_nodeType.lstNode.setAdapter(grdListAdapter);
         switches = Database.Switch.select("nodeID = " + deviceID);
         if (switches != null) {
-            adapterNodeSwitches = new AdapterFakeNodeSwitches(this, switches, availablePorts);
+            adapterNodeSwitches = new AdapterFakeNodeSwitches(this, switches, spinnerPorts);
             mAdd_node_nodeType.lstNodeSwitches.setAdapter(adapterNodeSwitches);
         }
 
@@ -126,7 +161,7 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
     private List<String> getAvailablePorts() {
         try {
             availablePorts = new ArrayList<>();
-            List<String> spinnerPorts = new ArrayList<>();
+            spinnerPorts = new ArrayList<>();
             availablePorts.add("3");
             availablePorts.add("4");
             availablePorts.add("5");
@@ -138,7 +173,7 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
             availablePorts.add("11");
             availablePorts.add("12");
 
-            Database.Node.Struct[] nodes = Database.Node.select("iP='" + newDevice[0].iP + "'");
+            Database.Node.Struct[] nodes = Database.Node.select("iP='" + ioNode[0].iP + "'");
             ArrayList<Database.Switch.Struct> fakeswitches = new ArrayList<>();
             for (int i = 0; i < nodes.length; i++) {
                 Database.Switch.Struct[] switches = Database.Switch.select("isIOModuleSwitch=" + 1 + " AND nodeID = " + nodes[i].iD);
@@ -154,44 +189,44 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
                 availablePorts.remove(String.valueOf(fakeswitches.get(i).IOModulePort));
             }
 
-
             for (int i = 0; i < availablePorts.size(); i++) {
                 spinnerPorts.add(String.valueOf(Integer.parseInt(availablePorts.get(i)) - 2));
             }
 
-            //Check Enough Port
-            Database.Switch.Struct[] s = Database.Switch.select("nodeID=" + deviceID);
-            if (s.length > availablePorts.size()) {
-                Intent in_out = new Intent(G.currentActivity, ActivityAddNode_IoModule_Device_Select.class);
-                in_out.putExtra("IO_NODE_ID", nodes[0].iD);
-
-                try {
-                    // device dar activity ghabli insert shode ama port vasash nadarim
-                    // pas bayad pak beshe!
-                    Database.Switch.Struct[] switches = Database.Switch.select("isIOModuleSwitch=" + 1 + " AND nodeID = " + deviceID);
-                    Database.Node.delete(deviceID);
-                    for (int i = 0; i < switches.length; i++) {
-                        Database.Switch.delete(switches[i].iD);
-                    }
-                } catch (Exception e) {
-                    G.printStackTrace(e);
-                }
-
-                G.currentActivity.startActivity(in_out);
-                finish();
-                Animation.doAnimation(Animation.Animation_Types.FADE);
-                new Handler().postDelayed(new Runnable() {
-                    @Override
-                    public void run() {
-                        new DialogClass(G.currentActivity).showOk(G.T.getSentence(201), G.T.getSentence(858));
-                    }
-                }, 500);
-
-                return null;
-            }
+//            //Check Enough Port
+//            Database.Switch.Struct[] s = Database.Switch.select("nodeID=" + deviceID);
+//            if (s.length > availablePorts.size()) {
+//                Intent in_out = new Intent(G.currentActivity, ActivityAddNode_IoModule_Device_Select.class);
+//                in_out.putExtra("IO_NODE_ID", nodes[0].iD);
+//
+//                try {
+//                    // device dar activity ghabli insert shode ama port vasash nadarim
+//                    // pas bayad pak beshe!
+//                    Database.Switch.Struct[] switches = Database.Switch.select("isIOModuleSwitch=" + 1 + " AND nodeID = " + deviceID);
+//                    Database.Node.delete(deviceID);
+//                    for (int i = 0; i < switches.length; i++) {
+//                        Database.Switch.delete(switches[i].iD);
+//                    }
+//                } catch (Exception e) {
+//                    G.printStackTrace(e);
+//                }
+//
+//                G.currentActivity.startActivity(in_out);
+//                finish();
+//                Animation.doAnimation(Animation.Animation_Types.FADE);
+//                new Handler().postDelayed(new Runnable() {
+//                    @Override
+//                    public void run() {
+//                        new DialogClass(G.currentActivity).showOk(G.T.getSentence(201), G.T.getSentence(858));
+//                    }
+//                }, 500);
+//
+//                return null;
+//            }
             return spinnerPorts;
         } catch (Exception e) {
             e.printStackTrace();
+
             return null;
         }
     }
@@ -212,7 +247,7 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
     }
 
     private void insertFakeNodeToDb(List<String> availablePorts) {
-        ioNode = Database.Node.select("iD=" + ioModuleID);
+
         newNode = new Database.Node.Struct();
         newNode.nodeTypeID = node_type;
 //        newNode.roomID = AllNodes.myHouseDefaultRoomId;
@@ -272,7 +307,7 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
             JSONArray ja = new JSONArray();
             Database.Switch.Struct[] switchValues = Database.Switch.select("nodeID = " + deviceID);
             for (int i = 0; i < switchItems.length; i++) {
-                switchItems[i].value = switchValues[i].value;
+//                switchItems[i].value = switchValues[i].value;
 //                switchItems[i].IOModulePort = switchValues[i].IOModulePort;
                 Database.Switch.edit(switchItems[i]);
 

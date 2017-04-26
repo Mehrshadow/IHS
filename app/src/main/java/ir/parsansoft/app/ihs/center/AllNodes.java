@@ -2408,8 +2408,15 @@ public class AllNodes {
      *                                 vase hamin in field ro false mikonim ta etela nade
      */
     public static int AddNewNode(Database.Node.Struct newNode, int parentNodeId, boolean shouldNotifyNodeCreation) {
-        Database.Switch.Struct sw;
+        Database.Switch.Struct sw = null;
         newNode.regDate = new SimpleDateFormat("yyyy/MM/dd").format(new Date());
+
+        int isIOModuleNode = 0;
+
+        // yani node motasel be io hast
+        if (parentNodeId != 0) {
+            isIOModuleNode = 1;
+        }
 
         switch (newNode.nodeTypeID) {
             case Node_Type.SIMPLE_SWITCH_1: // Simple 1 switche Node
@@ -2423,7 +2430,8 @@ public class AllNodes {
                 sw.nodeID = newNode.iD;
                 sw.switchType = Switch_Type.SIMPLE_SWITCH;
                 sw.name = newNode.name;
-//                sw.isIOModuleSwitch = isIOModuleNode;
+
+                sw.isIOModuleSwitch = isIOModuleNode;
                 Database.Switch.insert(sw);
                 nodeCommunication.allNodes.put(newNode.iD, new SimpleSwitch(newNode));
                 break;
@@ -2431,7 +2439,6 @@ public class AllNodes {
                 if (newNode.name.length() == 0)
                     newNode.name = G.T.getSentence(1102);
                 newNode.status = 1;
-//                newNode.isIoModuleNode = isIOModuleNode;
                 newNode.iD = (int) Database.Node.insert(newNode);
                 for (int i = 0; i < 2; i++) {
                     sw = new Database.Switch.Struct();
@@ -2439,7 +2446,7 @@ public class AllNodes {
                     sw.nodeID = newNode.iD;
                     sw.switchType = Switch_Type.SIMPLE_SWITCH;
                     sw.name = G.T.getSentence(1201) + " " + (i + 1);
-//                    sw.isIOModuleSwitch = isIOModuleNode;
+                    sw.isIOModuleSwitch = isIOModuleNode;
 
                     Database.Switch.insert(sw);
                     G.log("Added Switch: " + i + " for node: " + newNode.iD);
@@ -2459,7 +2466,7 @@ public class AllNodes {
                     sw.nodeID = newNode.iD;
                     sw.switchType = Switch_Type.SIMPLE_SWITCH;
                     sw.name = G.T.getSentence(1201) + " " + (i + 1);
-//                    sw.isIOModuleSwitch = isIOModuleNode;
+                    sw.isIOModuleSwitch = isIOModuleNode;
 
                     Database.Switch.insert(sw);
                 }
@@ -2476,7 +2483,7 @@ public class AllNodes {
                 sw.nodeID = newNode.iD;
                 sw.switchType = Switch_Type.SIMPLE_DIMMER;
                 sw.name = G.T.getSentence(1202);
-//                sw.isIOModuleSwitch = isIOModuleNode;
+                sw.isIOModuleSwitch = isIOModuleNode;
 
                 Database.Switch.insert(sw);
                 nodeCommunication.allNodes.put(newNode.iD, new SimpleDimmer(newNode));
@@ -2492,7 +2499,7 @@ public class AllNodes {
                     sw.nodeID = newNode.iD;
                     sw.switchType = Switch_Type.SIMPLE_DIMMER;
                     sw.name = G.T.getSentence(1202) + " " + (i + 1);
-//                    sw.isIOModuleSwitch = isIOModuleNode;
+                    sw.isIOModuleSwitch = isIOModuleNode;
 
                     Database.Switch.insert(sw);
                     G.log("Added Dimmer: " + i + " for node: " + newNode.iD);
@@ -2512,19 +2519,19 @@ public class AllNodes {
                     sw.code = "0";
                     sw.switchType = Switch_Type.COOLER_PUMP;
                     sw.name = G.T.getSentence(1204);
-//                    sw.isIOModuleSwitch = isIOModuleNode;
+                    sw.isIOModuleSwitch = isIOModuleNode;
                     Database.Switch.insert(sw);
 
                     sw.code = "1";
                     sw.switchType = Switch_Type.COOLER_SPEED_Slow;
                     sw.name = G.T.getSentence(1212);
-//                    sw.isIOModuleSwitch = isIOModuleNode;
+                    sw.isIOModuleSwitch = isIOModuleNode;
                     Database.Switch.insert(sw);
 
                     sw.code = "2";
                     sw.switchType = Switch_Type.COOLER_SPEED_Fast;
                     sw.name = G.T.getSentence(1213);
-//                    sw.isIOModuleSwitch = isIOModuleNode;
+                    sw.isIOModuleSwitch = isIOModuleNode;
                     Database.Switch.insert(sw);
 
                 } else {
@@ -2556,20 +2563,20 @@ public class AllNodes {
                     sw.code = "0";
                     sw.switchType = Switch_Type.CURTAIN_STATUS_Open;
                     sw.name = G.T.getSentence(120502);
-//                    sw.isIOModuleSwitch = isIOModuleNode;
+                    sw.isIOModuleSwitch = isIOModuleNode;
                     Database.Switch.insert(sw);
 
                     sw.code = "1";
                     sw.switchType = Switch_Type.CURTAIN_STATUS_Close;
                     sw.name = G.T.getSentence(120501);
-//                    sw.isIOModuleSwitch = isIOModuleNode;
+                    sw.isIOModuleSwitch = isIOModuleNode;
                     Database.Switch.insert(sw);
                 } else {
                     sw.code = "0";
                     sw.nodeID = newNode.iD;
                     sw.switchType = Switch_Type.CURTAIN_STATUS;
                     sw.name = G.T.getSentence(1205);
-//                    sw.isIOModuleSwitch = isIOModuleNode;
+                    sw.isIOModuleSwitch = isIOModuleNode;
 
                     Database.Switch.insert(sw);
                 }
@@ -2589,7 +2596,7 @@ public class AllNodes {
                 sw.code = "0";
                 sw.switchType = Switch_Type.WC_LAMP;
                 sw.name = G.T.getSentence(1206);
-//                sw.isIOModuleSwitch = isIOModuleNode;
+                sw.isIOModuleSwitch = isIOModuleNode;
 
                 Database.Switch.insert(sw);
                 G.log("Added WC for node: " + newNode.iD);
@@ -2616,13 +2623,13 @@ public class AllNodes {
                     sw.code = "0";
                     sw.switchType = Switch_Type.Sensor_NC;
                     sw.name = G.T.getSentence(1214);
-//                    sw.isIOModuleSwitch = isIOModuleNode;
+                    sw.isIOModuleSwitch = isIOModuleNode;
                     sw.value = 0;
                 } else if (newNode.nodeTypeID == Switch_Type.Sensor_NO) {
                     sw.code = "0";
                     sw.switchType = Switch_Type.Sensor_NO;
                     sw.name = G.T.getSentence(1215);
-//                    sw.isIOModuleSwitch = isIOModuleNode;
+                    sw.isIOModuleSwitch = isIOModuleNode;
                     sw.value = 1;
                 }
 
@@ -2643,13 +2650,13 @@ public class AllNodes {
                     sw.code = "0";
                     sw.switchType = Switch_Type.Sensor_NC;
                     sw.name = G.T.getSentence(1214);
-//                    sw.isIOModuleSwitch = isIOModuleNode;
+                    sw.isIOModuleSwitch = isIOModuleNode;
                     sw.value = 0;
                 } else if (newNode.nodeTypeID == Switch_Type.Sensor_NO) {
                     sw.code = "0";
                     sw.switchType = Switch_Type.Sensor_NO;
                     sw.name = G.T.getSentence(1215);
-//                    sw.isIOModuleSwitch = isIOModuleNode;
+                    sw.isIOModuleSwitch = isIOModuleNode;
                     sw.value = 1;
                 }
                 Database.Switch.insert(sw);

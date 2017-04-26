@@ -4262,7 +4262,7 @@ public class Database {
             public int nodeID = 0;
             public int switchType = 0;
             public boolean enableGraphing = false;
-            //            public int isIOModuleSwitch = 0;
+            public int isIOModuleSwitch = 0;
             public int IOModulePort = 0;
 
             public String getFullName() {
@@ -4299,7 +4299,7 @@ public class Database {
             Values.put("NodeID", mySwitch.nodeID);
             Values.put("SwitchType", mySwitch.switchType);
             Values.put("EnableGraphing", mySwitch.enableGraphing);
-//            Values.put("isIOModuleSwitch", mySwitch.isIOModuleSwitch);
+            Values.put("isIOModuleSwitch", mySwitch.isIOModuleSwitch);
             Values.put("IOModulePort", mySwitch.IOModulePort);
             return G.dbObject.insert("T_Switch", null, Values);
         }
@@ -4335,7 +4335,7 @@ public class Database {
             Values.put("NodeID", mySwitch.nodeID);
             Values.put("SwitchType", mySwitch.switchType);
             Values.put("EnableGraphing", mySwitch.enableGraphing);
-//            Values.put("isIOModuleSwitch", mySwitch.isIOModuleSwitch);
+            Values.put("isIOModuleSwitch", mySwitch.isIOModuleSwitch);
             Values.put("IOModulePort", mySwitch.IOModulePort);
             return G.dbObject.update("T_Switch", Values, "ID=" + mySwitch.iD, null);
         }
@@ -4348,7 +4348,7 @@ public class Database {
             Values.put("NodeID", nodeID);
             Values.put("SwitchType", switchType);
             Values.put("EnableGraphing", enableGraphing);
-//            Values.put("isIOModuleSwitch", isIOModuleSwitch);
+            Values.put("isIOModuleSwitch", isIOModuleSwitch);
             Values.put("IOModulePort", IOModulePort);
             return G.dbObject.update("T_Switch", Values, "ID=" + iD, null);
         }
@@ -4395,7 +4395,7 @@ public class Database {
                 selectedRow.nodeID = cursor.getInt(cursor.getColumnIndex("NodeID"));
                 selectedRow.switchType = cursor.getInt(cursor.getColumnIndex("SwitchType"));
                 selectedRow.enableGraphing = cursor.getInt(cursor.getColumnIndex("EnableGraphing")) != 0;
-//                selectedRow.isIOModuleSwitch = cursor.getInt(cursor.getColumnIndex("isIOModuleSwitch"));
+                selectedRow.isIOModuleSwitch = cursor.getInt(cursor.getColumnIndex("isIOModuleSwitch"));
                 selectedRow.IOModulePort = cursor.getInt(cursor.getColumnIndex("IOModulePort"));
             }
             try {
@@ -4430,7 +4430,7 @@ public class Database {
                 selectedRow.nodeID = cursor.getInt(cursor.getColumnIndex("NodeID"));
                 selectedRow.switchType = cursor.getInt(cursor.getColumnIndex("SwitchType"));
                 selectedRow.IOModulePort = cursor.getInt(cursor.getColumnIndex("IOModulePort"));
-//                selectedRow.isIOModuleSwitch = cursor.getInt(cursor.getColumnIndex("isIOModuleSwitch"));
+                selectedRow.isIOModuleSwitch = cursor.getInt(cursor.getColumnIndex("isIOModuleSwitch"));
                 selectedRow.enableGraphing = cursor.getInt(cursor.getColumnIndex("EnableGraphing")) != 0;
                 result[i] = selectedRow;
                 i++;
@@ -4458,7 +4458,7 @@ public class Database {
                 selectedRow.nodeID = cursor.getInt(cursor.getColumnIndex("NodeID"));
                 selectedRow.switchType = cursor.getInt(cursor.getColumnIndex("SwitchType"));
                 selectedRow.enableGraphing = cursor.getInt(cursor.getColumnIndex("EnableGraphing")) != 0;
-//                selectedRow.isIOModuleSwitch = cursor.getInt(cursor.getColumnIndex("isIOModuleSwitch"));
+                selectedRow.isIOModuleSwitch = cursor.getInt(cursor.getColumnIndex("isIOModuleSwitch"));
                 selectedRow.IOModulePort = cursor.getInt(cursor.getColumnIndex("IOModulePort"));
             }
             try {
