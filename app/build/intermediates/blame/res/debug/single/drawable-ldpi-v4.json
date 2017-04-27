@@ -8,7 +8,19 @@
         "source": "C:\\Users\\FCC\\.android\\build-cache\\1bead7e1ec865dd21e15a9d1feced9f5c8cdb40e\\output\\res\\drawable-ldpi-v4\\ic_eye_strike.png"
     },
     {
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_eye_strike.png",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\ef93406b50c7a4cbd5ffa5faaff19bbe81807ffd\\output\\res\\drawable-ldpi-v4\\ic_eye_strike.png"
+    },
+    {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_eye.png",
         "source": "C:\\Users\\FCC\\.android\\build-cache\\1bead7e1ec865dd21e15a9d1feced9f5c8cdb40e\\output\\res\\drawable-ldpi-v4\\ic_eye.png"
+    },
+    {
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\ic_eye.png",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\ef93406b50c7a4cbd5ffa5faaff19bbe81807ffd\\output\\res\\drawable-ldpi-v4\\ic_eye.png"
+    },
+    {
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi-v4\\common_ic_googleplayservices.png",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\cc01af25b0b85106037a6faa9c1de4036892f32e\\output\\res\\drawable-ldpi-v4\\common_ic_googleplayservices.png"
     }
 ]

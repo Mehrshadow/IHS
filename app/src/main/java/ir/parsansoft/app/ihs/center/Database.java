@@ -117,6 +117,7 @@ public class Database {
                     jo.put("Name", nodes[i].name);
                     jo.put("RegisterDate", nodes[i].regDate);
                     jo.put("SerialNumber", nodes[i].serialNumber);
+                    jo.put("parentNodeId", nodes[i].parentNodeId);
                     nodesJSON.put(jo);
                 } catch (JSONException e) {
                     G.printStackTrace(e);

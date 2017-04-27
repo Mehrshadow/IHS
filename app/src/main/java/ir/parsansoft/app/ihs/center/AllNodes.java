@@ -2606,6 +2606,7 @@ public class AllNodes {
                 if (newNode.name.length() == 0)
                     newNode.name = "IO";
                 newNode.status = 1;
+                newNode.roomID = AllNodes.myHouseDefaultRoomId;
                 newNode.iD = (int) Database.Node.insert(newNode);
                 nodeCommunication.allNodes.put(newNode.iD, new IOModule(newNode));
 

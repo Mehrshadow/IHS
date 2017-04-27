@@ -106,6 +106,18 @@ public class ActivityMyHouse extends ActivityEnhanced implements View.OnClickLis
                                 G.server.sendMessage(netMessage);
                                 G.log("MessageParser", "Refresh Data has completed .....................");
                             }
+                        }else {
+                            Database.Mobiles.Struct mobile0 = new Database.Mobiles.Struct();
+                            String result = Database.generateNewMobileConfiguration(mobile0);
+                            // Send message to local Mobile
+                            NetMessage netMessage = new NetMessage();
+                            netMessage.data = "[" + result + "]";
+                            netMessage.action = NetMessage.Update;
+                            netMessage.type = NetMessage.RefreshData;
+                            netMessage.typeName = NetMessage.NetMessageType.RefreshData;
+                            netMessage.messageID = 0;
+                            G.server.sendMessage(netMessage);
+                            G.log("MessageParser", "Refresh Data has completed .....................");
                         }
 
 
