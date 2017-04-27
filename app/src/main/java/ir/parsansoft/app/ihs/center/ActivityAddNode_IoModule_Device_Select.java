@@ -44,7 +44,7 @@ public class ActivityAddNode_IoModule_Device_Select extends ActivityEnhanced {
         if (extras != null) {
             if (extras.containsKey("IO_NODE_ID")) {
                 ioModuleID = extras.getInt("IO_NODE_ID");
-//                ioModuleId = extras.getInt("NODE_ID");
+                deviceID = extras.getInt("DEVICE_NODE_ID");
                 ioNode = Database.Node.select("iD=" + ioModuleID);
                 G.log("Node ID=" + ioModuleID);
             }
@@ -59,6 +59,12 @@ public class ActivityAddNode_IoModule_Device_Select extends ActivityEnhanced {
         try {
             if (ioNode != null)
                 ip = ioNode[0].iP;
+
+//            if (extras != null && extras.getBoolean("Delete_Last_Node")) {
+//                Database.Node.delete(deviceID);
+//
+//                Database.Switch.delete("nodeID = " + deviceID);
+//            }
         } catch (Exception e) {
             G.printStackTrace(e);
         }
@@ -89,6 +95,13 @@ public class ActivityAddNode_IoModule_Device_Select extends ActivityEnhanced {
             }
         });
 
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+
+        G.currentActivity = this;
     }
 
     private void loadSpinner() {

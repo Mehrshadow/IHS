@@ -2405,9 +2405,9 @@ public class AllNodes {
      * @param shouldNotifyNodeCreation niaz hast be server va mobile ha etela bedim k node ijad shode ya na
      *                                 dar ActivityAddNode_IoModule_NodeType, aval node ijad mishe bad roosh port set mikonim
      *                                 ama nemikhaim ta ghabl az in k port ha set shode bashan be baghie etela bede
-     *                                 vase hamin in field ro false mikonim ta etela nade
+     * @param sensorModel
      */
-    public static int AddNewNode(Database.Node.Struct newNode, int parentNodeId, boolean shouldNotifyNodeCreation) {
+    public static int AddNewNode(Database.Node.Struct newNode, int parentNodeId, boolean shouldNotifyNodeCreation, int sensorModel) {
         Database.Switch.Struct sw = null;
         newNode.regDate = new SimpleDateFormat("yyyy/MM/dd").format(new Date());
 
@@ -2619,13 +2619,13 @@ public class AllNodes {
                 sw = new Database.Switch.Struct();
                 sw.nodeID = newNode.iD;
 
-                if (newNode.nodeTypeID == Switch_Type.Sensor_NC) {
+                if (sensorModel == Switch_Type.Sensor_NC) {
                     sw.code = "0";
                     sw.switchType = Switch_Type.Sensor_NC;
                     sw.name = G.T.getSentence(1214);
                     sw.isIOModuleSwitch = isIOModuleNode;
                     sw.value = 0;
-                } else if (newNode.nodeTypeID == Switch_Type.Sensor_NO) {
+                } else if (sensorModel == Switch_Type.Sensor_NO) {
                     sw.code = "0";
                     sw.switchType = Switch_Type.Sensor_NO;
                     sw.name = G.T.getSentence(1215);
@@ -2646,13 +2646,13 @@ public class AllNodes {
                 newNode.iD = (int) Database.Node.insert(newNode);
                 sw = new Database.Switch.Struct();
                 sw.nodeID = newNode.iD;
-                if (newNode.nodeTypeID == Switch_Type.Sensor_NC) {
+                if (sensorModel == Switch_Type.Sensor_NC) {
                     sw.code = "0";
                     sw.switchType = Switch_Type.Sensor_NC;
                     sw.name = G.T.getSentence(1214);
                     sw.isIOModuleSwitch = isIOModuleNode;
                     sw.value = 0;
-                } else if (newNode.nodeTypeID == Switch_Type.Sensor_NO) {
+                } else if (sensorModel == Switch_Type.Sensor_NO) {
                     sw.code = "0";
                     sw.switchType = Switch_Type.Sensor_NO;
                     sw.name = G.T.getSentence(1215);
@@ -2666,10 +2666,10 @@ public class AllNodes {
         }
         SysLog.log("New Device added:" + newNode.name, LogType.DATA_CHANGE, LogOperator.NODE, newNode.iD);
 
-        if (newNode.nodeTypeID != Node_Type.IOModule ||
-                newNode.nodeTypeID != Node_Type.Sensor_Magnetic ||
+        if (newNode.nodeTypeID != Node_Type.IOModule &&
+                newNode.nodeTypeID != Node_Type.Sensor_Magnetic &&
                 newNode.nodeTypeID != Node_Type.Sensor_SMOKE &&
-                        shouldNotifyNodeCreation) {
+                shouldNotifyNodeCreation) {
 
             NetMessage netMessage = new NetMessage();
             netMessage.data = newNode.getNodeDataJson();

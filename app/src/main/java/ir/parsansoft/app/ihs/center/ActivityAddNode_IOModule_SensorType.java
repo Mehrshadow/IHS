@@ -14,6 +14,8 @@ import ir.parsansoft.app.ihs.center.Animation.Animation_Types;
 import ir.parsansoft.app.ihs.center.adapters.AdapterIoTypesSpinner;
 import ir.parsansoft.app.ihs.center.adapters.AdapterSensorPortsSpinner;
 
+import static ir.parsansoft.app.ihs.center.Database.Switch.select;
+
 
 public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implements CompoundButton.OnCheckedChangeListener {
 
@@ -143,7 +145,7 @@ public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implem
         Database.Node.Struct[] nodes = Database.Node.select("iP='" + IONode[0].iP + "'");
         ArrayList<Database.Switch.Struct> fakeswitches = new ArrayList<>();
         for (int i = 0; i < nodes.length; i++) {
-            Database.Switch.Struct[] switches = Database.Switch.select("isIOModuleSwitch=" + 1 + " AND nodeID = " + nodes[i].iD);
+            Database.Switch.Struct[] switches = select("isIOModuleSwitch=" + 1 + " AND nodeID = " + nodes[i].iD);
 
             if (switches != null) {
                 for (int j = 0; j < switches.length; j++) {
@@ -317,20 +319,21 @@ public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implem
             }
             insertFakeNodeToDb();
 
-            Database.Switch.Struct newSwitch[] = Database.Switch.select("nodeID=" + sensorNodeId);
-
+            Database.Switch.Struct newSwitch[] = select("nodeID=" + sensorNodeId);
+//
 //            newSwitch = select("NodeID=" + sensorNodeId);
+//
 
-//            newSwitch[0].isIOModuleSwitch = 1;
-            newSwitch[0].name = sensorName;
-            newSwitch[0].switchType = sensorModel;
-            if (sensorModel == AllNodes.Switch_Type.Sensor_NC) {
-                newSwitch[0].value = 0;
-            } else if (sensorModel == AllNodes.Switch_Type.Sensor_NO) {
-                newSwitch[0].value = 1;
-            }
+////            newSwitch[0].isIOModuleSwitch = 1;
+//            newSwitch[0].name = sensorName;
+//            newSwitch[0].switchType = sensorModel;
+//            if (sensorModel == AllNodes.Switch_Type.Sensor_NC) {
+//                newSwitch[0].value = 0;
+//            } else if (sensorModel == AllNodes.Switch_Type.Sensor_NO) {
+//                newSwitch[0].value = 1;
+//            }
             newSwitch[0].IOModulePort = sensorPort;
-            newSwitch[0].code = "0";
+//            newSwitch[0].code = "0";
             Database.Switch.edit(newSwitch[0]);
             return true;
         } catch (Exception e) {
@@ -352,7 +355,7 @@ public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implem
 //        newNode.roomID = AllNodes.myHouseDefaultRoomId;
         newNode.roomID = Database.Room.getMax("ID", "").iD;
         newNode.iP = ip;
-        sensorNodeId = AllNodes.AddNewNode(newNode, ioModuleID, false);
+        sensorNodeId = AllNodes.AddNewNode(newNode, ioModuleID, false, sensorModel);
     }
 
     @Override
