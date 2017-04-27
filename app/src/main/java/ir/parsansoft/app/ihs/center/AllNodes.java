@@ -898,9 +898,13 @@ public class AllNodes {
             }
             ui.txtNodeName.setText(myNode.name);
 
-            ui.txtKey1.setText(switches[0].name); // Fast
-            ui.txtKey2.setText(switches[1].name); // Slow
-            ui.txtKey3.setText(switches[2].name); // Pump
+            ui.txtKey1.setText(G.T.getSentence(120303)); // Fast
+            ui.txtKey2.setText(G.T.getSentence(120302)); // Slow
+            ui.txtKey3.setText(G.T.getSentence(1204)); // Pump
+
+            // ui.txtKey1.setText(switches[0].name); // Fast
+//            ui.txtKey2.setText(switches[1].name); // Slow
+//            ui.txtKey3.setText(switches[2].name); // Pump
 
             if (switches[0].value == 0) {
                 ui.imgKey3.setImageResource(R.drawable.lay_cooler_water_off);
@@ -1322,6 +1326,8 @@ public class AllNodes {
             ui.txtKey1.setText(G.T.getSentence(120502)); // Open
             ui.txtKey2.setText(G.T.getSentence(120503)); // Stop
             ui.txtKey3.setText(G.T.getSentence(120501)); // Close
+
+
             if (switches[0].value == 0) {
                 ui.imgKey1.setImageResource(R.drawable.lay_curtain_open_off);
                 ui.imgKey2.setImageResource(R.drawable.lay_curtain_stop_off);
@@ -2606,10 +2612,11 @@ public class AllNodes {
                 if (newNode.name.length() == 0)
                     newNode.name = "IO";
                 newNode.status = 1;
+                newNode.roomID = AllNodes.myHouseDefaultRoomId;
                 newNode.iD = (int) Database.Node.insert(newNode);
                 nodeCommunication.allNodes.put(newNode.iD, new IOModule(newNode));
-
                 break;
+
             case Node_Type.Sensor_SMOKE: // Sensor
                 if (newNode.name.length() == 0)
                     newNode.name = G.T.getSentence(1217);
@@ -2666,10 +2673,7 @@ public class AllNodes {
         }
         SysLog.log("New Device added:" + newNode.name, LogType.DATA_CHANGE, LogOperator.NODE, newNode.iD);
 
-        if (newNode.nodeTypeID != Node_Type.IOModule &&
-                newNode.nodeTypeID != Node_Type.Sensor_Magnetic &&
-                newNode.nodeTypeID != Node_Type.Sensor_SMOKE &&
-                shouldNotifyNodeCreation) {
+        if (shouldNotifyNodeCreation) {
 
             NetMessage netMessage = new NetMessage();
             netMessage.data = newNode.getNodeDataJson();

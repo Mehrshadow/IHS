@@ -81,7 +81,6 @@ public class ActivityAddNode_IoMadule_Input_Output extends ActivityEnhanced {
 
     }
 
-
     private boolean saveForm() {
 
         String inputName = mAdd_node_input_output.etIOName.getText().toString().trim();
@@ -90,9 +89,24 @@ public class ActivityAddNode_IoMadule_Input_Output extends ActivityEnhanced {
             new DialogClass(G.currentActivity).showOk(G.T.getSentence(216), G.T.getSentence(863));
             return false;
         } else {
+
+            // age esme jadid vared kone etela rasani mikonim
+            if (!ioNode[0].name.equals(inputName)) {
+
+                NetMessage netMessage = new NetMessage();
+                netMessage.data = ioNode[0].getNodeDataJson();
+                netMessage.action = NetMessage.Update;
+                netMessage.type = NetMessage.NodeData;
+                netMessage.typeName = NetMessage.NetMessageType.NodeData;
+                netMessage.messageID = netMessage.save();
+                G.mobileCommunication.sendMessage(netMessage);
+                G.server.sendMessage(netMessage);
+            }
+
             ioNode[0].name = inputName;
             Database.Node.edit(ioNode[0]);
             G.nodeCommunication.allNodes.get(ioNode[0].iD).refreshNodeStruct();
+
 
             return true;
         }

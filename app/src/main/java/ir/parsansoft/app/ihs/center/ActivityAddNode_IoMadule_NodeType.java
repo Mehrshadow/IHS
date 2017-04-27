@@ -250,7 +250,7 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
 //        newNode.roomID = AllNodes.myHouseDefaultRoomId;
         newNode.roomID = Database.Room.getMax("ID", "").iD;
         newNode.iP = ioNode[0].iP;
-        deviceID = AllNodes.AddNewNode(newNode, ioModuleID, false, 0);// 44sh parameter is just for sensor
+        deviceID = AllNodes.AddNewNode(newNode, ioModuleID, false, 0);// 4th parameter is just for sensor
 
         newDevice = new Database.Node.Struct[1];
         newDevice[0] = newNode;

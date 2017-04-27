@@ -106,17 +106,29 @@ public class ActivityMyHouse extends ActivityEnhanced implements View.OnClickLis
                                 G.server.sendMessage(netMessage);
                                 G.log("MessageParser", "Refresh Data has completed .....................");
                             }
+                        } else {
+                            mobile = new Database.Mobiles.Struct[0];
+                            String result = Database.generateNewMobileConfiguration(mobile[0]);
+                            // Send message to local Mobile
+                            NetMessage netMessage = new NetMessage();
+                            netMessage.data = "[" + result + "]";
+                            netMessage.action = NetMessage.Update;
+                            netMessage.type = NetMessage.RefreshData;
+                            netMessage.typeName = NetMessage.NetMessageType.RefreshData;
+                            netMessage.messageID = 0;
+                            G.server.sendMessage(netMessage);
+                            G.log("MessageParser", "Refresh Data has completed .....................");
                         }
 
 
                         SysLog.log("Device :" + nodes[0].name + " Deleted.", SysLog.LogType.DATA_CHANGE, SysLog.LogOperator.NODE, nodes[0].iD);
-                        Database.Node.Struct[] ioNodes = Database.Node.select("iP='" + nodes[0].iP + "'" );
+                        Database.Node.Struct[] ioNodes = Database.Node.select("iP='" + nodes[0].iP + "'");
 
                         if (ioNodes != null) {
                             for (int i = 0; i < ioNodes.length; i++) {
                                 try {
                                     Database.Node.delete("iD=" + ioNodes[i].iD);
-                                    Database.Switch.delete("nodeID='" + ioNodes[i].iP + "'");
+                                    Database.Switch.delete("nodeID=" + ioNodes[i].iD);
                                 } catch (Exception e) {
                                     G.printStackTrace(e);
                                     continue;
@@ -207,10 +219,6 @@ public class ActivityMyHouse extends ActivityEnhanced implements View.OnClickLis
                 Animation.doAnimation(Animation.Animation_Types.FADE);
                 break;
 
-            case R.id.btn_io_module:
-                startActivity(new Intent(G.currentActivity, ActivityAddNode_IoMadule_Input_Output.class));
-                Animation.doAnimation(Animation.Animation_Types.FADE);
-                break;
         }
     }
 }
