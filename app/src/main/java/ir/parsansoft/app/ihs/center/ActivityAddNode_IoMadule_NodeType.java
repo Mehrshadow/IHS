@@ -141,15 +141,43 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
                 G.nodeCommunication.allNodes.remove(deviceID);
                 Database.Node.delete(deviceID);
                 Database.Switch.delete("nodeID=" + deviceID);
+
+
+                NetMessage netMessage = new NetMessage();
+                netMessage.data = newNode.getNodeDataJson();
+                netMessage.action = NetMessage.Delete;
+                netMessage.type = NetMessage.NodeData;
+                netMessage.typeName = NetMessage.NetMessageType.NodeData;
+                netMessage.messageID = netMessage.save();
+                G.mobileCommunication.sendMessage(netMessage);
+                G.server.sendMessage(netMessage);
+
+
+
+
             }
         });
         mAdd_node_nodeType.btnCancel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0) {
-                Database.Node.delete(deviceID);
-                Database.Switch.delete("nodeID=" + deviceID);
                 finish();
                 Animation.doAnimation(Animation.Animation_Types.FADE);
+
+                G.nodeCommunication.allNodes.get(deviceID).distroyNode();
+                G.nodeCommunication.allNodes.remove(deviceID);
+                Database.Node.delete(deviceID);
+                Database.Switch.delete("nodeID=" + deviceID);
+
+
+                NetMessage netMessage = new NetMessage();
+                netMessage.data = newNode.getNodeDataJson();
+                netMessage.action = NetMessage.Delete;
+                netMessage.type = NetMessage.NodeData;
+                netMessage.typeName = NetMessage.NetMessageType.NodeData;
+                netMessage.messageID = netMessage.save();
+                G.mobileCommunication.sendMessage(netMessage);
+                G.server.sendMessage(netMessage);
+
             }
         });
         translateForm();
