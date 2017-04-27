@@ -1,746 +1,746 @@
 [
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_download.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\dialog_download.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_senario_w7_rtl.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_senario_w7_rtl.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_setting_sms.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_setting_sms.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_senario_w1_rtl.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_senario_w1_rtl.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_setting_screen.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_setting_screen.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_setting_user.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_setting_user.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_welcome_specifications_rtl.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_welcome_specifications_rtl.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_ok.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\dialog_ok.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_list_scemario_2.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\l_list_scemario_2.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_wait_with_cancel.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\dialog_wait_with_cancel.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_node__io_madual__input__output_rtl.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\activity_add_node__io_madual__input__output_rtl.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_node__io_madual__input__output.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\activity_add_node__io_madual__input__output.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\d_simple_spinner_set_reverse_w9.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\d_simple_spinner_set_reverse_w9.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_section_add_node_select_place_rtl.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_section_add_node_select_place_rtl.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_house.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\activity_my_house.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\a60b8dfce3126584ebc2c00ab866effeb1a0e4f1\\output\\res\\layout\\design_navigation_item_subheader.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\layout\\abc_action_bar_up_container.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\simple_main.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\simple_main.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\d_simple_edit_text.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\d_simple_edit_text.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\d_section_add_section.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\d_section_add_section.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_backup.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\dialog_backup.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_welcome_register.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_welcome_register.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\d_setting_user_access.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\d_setting_user_access.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_setting_network_rtl.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_setting_network_rtl.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\layout\\notification_template_lines.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\d_simple_spinner_set_reverse_w9_rtl.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\d_simple_spinner_set_reverse_w9_rtl.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_senario_w5.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_senario_w5.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_setting_wifi_signal.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\l_setting_wifi_signal.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_welcome_datetime.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_welcome_datetime.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_backup_item.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\l_backup_item.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_welcome_user_rtl.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_welcome_user_rtl.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_setting_location.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_setting_location.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\d_setting_user_change_password.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\d_setting_user_change_password.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\c_time_picker.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\c_time_picker.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\c_date_picker.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\c_date_picker.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\d_section_add_section.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\d_section_add_section.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_welcome_user.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_welcome_user.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_country_code_down.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\l_country_code_down.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_setting_user_rtl.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_setting_user_rtl.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_setting_network_rtl.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_setting_network_rtl.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\99e3211522c569f52d057dcfa878b9ea80e0c317\\output\\res\\layout\\design_menu_item_action_area.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_setting_network.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_setting_network.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\layout\\select_dialog_item_material.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\c_comp_node_selector.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\c_comp_node_selector.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_welcome_specifications.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_welcome_specifications.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\layout\\notification_template_media.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_senario_w11.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_senario_w11.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_senario_w4.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_senario_w4.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\d_simple_spinner_set_value_w9_rtl.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\d_simple_spinner_set_value_w9_rtl.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_senario_w9.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_senario_w9.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\d_simple_spinner_set_reverse_w9_rtl.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\d_simple_spinner_set_reverse_w9_rtl.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_node_simple_dimmer.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\l_node_simple_dimmer.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_setting_language_item.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\l_setting_language_item.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_node__io_madule__node_type.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\activity_add_node__io_madule__node_type.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_senario_w7.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_senario_w7.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_senario.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_senario.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_welcome_floorandroom.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_welcome_floorandroom.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_setting_screen.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_setting_screen.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_senario_w8_rtl.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_senario_w8_rtl.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_sections.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_sections.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_spinner_item.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\l_spinner_item.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_welcome_location_rtl.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_welcome_location_rtl.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\test.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\test.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_setting_language_item.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\l_setting_language_item.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\d_section_add_room_rtl.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\d_section_add_room_rtl.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\d_connect_wifi.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\d_connect_wifi.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_backup_list.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\dialog_backup_list.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_senario_w1.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_senario_w1.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\d_simple_spinner_set_reverse_w9.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\d_simple_spinner_set_reverse_w9.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_welcome_language.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_welcome_language.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_simple_list_item.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\l_simple_list_item.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\99e3211522c569f52d057dcfa878b9ea80e0c317\\output\\res\\layout\\design_navigation_menu.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\c_comp_icon_selector.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\c_comp_icon_selector.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_setting_datetime.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_setting_datetime.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_section_add_node_sensor_rtl.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_section_add_node_sensor_rtl.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\d_simple_spinner_set_value.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\d_simple_spinner_set_value.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_country_code_down.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\l_country_code_down.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_node_simple_dimmer.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\l_node_simple_dimmer.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_section_add_node_w2_rtl.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_section_add_node_w2_rtl.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_list_scemario_detail_items.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\l_list_scemario_detail_items.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\a60b8dfce3126584ebc2c00ab866effeb1a0e4f1\\output\\res\\layout\\design_navigation_item.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_senario_w2.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_senario_w2.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_help.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\activity_help.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_backup_item.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\l_backup_item.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\layout\\abc_alert_dialog_material.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\99e3211522c569f52d057dcfa878b9ea80e0c317\\output\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_welcome_user.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_welcome_user.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_header_log.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\list_header_log.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\d_simple_spinner.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\d_simple_spinner.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_setting_weather.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_setting_weather.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\layout\\notification_template_part_time.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_list_setting_user.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\l_list_setting_user.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\d_add_item_to_expandable.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\d_add_item_to_expandable.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\layout\\notification_template_big_media_narrow.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_senario_w9_rtl.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_senario_w9_rtl.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_backup_list.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\dialog_backup_list.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_ok.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\dialog_ok.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\d_fragment_base.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\d_fragment_base.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_setting_location_rtl.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_setting_location_rtl.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_list_log_item.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\l_list_log_item.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_section_add_node_w2_rtl.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_section_add_node_w2_rtl.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_list_scemario_2.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\l_list_scemario_2.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_senario_w8.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_senario_w8.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_welcome_language.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_welcome_language.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\layout\\notification_media_action.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\a60b8dfce3126584ebc2c00ab866effeb1a0e4f1\\output\\res\\layout\\design_navigation_item_separator.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\d_simple_spinner_set_value.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\d_simple_spinner_set_value.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_browser.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_browser.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_welcome_specifications.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_welcome_specifications.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_node_simple_key.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\l_node_simple_key.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_setting_log.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_setting_log.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_setting_network.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_setting_network.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_welcome_register.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_welcome_register.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_download.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\dialog_download.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_section_add_node_w42.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_section_add_node_w42.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_section_add_node_w42.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_section_add_node_w42.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\layout\\notification_media_action.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_country_code_up.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\l_country_code_up.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\fragment.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_welcome_floorandroom.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_welcome_floorandroom.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\master_page_main.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\master_page_main.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_country_code_up.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\l_country_code_up.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\layout\\abc_action_mode_bar.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\d_simple_spinner_set_value_w9.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\d_simple_spinner_set_value_w9.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\master_page_wizard.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\master_page_wizard.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\a60b8dfce3126584ebc2c00ab866effeb1a0e4f1\\output\\res\\layout\\design_layout_tab_icon.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_browser.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_browser.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_section_add_node_select_place_rtl.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_section_add_node_select_place_rtl.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_setting_reset.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_setting_reset.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\a60b8dfce3126584ebc2c00ab866effeb1a0e4f1\\output\\res\\layout\\design_navigation_menu.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\99e3211522c569f52d057dcfa878b9ea80e0c317\\output\\res\\layout\\design_layout_snackbar.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_com_combox_l.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\l_com_combox_l.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\99e3211522c569f52d057dcfa878b9ea80e0c317\\output\\res\\layout\\design_layout_tab_text.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\a60b8dfce3126584ebc2c00ab866effeb1a0e4f1\\output\\res\\layout\\design_menu_item_action_area.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\99e3211522c569f52d057dcfa878b9ea80e0c317\\output\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_senario.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_senario.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_setting_weather.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_setting_weather.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_setting_wifi_signal.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\l_setting_wifi_signal.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_weather_gridview_item.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\l_weather_gridview_item.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_senario_w7_rtl.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_senario_w7_rtl.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_spinner_item_rtl.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\l_spinner_item_rtl.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\layout\\abc_action_bar_title_item.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_senario_w8.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_senario_w8.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_welcome_location.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_welcome_location.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\d_fragment_set_value.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\d_fragment_set_value.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_com_combox_r.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\l_com_combox_r.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_section_add_node_w3.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_section_add_node_w3.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\a60b8dfce3126584ebc2c00ab866effeb1a0e4f1\\output\\res\\layout\\design_layout_snackbar_include.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\d_simple_spinner_set_value_rtl.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\d_simple_spinner_set_value_rtl.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_section_add_node_w3.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_section_add_node_w3.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_senario_w6_rtl.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_senario_w6_rtl.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_senario_w5.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_senario_w5.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_senario_w2_rtl.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_senario_w2_rtl.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_setting_mobile.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_setting_mobile.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_house.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\activity_my_house.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\c_comp_icon_selector.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\c_comp_icon_selector.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_welcome_scenario.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_welcome_scenario.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_list_node_fake_switches.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\l_list_node_fake_switches.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\layout\\abc_action_menu_layout.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_section_add_node_sensor_rtl.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_section_add_node_sensor_rtl.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_senario_w4_rtl.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_senario_w4_rtl.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_section_add_node_select_place.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_section_add_node_select_place.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_setting_log.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_setting_log.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\simple_main.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\simple_main.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\master_setting.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\master_setting.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\layout\\notification_media_cancel_action.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\layout\\abc_screen_content_include.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_setting_update.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_setting_update.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\a60b8dfce3126584ebc2c00ab866effeb1a0e4f1\\output\\res\\layout\\design_navigation_menu_item.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\d_section_add_section_rtl.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\d_section_add_section_rtl.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\layout\\abc_screen_content_include.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\layout\\abc_search_view.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_welcome_specifications_rtl.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_welcome_specifications_rtl.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\d_section_add_section_rtl.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\d_section_add_section_rtl.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_welcome_sms.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_welcome_sms.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_senario_w10.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_senario_w10.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\layout\\notification_template_media.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_list_log_item.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\l_list_log_item.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_section_add_node_w4.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_section_add_node_w4.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\d_fragment_base.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\d_fragment_base.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_setting_datetime.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_setting_datetime.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\d_fragment_set_value.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\d_fragment_set_value.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_section_add_node_w4.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_section_add_node_w4.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\c_comp_icon_selector_popup.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\c_comp_icon_selector_popup.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_node__io_madule__node_type.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\activity_add_node__io_madule__node_type.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_simple_list_item.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\l_simple_list_item.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_node__io_madual__input__output_rtl.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\activity_add_node__io_madual__input__output_rtl.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_welcome_scenario.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_welcome_scenario.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_list_node_fake_switches.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\l_list_node_fake_switches.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\99e3211522c569f52d057dcfa878b9ea80e0c317\\output\\res\\layout\\design_layout_tab_icon.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_node_io_module.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\l_node_io_module.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\99e3211522c569f52d057dcfa878b9ea80e0c317\\output\\res\\layout\\design_navigation_item_header.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_welcome_network.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_welcome_network.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\99e3211522c569f52d057dcfa878b9ea80e0c317\\output\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_senario_w1.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_senario_w1.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_welcome_location_rtl.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_welcome_location_rtl.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_node_simple_key.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\l_node_simple_key.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_weather_gridview_item_rtl.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\l_weather_gridview_item_rtl.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\fragment.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_yes_no.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\dialog_yes_no.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\layout\\abc_screen_simple.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\layout\\notification_template_big_media.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_section_add_node_w3_rtl.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_section_add_node_w3_rtl.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_market_item.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\list_market_item.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_section_add_node_w3_rtl.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_section_add_node_w3_rtl.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_senario_w6.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_senario_w6.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\a60b8dfce3126584ebc2c00ab866effeb1a0e4f1\\output\\res\\layout\\design_layout_tab_text.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_section_add_node_sensor.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_section_add_node_sensor.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\layout\\abc_screen_simple.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_welcome_user_rtl.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_welcome_user_rtl.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\d_simple_spinner_set_value_w9.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\d_simple_spinner_set_value_w9.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\layout\\notification_template_lines.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_welcome_network_rtl.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_welcome_network_rtl.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\layout\\notification_template_big_media.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\layout\\abc_select_dialog_material.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_list_sections_section.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\l_list_sections_section.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_setting_reset.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_setting_reset.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\layout\\notification_media_cancel_action.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\layout\\select_dialog_item_material.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_section_add_node_w2.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_section_add_node_w2.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_section_add_node_sensor.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_section_add_node_sensor.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_senario_w4_rtl.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_senario_w4_rtl.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\master_page_main.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\master_page_main.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\layout\\abc_search_view.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_senario_w4.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_senario_w4.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_setting_language.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_setting_language.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_setting_sms.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_setting_sms.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_senario_w2.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_senario_w2.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\c_comp_icon_selector_popup.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\c_comp_icon_selector_popup.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_node__io_module__device_select.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\activity_add_node__io_module__device_select.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_node__io_madual__input__output.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\activity_add_node__io_madual__input__output.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\layout\\abc_screen_toolbar.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_senario_w9_rtl.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_senario_w9_rtl.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\d_section_add_room.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\d_section_add_room.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_welcome_network_rtl.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_welcome_network_rtl.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\test.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\test.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_senario_w3_rtl.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_senario_w3_rtl.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\layout\\abc_activity_chooser_view.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_welcome_equipment.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_welcome_equipment.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_spinner_item.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\l_spinner_item.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_senario_w5_rtl.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_senario_w5_rtl.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_node_io_module.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\l_node_io_module.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_setting_user_rtl.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_setting_user_rtl.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\c_comp_node_selector.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\c_comp_node_selector.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\a60b8dfce3126584ebc2c00ab866effeb1a0e4f1\\output\\res\\layout\\design_layout_snackbar.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_backup.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\dialog_backup.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_market_item.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\list_market_item.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\master_setting.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\master_setting.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_sections.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_sections.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\d_add_item_to_expandable.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\d_add_item_to_expandable.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_favorites.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_favorites.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\a60b8dfce3126584ebc2c00ab866effeb1a0e4f1\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_weather_gridview_item_rtl.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\l_weather_gridview_item_rtl.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_node__io_module__select_io.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\activity_add_node__io_module__select_io.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_section_add_node_select_place.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_section_add_node_select_place.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\c_date_picker.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\c_date_picker.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_list_node_switches.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\l_list_node_switches.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_senario_w3.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_senario_w3.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_com_combox_l.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\l_com_combox_l.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_senario_w3_rtl.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_senario_w3_rtl.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_waite.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\dialog_waite.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\layout\\abc_dialog_title_material.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\master_page_wizard.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\master_page_wizard.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_yes_no.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\dialog_yes_no.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_list_scemario_detail_items.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\l_list_scemario_detail_items.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\d_connect_wifi.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\d_connect_wifi.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_welcome_network.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_welcome_network.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_section_add_node_w1.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_section_add_node_w1.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_setting_location_rtl.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_setting_location_rtl.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_welcome_datetime.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_welcome_datetime.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_senario_w7.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_senario_w7.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_welcome_equipment.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_welcome_equipment.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\d_section_add_room.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\d_section_add_room.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_list_sections_section.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\l_list_sections_section.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_senario_w2_rtl.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_senario_w2_rtl.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_favorites.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_favorites.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\d_simple_spinner_set_value_rtl.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\d_simple_spinner_set_value_rtl.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_setting_language.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_setting_language.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\d_simple_edit_text.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\d_simple_edit_text.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\layout\\notification_template_part_chronometer.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_node__io_module__device_select.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\activity_add_node__io_module__device_select.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_setting_mobile.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_setting_mobile.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_setting_update.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_setting_update.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_spinner_item_rtl.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\l_spinner_item_rtl.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_com_combox_r.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\l_com_combox_r.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_senario_w6_rtl.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_senario_w6_rtl.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_senario_w3.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_senario_w3.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_section_add_node_w2.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_section_add_node_w2.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\99e3211522c569f52d057dcfa878b9ea80e0c317\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_viewpager_tab.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\custom_viewpager_tab.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\c_comp_node_selector_dialog.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\c_comp_node_selector_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_weather_gridview_item.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\l_weather_gridview_item.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_add_node__io_module__select_io.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\activity_add_node__io_module__select_io.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\d_simple_spinner.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\d_simple_spinner.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_section_add_node_w1.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_section_add_node_w1.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_waite.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\dialog_waite.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_list_setting_user.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\l_list_setting_user.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\layout\\notification_template_part_time.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\d_setting_user_access.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\d_setting_user_access.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_senario_w1_rtl.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_senario_w1_rtl.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\c_comp_node_selector_dialog.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\c_comp_node_selector_dialog.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\d_section_add_room_rtl.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\d_section_add_room_rtl.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_senario_w11.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_senario_w11.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_list_sections_room.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\l_list_sections_room.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_setting_location.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_setting_location.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\99e3211522c569f52d057dcfa878b9ea80e0c317\\output\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_wait_with_cancel.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\dialog_wait_with_cancel.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\99e3211522c569f52d057dcfa878b9ea80e0c317\\output\\res\\layout\\design_navigation_item.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_senario_w8_rtl.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_senario_w8_rtl.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_senario_w5_rtl.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_senario_w5_rtl.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_setting_weather_rtl.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_setting_weather_rtl.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_setting_weather_rtl.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_setting_weather_rtl.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\a60b8dfce3126584ebc2c00ab866effeb1a0e4f1\\output\\res\\layout\\design_navigation_item_header.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\c_time_picker.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\c_time_picker.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_setting_user.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_setting_user.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\d_simple_spinner_set_value_w9_rtl.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\d_simple_spinner_set_value_w9_rtl.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_help.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\activity_help.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_welcome_sms.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_welcome_sms.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\d_setting_user_change_password.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\d_setting_user_change_password.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_list_node_switches.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\l_list_node_switches.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_welcome_location.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_welcome_location.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_senario_w9.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_senario_w9.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_senario_w10.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\f_senario_w10.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\l_list_sections_room.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\l_list_sections_room.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_viewpager_tab.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\custom_viewpager_tab.xml"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\layout\\f_senario_w6.xml",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\layout\\f_senario_w6.xml"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_header_log.xml",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\layout\\list_header_log.xml"
     }
 ]

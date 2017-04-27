@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w480dp-v13\\values-w480dp-v13.xml",
+        "outputFile": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w480dp-v13\\values-w480dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 112
                 },
                 "from": {
-                    "file": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\values-w480dp-v13\\values-w480dp-v13.xml",
+                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\values-w480dp-v13\\values-w480dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 184
                 },
                 "from": {
-                    "file": "C:\\Users\\FCC\\.android\\build-cache\\48c1395017649164fc5d761dc8a2d70f422e6449\\output\\res\\values-w480dp-v13\\values-w480dp-v13.xml",
+                    "file": "C:\\Users\\HaMiD\\.android\\build-cache\\d2aa4200d45ef68404b1efadb225355956141929\\output\\res\\values-w480dp-v13\\values-w480dp-v13.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
