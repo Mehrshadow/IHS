@@ -133,11 +133,14 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
                 Intent fw3 = new Intent(G.currentActivity, ActivityAddNode_IoModule_Device_Select.class);
                 fw3.putExtra("DEVICE_NODE_ID", deviceID);
                 fw3.putExtra("IO_NODE_ID", ioModuleID);
-                Database.Node.delete(deviceID);
-                Database.Switch.delete("nodeID=" + deviceID);
+                fw3.putExtra("Delete_Last_Node", true);
                 G.currentActivity.startActivity(fw3);
                 Animation.doAnimation(Animation.Animation_Types.FADE_SLIDE_LEFTRIGHT_LEFT);
                 finish();
+                G.nodeCommunication.allNodes.get(deviceID).distroyNode();
+                G.nodeCommunication.allNodes.remove(deviceID);
+                Database.Node.delete(deviceID);
+                Database.Switch.delete("nodeID=" + deviceID);
             }
         });
         mAdd_node_nodeType.btnCancel.setOnClickListener(new View.OnClickListener() {
@@ -240,12 +243,6 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
         mAdd_node_nodeType.btnNext.setText(G.T.getSentence(103));
     }
 
-    @Override
-    public void onBackPressed() {
-        super.onBackPressed();
-        Animation.doAnimation(Animation.Animation_Types.FADE_SLIDE_LEFTRIGHT_LEFT);
-    }
-
     private void insertFakeNodeToDb(List<String> availablePorts) {
 
         newNode = new Database.Node.Struct();
@@ -253,7 +250,7 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
 //        newNode.roomID = AllNodes.myHouseDefaultRoomId;
         newNode.roomID = Database.Room.getMax("ID", "").iD;
         newNode.iP = ioNode[0].iP;
-        deviceID = AllNodes.AddNewNode(newNode, ioModuleID, false);
+        deviceID = AllNodes.AddNewNode(newNode, ioModuleID, false, 0);// 44sh parameter is just for sensor
 
         newDevice = new Database.Node.Struct[1];
         newDevice[0] = newNode;
@@ -262,6 +259,7 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
 
         for (int i = 0; i < switches.length; i++) {
             switches[i].IOModulePort = Integer.parseInt(availablePorts.get(i));
+            Database.Switch.edit(switches[i]);
         }
     }
 
@@ -325,11 +323,11 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
             nm.action = NetMessage.Update;
             nm.type = NetMessage.SwitchData;
             JSONArray ja = new JSONArray();
-            Database.Switch.Struct[] switchValues = Database.Switch.select("nodeID = " + deviceID);
+//            Database.Switch.Struct[] switchValues = Database.Switch.select("nodeID = " + deviceID);
             for (int i = 0; i < switchItems.length; i++) {
 //                switchItems[i].value = switchValues[i].value;
 //                switchItems[i].IOModulePort = switchValues[i].IOModulePort;
-                Database.Switch.edit(switchItems[i]);
+//                Database.Switch.edit(switchItems[i]);
 
                 JSONObject jo = new JSONObject();
                 try {
