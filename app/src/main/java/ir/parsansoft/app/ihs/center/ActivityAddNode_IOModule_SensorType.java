@@ -355,7 +355,7 @@ public class ActivityAddNode_IOModule_SensorType extends ActivityEnhanced implem
 //        newNode.roomID = AllNodes.myHouseDefaultRoomId;
         newNode.roomID = Database.Room.getMax("ID", "").iD;
         newNode.iP = ip;
-        sensorNodeId = AllNodes.AddNewNode(newNode, ioModuleID, false, sensorModel);
+        sensorNodeId = AllNodes.AddNewNode(newNode, ioModuleID, true, sensorModel);
     }
 
     @Override

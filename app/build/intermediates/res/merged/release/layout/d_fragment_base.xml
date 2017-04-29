@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ir.parsansoft.app.ihs.center.components.NonSwipeableViewPager
+        xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/pager"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+</ir.parsansoft.app.ihs.center.components.NonSwipeableViewPager>

@@ -93,6 +93,9 @@ public class ActivityAddNode_IoMadule_Input_Output extends ActivityEnhanced {
             // age esme jadid vared kone etela rasani mikonim
             if (!ioNode[0].name.equals(inputName)) {
 
+                ioNode[0].name = inputName;
+                Database.Node.edit(ioNode[0]);
+
                 NetMessage netMessage = new NetMessage();
                 netMessage.data = ioNode[0].getNodeDataJson();
                 netMessage.action = NetMessage.Update;
@@ -103,10 +106,7 @@ public class ActivityAddNode_IoMadule_Input_Output extends ActivityEnhanced {
                 G.server.sendMessage(netMessage);
             }
 
-            ioNode[0].name = inputName;
-            Database.Node.edit(ioNode[0]);
             G.nodeCommunication.allNodes.get(ioNode[0].iD).refreshNodeStruct();
-
 
             return true;
         }

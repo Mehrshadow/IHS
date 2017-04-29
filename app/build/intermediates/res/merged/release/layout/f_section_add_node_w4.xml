@@ -1,0 +1,141 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:layout_marginLeft="100dp"
+    android:layout_marginRight="80dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ActivityMain" >
+
+<LinearLayout
+    android:id="@+id/layOptions"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_weight="1"
+    android:background="@drawable/lay_back_wizard"
+    android:orientation="vertical" >
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/laySwitches"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/lay_back_box_dark"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="20dp" >
+
+                    <TextView
+                        android:id="@+id/txtTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="16dp"
+                        android:gravity="center"
+                        android:text="Please Specify the name of each subDevice"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:typeface="monospace" />
+
+                    <ImageView
+                        android:id="@+id/imgIcon"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp" />
+
+                    <TextView
+                        android:id="@+id/txtSerial"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:text="Serial Number :  25A9CD4E5FE8"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:typeface="monospace" />
+
+                    <TextView
+                        android:id="@+id/txtRegDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="20dp"
+                        android:gravity="center"
+                        android:text="RegDate :     2015/03/08"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:typeface="monospace" />
+
+                    <TextView
+                        android:id="@+id/txtExpDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:gravity="center"
+                        android:text="ExpDate :     2016/03/08"
+                        android:textAppearance="?android:attr/textAppearanceLarge"
+                        android:typeface="monospace" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+<LinearLayout
+    android:id="@+id/layNavigation"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_marginTop="10dp"
+    android:gravity="right" >
+
+        <Button
+            android:id="@+id/btnCancel"
+            style="@style/button_navigation_theme"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="32dp"
+            android:background="@drawable/button_add_selector"
+            android:text="Cancel" />
+
+        <TextView
+            android:id="@+id/txtLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+<Button
+    android:id="@+id/btnBack"
+    style="@style/button_navigation_theme"
+    android:layout_width="150dp"
+    android:layout_height="48dp"
+    android:layout_marginLeft="32dp"
+    android:layout_marginRight="32dp"
+    android:background="@drawable/button_add_selector"
+    android:text="Back" />
+
+<Button
+    android:id="@+id/btnNext"
+    style="@style/button_navigation_theme"
+    android:layout_width="150dp"
+    android:layout_height="48dp"
+    android:layout_marginLeft="32dp"
+    android:layout_marginRight="0dp"
+    android:background="@drawable/button_add_selector"
+    android:text="Next" />
+
+    </LinearLayout>
+</LinearLayout>

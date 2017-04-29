@@ -1,66 +1,46 @@
 package ir.parsansoft.app.ihs.center.adapters;
 
 import android.content.Context;
+import android.util.SparseArray;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ArrayAdapter;
+import android.widget.BaseAdapter;
 
 import ir.parsansoft.app.ihs.center.AllNodes;
-import ir.parsansoft.app.ihs.center.AllViews;
-import ir.parsansoft.app.ihs.center.Database;
 import ir.parsansoft.app.ihs.center.Database.Node.Struct;
 import ir.parsansoft.app.ihs.center.G;
 import ir.parsansoft.app.ihs.center.R;
+import ir.parsansoft.app.ihs.center.SampleNode;
 
-import static ir.parsansoft.app.ihs.center.G.inflater;
 
-
-public class AdapterListViewNode extends ArrayAdapter<Database.Node.Struct> {
+public class AdapterListViewNode extends BaseAdapter {
 
     Context context;
+    Struct[] nodes;
     private boolean isSettingVisible;
-    private int columnCount;
-    private int uiIndex;
 
     public AdapterListViewNode(Context context, Struct[] nodes, boolean isSettingVisible) {
-        super(context, R.layout.l_node_simple_key, nodes);
+        //super(context, R.layout.l_node_simple_key, nodes);
         this.context = context;
+        this.nodes = nodes;
         this.isSettingVisible = (G.currentUser != null && G.currentUser.rol == 1) && isSettingVisible;
+        ///Change
     }
 
-    /**
-     * @param columnCount tedad setoone gridview has, mikhaim vase zaribaye in adad view ro null kopnim
-     *                    ta 2ros load beshe
-     */
-    public AdapterListViewNode(Context context, Struct[] nodes, boolean isSettingVisible, int columnCount) {
-        super(context, R.layout.l_node_simple_key, nodes);
-        this.context = context;
-        this.isSettingVisible = (G.currentUser != null && G.currentUser.rol == 1) && isSettingVisible;
-        this.columnCount = columnCount;
-    }
-
-    // A wrong way we did!!
-    // har raveshi test kardam nashod!
-    // be ejbar hame item ha ro null mikonim k view generate beshe o 2ros neshoon bede
     @Override
-    public View getView(final int position, View convertView, ViewGroup parent) {
+    public View getView(int position, View convertView, ViewGroup parent) {
+        View row = convertView;
 
-//        if (position != 0) {
-        convertView = null;
+//        if (position >= 9 && position % 3 == 0) {
+//            convertView = null;
 //        }
-
-        AllViews.CO_l_node_simple_key newSimpleKey = null;
-        AllViews.CO_l_node_simple_dimmer newDimmer = null;
-        AllViews.CO_l_node_IoModule newIOModule = null;
-
-        Database.Node.Struct node = getItem(position);
-
+        LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         if (convertView == null) {
-            LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 
-            G.log("*****Node Type ID=" + node.nodeTypeID);
-            switch (node.nodeTypeID) {
+//            row = new View(context);  ///////////////////////////
+            G.log("Node Type ID=" + nodes[position].nodeTypeID);
+            switch (nodes[position].nodeTypeID) {
                 case AllNodes.Node_Type.SIMPLE_SWITCH_1:
                 case AllNodes.Node_Type.SIMPLE_SWITCH_2:
                 case AllNodes.Node_Type.SIMPLE_SWITCH_3:
@@ -69,102 +49,57 @@ public class AdapterListViewNode extends ArrayAdapter<Database.Node.Struct> {
                 case AllNodes.Node_Type.WC_SWITCH:
                 case AllNodes.Node_Type.Sensor_Magnetic:
                 case AllNodes.Node_Type.Sensor_SMOKE:
-                    convertView = inflater.inflate(R.layout.l_node_simple_key, parent, false);
-                    newSimpleKey = new AllViews.CO_l_node_simple_key(convertView);
-                    convertView.setTag(newSimpleKey);
-                    G.log("*** position = " + position + " simple key");
+                    row = inflater.inflate(R.layout.l_node_simple_key, null);
                     break;
                 case AllNodes.Node_Type.SIMPLE_DIMMER_1:
                 case AllNodes.Node_Type.SIMPLE_DIMMER_2:
-                    convertView = inflater.inflate(R.layout.l_node_simple_dimmer, parent, false);
-                    newDimmer = new AllViews.CO_l_node_simple_dimmer(convertView);
-                    convertView.setTag(newDimmer);
-                    G.log("*** position = " + position + " dimmer");
+                    row = inflater.inflate(R.layout.l_node_simple_dimmer, null);
                     break;
                 case AllNodes.Node_Type.IOModule:
-                    convertView = inflater.inflate(R.layout.l_node_io_module, parent, false);
-                    newIOModule = new AllViews.CO_l_node_IoModule(convertView);
-                    convertView.setTag(newIOModule);
-                    G.log("*** position = " + position + " IO Module");
+                    row = inflater.inflate(R.layout.l_node_io_module, null);
                     break;
                 default:
                     break;
+            }
+            if (row != null) {
+                G.log("Node ID: " + nodes[position].iD);
+
+                SparseArray<SampleNode> allNodes = new SparseArray<>();
+
+                int nodeIndex = G.nodeCommunication.allNodes.indexOfKey(nodes[position].iD);
+                G.log("Node index:" + nodeIndex);
+                if (nodeIndex >= 0) {
+                    int uiIndex = G.nodeCommunication.allNodes.get(nodes[position].iD).addUI(row);
+                    G.log("ui Index= " + uiIndex);
+                    G.nodeCommunication.allNodes.get(nodes[position].iD).setSettingVisiblity(uiIndex, isSettingVisible);
+                }
             }
         } else {
-            switch (node.nodeTypeID) {
-                case AllNodes.Node_Type.SIMPLE_SWITCH_1:
-                case AllNodes.Node_Type.SIMPLE_SWITCH_2:
-                case AllNodes.Node_Type.SIMPLE_SWITCH_3:
-                case AllNodes.Node_Type.AIR_CONDITION:
-                case AllNodes.Node_Type.CURTAIN_SWITCH:
-                case AllNodes.Node_Type.WC_SWITCH:
-                case AllNodes.Node_Type.Sensor_Magnetic:
-                case AllNodes.Node_Type.Sensor_SMOKE:
-                    try {
-                        newSimpleKey = (AllViews.CO_l_node_simple_key) convertView.getTag();
-                    } catch (ClassCastException e) {
-                        convertView = inflater.inflate(R.layout.l_node_simple_key, parent, false);
-                        newSimpleKey = new AllViews.CO_l_node_simple_key(convertView);
-                        convertView.setTag(newSimpleKey);
-                    }
-                    break;
-                case AllNodes.Node_Type.SIMPLE_DIMMER_1:
-                case AllNodes.Node_Type.SIMPLE_DIMMER_2:
-                    try {
-                        newDimmer = (AllViews.CO_l_node_simple_dimmer) convertView.getTag();
-                    } catch (ClassCastException e) {
-                        convertView = inflater.inflate(R.layout.l_node_simple_dimmer, parent, false);
-                        newDimmer = new AllViews.CO_l_node_simple_dimmer(convertView);
-                        convertView.setTag(newDimmer);
-                    }
-                    break;
-                case AllNodes.Node_Type.IOModule:
-                    try {
-                        newIOModule = (AllViews.CO_l_node_IoModule) convertView.getTag();
-                    } catch (ClassCastException e) {
-                        convertView = inflater.inflate(R.layout.l_node_io_module, parent, false);
-                        newIOModule = new AllViews.CO_l_node_IoModule(convertView);
-                        convertView.setTag(newIOModule);
-                    }
-                    break;
-            }
-            G.log("*** position = " + position + " full");
+            row = convertView;
         }
-
-        G.log("Node ID: " + node.iD);
-
-        int nodeIndex = G.nodeCommunication.allNodes.indexOfKey(node.iD);
-        G.log("Node index:" + nodeIndex);
-        if (nodeIndex >= 0) {
-            switch (node.nodeTypeID) {
-                case AllNodes.Node_Type.SIMPLE_SWITCH_1:
-                case AllNodes.Node_Type.SIMPLE_SWITCH_2:
-                case AllNodes.Node_Type.SIMPLE_SWITCH_3:
-                case AllNodes.Node_Type.AIR_CONDITION:
-                case AllNodes.Node_Type.CURTAIN_SWITCH:
-                case AllNodes.Node_Type.WC_SWITCH:
-                case AllNodes.Node_Type.Sensor_Magnetic:
-                case AllNodes.Node_Type.Sensor_SMOKE:
-                    uiIndex = G.nodeCommunication.allNodes.get(node.iD).addUI(newSimpleKey);
-                    G.log("*** position = " + position + " simple key");
-                    break;
-                case AllNodes.Node_Type.SIMPLE_DIMMER_1:
-                case AllNodes.Node_Type.SIMPLE_DIMMER_2:
-                    uiIndex = G.nodeCommunication.allNodes.get(node.iD).addUI(newDimmer);
-                    G.log("*** position = " + position + " dimmer");
-                    break;
-                case AllNodes.Node_Type.IOModule:
-                    uiIndex = G.nodeCommunication.allNodes.get(node.iD).addUI(newIOModule);
-                    G.log("*** position = " + position + " IO Module");
-                    break;
-                default:
-                    break;
-
-            }
-
-            G.log("ui Index= " + uiIndex);
-            G.nodeCommunication.allNodes.get(node.iD).setSettingVisiblity(uiIndex, isSettingVisible);
-        }
-        return convertView;
+        return row;
     }
+
+    @Override
+    public int getCount() {
+        int len;
+        if (nodes == null)
+            len = 0;
+        else
+            len = nodes.length;
+        return len;
+    }
+
+
+    @Override
+    public Object getItem(int id) {
+        return nodes[id];
+    }
+
+
+    @Override
+    public long getItemId(int id) {
+        return nodes[id].iD;
+    }
+
 }

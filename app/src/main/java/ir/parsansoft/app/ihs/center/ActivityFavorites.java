@@ -53,7 +53,8 @@ public class ActivityFavorites extends ActivityEnhanced {
         if (nodes == null)
             nodes = new Database.Node.Struct[0];
 
-        grdListAdapter = new AdapterListViewNode(G.currentActivity, nodes, true, 4);
+//        grdListAdapter = new AdapterListViewNode(G.currentActivity, nodes, true, 4);
+        grdListAdapter = new AdapterListViewNode(G.currentActivity, nodes, true);
         formObjects.grdNodes.setAdapter(grdListAdapter);
         Animation.setListAnimation(this, formObjects.grdNodes);
         //grdListAdapter.notifyDataSetChanged();

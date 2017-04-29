@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
         "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi\\ic_launcher.png",
         "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     }

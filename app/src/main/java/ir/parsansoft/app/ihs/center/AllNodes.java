@@ -143,14 +143,15 @@ public class AllNodes {
         }
 
         @Override
-        public int addUI(final CO_l_node_simple_key newSimpleKey) {
+//        public int addUI(final CO_l_node_simple_key newSimpleKey) {
+        public int addUI(View view) {
             uiCount++;
             if (simpleKeyUIs.size() > 5) {
                 G.log("Deleting some UI references to reduce memory");
                 simpleKeyUIs.removeAt(0);
             }
             G.log("This is adding Simple Node UI for node : " + myNode.iD);
-//            final CO_l_node_simple_key newSimpleKey = new CO_l_node_simple_key(view);
+            final CO_l_node_simple_key newSimpleKey = new CO_l_node_simple_key(view);
             newSimpleKey.prgDoOperation.setVisibility(View.INVISIBLE);
             switches = select("NodeID=" + myNode.iD);
             if (switches == null) {
@@ -519,13 +520,14 @@ public class AllNodes {
         }
 
         @Override
-        public int addUI(final CO_l_node_simple_dimmer newSimpleDim) {
+//        public int addUI(final CO_l_node_simple_dimmer newSimpleDim) {
+            public int addUI(View view) {
             uiCount++;
             if (dimmerUIs.size() > 5) {
                 G.log("Deleting some UI references to reduce memory");
                 dimmerUIs.removeAt(0);
             }
-//            final CO_l_node_simple_dimmer newSimpleDim = new CO_l_node_simple_dimmer(view);
+            final CO_l_node_simple_dimmer newSimpleDim = new CO_l_node_simple_dimmer(view);
             dimHeight = newSimpleDim.layTouch1.getLayoutParams().height;
             switches = select("NodeID=" + myNode.iD);
             G.log("Add new UI for Dimmer");
@@ -879,14 +881,15 @@ public class AllNodes {
         }
 
         @Override
-        public int addUI(final CO_l_node_simple_key ui) {
+//        public int addUI(final CO_l_node_simple_key ui) {
+        public int addUI(View view) {
             uiCount++;
             if (coolerUIs.size() > 5) {
                 G.log("Deleting some UI references to reduce memory");
                 coolerUIs.removeAt(0);
             }
             G.log("This is adding Simple Node UI for node : " + myNode.iD);
-//            final CO_l_node_simple_key ui = new CO_l_node_simple_key(view);
+            final CO_l_node_simple_key ui = new CO_l_node_simple_key(view);
             ui.prgDoOperation.setVisibility(View.INVISIBLE);
             switches = select("NodeID=" + myNode.iD);
             if (switches == null || switches.length < 2) {
@@ -1301,14 +1304,15 @@ public class AllNodes {
         }
 
         @Override
-        public int addUI(final CO_l_node_simple_key ui) {
+//        public int addUI(final CO_l_node_simple_key ui) {
+        public int addUI(View view) {
             uiCount++;
             if (curtainUIs.size() > 5) {
                 G.log("Deleting some UI references to reduce memory");
                 curtainUIs.removeAt(0);
             }
             G.log("This is adding Simple Node UI for node : " + myNode.iD);
-//            final CO_l_node_simple_key ui = new CO_l_node_simple_key(view);
+            final CO_l_node_simple_key ui = new CO_l_node_simple_key(view);
             ui.prgDoOperation.setVisibility(View.INVISIBLE);
             switches = select("NodeID=" + myNode.iD);
             if (switches == null) {
@@ -1328,18 +1332,36 @@ public class AllNodes {
             ui.txtKey3.setText(G.T.getSentence(120501)); // Close
 
 
-            if (switches[0].value == 0) {
-                ui.imgKey1.setImageResource(R.drawable.lay_curtain_open_off);
-                ui.imgKey2.setImageResource(R.drawable.lay_curtain_stop_off);
-                ui.imgKey3.setImageResource(R.drawable.lay_curtain_close_on);
-            } else if (switches[0].value == 1) {
-                ui.imgKey1.setImageResource(R.drawable.lay_curtain_open_on);
-                ui.imgKey2.setImageResource(R.drawable.lay_curtain_stop_off);
-                ui.imgKey3.setImageResource(R.drawable.lay_curtain_close_off);
-            } else if (switches[0].value == 2) {
-                ui.imgKey1.setImageResource(R.drawable.lay_curtain_open_off);
-                ui.imgKey2.setImageResource(R.drawable.lay_curtain_stop_on);
-                ui.imgKey3.setImageResource(R.drawable.lay_curtain_close_off);
+            if (myNode.parentNodeId != 0) {
+                if (switches[0].value == 1 && switches[1].value == 0) {// open bashe
+                    ui.imgKey1.setImageResource(R.drawable.lay_curtain_open_on);
+                    ui.imgKey2.setImageResource(R.drawable.lay_curtain_stop_off);
+                    ui.imgKey3.setImageResource(R.drawable.lay_curtain_close_off);
+
+                } else if (switches[0].value == 0 && switches[1].value == 1) {// close bashe
+                    ui.imgKey1.setImageResource(R.drawable.lay_curtain_open_off);
+                    ui.imgKey2.setImageResource(R.drawable.lay_curtain_stop_off);
+                    ui.imgKey3.setImageResource(R.drawable.lay_curtain_close_on);
+                } else {// stop bashe
+                    ui.imgKey1.setImageResource(R.drawable.lay_curtain_open_off);
+                    ui.imgKey2.setImageResource(R.drawable.lay_curtain_stop_on);
+                    ui.imgKey3.setImageResource(R.drawable.lay_curtain_close_off);
+                }
+            }
+            else {
+                if (switches[0].value == 0) {
+                    ui.imgKey1.setImageResource(R.drawable.lay_curtain_open_off);
+                    ui.imgKey2.setImageResource(R.drawable.lay_curtain_stop_off);
+                    ui.imgKey3.setImageResource(R.drawable.lay_curtain_close_on);
+                } else if (switches[0].value == 1) {
+                    ui.imgKey1.setImageResource(R.drawable.lay_curtain_open_on);
+                    ui.imgKey2.setImageResource(R.drawable.lay_curtain_stop_off);
+                    ui.imgKey3.setImageResource(R.drawable.lay_curtain_close_off);
+                } else if (switches[0].value == 2) {
+                    ui.imgKey1.setImageResource(R.drawable.lay_curtain_open_off);
+                    ui.imgKey2.setImageResource(R.drawable.lay_curtain_stop_on);
+                    ui.imgKey3.setImageResource(R.drawable.lay_curtain_close_off);
+                }
             }
 
             if (myNode.isFavorite)
@@ -1619,8 +1641,6 @@ public class AllNodes {
                                 + "*" + switches[switchIndex + 1].IOModulePort + 0;
                     }
                 }
-
-
             }
 
 //            if (myNode.isIoModuleNode == 1) {
@@ -1694,14 +1714,15 @@ public class AllNodes {
         }
 
         @Override
-        public int addUI(final CO_l_node_simple_key ui) {
+//        public int addUI(final CO_l_node_simple_key ui) {
+        public int addUI(View view) {
             uiCount++;
             if (WCKeyUIs.size() > 5) {
                 G.log("Deleting some UI references to reduce memory");
                 WCKeyUIs.removeAt(0);
             }
             G.log("This is adding Simple Node UI for node : " + myNode.iD);
-//            final CO_l_node_simple_key ui = new CO_l_node_simple_key(view);
+            final CO_l_node_simple_key ui = new CO_l_node_simple_key(view);
             try {
                 ui.prgDoOperation.setVisibility(View.INVISIBLE);
             } catch (NullPointerException e) {
@@ -1982,14 +2003,15 @@ public class AllNodes {
 
 
         @Override
-        public int addUI(final AllViews.CO_l_node_IoModule newIoModule) {
+//        public int addUI(final AllViews.CO_l_node_IoModule newIoModule) {
+        public int addUI(View view) {
             uiCount++;
             if (UI.size() > 2) {
                 G.log("Deleting some UI references to reduce memory");
                 UI.removeAt(0);
             }
             G.log("This is adding Simple Node UI for node : " + myNode.iD);
-//            final AllViews.CO_l_node_IoModule newIoModule = new AllViews.CO_l_node_IoModule(view);
+            final AllViews.CO_l_node_IoModule newIoModule = new AllViews.CO_l_node_IoModule(view);
             newIoModule.prgDoOperation.setVisibility(View.INVISIBLE);
             switches = Database.Switch.select("NodeID=" + myNode.iD);
             newIoModule.txtNodeName.setText(myNode.name);
@@ -2199,14 +2221,15 @@ public class AllNodes {
         }
 
         @Override
-        public int addUI(final CO_l_node_simple_key newSimpleKey) {
+//        public int addUI(final CO_l_node_simple_key newSimpleKey) {
+        public int addUI(View view) {
             uiCount++;
             if (simpleKeyUIs.size() > 5) {
                 G.log("Deleting some UI references to reduce memory");
                 simpleKeyUIs.removeAt(0);
             }
             G.log("This is adding Simple Node UI for node : " + myNode.iD);
-//            final CO_l_node_simple_key newSimpleKey = new CO_l_node_simple_key(view);
+            final CO_l_node_simple_key newSimpleKey = new CO_l_node_simple_key(view);
             newSimpleKey.prgDoOperation.setVisibility(View.INVISIBLE);
             switches = select("NodeID=" + myNode.iD);
             if (switches == null) {
@@ -2489,7 +2512,6 @@ public class AllNodes {
                 sw.nodeID = newNode.iD;
                 sw.switchType = Switch_Type.SIMPLE_DIMMER;
                 sw.name = G.T.getSentence(1202);
-                sw.isIOModuleSwitch = isIOModuleNode;
 
                 Database.Switch.insert(sw);
                 nodeCommunication.allNodes.put(newNode.iD, new SimpleDimmer(newNode));
@@ -2505,7 +2527,6 @@ public class AllNodes {
                     sw.nodeID = newNode.iD;
                     sw.switchType = Switch_Type.SIMPLE_DIMMER;
                     sw.name = G.T.getSentence(1202) + " " + (i + 1);
-                    sw.isIOModuleSwitch = isIOModuleNode;
 
                     Database.Switch.insert(sw);
                     G.log("Added Dimmer: " + i + " for node: " + newNode.iD);

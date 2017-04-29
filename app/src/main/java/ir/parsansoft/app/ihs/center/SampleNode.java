@@ -2,6 +2,7 @@ package ir.parsansoft.app.ihs.center;
 
 import android.content.Context;
 import android.view.MotionEvent;
+import android.view.View;
 import android.view.ViewGroup;
 
 import java.io.BufferedReader;
@@ -33,6 +34,7 @@ public class SampleNode extends ViewGroup {
     public boolean onInterceptTouchEvent(MotionEvent ev) {
         return super.onInterceptTouchEvent(ev);
     }
+
 
     public static enum NodeMsgType {
         MSG_DISCOVERY,
@@ -78,6 +80,10 @@ public class SampleNode extends ViewGroup {
     }
 
     public int addUI(AllViews.CO_l_node_IoModule ioModule) {
+        return 0;
+    }
+
+    public int addUI(View row) {
         return 0;
     }
 

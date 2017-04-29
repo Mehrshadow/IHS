@@ -188,9 +188,9 @@ public class Database {
         try {
             jo.put("CustomerID", G.setting.customerID);
             jo.put("CustomerName", G.setting.customerName);
-//            jo.put("ServerIP", G.setting.serverSocketIP);
+            jo.put("ServerIP", G.setting.serverSocketIP);
 //            jo.put("ServerPort", G.setting.serverSocketPort);
-            jo.put("ServerIP", "192.168.1.14");
+            //            jo.put("ServerIP", "192.168.1.14");
             jo.put("ServerPort", 8089);
             jo.put("Ver", Utility.getApplicationVersionName());
             jo.put("CenterIP", G.networkSetting.mainIPAddress);
@@ -2206,6 +2206,7 @@ public class Database {
                         jsonObj.put("Name", switches[i].name);
                         jsonObj.put("Code", switches[i].code);
                         jsonObj.put("Value", switches[i].value);
+                        jsonObj.put("IsIOModuleSwitch", switches[i].isIOModuleSwitch);
                         jsonObj.put("NodeID", switches[i].nodeID);
                         ja.put(jsonObj);
                     } catch (Exception e) {

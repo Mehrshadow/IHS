@@ -90,6 +90,26 @@ public class ActivityMyHouse extends ActivityEnhanced implements View.OnClickLis
                     public void yesClick() {
                         // going to delete selected node and its switch
                         //  Send message to server and local Mobiles
+
+                        SysLog.log("Device :" + nodes[0].name + " Deleted.", SysLog.LogType.DATA_CHANGE, SysLog.LogOperator.NODE, nodes[0].iD);
+                        Database.Node.Struct[] ioNodes = Database.Node.select("iP='" + nodes[0].iP + "'");
+
+                        if (ioNodes != null) {
+                            for (int i = 0; i < ioNodes.length; i++) {
+                                try {
+                                    G.nodeCommunication.allNodes.get(ioNodes[i].iD).distroyNode();
+                                    G.nodeCommunication.allNodes.remove(ioNodes[i].iD);
+                                    Database.Node.delete("iD=" + ioNodes[i].iD);
+                                    Database.Switch.delete("nodeID=" + ioNodes[i].iD);
+                                } catch (Exception e) {
+                                    G.printStackTrace(e);
+                                    continue;
+                                }
+
+                            }
+                        }
+
+
                         //به جای اینکه برای هر موبایل چند پیام حذف نود ارسال شود، یک پیام RefreshData ارسال میکنیم
                         Database.Mobiles.Struct[] mobile = Database.Mobiles.select("");
                         if (mobile != null && mobile.length == 0) {
@@ -106,7 +126,7 @@ public class ActivityMyHouse extends ActivityEnhanced implements View.OnClickLis
                                 G.server.sendMessage(netMessage);
                                 G.log("MessageParser", "Refresh Data has completed .....................");
                             }
-                        }else {
+                        } else {
                             Database.Mobiles.Struct mobile0 = new Database.Mobiles.Struct();
                             String result = Database.generateNewMobileConfiguration(mobile0);
                             // Send message to local Mobile
@@ -121,21 +141,6 @@ public class ActivityMyHouse extends ActivityEnhanced implements View.OnClickLis
                         }
 
 
-                        SysLog.log("Device :" + nodes[0].name + " Deleted.", SysLog.LogType.DATA_CHANGE, SysLog.LogOperator.NODE, nodes[0].iD);
-                        Database.Node.Struct[] ioNodes = Database.Node.select("iP='" + nodes[0].iP + "'");
-
-                        if (ioNodes != null) {
-                            for (int i = 0; i < ioNodes.length; i++) {
-                                try {
-                                    Database.Node.delete("iD=" + ioNodes[i].iD);
-                                    Database.Switch.delete("nodeID=" + ioNodes[i].iD);
-                                } catch (Exception e) {
-                                    G.printStackTrace(e);
-                                    continue;
-                                }
-
-                            }
-                        }
                         finish();
                     }
 
@@ -170,7 +175,7 @@ public class ActivityMyHouse extends ActivityEnhanced implements View.OnClickLis
     public void translateForm() {
         super.translateForm();
         fo.btnAddNode.setText(G.T.getSentence(249));
-        fo.btnBack.setText(G.T.getSentence(104));
+        fo.btnBack.setText(G.T.getSentence(102));
         fo.btnDeleteIO.setText(G.T.getSentence(251));
     }
 
@@ -190,8 +195,8 @@ public class ActivityMyHouse extends ActivityEnhanced implements View.OnClickLis
         }
         grdListAdapter = null;
         if (nodes != null) {
-            grdListAdapter = new AdapterListViewNode(G.currentActivity, nodes, true, 4);
-//            grdListAdapter = new AdapterListViewNode(G.currentActivity, nodes, true);
+//            grdListAdapter = new AdapterListViewNode(G.currentActivity, nodes, true, 4);
+            grdListAdapter = new AdapterListViewNode(G.currentActivity, nodes, true);
         }
         fo.grdNodes.setAdapter(grdListAdapter);
     }

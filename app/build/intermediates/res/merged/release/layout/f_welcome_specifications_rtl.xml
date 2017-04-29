@@ -1,0 +1,313 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:mask="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ActivityMain">
+
+    <LinearLayout
+        android:id="@+id/laySettings"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="30dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/icon_wizard_specification_person" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:gravity="center_horizontal|bottom">
+
+                    <LinearLayout
+                        android:id="@+id/btn_sms_verify"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/viewpager_tabs_selector"
+                        android:gravity="center"
+                        android:minWidth="100dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txtlblSms"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="SMS"
+                            android:textColor="@color/white"
+                            android:typeface="monospace" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/btn_internet_verify"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:background="@drawable/viewpager_tabs_selector"
+                        android:gravity="center"
+                        android:minWidth="100dp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/txtlblInternet"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Internet"
+                            android:textColor="@color/white"
+                            android:typeface="monospace" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lay_internet_verify"
+                    android:layout_width="450dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/lay_viewpager_back"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:gravity="center">
+
+                        <EditText
+                            android:id="@+id/edtName"
+                            style="@style/edittext_theme"
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:textColor="@color/black"
+                            android:typeface="monospace">
+
+                            <requestFocus />
+                        </EditText>
+
+                        <TextView
+                            android:id="@+id/txtFullName"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Name"
+                            android:textColor="@color/white"
+                            android:typeface="monospace" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:gravity="center">
+
+                        <EditText
+                            android:id="@+id/edtEmail"
+                            style="@style/edittext_theme"
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:inputType="textEmailAddress"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:textColor="@color/black"
+                            android:typeface="monospace" />
+
+                        <TextView
+                            android:id="@+id/txtEmail"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Email"
+                            android:textColor="@color/white"
+                            android:typeface="monospace" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <Spinner
+                            android:id="@+id/spnCode"
+                            style="@style/spinner_theme"
+                            android:layout_width="300dp"
+                            android:layout_height="50dp"
+                            android:layout_weight="1" />
+
+                        <TextView
+                            android:id="@+id/txtCountry"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:text="Country"
+                            android:textColor="@color/white"
+                            android:typeface="monospace" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/txtCode"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="TextView"
+                            android:textColor="@color/white"
+                            android:textSize="18sp"
+                            android:typeface="monospace" />
+
+                        <EditText
+                            android:id="@+id/edtTel"
+                            style="@style/edittext_theme"
+                            android:layout_width="240dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="10"
+                            android:inputType="phone"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:textColor="@color/black"
+                            android:typeface="monospace" />
+
+                        <TextView
+                            android:id="@+id/txtTel"
+                            android:layout_width="100dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dip"
+                            android:text="Mobile"
+                            android:textColor="@color/white"
+                            android:typeface="monospace" />
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btnInternetVerify"
+                        style="@style/button_other_theme"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Verify" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lay_sms_verify"
+                    android:layout_width="450dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/lay_viewpager_back"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="5dp"
+                    android:visibility="visible">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/txtSMSDescription"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Description"
+                            android:textColor="@color/white"
+                            android:typeface="monospace" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/txtRequestCode"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Code"
+                            android:textColor="@color/white"
+                            android:textSize="25sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center">
+
+                        <ir.parsansoft.app.ihs.center.MaskedEditText
+                            android:id="@+id/edtSMSVerifyCode"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/lay_edittext_bg"
+                            android:textColor="@color/black"
+                            android:textSize="22dp"
+                            mask:char_representation="c"
+                            mask:mask="cccc cccc cccc cccc cccc cccc cccc">
+
+                            <requestFocus />
+                        </ir.parsansoft.app.ihs.center.MaskedEditText>
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btnSMSVerify"
+                        style="@style/button_other_theme"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Verify" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

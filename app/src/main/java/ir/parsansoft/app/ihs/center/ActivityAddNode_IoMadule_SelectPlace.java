@@ -152,6 +152,27 @@ public class ActivityAddNode_IoMadule_SelectPlace extends ActivityEnhanced {
                     try {
                         Database.Node.delete(sensorNodeId);
                         Database.Switch.delete("nodeID=" + sensorNodeId);
+
+                        NetMessage netMessage = new NetMessage();
+                        netMessage.data = nodes[0].getNodeDataJson();
+                        netMessage.action = NetMessage.Delete;
+                        netMessage.type = NetMessage.NodeData;
+                        netMessage.typeName = NetMessage.NetMessageType.NodeData;
+                        netMessage.messageID = netMessage.save();
+                        G.mobileCommunication.sendMessage(netMessage);
+                        G.server.sendMessage(netMessage);
+
+                        NetMessage netMessage2 = new NetMessage();
+                        netMessage2.data = nodes[0].getNodeSwitchesDataJson();
+                        netMessage2.action = NetMessage.Delete;
+                        netMessage2.type = NetMessage.SwitchData;
+                        netMessage2.typeName = NetMessage.NetMessageType.SwitchData;
+                        netMessage2.messageID = netMessage2.save();
+                        G.mobileCommunication.sendMessage(netMessage2);
+                        G.server.sendMessage(netMessage2);
+
+                        SysLog.log("Device :" + nodes[0].name + " Deleted.", SysLog.LogType.DATA_CHANGE, SysLog.LogOperator.NODE, nodes[0].iD);
+
                     } catch (Exception e) {
                         G.printStackTrace(e);
                     }

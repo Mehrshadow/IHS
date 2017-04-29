@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layMain"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ActivityMain">
+
+    <LinearLayout
+        android:layout_width="170dp"
+        android:layout_height="240dp"
+        android:background="@drawable/lay_io_node_back_main"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_io_module" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/laySetting"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/lay_node_back_buttom"
+        android:gravity="center">
+
+        <ProgressBar
+            android:id="@+id/prgDoOperation"
+            android:layout_width="24dp"
+            android:layout_height="24dp" />
+
+        <TextView
+            android:id="@+id/txtNodeName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:typeface="monospace" />
+
+        <ImageView
+            android:id="@+id/imgFavorites"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/icon_fav_empty" />
+
+        <ImageView
+            android:id="@+id/imgbtnEdit"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginLeft="4dp"
+            android:src="@drawable/icon_com_setting" />
+
+    </LinearLayout>
+
+</LinearLayout>

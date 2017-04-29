@@ -153,8 +153,6 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
                 G.server.sendMessage(netMessage);
 
 
-
-
             }
         });
         mAdd_node_nodeType.btnCancel.setOnClickListener(new View.OnClickListener() {
@@ -351,14 +349,17 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
             nm.action = NetMessage.Update;
             nm.type = NetMessage.SwitchData;
             JSONArray ja = new JSONArray();
-//            Database.Switch.Struct[] switchValues = Database.Switch.select("nodeID = " + deviceID);
-            for (int i = 0; i < switchItems.length; i++) {
-//                switchItems[i].value = switchValues[i].value;
+            try {
+//                Database.Switch.Struct[] switchValues = Database.Switch.select("nodeID = " + deviceID);
+                for (int i = 0; i < switchItems.length; i++) {
+//                    if (switchValues != null) {
+//                        switchItems[i].name = switchValues[i].name;
+//                    }
 //                switchItems[i].IOModulePort = switchValues[i].IOModulePort;
-//                Database.Switch.edit(switchItems[i]);
+                Database.Switch.edit(switchItems[i]);
 
-                JSONObject jo = new JSONObject();
-                try {
+                    JSONObject jo = new JSONObject();
+
                     jo.put("ID", switchItems[i].iD);
                     jo.put("Name", switchItems[i].name);
                     jo.put("Code", switchItems[i].code);
@@ -366,9 +367,9 @@ public class ActivityAddNode_IoMadule_NodeType extends ActivityEnhanced {
                     jo.put("NodeID", switchItems[i].nodeID);
                     jo.put("IOModulePort", switchItems[i].IOModulePort);
                     ja.put(jo);
-                } catch (JSONException e) {
-                    G.printStackTrace(e);
                 }
+            } catch (JSONException e) {
+                G.printStackTrace(e);
             }
             G.nodeCommunication.allNodes.get(newNode.iD).refreshNodeStruct();
             nm.data = ja.toString();
