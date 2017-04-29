@@ -16,6 +16,8 @@ public class ActivityAddNode_IoMadule_Input_Output extends ActivityEnhanced {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        //
+
         if (G.setting.languageID == 1 || G.setting.languageID == 4)
             setContentView(R.layout.activity_add_node__io_madual__input__output);
         else
