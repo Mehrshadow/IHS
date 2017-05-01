@@ -603,9 +603,10 @@ public class ActivitySections extends ActivityEnhanced implements OnClickListene
         grdListAdapter = null;
         if (nodes != null) {
 //            grdListAdapter = new AdapterListViewNode(G.currentActivity, nodes, true, 3);
-            grdListAdapter = new AdapterListViewNode(G.currentActivity, nodes, true);
+            grdListAdapter = new AdapterListViewNode(G.currentActivity, nodes, true, fo.grdNodes);
         }
         fo.grdNodes.setAdapter(grdListAdapter);
+
     }
 
     private void refreshMyHouseNodeList() {

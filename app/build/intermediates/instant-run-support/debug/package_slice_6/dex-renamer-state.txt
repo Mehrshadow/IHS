@@ -1,0 +1,4 @@
+#Sat Apr 29 09:50:06 IRDT 2017
+base.0=C\:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_6
+renamed.0=classes.dex
+file.0=C\:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_6\\classes.dex

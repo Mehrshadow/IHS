@@ -72,20 +72,20 @@
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable-hdpi\\lay_icon_main_wifi_indicator_level1.png"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\btn_home_normal.png",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable-hdpi\\btn_home_normal.png"
-    },
-    {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\lay_slidebar_devices_normal.png",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable-hdpi\\lay_slidebar_devices_normal.png"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\lay_onoff_off_hover.png",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable-hdpi\\lay_onoff_off_hover.png"
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\btn_home_normal.png",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable-hdpi\\btn_home_normal.png"
     },
     {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\lay_list_password_normal.png",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable-hdpi\\lay_list_password_normal.png"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\lay_onoff_off_hover.png",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable-hdpi\\lay_onoff_off_hover.png"
     },
     {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\lay_language_ar_press.9.png",
@@ -128,12 +128,12 @@
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable-hdpi\\lay_checkbox_check_press_rtl.png"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\en.png",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable-hdpi\\en.png"
-    },
-    {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\lay_slidebar_favorites_hover.png",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable-hdpi\\lay_slidebar_favorites_hover.png"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\en.png",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable-hdpi\\en.png"
     },
     {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\lay_checkbox_back.9.png",
@@ -164,12 +164,12 @@
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable-hdpi\\icon_browser_refresh_hover.png"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\lay_curtain_close_off.png",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable-hdpi\\lay_curtain_close_off.png"
-    },
-    {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\lay_setting_icon_update_hover.9.png",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable-hdpi\\lay_setting_icon_update_hover.9.png"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\lay_curtain_close_off.png",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable-hdpi\\lay_curtain_close_off.png"
     },
     {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\release\\drawable-hdpi\\btn_home_pressed.png",

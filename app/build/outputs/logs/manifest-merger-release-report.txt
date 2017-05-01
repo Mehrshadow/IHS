@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\FCC\Desktop\IHS Repo\IHS\app\src\main\AndroidManifest.xml:2:1-284:12
+ADDED from C:\Users\FCC\Desktop\IHS Repo\IHS\app\src\main\AndroidManifest.xml:2:1-287:12
 	package
 		ADDED from C:\Users\FCC\Desktop\IHS Repo\IHS\app\src\main\AndroidManifest.xml:3:5-43
 		INJECTED from C:\Users\FCC\Desktop\IHS Repo\IHS\app\src\main\AndroidManifest.xml
@@ -10,7 +10,7 @@ ADDED from C:\Users\FCC\Desktop\IHS Repo\IHS\app\src\main\AndroidManifest.xml:2:
 		INJECTED from C:\Users\FCC\Desktop\IHS Repo\IHS\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\FCC\Desktop\IHS Repo\IHS\app\src\main\AndroidManifest.xml
 	android:versionCode
-		ADDED from C:\Users\FCC\Desktop\IHS Repo\IHS\app\src\main\AndroidManifest.xml:4:5-28
+		ADDED from C:\Users\FCC\Desktop\IHS Repo\IHS\app\src\main\AndroidManifest.xml:4:5-29
 		INJECTED from C:\Users\FCC\Desktop\IHS Repo\IHS\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\FCC\Desktop\IHS Repo\IHS\app\src\main\AndroidManifest.xml
 	xmlns:android
@@ -115,7 +115,7 @@ ADDED from C:\Users\FCC\Desktop\IHS Repo\IHS\app\src\main\AndroidManifest.xml:31
 	android:name
 		ADDED from C:\Users\FCC\Desktop\IHS Repo\IHS\app\src\main\AndroidManifest.xml:31:22-76
 application
-ADDED from C:\Users\FCC\Desktop\IHS Repo\IHS\app\src\main\AndroidManifest.xml:33:5-282:19
+ADDED from C:\Users\FCC\Desktop\IHS Repo\IHS\app\src\main\AndroidManifest.xml:33:5-285:19
 MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.6] C:\Users\FCC\.android\build-cache\00cb8b946a3a5a294479ef16b3ff0217ccf76970\output\AndroidManifest.xml:11:5-20
 MERGED from [com.crashlytics.sdk.android:beta:1.2.3] C:\Users\FCC\.android\build-cache\a5b6e03bc073dff8853f9ef749581ff9d32d7866\output\AndroidManifest.xml:11:5-20
 MERGED from [com.crashlytics.sdk.android:crashlytics-ndk:1.1.6] C:\Users\FCC\.android\build-cache\4af0dfbeab481ca044ad78ebdbb3244970e3f2e9\output\AndroidManifest.xml:31:5-20
@@ -623,9 +623,13 @@ ADDED from C:\Users\FCC\Desktop\IHS Repo\IHS\app\src\main\AndroidManifest.xml:27
 	android:name
 		ADDED from C:\Users\FCC\Desktop\IHS Repo\IHS\app\src\main\AndroidManifest.xml:278:13-44
 activity#ir.parsansoft.app.ihs.center.ActivityMyHouse
-ADDED from C:\Users\FCC\Desktop\IHS Repo\IHS\app\src\main\AndroidManifest.xml:281:9-53
+ADDED from C:\Users\FCC\Desktop\IHS Repo\IHS\app\src\main\AndroidManifest.xml:281:9-284:53
+	android:screenOrientation
+		ADDED from C:\Users\FCC\Desktop\IHS Repo\IHS\app\src\main\AndroidManifest.xml:284:13-50
+	android:label
+		ADDED from C:\Users\FCC\Desktop\IHS Repo\IHS\app\src\main\AndroidManifest.xml:283:13-45
 	android:name
-		ADDED from C:\Users\FCC\Desktop\IHS Repo\IHS\app\src\main\AndroidManifest.xml:281:19-50
+		ADDED from C:\Users\FCC\Desktop\IHS Repo\IHS\app\src\main\AndroidManifest.xml:282:13-44
 uses-sdk
 INJECTED from C:\Users\FCC\Desktop\IHS Repo\IHS\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.6] C:\Users\FCC\.android\build-cache\00cb8b946a3a5a294479ef16b3ff0217ccf76970\output\AndroidManifest.xml:7:5-43

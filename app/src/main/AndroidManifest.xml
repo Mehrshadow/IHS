@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ir.parsansoft.app.ihs.center"
-    android:versionCode="9"
-    android:versionName="1.35">
+    android:versionCode="10"
+    android:versionName="1.36">
 
     <permission
         android:name="ir.parsansoft.app.ihs.center.permission.C2D_MESSAGE"
@@ -278,7 +278,10 @@
             android:name="io.fabric.ApiKey"
             android:value="c0fa959b956eff57d903c0bec031fc881cfcbd0d" />
 
-        <activity android:name=".ActivityMyHouse" />
+        <activity
+            android:name=".ActivityMyHouse"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
     </application>
 
 </manifest>

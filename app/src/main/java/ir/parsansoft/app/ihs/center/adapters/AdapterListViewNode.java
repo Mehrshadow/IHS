@@ -1,26 +1,26 @@
 package ir.parsansoft.app.ihs.center.adapters;
 
 import android.content.Context;
-import android.util.SparseArray;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.GridView;
 
 import ir.parsansoft.app.ihs.center.AllNodes;
 import ir.parsansoft.app.ihs.center.Database.Node.Struct;
 import ir.parsansoft.app.ihs.center.G;
 import ir.parsansoft.app.ihs.center.R;
-import ir.parsansoft.app.ihs.center.SampleNode;
 
 
 public class AdapterListViewNode extends BaseAdapter {
 
     Context context;
-    Struct[] nodes;
+    final Struct[] nodes;
     private boolean isSettingVisible;
+    private GridView gridView;
 
-    public AdapterListViewNode(Context context, Struct[] nodes, boolean isSettingVisible) {
+    public AdapterListViewNode(Context context, final Struct[] nodes, boolean isSettingVisible) {
         //super(context, R.layout.l_node_simple_key, nodes);
         this.context = context;
         this.nodes = nodes;
@@ -28,15 +28,23 @@ public class AdapterListViewNode extends BaseAdapter {
         ///Change
     }
 
+    public AdapterListViewNode(Context context, final Struct[] nodes, boolean isSettingVisible, GridView gridView) {
+        this.context = context;
+        this.nodes = nodes;
+        this.isSettingVisible = (G.currentUser != null && G.currentUser.rol == 1) && isSettingVisible;
+        this.gridView = gridView;
+    }
+
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        View row = convertView;
+        View row;
 
 //        if (position >= 9 && position % 3 == 0) {
 //            convertView = null;
 //        }
-        LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        if (convertView == null) {
+//        if (convertView == null) {
+
+            LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
 
 //            row = new View(context);  ///////////////////////////
             G.log("Node Type ID=" + nodes[position].nodeTypeID);
@@ -59,24 +67,42 @@ public class AdapterListViewNode extends BaseAdapter {
                     row = inflater.inflate(R.layout.l_node_io_module, null);
                     break;
                 default:
+                    row = inflater.inflate(R.layout.l_node_simple_key, null);
                     break;
             }
-            if (row != null) {
-                G.log("Node ID: " + nodes[position].iD);
+//            if (row != null) {
+//                G.log("Node ID: " + nodes[position].iD);
+//
+//                int nodeIndex = G.nodeCommunication.allNodes.indexOfKey(nodes[position].iD);
+//                G.log("Node index:" + nodeIndex);
+////                if (nodeIndex >= 0) {
+//                    int uiIndex = G.nodeCommunication.allNodes.get(nodes[position].iD).addUI(row);
+//                    G.log("ui Index= " + uiIndex);
+//                    G.nodeCommunication.allNodes.get(nodes[position].iD).setSettingVisiblity(uiIndex, isSettingVisible);
+////                }
+//
+//            }
+//        } else {
+//            row = convertView;
+//        }
 
-                SparseArray<SampleNode> allNodes = new SparseArray<>();
 
-                int nodeIndex = G.nodeCommunication.allNodes.indexOfKey(nodes[position].iD);
-                G.log("Node index:" + nodeIndex);
-                if (nodeIndex >= 0) {
-                    int uiIndex = G.nodeCommunication.allNodes.get(nodes[position].iD).addUI(row);
-                    G.log("ui Index= " + uiIndex);
-                    G.nodeCommunication.allNodes.get(nodes[position].iD).setSettingVisiblity(uiIndex, isSettingVisible);
-                }
-            }
-        } else {
-            row = convertView;
-        }
+
+//        G.log("Scroll: " + gridView.getFirstVisiblePosition());
+
+//        if (row != null) {
+        G.log("Node ID: " + nodes[position].iD);
+
+        int nodeIndex = G.nodeCommunication.allNodes.indexOfKey(nodes[position].iD);
+        G.log("Node index:" + nodeIndex);
+//                if (nodeIndex >= 0) {
+        int uiIndex = G.nodeCommunication.allNodes.get(nodes[position].iD).addUI(row);
+        G.log("ui Index= " + uiIndex);
+        G.nodeCommunication.allNodes.get(nodes[position].iD).setSettingVisiblity(uiIndex, isSettingVisible);
+//                }
+
+//        }
+
         return row;
     }
 
@@ -101,5 +127,6 @@ public class AdapterListViewNode extends BaseAdapter {
     public long getItemId(int id) {
         return nodes[id].iD;
     }
+
 
 }

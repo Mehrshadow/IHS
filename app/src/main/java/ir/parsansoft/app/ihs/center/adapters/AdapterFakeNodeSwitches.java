@@ -12,6 +12,7 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.TextView;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import ir.parsansoft.app.ihs.center.Database;
@@ -26,20 +27,23 @@ public class AdapterFakeNodeSwitches extends BaseAdapter {
 
     Context context;
     Database.Switch.Struct[] switchItems;
-    private List<String> allPorts;
-    private List<String> selectedPorts;
     private List<String> availablePorts;
-    private int portCount;
+    private List<String> spinnerPorts;
     private Spinner spnPorts;
-    private int Port;
+    private String Port;
 
     private AdapterIoTypesSpinner mAdapterIoTypesSpinner;
+    private boolean firstTimeLoaded = true;
+    private int timesLoaded = 0;
+    private ArrayList<String> temp = new ArrayList<>();
 
-    public AdapterFakeNodeSwitches(Context context, Database.Switch.Struct[] switchItems,List<String> availablePorts) {
+    public AdapterFakeNodeSwitches(Context context, Database.Switch.Struct[] switchItems, List<String> spinnerPorts) {
         //super(context, R.layout.l_node_simple_key, nodes);
         this.context = context;
         this.switchItems = switchItems;
-        this.availablePorts = availablePorts;
+        this.spinnerPorts = spinnerPorts;
+        availablePorts = new ArrayList<>();
+        availablePorts.addAll(spinnerPorts);
     }
 
     public Database.Switch.Struct[] getSwitchItems() {
@@ -116,17 +120,17 @@ public class AdapterFakeNodeSwitches extends BaseAdapter {
 
     private void loadSpinner(final int mainPosition) {
         try {
-//            availablePorts = new ArrayList<>();
-//            availablePorts.add("3");
-//            availablePorts.add("4");
-//            availablePorts.add("5");
-//            availablePorts.add("6");
-//            availablePorts.add("7");
-//            availablePorts.add("8");
-//            availablePorts.add("9");
-//            availablePorts.add("10");
-//            availablePorts.add("11");
-//            availablePorts.add("12");
+//            spinnerPorts = new ArrayList<>();
+//            spinnerPorts.add("3");
+//            spinnerPorts.add("4");
+//            spinnerPorts.add("5");
+//            spinnerPorts.add("6");
+//            spinnerPorts.add("7");
+//            spinnerPorts.add("8");
+//            spinnerPorts.add("9");
+//            spinnerPorts.add("10");
+//            spinnerPorts.add("11");
+//            spinnerPorts.add("12");
 //
 //
 //            Database.Switch.Struct[] fakeswitches = Database.Switch.select("isIOModuleSwitch=" + 1);
@@ -134,28 +138,53 @@ public class AdapterFakeNodeSwitches extends BaseAdapter {
 //                for (int i = 0; i < fakeswitches.length; i++) {
 //                    if (fakeswitches[i].IOModulePort > 0 &&
 //                            fakeswitches[i].IOModulePort < 12) {
-//                        availablePorts.remove(String.valueOf(fakeswitches[i].IOModulePort));
+//                        spinnerPorts.remove(String.valueOf(fakeswitches[i].IOModulePort));
 //                    }
 //                }
 //            }
 
-            mAdapterIoTypesSpinner = new AdapterIoTypesSpinner(availablePorts);
+
+            mAdapterIoTypesSpinner = new AdapterIoTypesSpinner(spinnerPorts);
             spnPorts.setAdapter(mAdapterIoTypesSpinner);
+
+            spnPorts.setSelection(mainPosition);
 
             spnPorts.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
                 @Override
                 public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                    switchItems[mainPosition].IOModulePort = Integer.valueOf(availablePorts.get(position)) + 2;
 
-                    Port = Integer.valueOf(availablePorts.get(position));
-//                    selectedPorts.add(String.valueOf(Port));
-                    availablePorts.remove(new Integer(Port));
+                    // spinner ha be tedad switch ha load mishan, vase in bare aval datashoon hazf nashe
+                    // be tedade switch ha niaz darim
+                    try {
+                        if (timesLoaded > switchItems.length - 1) {
 
+                            switchItems[mainPosition].IOModulePort = Integer.valueOf(spinnerPorts.get(position)) + 2;
+
+                            Port = spinnerPorts.get(position);
+                            temp.remove(mainPosition);
+                            temp.add(mainPosition, Port);
+
+                            spinnerPorts.clear();
+                            spinnerPorts.addAll(availablePorts);
+//                            spinnerPorts = new ArrayList<>(availablePorts);
+                            spinnerPorts.removeAll(temp);
+                            mAdapterIoTypesSpinner.notifyDataSetChanged();
+                            notifyDataSetChanged();
+
+                        } else {
+
+                            temp.add(spinnerPorts.get(0));
+                            spinnerPorts.remove(0);
+
+                            timesLoaded++;
+                        }
+                    } catch (Exception e) {
+                        G.printStackTrace(e);
+                    }
                 }
 
                 @Override
                 public void onNothingSelected(AdapterView<?> parent) {
-
                 }
             });
         } catch (Exception e) {

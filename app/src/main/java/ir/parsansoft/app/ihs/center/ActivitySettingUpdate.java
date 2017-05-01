@@ -216,8 +216,6 @@ public class ActivitySettingUpdate extends ActivitySetting {
                 try {
 
                     /******************** Jahanbin **********************/
-//                    uninstallApplication();
-
                     installApplication(filePath);
                     /******************** Jahanbin **********************/
 

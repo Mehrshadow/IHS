@@ -1502,18 +1502,17 @@
         <item>849|در خانه من قرار گیرد</item>
         <item>850|خانه من</item>
         <item>852|پورت</item>
-        <item>853|ورود</item>
+        <item>853|ورودی</item>
         <item>854|خروجی</item>
         <item>855|لطفا نوع دستگاه متصل شده را انتخاب کنید</item>
         <item>856|لطفا تمام مقادیر را پر کنید</item>
         <item>857|هیچ پورت آزادی وجود ندارد</item>
         <item>858|پورت کافی برای اضافه کردن این دستگاه وجود ندارد</item>
         <item>859|لطفا نام، نوع و پورت سنسور مورد نظر را مشخص کنید</item>
-        <item>860|این دستگاه به وردی های </item>
+        <item>860|این دستگاه به ورودی های </item>
         <item>861|متصل شده است </item>
         <item>862|نام ماژول:</item>
         <item>863|لطفا نام ماژول را وارد نمایید</item>
-
 
         <item>1101|کلید تک پل</item>
         <item>1102|کلید دو پل</item>
@@ -2304,7 +2303,7 @@
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
-    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">81d45fc8-090f-4871-8747-205bcfee46ab</string>
+    <string name="com.crashlytics.android.build_id" ns1:ignore="UnusedResources,TypographyDashes" translatable="false">7b274b45-6cc9-4e99-8b14-eae8a29d4e0b</string>
     <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable</string>
     <string msgid="227660514972886228" name="common_google_play_services_enable_text"><ns2:g id="app_name">%1$s</ns2:g> won\'t work unless you enable Google Play services.</string>
     <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>

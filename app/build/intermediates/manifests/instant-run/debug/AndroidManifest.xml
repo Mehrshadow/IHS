@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ir.parsansoft.app.ihs.center"
+    android:versionCode="9"
+    android:versionName="1.35" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="18" />
+
+    <permission
+        android:name="ir.parsansoft.app.ihs.center.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.android.permission.WRITE_SECURE_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+    <uses-permission android:name="ir.parsansoft.app.ihs.center.permission.C2D_MESSAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!-- Permissions required for GCM -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:name="ir.parsansoft.app.ihs.center.G"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@android:style/Theme.Black.NoTitleBar.Fullscreen" >
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivityAddNode_IoMadule_NodeType"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- <activity -->
+        <!-- android:name=".ActivityStarter" -->
+        <!-- android:screenOrientation="landscape"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivityMain"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivitySections"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivityHelp"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivityScenario"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivityFavorites"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivityScenarioW1Name"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivityScenarioW2Date"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivityScenarioW3Event"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivityScenarioW4GPS"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivityScenarioW5Weather"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivityScenarioW6Temperature"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivityScenarioW7Op"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivityScenarioW8Keyword"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivityScenarioW9Switch"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivityScenarioW10Notify"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivityScenarioW11SMS"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivityAddNode_w1"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivityAddNode_w2"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivityAddNode_w3"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivityAddNode_w4"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivitySettingNetwork"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivitySettingMobile"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivitySettingSMS"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivitySettingLocation"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivitySettingLOG"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivitySettingLanguage"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivitySettingUser"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivitySettingDateTime"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivitySettingScreen"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivitySettingReset"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivityWelcome1Language"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivityWelcome2Screen"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivityWelcome3Network"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivityWelcome4Location"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivityWelcome5DateandTime"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivityWelcome6Weather"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivityWelcome8FloorandRoom"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivityWelcome9Equipment"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivityWelcome10Mobile"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivityWelcome11Scenario"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivityWelcome7Specifications"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivityWelcome12User"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivityWelcome13ChargeSMS"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivityBrowser"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivitySettingUpdate"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivitySettingWeather"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivityAddNode_IoMadule_SelectPlace"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivityAddNode_IoMadule_Input_Output"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <!-- <activity -->
+        <!-- android:name=".ActivityAddNode_IoMadule_NodeType" -->
+        <!-- android:label="@string/app_name" -->
+        <!-- android:screenOrientation="landscape" /> -->
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivityAddNode_IOModule_SensorType"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.parsansoft.app.ihs.center.ActivityAddNode_IoModule_Device_Select"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+
+        <service
+            android:name="ir.parsansoft.app.ihs.center.ServiceServerCommunication"
+            android:exported="false" />
+        <!-- Broadcast receiver -->
+        <receiver android:name="ir.parsansoft.app.ihs.center.BootReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="ir.parsansoft.app.ihs.center.BroadcastReciverAlarmManager" />
+        <receiver android:name="ir.parsansoft.app.ihs.center.BroadcastReceiverWeather" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="c0fa959b956eff57d903c0bec031fc881cfcbd0d" />
+
+        <activity android:name="ir.parsansoft.app.ihs.center.ActivityMyHouse" />
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <provider
+            android:name="com.android.tools.fd.runtime.InstantRunContentProvider"
+            android:authorities="ir.parsansoft.app.ihs.center.com.android.tools.fd.runtime.InstantRunContentProvider"
+            android:multiprocess="true" />
+    </application>
+
+</manifest>

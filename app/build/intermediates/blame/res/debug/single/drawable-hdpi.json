@@ -8,12 +8,12 @@
         "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\drawable-hdpi\\lay_language_ar_normal.9.png"
     },
     {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lay_icon_main_wifi_indicator_dc.png",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\drawable-hdpi\\lay_icon_main_wifi_indicator_dc.png"
-    },
-    {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lay_setting_icon_language_press.9.png",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable-hdpi\\lay_setting_icon_language_press.9.png"
+    },
+    {
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lay_icon_main_wifi_indicator_dc.png",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\drawable-hdpi\\lay_icon_main_wifi_indicator_dc.png"
     },
     {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lay_main_big_icons_favorite_hover.png",
@@ -28,12 +28,12 @@
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable-hdpi\\lay_component_dimmer_slider_off.png"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lay_setting_icon_network_press.9.png",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable-hdpi\\lay_setting_icon_network_press.9.png"
-    },
-    {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lay_on_off_back.png",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable-hdpi\\lay_on_off_back.png"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lay_setting_icon_network_press.9.png",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable-hdpi\\lay_setting_icon_network_press.9.png"
     },
     {
         "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\time_picker.png",
@@ -84,12 +84,12 @@
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable-hdpi\\lay_radiobutton_checked_normal.png"
     },
     {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lay_cooler_water_on.png",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\drawable-hdpi\\lay_cooler_water_on.png"
-    },
-    {
         "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lay_slidebar_scenario_hover.png",
         "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\drawable-hdpi\\lay_slidebar_scenario_hover.png"
+    },
+    {
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lay_cooler_water_on.png",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\drawable-hdpi\\lay_cooler_water_on.png"
     },
     {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ir.png",
@@ -172,20 +172,20 @@
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable-hdpi\\lay_icon_alarm.png"
     },
     {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lay_list_items_normal.9.png",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\drawable-hdpi\\lay_list_items_normal.9.png"
-    },
-    {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\add_button_press.9.png",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable-hdpi\\add_button_press.9.png"
     },
     {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_alarm.png",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\drawable-hdpi\\icon_alarm.png"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lay_list_items_normal.9.png",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\drawable-hdpi\\lay_list_items_normal.9.png"
     },
     {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\bg_main_effect.png",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable-hdpi\\bg_main_effect.png"
+    },
+    {
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_alarm.png",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\drawable-hdpi\\icon_alarm.png"
     },
     {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_keyboard_press.png",
@@ -204,16 +204,16 @@
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable-hdpi\\lay_radiobutton_unchecked_normal.png"
     },
     {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lay_on_off_normal_off.png",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\drawable-hdpi\\lay_on_off_normal_off.png"
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lay_language_fa_normal.9.png",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable-hdpi\\lay_language_fa_normal.9.png"
     },
     {
         "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lay_main_bg_repeative.png",
         "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\drawable-hdpi\\lay_main_bg_repeative.png"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lay_language_fa_normal.9.png",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable-hdpi\\lay_language_fa_normal.9.png"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lay_on_off_normal_off.png",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\drawable-hdpi\\lay_on_off_normal_off.png"
     },
     {
         "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lay_language_fa_hover.9.png",
@@ -244,12 +244,12 @@
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable-hdpi\\lay_setting_icon_language_hover.9.png"
     },
     {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lay_checkbox_uncheck_press.png",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\drawable-hdpi\\lay_checkbox_uncheck_press.png"
-    },
-    {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lay_checkbox_check_press.png",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable-hdpi\\lay_checkbox_check_press.png"
+    },
+    {
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lay_checkbox_uncheck_press.png",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\drawable-hdpi\\lay_checkbox_uncheck_press.png"
     },
     {
         "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lay_viewpager_header_normal.9.png",
@@ -272,12 +272,12 @@
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable-hdpi\\lay_checkbox_check_normal_rtl.png"
     },
     {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_fav_empty.png",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\drawable-hdpi\\icon_fav_empty.png"
-    },
-    {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lay_checkbox_uncheck_no_direction_hover_rtl.png",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable-hdpi\\lay_checkbox_uncheck_no_direction_hover_rtl.png"
+    },
+    {
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon_fav_empty.png",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\drawable-hdpi\\icon_fav_empty.png"
     },
     {
         "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lay_radiobutton_checked_press.png",
@@ -288,20 +288,20 @@
         "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\drawable-hdpi\\backup.png"
     },
     {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lay_setting_icon_datetime_press.9.png",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\drawable-hdpi\\lay_setting_icon_datetime_press.9.png"
-    },
-    {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lay_main_slidebar_icon_devices.png",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\drawable-hdpi\\lay_main_slidebar_icon_devices.png"
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lay_curtain_stop_off.png",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable-hdpi\\lay_curtain_stop_off.png"
     },
     {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\market_appstore.png",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable-hdpi\\market_appstore.png"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lay_curtain_stop_off.png",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable-hdpi\\lay_curtain_stop_off.png"
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lay_main_slidebar_icon_devices.png",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\drawable-hdpi\\lay_main_slidebar_icon_devices.png"
+    },
+    {
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lay_setting_icon_datetime_press.9.png",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\drawable-hdpi\\lay_setting_icon_datetime_press.9.png"
     },
     {
         "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lay_setting_icon_users_normal.9.png",
@@ -312,12 +312,12 @@
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable-hdpi\\lay_list_itemspress.9.png"
     },
     {
-        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lay_cooler_water_off.png",
-        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\drawable-hdpi\\lay_cooler_water_off.png"
-    },
-    {
         "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lay_viewpager_header_press.9.png",
         "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable-hdpi\\lay_viewpager_header_press.9.png"
+    },
+    {
+        "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lay_cooler_water_off.png",
+        "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\drawable-hdpi\\lay_cooler_water_off.png"
     },
     {
         "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lay_io_node_back_main.9.png",
@@ -344,12 +344,12 @@
         "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\drawable-hdpi\\lay_on_off_hover_off.png"
     },
     {
-        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lay_cooler_slow_off.png",
-        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable-hdpi\\lay_cooler_slow_off.png"
-    },
-    {
         "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lay_checkbox_check_press.png",
         "source": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\src\\main\\res\\drawable-hdpi\\lay_checkbox_check_press.png"
+    },
+    {
+        "merged": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lay_cooler_slow_off.png",
+        "source": "C:\\Users\\FCC\\Desktop\\IHS Repo\\IHS\\app\\src\\main\\res\\drawable-hdpi\\lay_cooler_slow_off.png"
     },
     {
         "merged": "D:\\Android\\Jahanmir\\Projects\\iHS\\repo\\Center\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lay_on_off_back.png",
